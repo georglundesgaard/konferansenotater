@@ -17,7 +17,8 @@
 * 1015 Dissecting Kotlin: 2026
 * 1115 Idiomatic Kotlin applications with Spring Boot 4
 * 1300 Eval-Driven Development: The Fine Line Between Agentic Success and Failure
-* 1400 
-* 1515
+* 1400 Context parameters and API design
+* 1515 gRPC, Made for Kotlin
+* 1545 KotlinLLM: Leveraging AI for Runtime Logic Delegation in Kotlin
 * 1615 
 * 1715 Golden Kodee Awards

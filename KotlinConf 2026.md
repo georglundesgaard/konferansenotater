@@ -28,14 +28,46 @@
 
 ## May 22
 
-* **We were meant to be** – *Lena Reinhard* (Day 2 Keynote)
+* **0900 We were meant to be** – *Lena Reinhard* (Day 2 Keynote)
   Lederutvikler og tidligere VP of Engineering Lena Reinhard holdt dag 2-keynoten med et menneskelig blikk på tech-bransjen i 2026. Hun adresserte usikkerheten mange føler i AI-tidsalderen – produktivitetsdebatten, hvordan karriereveier endrer seg, og spørsmålet om disse karrierene i det hele tatt vil eksistere som før. Et reflekterende foredrag om teknologi, mennesker, krise og fremtiden, formet gjennom en åpen «work log» i månedene før konferansen.
 
-* **Dissecting Kotlin: 2026** – *Huyen Tue Dao*
+* **1015 Dissecting Kotlin: 2026** – *Huyen Tue Dao*
   Ti år etter Kotlin 1.0 fortsetter språket å utvikle seg raskt. Huyen Tue Dao plukket fra hverandre nylige stabile og preview-features, og brukte design og implementasjon som linse for å forstå hvor språket er på vei. Tilhørerne fikk en dypere forståelse av hvordan Kotlin formes – og hvordan denne innsikten kan påvirke koden de selv skriver.
 
-* **Idiomatic Kotlin applications with Spring Boot 4**
+* **1115 Idiomatic Kotlin applications with Spring Boot 4**
   Et dypdykk i hvordan man skriver idiomatisk Kotlin oppå Spring Boot 4. Sentralt sto null-safety: JSpecify-annoteringer brukes nå konsekvent på tvers av Spring-porteføljen og oversettes automatisk til Kotlin-nullability, slik at hele rammeverket føles ekte Kotlin-aktig. Foredraget viste også migreringen av den offisielle Spring Boot Kotlin-tutorialen fra Spring Data JPA til Spring Data JDBC for å tillate mer idiomatisk kode, samt bruk av coroutines og virtuelle tråder for å bygge raske og skalerbare APIer uten reaktiv kompleksitet.
+
+* **1300 Eval-Driven Development: The Fine Line Between Agentic Success and Failure** – *Urs Peter*
+  Senior Software Engineer og JetBrains-sertifisert Kotlin-trainer Urs Peter introduserte Eval-Driven Development (EDD) – en engineering-først tilnærming til å gjøre AI-agenter pålitelige. Med Koog som verktøykasse viste han hvordan man tester agenter på flere lag, samler meningsfulle metrikker, oppdager regresjoner, genererer syntetiske testtilfeller med LLM-er og bygger kontinuerlige evalueringssløyfer som hindrer at agentene degraderer stille i produksjon.
+
+* **1400 Context parameters and API design** – *Alejandro Serrano Mena*
+  Alejandro Serrano Mena viste hvordan context parameters – som stabiliseres i Kotlin 2.4.0 – endrer måten vi designer APIer på. Foredraget fokuserte på hvordan featuren lar API-design fokusere på kjernelogikken og holde implisitt kontekst (transaksjoner, logging, scopes, autorisasjon) ute av signaturene, med praktiske eksempler på når det fungerer godt og når man bør holde seg til vanlige parametre.
+
+* **1515 gRPC, Made for Kotlin**
+  En presentasjon av den eksperimentelle førsteparts gRPC-støtten i kotlinx-rpc som JetBrains viste fram i keynoten. Foredraget gikk gjennom hvordan gRPC nå føles ekte Kotlin-aktig – med coroutines, Flow for streaming og strukturert samtidighet – i stedet for den genererte Java-stub-følelsen som har vært normalen, og demonstrerte ende-til-ende-flyt mellom Kotlin-klient og Kotlin-server.
+
+* **1545 KotlinLLM: Leveraging AI for Runtime Logic Delegation in Kotlin**
+  Et lyntalk om å delegere deler av forretningslogikken til en LLM i runtime, presentert i konteksten av JetBrains sin Tracy-observabilitets-bibliotek og resten av Kotlin AI-stacken. Tankegangen: ikke alle problemer trenger eksplisitt imperativ kode – noen funksjoner kan beskrives med naturlig språk og tolkes av en LLM bak en typesikker Kotlin-fasade, med fallback, caching og observasjon som førsteklasses borgere.
+
+* **1715 Golden Kodee Awards**
+  Den offisielle avslutningen på KotlinConf 2026 med utdeling av Golden Kodee Community Awards. Vinnere ble kåret i fem kategorier – Creativity, Online Presence, In-Person Presence, Education og Positive Societal Impact – som hyllest til folk og communities som har bidratt til Kotlin-økosystemet gjennom kunnskapsdeling, eventarrangement og inspirasjon.
+
+---
+
+## Foredrag jeg vil se opptak av
+
+Foredrag jeg gikk glipp av (parallelle spor / kollisjoner) og som jeg vil se når videoene kommer på YouTube.
+
+### May 21
+
+* **1015 A tale of the Gradle DSLs**
+  En historisk og praktisk gjennomgang av Gradle sine DSL-er – fra Groovy-arven, via introduksjonen av Kotlin DSL i Gradle 3.0 (2016) og 1.0-stabiliseringen i Gradle 5.0, til at Kotlin DSL nå er default for nye Gradle-builds. Foredraget plukker fra hverandre mønstrene som har stått tidens prøve i Kotlin DSL-økosystemet og hvorfor type-sikker build-konfigurasjon har blitt grunnstammen i moderne JVM-prosjekter.
+
+* **1015 Tiny Models, Big Impact: On-Device AI for Real Apps**
+  En av de 16 AI-foredragene på årets program, denne gangen om små språkmodeller (SLM-er) som kjører fullt og helt på enheten – uten skyavhengighet. Foredraget viser hvordan Kotlin-utviklere kan integrere on-device LLM-er gjennom verktøy som Llama Stack sin Kotlin SDK, hvilke avveininger man må gjøre rundt latency, batteri, modellstørrelse og kvalitet, og hvordan dette spiller sammen med JetBrains sin AI-stack (Koog, Tracy, ACP).
+
+* **1045 Run, Kotlin, Run!**
+  Et performance-orientert foredrag om hva som faktisk skjer når Kotlin-koden din kjører – på tvers av plattformene Kotlin støtter (JVM, Native, Wasm/JS). Sannsynligvis innom temaer som compile-time kontra runtime-kostnader, hvordan multiplattform-binærer påvirker både kompileringstid og kjøretidsytelse, og praktiske grep for å gjøre Kotlin-prosjekter raskere uten å miste idiomatikken.
 
 ---
 
@@ -48,3 +80,10 @@
 - [Koog på GitHub](https://github.com/JetBrains/koog)
 - [Next level Kotlin support in Spring Boot 4](https://spring.io/blog/2025/12/18/next-level-kotlin-support-in-spring-boot-4/)
 - [KotlinConf 2026: Talks to Help You Navigate the Schedule](https://blog.jetbrains.com/kotlin/2026/03/kotlinconf-2026-talks-schedule/)
+- [Eval-driven development: Build and evaluate reliable AI agents](https://developers.redhat.com/articles/2026/03/23/eval-driven-development-build-evaluate-ai-agents)
+- [Context parameters – Kotlin Documentation](https://kotlinlang.org/docs/context-parameters.html)
+- [Update on Context Parameters](https://blog.jetbrains.com/kotlin/2025/04/update-on-context-parameters/)
+- [Introducing Tracy: The AI Observability Library for Kotlin](https://blog.jetbrains.com/kotlin/2026/03/introducing-tracy-the-ai-observability-library-for-kotlin/)
+- [Golden Kodee Community Awards](https://kotlinconf.com/awards/)
+- [Kotlin DSLs in 2026: Patterns That Stood the Test of Time](https://jonnyzzz.com/blog/2026/01/19/kotlin-dsl-2026/)
+- [Kotlin DSL Is Now the Default for New Gradle Builds](https://blog.gradle.org/kotlin-dsl-is-now-the-default-for-new-gradle-builds)
