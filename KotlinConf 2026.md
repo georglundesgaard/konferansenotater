@@ -70,9 +70,9 @@
   Et lyntalk om å delegere deler av forretningslogikken til en LLM i runtime, presentert i konteksten av JetBrains sin Tracy-observabilitets-bibliotek og resten av Kotlin AI-stacken. Tankegangen: ikke alle problemer trenger eksplisitt imperativ kode – noen funksjoner kan beskrives med naturlig språk og tolkes av en LLM bak en typesikker Kotlin-fasade, med fallback, caching og observasjon som førsteklasses borgere.
   📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
 
-* **1715 Golden Kodee Awards**
-  Den offisielle avslutningen på KotlinConf 2026 med utdeling av Golden Kodee Community Awards. Vinnere ble kåret i fem kategorier – Creativity, Online Presence, In-Person Presence, Education og Positive Societal Impact – som hyllest til folk og communities som har bidratt til Kotlin-økosystemet gjennom kunnskapsdeling, eventarrangement og inspirasjon.
-  📹 Inngår i [Day 2 Livestream](https://www.youtube.com/watch?v=S3CjlmpsC0I).
+* **1615 Spec-Driven Development with AI Agents: From High-Level Requirements to Working Software** – *Anton Arhipov*
+  Arhipov presenterte "spec-driven development" som en strukturert måte å jobbe med AI-kodeagenter på. Metoden går ut på å starte med høyt-nivå krav, raffinere dem til en utviklingsplan, og bryte planen ned i en sporbar oppgaveliste – alt som artefakter (`requirements.md`, `plan.md`, `tasks.md`) som agenten jobber fra. Et rammeverk for å gjøre AI-koding forutsigbar og reviewbar i stedet for kaotisk.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin). Lysbilder: [Speaker Deck](https://speakerdeck.com/antonarhipov/spec-driven-development-with-ai-agents-from-high-level-requirements-to-working-software-e397ad2e-3484-4bfa-a80b-6c47c593ed11).
 
 ---
 
@@ -93,6 +93,124 @@ Foredrag jeg gikk glipp av (parallelle spor / kollisjoner) og som jeg vil se nå
 * **1045 Run, Kotlin, Run!**
   Et performance-orientert foredrag om hva som faktisk skjer når Kotlin-koden din kjører – på tvers av plattformene Kotlin støtter (JVM, Native, Wasm/JS). Sannsynligvis innom temaer som compile-time kontra runtime-kostnader, hvordan multiplattform-binærer påvirker både kompileringstid og kjøretidsytelse, og praktiske grep for å gjøre Kotlin-prosjekter raskere uten å miste idiomatikken.
   📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1115 Kotlin/Wasm: Finally, the missing piece for a full stack Kotlin webapp!** – *Dan Kim*
+  Dan Kim viser hvordan Kotlin/Wasm i beta endelig gjør det praktisk å skrive hele web-stacken i Kotlin. Han bygger en fullstack-app fra topp til bunn med Kotlin/Wasm, Compose Multiplatform, Coroutines, Exposed og Ktor, og diskuterer hvorfor Wasm er den manglende brikken for pikselperfekt frontend. Foredraget er en praktisk introduksjon til hele stacken, inkludert mindre kjente rammeverk som Exposed og Ktor.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1300 Real-World Data Science With Kotlin Notebook** – *Adele Carpenter*
+  Adele Carpenter går gjennom en reell data science-arbeidsflyt på et powerlifting-datasett, helt uten å forlate IDE-en. Hun dekker dataforståelse, validering av resultater, henting og manipulering med Postgres og DataFrame, samt visualisering med Kandy-biblioteket. Hovedbudskapet er at Kotlin-økosystemet er modent nok til å konkurrere med Python for praktisk dataanalyse.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1330 SwiftPM support for Kotlin Multiplatform** – *Timofey Solonin*
+  Lynforedrag om den nye Swift Package Manager-støtten i Kotlin Multiplatform. Solonin viser hvordan du kan importere SwiftPM-avhengigheter som FirebaseFirestore, Sentry og Google Maps i KMP-koden, konfigurere Xcode-prosjekter og publisere KMP-biblioteker som bruker SwiftPM. Han forklarer også hvordan Swift- og Objective-C-kildefiler gjøres tilgjengelige for Kotlin/Native-kompileringer og linker under panseret.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1400 Codex for Kotlin Engineers** – *Benedict Kerres*
+  Kort sesjon om hvordan OpenAI Codex passer godt sammen med Kotlin sitt strenge typesystem, tydelige domenemodeller og testbare struktur når man genererer, refaktorerer og gjennomgår kode. Kerres demonstrerer hvordan man bruker Codex effektivt i en Kotlin-arbeidsflyt. Praktisk innretning mot AI-assistert utvikling for Kotlin-utviklere.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1430 Building AI‑Powered Web Apps in Kotlin/Wasm** – *Zalim Bashorov*
+  Bashorov ser på de nye, native AI-API-ene som moderne nettlesere er i ferd med å standardisere, og hvordan man kan bygge fullt klientside-baserte AI-apper uten serverinfrastruktur. Han dekker fordelene (personvern, responsivitet, offline-bruk) og begrensningene ved Web AI, og demonstrerer eksempler som sanntidsoppsummering og oversettelse kjørt rett i nettleseren – alt fra Kotlin/Wasm.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1515 Expedited Shipping: Accelerating iOS Development with KMP at Amazon** – *Jessalyn Wang*
+  Wang forteller hvordan Amazon Delivery bruker KMP og deres open-source-rammeverk "App Platform" til å levere apper på tvers av enheter og plattformer for millioner av pakker daglig. Hun dykker spesielt ned i den nye iOS-støtten: SwiftUI-integrasjon, navigasjonsmønstre og hvordan de skalerer utvikling på tvers av hundrevis av utviklere og dusinvis av team. Konkret erfaringsdeling om KMP i stor skala på iOS.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1515 The State of Amper** – *Joffrey Bion*
+  Statusoppdatering på JetBrains sitt nye byggesystem Amper. Bion går gjennom det siste årets nyheter som plugins, publisering og IDE-funksjoner, samt et glimt av veien videre. Et must for de som vurderer Amper som alternativ til Gradle.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1515 Compose beyond UI : Display and Print!** – *Salomon Brys*
+  Lynforedrag om å bruke Compose til mer enn vanlige skjermer. Brys viser hvordan man kan generere animerte presentasjoner, looping-displays, bilder til sosiale medier og til og med PDF-er og brettspillkort med Compose-toolinget. Et kreativt blikk på Compose som generelt rendrings-rammeverk.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1615 Increasing quality of AI generated Kotlin code** – *Sergei Rybalkin (Meta)*
+  Rybalkin fra Meta deler praktiske strategier for å heve kvaliteten på Kotlin-kode generert av AI-modeller, basert på arbeid i store kodebaser. Han dekker vanlige utfordringer, evalueringsmetoder og verktøy som hjelper med å sikre lesbarhet, vedlikeholdbarhet og pålitelighet. Konkret om hvordan man måler og forbedrer AI-generert Kotlin-kode i produksjon.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1615 Swift Export: Where We Stand** – *Pamela Hill-Galloway*
+  Statusoppdatering på Swift Export-prosjektet fra JetBrains, som skal erstatte den gamle Objective-C-broen og gi mer idiomatisk Swift-tilgang til delt Kotlin-kode. Hill-Galloway viser kodeeksempler på overgangen, hvilke features som støttes i dag, og hvilke kant-tilfeller som fortsatt mangler arbeid. Målet er at du selv skal kunne vurdere om Swift Export er klar for ditt team.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1645 Can Kotlin Swift Interop Ever Be Perfect?** – *Gleb Lukianets*
+  Lukianets dykker ned i de dype semantiske forskjellene mellom Kotlin og Swift, og diskuterer kompromissene disse tvinger fram i designet av Swift Export. Selv om språkene virker like på overflaten, har de fundamentale forskjeller som gjør perfekt interop vanskelig. Et bra teknisk komplement til "Swift Export: Where We Stand"-foredraget.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1715 The Lord of Collection Functions - The Fellowship of Kotlin** – *Ben Kadel*
+  Lett, Tolkien-inspirert gjennomgang av Kotlins collection-funksjoner. Kadel viser hvordan funksjoner som `filter`, `map`, `partition`, `flatMap`, `zip`, `groupBy`, `associateWith`, `windowed` og `runningFold` lar deg jobbe deklarativt med Set, Map og List. Målet er å gi tilhørerne et solid funksjonelt verktøysett, blant annet for Advent of Code-utfordringer.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+### May 22
+
+* **1015 Automate upgrading to Kotlin 2 with OpenRewrite** – *Rooz SF, Jonathan Schneider*
+  Moderne/OpenRewrite-teamet viser den nye Kotlin 2-støtten i OpenRewrite. Med "recipes" som opererer på Lossless Semantic Trees kan refaktorerings-motoren automatisk håndtere avhengighetsoppgraderinger, API-endringer og stilkonsistens på tvers av store kodebaser. Praktisk relevant for alle som skal oppgradere eldre Kotlin-prosjekter til 2.x uten manuelt arbeid.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1015 Advanced Kotlin Native Integration** – *Tadeas Kriz (Touchlab)*
+  Kriz tar for seg en kjent begrensning i Kotlin/Native: at det egentlig bare skal være én KMP-native-binærfil per app. Han diskuterer konsekvensene av å inkludere flere KMP-binærfiler, viser måter å splitte kompileringen i mindre biter, og foreslår løsninger for større prosjekter med komplekse repo-strukturer. Avansert innhold rettet mot KMP-team som har vokst forbi standard-oppsettet.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1015 10 Gradle Best Practices Every Kotlin Developer Should Know** – *Stefan Wolf*
+  Lynforedrag med 10 viktige Gradle-praksiser basert på offisielle anbefalinger fra JetBrains, Google og Gradle-teamene. Wolf dekker prosjektstruktur, trygg avhengighetshåndtering, vedlikeholdbar build-logikk, vanlige konfigurasjonsfeller og CI-optimalisering – pluss en sniktitt på IntelliJ IDEAs sanntids-build-inspeksjoner. Greit oppslagsverk for både Android-, backend- og multiplatform-utviklere.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1045 A First Look at the Kotlin Ecosystem Plugin for Declarative Gradle** – *Marcin Mycek*
+  Mycek presenterer en tidlig prototyp av Kotlin Ecosystem Plugin, bygget på Declarative Gradle. Foredraget viser hvordan den deklarative og opinionated tilnærmingen gjør det mulig å radikalt forenkle Kotlin- og Multiplatform-build-konsepter som tidligere var smertefulle, samt resonnementet bak de viktigste endringene. Relevant for de som følger med på fremtiden for Gradle-builds i Kotlin-verdenen.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1115 How I Learned to Stop Worrying and Love Value Semantics (in Kotlin)** – *Marat Akhin*
+  Akhin forklarer hva value semantics faktisk er, og hvorfor det er nyttig i Kotlin – kontrastert med reference semantics (identitet vs likhet, mutasjon vs kopi). Han kobler dette til kjente Kotlin-features som `data class.copy()`, kommende value classes og immutable collections, og viser med kodeeksempler og enkle benchmarks at value-orientert design både er praktisk og ytelses-akseptabelt på JVM. Avveiningene rundt allokering og API-design dekkes konkret.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1115 Redefining Machine Learning with Kotlin: A Device-First Approach to AI** – *Michal Harakal*
+  Harakal introduserer SKaiNET, et nytt open-source ML-rammeverk skrevet fra bunnen av i Kotlin Multiplatform. Han viser hvordan man definerer nevrale nettverk med en typesikker DSL, kompilerer dem til compute-grafer, og kjører lette modeller som konvolusjonsnett og kompakte LLM-er fullstendig offline på enheten. Fokus er på personvern, lav latency og hvordan Kotlins coroutines, typesikkerhet og multiplatform-støtte muliggjør on-device-AI.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1115 Reflection is Evil** – *Jeffrey van Gogh*
+  Lynforedrag der Jeffrey van Gogh argumenterer for at refleksjon – som finnes i JVM, .NET og andre høynivå-plattformer – ofte er problematisk. Han presenterer caser for hvorfor man bør unngå refleksjon i moderne Kotlin-kode, og hvilke alternativer som finnes (typisk compiler plugins, code generation, value semantics). Provokativ tittel, men hovedbudskapet handler om compile-time-sikkerhet og forutsigbarhet.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1330 Hot-Reloading Kotlin/Native** – *Gabriele Pappalardo*
+  Pappalardo dokumenterer den eksperimentelle reisen med å få Compose Hot-Reload til å fungere på iOS-simulatorer uten en JVM. I stedet for å bygge en egen Kotlin Virtual Machine utnytter teamet LLVM ORC v2 for å gjøre hot-reload direkte på Darwin. Han går inn på compiler-endringer som split compilation, det nye hot-reload-runtime-moduletet, og hvordan state preservation og endringer i class layout håndteres.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1400 Full-Stack Kotlin AI: Powering Compose Multiplatform apps with Koog & MCP** – *John O'Reilly*
+  O'Reilly viser hvordan Koog (JetBrains sitt AI agent-rammeverk) kan utgjøre den intelligente kjernen i en Compose Multiplatform-app. Han demonstrerer bruk av "local tools" som gir agenten ekstra capabilities på Android, iOS og desktop, kobling til MCP-servere via Kotlin MCP SDK, og bruk av både skybaserte og lokale on-device LLM-er. Praktisk demo av en full-stack Kotlin AI-arkitektur.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1400 What Nobody Told Us About Shipping Kotlin to iOS** – *Suhyeon (Leah) Kim*
+  Tre Android-utviklere uten iOS-erfaring fikk to måneder på å levere en intern app til begge plattformene med Compose Multiplatform – UI-laget gikk bra, men grensesnittet mot Swift var en annen historie. Kim deler tre konkrete case studies etter et år i produksjon: native state-observasjon med StateFlow som bro, delegate-mønster for Firebase (som mangler KMP SDK), og SPM Umbrella Export som fiks for binary isolation. Inkluderer en Swift-Kotlin interop-pitfall-cheatsheet.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1400 Flow with Exposed: Life Finds a Way** – *Chantal Loncle*
+  Loncle bruker en zero-player automaton-simulering til å vise hvordan Exposed (database-tilgangsbibliotek) takler høy throughput og asynkrone database-operasjoner. Hun kombinerer Kotlin Flow over Exposed DSL-spørringer for å observere kontinuerlige state-updates, og bruker DataFrame og Kandy til analyse og visualisering. Til slutt vises den nye Exposed Gradle-pluginen for å forenkle database-migrasjoner.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1430 The Backend Immune System - Rich Errors, Ktor Observability and Safe Local Remediation** – *Meike Felicia Hammer*
+  Hammer presenterer "Backend Immune System" – et Kotlin-nativt resilience-mønster basert på rich errors, Ktor-observability og lokale, deterministiske agenter som utfører trygg automatisk reparasjon innenfor request-grensen. Eksplisitt ikke en LLM eller self-healing-infrastruktur: agenten gjør kun avgrensede, idempotente mikro-remediations og eskalerer ved behov. Demoen sammenligner legacy-modus, immune-modus uten verifisering og full immune-modus med verifisering.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1515 How Kotlin Powers Functional Design: MCP Edition** – *David Denton*
+  Denton (http4k) argumenterer for at MCP SDK-er gjentar feilene fra HTTP-rammeverk i 2015 – refleksjon, tett kobling til transport, runtime-feil for type-mismatcher. Han viser hva som skjer når man bruker http4k sine funksjonelle prinsipper på MCP: lag-deling mellom protokoll og transport, funksjonelle capabilities, in-memory-testing, compile-time-sikkerhet og gjenbruk av komponenter som OAuth, Lenses og JSON-RPC. Et godt forsvar for funksjonell, komposisjonell design med Kotlins extension functions og type aliases.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1515 TestBalloon: Kotlin testing is easier (and more fun) than you think** – *Oliver Okrongli, Bernd Prünster*
+  Introduksjon til TestBalloon, et nytt Kotlin-test-rammeverk med liten API-flate, hierarkisk teststruktur og en utvidbar DSL. Foredragsholderne viser parameteriserte tester, data-driven testing, fixtures, og hvordan TestBalloon støtter alle plattformer opp til Wasm/WASI – inkludert nestede, samtidige og parallelle tester på plattformer som ikke har native støtte for det. Dekker også samspill med JUnit 4/6 og hvordan migrere eksisterende testsuiter.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1615 Koin + Kotlin Compiler = ♥️** – *Arnaud Giuliani*
+  Giuliani presenterer Koins største endring på åtte år: integrasjon med Kotlin Compiler. Det tunge arbeidet flyttes til kompileringstid, med automatisert DSL, forhåndsberegnede avhengighetsindekser og ekte compile-time-sikkerhet. Samme enkelhet, men med vesentlig bedre garantier og ytelse.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1645 Powering Up Your Assertions** – *Brian Norman*
+  Norman viser de store endringene i Power-Assert som kommer med Kotlin 2.4: enklere Gradle-konfigurasjon, tydeligere meldingsdiagrammer og bedre bibliotek-integrasjon. Forfattere av assertion-biblioteker får se hvordan de kan legge til førstepartsstøtte for Power-Assert i sine biblioteker, slik at alle får samme gode out-of-the-box-opplevelse. Avslutter med en sniktitt på hva som kommer videre.
+  📹 Video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+* **1715 Golden Kodee Awards**
+  Den offisielle avslutningen på KotlinConf 2026 med utdeling av Golden Kodee Community Awards. Vinnere ble kåret i fem kategorier – Creativity, Online Presence, In-Person Presence, Education og Positive Societal Impact – som hyllest til folk og communities som har bidratt til Kotlin-økosystemet gjennom kunnskapsdeling, eventarrangement og inspirasjon.
+  📹 Inngår i [Day 2 Livestream](https://www.youtube.com/watch?v=S3CjlmpsC0I).
 
 ---
 
