@@ -1,6 +1,6 @@
 # KotlinConf 2026
 
-## May 21
+## May 21 (https://kotlinconf.com/schedule/?day=2026-05-21)
 
 * 0900 Opening Keynote
 * 1015 Bootiful Kotlin
@@ -11,7 +11,7 @@
 * 1615 Talking to terminals (and how they talk back)
 * 1715 Robocoders: The [K]agematch
 
-## May 22
+## May 22 (https://kotlinconf.com/schedule/?day=2026-05-22)
 
 * 0900 We were meant to be
 * 1015 Dissecting Kotlin: 2026
@@ -20,5 +20,4 @@
 * 1400 Context parameters and API design
 * 1515 gRPC, Made for Kotlin
 * 1545 KotlinLLM: Leveraging AI for Runtime Logic Delegation in Kotlin
-* 1615 
-* 1715 Golden Kodee Awards
+* 1615 Spec-Driven Development with AI Agents: From High-Level Requirements to Working Software
