@@ -7,3 +7,6 @@ eller utvidede skriftlige rapporter) som du gjerne vil se opptak av.
 -->
 
 ## 27. mai 2026 (https://www.smidig.no/event/smidig-digitalisering-2026)
+
+* 1500 Agentic AI i praksis — Lars-Erik Monsvik
+* 1530 Paneldebatt
