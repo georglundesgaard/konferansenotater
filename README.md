@@ -4,8 +4,9 @@ Personlige notater fra konferanser jeg har vært på – sammendrag av foredrag,
 
 ## Konferanser
 
-- **[KotlinConf 2026](KotlinConf/2026/README.md)** — München, 21.–22. mai 2026
+- **[JavaZone 2026](JavaZone/2026/README.md)** — Lillestrøm, 2.–3. september 2026
 - **[SmidigDig 2026](SmidigDig/2026/README.md)** — Oslo, 27. mai 2026
+- **[KotlinConf 2026](KotlinConf/2026/README.md)** — München, 21.–22. mai 2026
 
 Hver konferanse har sin egen README med Topp 5-anbefalinger, deltakelsesliste og ønskeliste. Klikk deg videre inn til én fil per foredrag.
 
