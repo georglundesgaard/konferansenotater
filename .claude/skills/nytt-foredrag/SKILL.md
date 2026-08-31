@@ -22,7 +22,7 @@ Interviews the user for a single talk, then writes the file and updates the conf
    `Beskriv foredraget – noen stikkord holder (tittel, taler, tid, tema … jeg matcher mot programmet).`
    Argumenter gitt direkte til skillen (`/nytt-foredrag <beskrivelse>`) brukes som svar uten å spørre på nytt.
 
-3. **Match mot programmet.** Finn programlenken i konferansens `README.md` (under Kilder, f.eks. `kotlinconf.com/talks/`, `2026.javazone.no/program`). WebFetch programmet og match brukerens beskrivelse mot foredragene – fuzzy på tittel, taler og tema. Bruk match til å fylle inn eksakt tittel, taler(e) og starttid (HHMM).
+3. **Match mot programmet.** Sjekk først om `<Konferanse>/<År>/program.md` finnes (lokal cache – foretrukket, fungerer offline). Hvis ikke: finn programlenken i konferansens `README.md` (under Kilder, f.eks. `kotlinconf.com/talks/`, `2026.javazone.no/program`) og WebFetch den. Match brukerens beskrivelse mot foredragene – fuzzy på tittel, taler og tema. Bruk match til å fylle inn eksakt tittel, taler(e) og starttid (HHMM).
    - Én klar match: vis den kort (`Fant: <tid> <tittel> — <taler>`) og fortsett.
    - Flere kandidater: `AskUserQuestion` med toppkandidatene.
    - Ingen match (eller programmet er utilgjengelig): fall tilbake til manuell parsing av beskrivelsen – første `\d{4}` er tid, split på ` — ` eller ` - ` for taler, resten er tittel. Ved hull, still én kort oppfølging.
@@ -47,7 +47,7 @@ Interviews the user for a single talk, then writes the file and updates the conf
 11. **Oppdater konferanse-README.** Åpne `<Konferanse>/<År>/README.md`. Under enten `## Foredrag jeg gikk på` eller `## Foredrag jeg vil se opptak av`, i riktig dag-underseksjon, sett inn (sortert på tid):
     `- **[<HHMM> <Tittel>](talks/<filnavn>)** — <Taler(e)>`
 
-12. **Bekreft.** Meld: `Registrert: <filnavn>`. Ikke commit – la brukeren gjøre det når de er klare.
+12. **Bekreft og loop.** Meld: `Registrert: <filnavn>`. Spør så: `Ett til? (beskriv neste foredrag, eller tomt for å avslutte)`. Ved nytt svar: gå til steg 3 med samme konferanse og dag-kontekst. Ikke commit – la brukeren gjøre det når de er klare.
 
 ## Ikke gjør
 

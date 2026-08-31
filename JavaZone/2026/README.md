@@ -4,6 +4,8 @@
 
 Én fil per foredrag under [`talks/`](talks/). Klikk deg inn på titlene under.
 
+Hele programmet (143 foredrag) er cachet lokalt i [`program.md`](program.md) for offline-matching med `/nytt-foredrag` og `/planlegg-dagen`.
+
 ---
 
 ## Anbefalt: Topp 5

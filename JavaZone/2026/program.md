@@ -1,0 +1,152 @@
+# JavaZone 2026 — program (lokal cache)
+
+Hentet fra [2026.javazone.no/program](https://2026.javazone.no/program) 31. august 2026. Brukes av `/nytt-foredrag` og `/planlegg-dagen` for offline-matching. Format: tid · rom · varighet · språk — tittel — taler(e) · _tags_.
+
+## Dag 1 — onsdag 2. september 2026
+
+- **09:00** · Room 1 · 1h · NO — **50 tips på 60 min – bli bedre med AI-agenter** — Kjetil Jørgensen-Dahl · _AI-koding, GitHub Copilot, Produktivitet_
+- **09:00** · Room 2 · 1h · EN — **Talking to Machines: The History and Future of Programming Languages** — Piotr Łaskawiec · _Programming Languages, Tools, Java_
+- **09:00** · Room 3 · 45 min · NO — **Fra spagetti til legoklosser: Modularisert arkitektur og TDD i frontend** — Andrea Magnussen · _Frontend, TDD, Refaktorering, Arkitektur_
+- **09:00** · Room 4 · 45 min · EN — **Building for the World, One Iteration at a Time** — Ivar Østhus · _Open-source, Entrepreneurship_
+- **09:00** · Room 5 · 1h · EN — **Async is the New `goto`: Rethinking Structured Concurrency** — Wout Werkman · _Structured Concurrency, Language, JEP, Thread_
+- **09:00** · Room 6 · 20 min · NO — **Lightning Talk: Da pappa delte snuskete innhold på Facebook - en liten historie om hvorfor vi må ta hensyn til brukernes mentale modeller når vi lager nye datasystemer** — Tine Nørregaard · _Design, Mentale Modeller, Nyutvikling, Utfasing_
+- **09:00** · Room 7 · 1h · EN — **SLAs, SLOs, and SLIs: Demystifying SRE** — Ken Sipe · _SRE, NFR, SLA_
+- **09:00** · Room 8 · 45 min · EN — **Bearer of Good News** — Sam Bellen · _Identity, Security_
+- **09:25** · Room 6 · 20 min · NO — **Lightning Talk: 47.000 millionærer** — Stephan Haugsrud · _Testing, Observerbarhet, Kvalitet, Produksjonsfeil_
+- **09:50** · Room 6 · 10 min · EN — **Lightning Talk: Git t(h)ree** — Åsmund Eldhuset · _Git_
+- **10:20** · Room 1 · 45 min · EN — **The positive value of negative space** — Christin Gorman · _Productivity, Minimalism, Simple_
+- **10:20** · Room 2 · 1h · EN — **Let's break some WCAG rules** — Elise Kristiansen
+- **10:20** · Room 3 · 45 min · NO — **Fremtidens applikasjoner lages for maskiner** — Stig Lau · _Integrasjon, Reverse Engineering_
+- **10:20** · Room 4 · 45 min · NO — **Leveransekjedesikkerhet i praksis** — Knut Haugen · _Security, Supply Chain, Dependency Management_
+- **10:20** · Room 5 · 45 min · NO — **Sanntidsinformasjon i saksbehandlingssystemer** — Jørgen Sølvernes Sandnes, Dragana Stojkovic · _Sanntidsoppdatering, Arkitektur, Ytelse, Skalering_
+- **10:20** · Room 6 · 20 min · EN — **Lightning Talk: Microsoft Monoculture: The Lock-in Nobody Talks About** — Nordine Ben Bachir · _Microsoft, Monoculture, Azure, Lock-in_
+- **10:20** · Room 7 · 45 min · EN — **Self-Healing Rollouts: Automating Production Fixes with Agentic AI** — Kevin Dubois · _Java, AI, Kubernetes, CI/CD_
+- **10:20** · Room 8 · 45 min · EN — **Immutable Linux - The Future of the desktop** — Simon Bruce-Cassidy · _Linux, Immutable Infrastructure, NixOS, Containers_
+- **10:45** · Room 6 · 10 min · EN — **Lightning Talk: How do we version software?** — Øystein Hagen Blixhavn · _Software, Versioning, Semver, Calver_
+- **11:00** · Room 6 · 10 min · NO — **Lightning Talk: Kotlin extension functions - en advarsel fra skyttergravene** — Anders Karlsen
+- **11:15** · Room 6 · 20 min · EN — **Lightning Talk: From Kotlin to Java: walk in the park or stepping on LEGO?** — Aurora Christine Hofman · _Kotlin, Java, Change, Possibilities_
+- **11:40** · Room 1 · 45 min · EN — **Bootiful Spring Boot 4** — Josh Long · _Java, Kotlin, Spring Boot_
+- **11:40** · Room 2 · 1h · EN — **Let's create a tiny LLM library together** — Johannes Bechberger · _Java, AI, LLM_
+- **11:40** · Room 3 · 45 min · EN — **My Year with Claude: Building Midimeria - music production analytics** — Øyvind Løkling · _Agentic Development, Claude Code_
+- **11:40** · Room 4 · 45 min · EN — **Talk to me Java!** — Martin Skarsaune · _Monitoring, DevOps, Mission Control, Flight Recorder_
+- **11:40** · Room 5 · 45 min · EN — **What RSCs can do in Next.js today** — Aurora Scharff · _React, Next.js, React Server Components_
+- **11:40** · Room 6 · 10 min · NO — **Lightning Talk: Sunset as a Service: Når målet er EOL** — Johannes Molland · _Modernisation, Legacy, Architecture, Strategy_
+- **11:40** · Room 7 · 45 min · EN — **The best way to fetch multi-level hierarchies from a RDBMS using Java** — Vlad Mihalcea · _Java, Spring Data JPA, Hibernate_
+- **11:40** · Room 8 · 45 min · EN — **The 1% Problem: An Introduction to AI Security** — Lars Smeby · _AI, Security_
+- **11:55** · Room 6 · 20 min · NO — **Lightning Talk: Conways lov i praksis** — Oda Enger Hoem · _Produktorientering, Kommunikasjon, Modellering_
+- **12:20** · Room 6 · 20 min · NO — **Lightning Talk: Metodikk som tvangstrøye** — Nadia Tokerud · _Metodikk, Prosess, Produktutvikling, Pragmatisme_
+- **12:45** · Room 6 · 10 min · NO — **Lightning Talk: En bedre maven authentication** — Erlend Hamnaberg · _Java, Maven_
+- **13:00** · Room 1 · 1h · EN — **Java Patterns: Why, How, and When Not** — Cay Horstmann · _Java, Pattern Matching_
+- **13:00** · Room 2 · 45 min · NO — **From Data Engineering to Knowledge Engineering in the blink of an eye** — Veronika Heimsbakk · _Data Engineering, Knowledge Engineering_
+- **13:00** · Room 3 · 45 min · EN — **Quantum-Ready Java: A Practical Guide to Post-Quantum Cryptography Migration** — Akihiro Nishikawa · _Security, Cryptography, Post-Quantum, PQC_
+- **13:00** · Room 4 · 1h · EN — **The Magic of OpenTelemetry: Rewriting Your App in Production** — Bruce Bujon · _OpenTelemetry, Instrumentation, JVM, Agent_
+- **13:00** · Room 5 · 45 min · NO — **Norsk forskning: Hva gjør norske organisasjoner med agentisk utvikling** — Jan Henrik Gundelsby, Nils Brede Moe · _Produktutvikling, AI, AI-agenter, Team_
+- **13:00** · Room 6 · 20 min · NO — **Lightning Talk: Passkeys: Enklere enn du tror. Slik implementerer du støtte for det** — Kristian Lier Selnæs · _Autentisering, Sikkerhet, Passkeys_
+- **13:00** · Room 7 · 1h · EN — **No More Magic: Mastering the Explicit Kotlin Stack with Ktor, Exposed and Koin** — Geoffrey Rekier · _Kotlin, Ktor, Exposed, Koin_
+- **13:00** · Room 8 · 45 min · NO — **Frå plastkort til protokoller: Deling av data fra EU si digitale identitetslommebok** — Randi Øyri, Thomas Reppesgård · _EUDI-wallet, Digital Lommebok, Digital Identitet_
+- **13:25** · Room 6 · 20 min · EN — **Lightning Talk: Knowing without Knowing** — Jørn K Baltzersen · _Security, Cryptography_
+- **13:50** · Room 6 · 20 min · EN — **Lightning Talk: How to Keep Secrets from your Agent** — Nikolai Norman Andersen · _Security, AI, Agents, Encryption_
+- **14:20** · Room 1 · 45 min · NO — **Å skifte vinger i lufta eller hjul mens sykkelen er i nedoverbakke: Modernisering av samfunnskritiske systemer uten høye skuldre** — Johannes Brodwall, Hafsa Elkam · _Virksomhetsarkitektur, Erstatningsprosjekter, Ledelse, Produktutvikling_
+- **14:20** · Room 2 · 45 min · EN — **Hexagonal happiness!** — Henning Bang Halvorsen · _Hexagonal Architecture, Patterns, Java, Happiness_
+- **14:20** · Room 3 · 1h · EN — **No More Forks: Policy Transformation for Terraform at Scale** — Anton Babenko · _Terraform, Compliance, Best practices_
+- **14:20** · Room 4 · 45 min · EN — **Global Cultural Reflections on Software Testing Practices** — Mesut Durukal · _Cultural Intelligence, Global Testing_
+- **14:20** · Room 5 · 1h · EN — **Your Database Sprawl is a 1990s Workaround, Give it a KISS** — Mick Semb Wever · _Distributed Systems, HTAP, Vendor Neutral_
+- **14:20** · Room 6 · 10 min · NO — **Lightning Talk: Nyheter i JavaScript - ES2026** — Gaute Meek Olsen · _JavaScript, Frontend_
+- **14:20** · Room 7 · 45 min · EN — **Managing the chaos: Automating internal dependency upgrades with OpenRewrite** — Jago de Vreede · _OpenRewrite, Build Tooling, Maven, Innersource_
+- **14:20** · Room 8 · 1h · EN — **Gentle Introduction to Lock-Free Programming in Java** — Andrzej Grzesik, Jarosław Pałka
+- **14:35** · Room 6 · 10 min · NO — **Lightning Talk: Korleis me gjekk frå React til CSS hos Designsystemet** — Tobias Barsnes
+- **14:50** · Room 6 · 20 min · NO — **Lightning Talk: Få oversikt over JSON med JSONata-spørringer** — Ove Gram Nipen · _JSON, JSONata, REST_
+- **15:15** · Room 6 · 20 min · EN — **Lightning Talk: Stop Writing API Clients — Let the Spec Do It** — Rupinder Kaur · _OpenAPI, API Design, Code Generation_
+- **15:40** · Room 1 · 45 min · NO — **Hvordan logger kan felle en Nav-direktør** — Trond Arve Wasskog, Audun Fauchald Strand · _Offentlig Forvaltning, Etterlevelse_
+- **15:40** · Room 2 · 45 min · EN — **Building Intelligent Java Apps: Agent Patterns, MCP, and the Future of AI Native Design** — Daniel Oh · _Java, Agent, MCP, A2A_
+- **15:40** · Room 3 · 45 min · EN — **The lightweight approach to building internal developer platforms** — Erlend Ekern · _Platform Engineering, Public Cloud_
+- **15:40** · Room 4 · 1h · EN — **When ORM Becomes OMG: Performance Pitfalls in JPA and Friends** — Jos Roseboom · _JPA, Hibernate, Java, Spring Boot, Spring Data JPA_
+- **15:40** · Room 5 · 45 min · EN — **Personalizing Your Random Numbers** — Scott Sosna · _Random Number Generation, IoT, Security_
+- **15:40** · Room 6 · 10 min · NO — **Lightning Talk: Hvorfor du bør ha timeout i Regex'en din…** — Stian Gjedrem · _Regex, Programming Mistakes_
+- **15:40** · Room 7 · 1h · EN — **10 Things I Hate About Java** — Adele Carpenter · _Java, History, Language Design_
+- **15:40** · Room 8 · 45 min · EN — **The Bold, the Broken, and the Burned: Hard won lessons in the 7 years of developing Quarkus** — Georgios Andrianakis
+- **15:55** · Room 6 · 10 min · NO — **Lightning Talk: Når regresjonen blir automatisert: hvor skaper testeren mest verdi?** — Gerd Stalheim Wiggen
+- **16:10** · Room 6 · 20 min · EN — **Lightning Talk: Spec, Test, Doc: One Table, Three Lives** — Nils Christian Haugen · _Agentic Coding, Spec-driven Development, Testing_
+- **16:35** · Room 6 · 20 min · EN — **Lightning Talk: Rust will slash your backend costs** — Jean Tuffier · _Backend, Rust, Cost-management, Performance_
+- **17:00** · Room 1 · 1h · EN — **Dream Machines & Walled Gardens** — Anders Norås · _History, Web, Hypertext_
+- **17:00** · Room 2 · 45 min · NO — **Bra tools, ubrukelige svar: Læring fra ett år med MCP** — Bjørn Nordlund, Eirik Fagtun Kjærnli · _MCP, Integration Design, Evaluation, Observability_
+- **17:00** · Room 3 · 45 min · EN — **Building Production-Ready Kubernetes Operators: A Practical Guide** — Frederik Pietzko · _Kubernetes, Operator, Java, Platform Engineering_
+- **17:00** · Room 4 · 45 min · EN — **Architecture Under Fire: The Decisions Nobody Tells You About** — Mihaela Gheorghe-Roman · _Software Architecture, Decision Making_
+- **17:00** · Room 5 · 45 min · EN — **SIMD for Java: how Elasticsearch already benefits from the Panama Vector API** — Piotr Przybył · _Java, SIMD, Vector API_
+- **17:00** · Room 6 · 20 min · NO — **Lightning Talk: Bare spør! AI-agenter elsker produksjonsmetrikker** — Anders Sveen · _OpenTelemetry, AI Agents, Observability_
+- **17:00** · Room 7 · 45 min · EN — **Let's use Spring Boot to build games, because why not?** — Alexander Chatzizacharias · _Spring Boot, Fun, Games_
+- **17:00** · Room 8 · 45 min · NO — **Demoscene Coding Kickstart** — Espen Sande-Larsen · _Graphics, Shaders, Skills_
+- **17:25** · Room 6 · 20 min · NO — **Lightning Talk: De usette langtidskostnadene med dagens KI** — Magnus Elden · _KI, AI, Risikostyring, TCO_
+- **17:50** · Room 6 · 20 min · EN — **Lightning Talk: AI Is Easy. Trustworthy Data Is Hard. Why Data Engineers Matter More Than Ever** — Vegard Sjåvik · _Data, AI, Data Engineering, Data Driven Decisions_
+- **18:20** · Room 1 · 45 min · NO — **Hacking i "gamle" dager - røverhistorier fra 80- og 90-tallet** — Eivind Vea · _Hacking, Cracking, Retro, Security_
+- **18:20** · Room 2 · 1h · EN — **Snake in 10 Lines: Learning More by Coding Less** — Guus de Wit · _Kotlin, Clean Code, Gamification, Concise Coding_
+- **18:20** · Room 3 · 45 min · EN — **How Are We Doing? Practical Metrics that Matter** — Markus Krüger · _High Performing Developer Teams_
+- **18:20** · Room 4 · 45 min · EN — **Secure-by-Inclusion: Preventing Accessibility Barriers from Becoming Security Vulnerabilities** — Radostina (Ina) Tsvetkova · _Accessibility, Security, Testing, Inclusion_
+- **18:20** · Room 5 · 45 min · EN — **Let's Dance! - Teaching your Robot some Moves with Reinforcement Learning** — Thomas Endres, Dennis Schulz · _Robotics, AI, Reinforcement Learning, IsaacLab_
+
+## Dag 2 — torsdag 3. september 2026
+
+- **09:00** · Room 1 · 45 min · EN — **Hardwood: Building a Parquet Parser From Scratch (With a Little Help From AI)** — Gunnar Morling · _Apache Parquet, Performance, Parsing, Big Data_
+- **09:00** · Room 2 · 45 min · NO — **Er læring framleis relevant?** — Sveinung Sande Dalatun · _Pedagogisk Psykologi, Læring_
+- **09:00** · Room 3 · 45 min · EN — **Crafting the Ultimate Docker Image for Spring Applications** — Pasha Finkelshteyn · _Java, Spring, JVM_
+- **09:00** · Room 4 · 45 min · EN — **Optimizing Self-Driving Vehicles and Bus Operations: Where Does Quantum Computing Fit?** — Maryam Lotfigolian, Aleksandar Davidov · _Optimization, Operations Research_
+- **09:00** · Room 5 · 45 min · EN — **Modern Java in the age of AI** — Georges Saab
+- **09:00** · Room 6 · 20 min · NO — **Lightning Talk: Når verktøyet er meir enn halve jobben – korleis opensource, åpne standardar og samarbeid øker digitaliseringa i kommune-Norge** — Audun Vindenes Egge, Erik Hagen
+- **09:00** · Room 7 · 45 min · EN — **APIs, Secrets, and Lies: The Messy Reality of Zero-Trust at Scale** — Jon Skarpeteig · _Security, API, IAM, Authentication_
+- **09:00** · Room 8 · 1h · EN — **Event Sourcing: The Only Sane Way to Run Agentic Systems** — Einar Ingebrigtsen · _AI, Event Sourcing_
+- **09:25** · Room 6 · 20 min · NO — **Lightning Talk: Kom i gang med mobbprogrammering** — Helén Persson · _Utvikling, Samarbeid, Metode_
+- **09:50** · Room 6 · 20 min · NO — **Lightning Talk: Hvordan vi temmer en domenemodell med 1500+ klasser** — Simen Burud, Herman Thieme · _Domain-Driven Design, Kotlin, Code Generation_
+- **10:20** · Room 1 · 45 min · EN — **Getting more out of Maven** — Marit van Dijk, Andres Almiray · _Maven, Build Tools, Dependencies, IDE_
+- **10:20** · Room 2 · 45 min · EN — **"35 Minutes Ago, You Had 20 Seconds to Comply": A Survival Guide to Days of Future Past** — Andreas Ahlgren · _Q-day, Security, Compliance_
+- **10:20** · Room 3 · 1h · EN — **Feature Management: Beyond Feature Flags** — Mateusz Kwaśniewski · _Feature Flags, Feature Management_
+- **10:20** · Room 4 · 45 min · NO — **Brukollapsen som bygde en bro mellom fag og IT** — Anita Sengebusch, Hege Auglænd Holst · _Produktorientering, Maskinlæring, Data_
+- **10:20** · Room 5 · 1h · NO — **Trust, But Verify: Skill-Driven Development for the Sceptical Java Developer** — Totto - Thor Henning Hetland · _Skill-Driven Development, Verification, Java_
+- **10:20** · Room 6 · 20 min · NO — **Lightning Talk: Tilgjengelighet + utvikling = true** — Aileen Hay, Jon Jakob Sandø Lauser · _Frontend, Universell Utforming, Tilgjengelighet_
+- **10:20** · Room 7 · 1h · NO — **Flyt i AI-ens tid: når det blir lettere å lage, men vanskeligere å bevege seg** — Christian Neverdal · _Java, Flow, Development_
+- **10:20** · Room 8 · 45 min · EN — **The Decision Layer: Context Graphs for Spring AI** — James Ward, Ryan Knight · _Spring AI, AI Agents, Knowledge Graphs_
+- **10:45** · Room 6 · 20 min · EN — **Lightning Talk: Rendering 3D shadows in the browser with three.js** — Fredrik Lillemoen Eiding · _Rendering, Shadows, Three.js, OpenGL_
+- **11:10** · Room 6 · 10 min · NO — **Lightning Talk: Du har lov til å sørge, men du må gå videre i livet** — Nora Gjøen-Gjøsæter
+- **11:40** · Room 1 · 1h · NO — **Heis.fm LIVE** — Audun Fauchald Strand, Truls Jørgensen
+- **11:40** · Room 2 · 1h · EN — **Cassandra Compaction - Allocation Free, and 5x Faster** — Nitsan Wakart · _Cassandra, Performance, Profiling_
+- **11:40** · Room 3 · 45 min · EN — **Gleam and BEAM: Looking beyond the JVM** — John Mikael Lindbakk · _Functional Programming_
+- **11:40** · Room 4 · 45 min · NO — **Erstatningssystemfella** — Fredrik de Vibe · _Arkitektur, Omskriving, Refactoring_
+- **11:40** · Room 5 · 45 min · EN — **The Right 300 Tokens Beat 100k Noisy Ones: Four Context Antipatterns That Kill Your AI Agent** — Baruch Sadogursky
+- **11:40** · Room 6 · 20 min · NO — **Lightning Talk: Går det ingen tog?!?!!** — Synne Markmanrud, Vilde Aurora Halle Tvedten · _Infrastruktur, Design, Brukeropplevelse_
+- **11:40** · Room 7 · 45 min · EN — **CRA security deadlines loom: What senior Java engineers must deliver by December 2027** — Ixchel Ruiz · _Security, Compliance, SBOM, CRA_
+- **11:40** · Room 8 · 1h · EN — **JDK8 to 25 Without the pain: Engineering a Modern Java Platform** — Steve Poole · _Migration, JDK 25, Dependencies, Compatibility_
+- **12:05** · Room 6 · 10 min · NO — **Lightning Talk: Når Noen™ tar ansvar** — Stein Kåre Skytteren · _Team, Autonomi, Ansvar_
+- **12:20** · Room 6 · 20 min · NO — **Lightning Talk: Hva skjedde da AI kom til Glow** — Morten Andersen-Gott
+- **13:00** · Room 1 · 45 min · EN — **A Brief History of Artificial Intelligence** — Tim Berglund · _AI, ML, Deep Learning, LLM_
+- **13:00** · Room 2 · 1h · EN — **Modules didn't fail. Build tools did.** — Rafael Winterhalter · _Build, Java_
+- **13:00** · Room 3 · 45 min · EN — **We're making this a lot harder than it needs to be** — Robin Heggelund Hansen · _Architecture, Simplification, Efficiency_
+- **13:00** · Room 4 · 45 min · EN — **You don't need a frontend, you just need Kotlin** — Håvard Tolås Trondsen · _Kotlin DSL, HTMX, HATEOAS, REST_
+- **13:00** · Room 5 · 45 min · NO — **Steinras, flom og IT-systemer fra 90-tallet - IT-utvikling når ikke alt går på skinner!** — Erik Drolshammer · _Erfaringsrapport, Patterns, Arkitektur_
+- **13:00** · Room 6 · 20 min · NO — **Lightning Talk: EHF-fakturaen din har reist verden rundt – visste du det?** — Rune Kjørlaug, Charlotte Kolle · _EHF, Peppol, Trust Architecture_
+- **13:00** · Room 7 · 45 min · EN — **An Opinionated Guide to Bulletproof APIs with Java** — Rustam Mehmandarov · _API Design, REST, Architecture, Java_
+- **13:00** · Room 8 · 45 min · NO — **Fra 123 entusiastiske brukere daglig, til 3.7 millioner, Norgespris som arkitektur katalysator i Elhub** — Trond Strømme, Michael Akinde · _Cloud, Product-management, Refaktorering, Arkitektur, Security_
+- **13:25** · Room 6 · 10 min · NO — **Lightning Talk: Egendriftet PaaS for under 100 kr i måneden** — Eirik Meland · _Hetzner, Coolify, Selfhosting, Suverenitet_
+- **13:40** · Room 6 · 20 min · EN — **Lightning Talk: Your Service Layer Is a Mess (Here's a Simple Fix)** — Jarle Mathiesen · _Architecture, Backend, Testing, Maintainability_
+- **14:20** · Room 1 · 1h · EN — **The AI puppet dance** — Einar Waaler Høst
+- **14:20** · Room 2 · 45 min · NO — **Digipost om UX i Norges nye virksomhetslommebok** — Andrea Lysgaard · _UX, Brukeropplevelse, Innsikt, Lommebok_
+- **14:20** · Room 3 · 45 min · EN — **A Practical Guide to European Public Cloud Providers** — Filip Van Laenen · _Digital Sovereignty_
+- **14:20** · Room 4 · 45 min · NO — **Sikkerhet fra mangfold** — Kent Inge Fagerland Simonsen · _Verdikjederisiko, Sikkerhet, Mangfold, Suveren IT_
+- **14:20** · Room 5 · 1h · EN — **Domain-driven web APIs** — Asbjørn Ulsberg · _REST, Domain-driven Design, Web API Design_
+- **14:20** · Room 6 · 20 min · NO — **Lightning Talk: Package-by-(sub)domain** — Terje Heen · _Applikasjonsarkitektur, Design_
+- **14:20** · Room 7 · 45 min · EN — **Concurrency testing on the JVM** — Adam Warski · _Java, Concurrency, Testing_
+- **14:20** · Room 8 · 45 min · EN — **You're absolutely right, it was your home directory!** — Oleg Šelajev · _AI Security, Autonomous Agents, Productivity_
+- **14:45** · Room 6 · 20 min · EN — **Lightning Talk: Debugging Class Loading with GDB** — Marco Sussitz · _JVM, JVMTI, C++, GDB_
+- **15:10** · Room 6 · 20 min · EN — **Lightning Talk: Modern Packaging and Installation of Java Applications: From JARs to Native Installers** — Sverre Moe · _Java, Build, Packaging, Installation_
+- **15:40** · Room 1 · 1h · EN — **Understanding Prompt Injection - Techniques, Challenges, and Advanced Escalation** — Brian Vermeer · _Java, Security, AI_
+- **15:40** · Room 2 · 45 min · NO — **Kodearkeologer på legacy eventyr** — Elisabeth Irgens, Robin Kåveland · _Legacy, Kodearkeologi, End-of-life_
+- **15:40** · Room 3 · 45 min · EN — **Spring: Spock vs. Kotest vs. JUnit - When to Pick Which One?** — Marek Dominiak · _Java, Kotlin, Kotest, Spock, Testing, Spring_
+- **15:40** · Room 4 · 1h · EN — **Stop writing Terraform: Build developer-friendly platforms with Crossplane** — Petter Arnesen · _Crossplane, Platform Engineering, Kubernetes_
+- **15:40** · Room 6 · 20 min · EN — **Lightning Talk: Kotlin Coroutines in Ktor: What you need to know** — Kjartan Aanestad · _Kotlin, Coroutines, Ktor_
+- **15:40** · Room 7 · 45 min · EN — **A Journey - On tour with Java code on it's way through the JVM** — Gerrit Grunwald · _Java, JVM_
+- **15:40** · Room 8 · 45 min · EN — **How to Git Away with Murder** — Serges Goma · _Git, Fun_
+- **16:05** · Room 6 · 20 min · EN — **Lightning Talk: Generics – You Never Know What You're Gonna Get** — Bram Janssens · _Generics, Type Erasure, Covariance_
+- **16:30** · Room 6 · 20 min · EN — **Lightning Talk: Reproducible Environments: Why Docker Isn't Enough and Why Nix Might Be!** — Leonard Sheng Sheng Lee · _Nix, NixOS, Nixpkgs, Docker_
+- **17:00** · Room 1 · 45 min · EN — **Retro Meets AI: Shipping Games Across 40 Years of Tech** — Ricki Sickenger · _Retro, AI, Claude, Amiga_
+- **17:00** · Room 2 · 45 min · EN — **The Sound of Privacy – What Your Spotify Data Reveals About You** — Dennis Schulz, Thomas Hugle · _GDPR, Spotify, Data Science, Privacy_
+- **17:00** · Room 3 · 45 min · EN — **Shader Sorcery Summon Surreal Scenery** — Mårten Rånge · _ShaderArt, GLSL, ShaderToy_
+- **17:00** · Room 7 · 45 min · EN — **How I built my own intelligent Robot Arm from Scratch** — Iulia Feroli · _Robotics, Physical AI, Robot Arm_
+- **17:00** · Room 8 · 45 min · EN — **Understanding Buildpacks: Delving Deep into Their Functionality** — Patrick Baumgartner · _Containers, Paketo, Buildpacks, Spring Boot_

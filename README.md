@@ -19,11 +19,25 @@ konferansenotater/
 │   └── talks/HHMM-slug.md         #   – én talk-fil
 ├── <Konferanse>/<ÅÅÅÅ>/
 │   ├── README.md                  # Konferanse-oversikt: Topp 5, deltakelse, ønskeliste, kilder
+│   ├── program.md                 # (valgfri) Lokal cache av offisielt program – offline-matching
+│   ├── plan-dagN.md               # (valgfri) Personlig timeplan per dag, fra /planlegg-dagen
 │   └── talks/
 │       ├── day1-HHMM-slug.md      # Ett foredrag per fil (flerdags-konferanse)
 │       └── HHMM-slug.md           # Ett foredrag per fil (endags-konferanse)
 └── README.md                      # Denne filen
 ```
+
+## Skills
+
+Repoet har prosjekt-skills i `.claude/skills/` som automatiserer arbeidsflyten (kjøres som `/kommando` i Claude Code):
+
+- **`/nytt-foredrag`** — registrer et foredrag under/etter konferansen. Ta med en fri beskrivelse (`/nytt-foredrag gunnar morling parquet`); skillen matcher mot programmet (lokal `program.md` først, ellers nettsiden), antar dagens dato, og looper til du er ferdig.
+- **`/planlegg-dagen`** — kvelden før / på morgenen: velg foredrag per tidsluke og få en personlig timeplan i `plan-dagN.md`. Kollisjoner kan registreres rett i ønskelisten.
+- **`/berik-foredrag`** — etter konferansen, når opptakene er ute: fyller inn sammendrag i talk-filer basert på videoene, og foreslår Topp 5 til README-en.
+- **`/video-sjekk`** — sjekker om utestående opptak har blitt publisert og lenker dem inn. Egner seg som ukentlig rutine via `/schedule`.
+- **`/konferanse-stats`** — nøkkeltall på tvers av konferansene: antall foredrag, attended vs. interest, videodekning, tag-fordeling.
+
+Typisk livssyklus: `/planlegg-dagen` → `/nytt-foredrag` (under konferansen) → `/video-sjekk` (ukene etter) → `/berik-foredrag` → Topp 5.
 
 ## Format for et foredrag
 

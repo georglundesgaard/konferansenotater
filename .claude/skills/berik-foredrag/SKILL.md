@@ -67,6 +67,8 @@ Går gjennom talk-filer som mangler et ordentlig sammendrag, henter opptaket der
 
 6. **Bekreft.** Meld: `Beriket X av Y foredrag. Y-X gjenstår (ingen video funnet).` List de som ble hoppet over. Ikke commit.
 
+7. **Foreslå Topp 5.** Hvis konferansens `README.md` har en tom eller placeholder-aktig «Anbefalt: Topp 5»-seksjon, foreslå fem foredrag fra interest-listen basert på de nye sammendragene og brukerens tags/notater fra attended-foredragene (velg det som spinner videre på temaer brukeren faktisk fulgte). Vis forslaget og spør om det skal skrives inn i README-en – ikke skriv uten bekreftelse.
+
 ## Tips
 
 - Kjør maks ~15 sub-agenter parallelt. Ved store konferanser, batch i to omganger.
