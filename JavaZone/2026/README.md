@@ -1,6 +1,6 @@
 # JavaZone 2026
 
-**Nova Spektrum, Lillestrøm, 2.–3. september 2026.** Norges største utviklerkonferanse, arrangert av javaBin. To dager foredrag (ons 2. sep og tor 3. sep) på syv parallelle spor (Room 1–5, 7, 8) pluss lyntale-scenen Room 6. Workshops holdes dagen før på Rebel i Oslo, men jeg er kun på selve konferansen.
+**Nova Spektrum, Lillestrøm, 2.–3. september 2026.** Norges største utviklerkonferanse, arrangert av javaBin. To dager med foredrag (ons 2. sep og tor 3. sep) på syv parallelle spor (Room 1–5, 7, 8) pluss lyntale-scenen Room 6. Workshops holdes dagen før på Rebel i Oslo, men jeg er kun på selve konferansen.
 
 Én fil per foredrag under [`talks/`](talks/). Klikk deg inn på titlene under.
 
@@ -10,7 +10,7 @@ Hele programmet (143 foredrag) er cachet lokalt i [`program.md`](program.md) for
 
 ## Anbefalt: Topp 5
 
-*Fylles ut etterhvert som opptakene fra Vimeo-kanalen legges ut.*
+*Fylles ut etter hvert som opptakene fra Vimeo-kanalen legges ut.*
 
 ---
 
@@ -30,11 +30,11 @@ Hele programmet (143 foredrag) er cachet lokalt i [`program.md`](program.md) for
 
 ### Onsdag 2. september 2026
 
-- *(fylles ut etterhvert)*
+- *(fylles ut etter hvert)*
 
 ### Torsdag 3. september 2026
 
-- *(fylles ut etterhvert)*
+- *(fylles ut etter hvert)*
 
 ---
 

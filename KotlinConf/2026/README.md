@@ -1,6 +1,6 @@
 # KotlinConf 2026
 
-**München, 21.–22. mai 2026.** JetBrains sin årlige Kotlin-konferanse. To dager, seks parallelle spor, ca. 74 foredrag. De fleste videoene ble publisert på [Kotlin sin offisielle YouTube-kanal](https://www.youtube.com/@Kotlin) i juli–august 2026 og er også lenket fra [kotlinconf.com/talks/](https://kotlinconf.com/talks/) – sju sesjoner mangler fortsatt individuelle opptak (markert i talk-filene), jeg lenker dem inn etterhvert.
+**München, 21.–22. mai 2026.** JetBrains' årlige Kotlin-konferanse. To dager, seks parallelle spor, ca. 74 foredrag. De fleste videoene ble publisert på [Kotlin sin offisielle YouTube-kanal](https://www.youtube.com/@Kotlin) i juli–august 2026 og er også lenket fra [kotlinconf.com/talks/](https://kotlinconf.com/talks/) – sju sesjoner mangler fortsatt individuelle opptak (markert i talk-filene); jeg lenker dem inn etter hvert.
 
 Én fil per foredrag under [`talks/`](talks/). Klikk deg inn på titlene under.
 
@@ -8,9 +8,9 @@
 
 ## Anbefalt: Topp 5 fra ønskelisten
 
-Hvis du bare skal se noen få opptak, dette er mine anbefalinger fra foredragene jeg selv gikk glipp av — valgt fordi de spinner videre på tråder jeg gikk mye på (AI-agenter, Ktor/backend, språkdesign):
+Hvis du bare skal se noen få opptak, er dette mine anbefalinger fra foredragene jeg selv gikk glipp av — valgt fordi de spinner videre på tråder jeg gikk mye på (AI-agenter, Ktor/backend, språkdesign):
 
-1. **[Full-Stack Kotlin AI: Powering Compose Multiplatform apps with Koog & MCP](talks/day2-1400-full-stack-kotlin-ai-koog-mcp.md)** — John O'Reilly. Praktisk demo av Koog + Kotlin MCP SDK i en Compose Multiplatform-app, med hopp mellom sky-LLM og on-device. Direkte oppfølging til Briliantovs Koog-talk.
+1. **[Full-Stack Kotlin AI: Powering Compose Multiplatform apps with Koog & MCP](talks/day2-1400-full-stack-kotlin-ai-koog-mcp.md)** — John O'Reilly. Praktisk demo av Koog + Kotlin MCP SDK i en Compose Multiplatform-app, med hopp mellom sky-LLM og on-device. Direkte oppfølging til Briliantovs Koog-foredrag.
 2. **[How I Learned to Stop Worrying and Love Value Semantics (in Kotlin)](talks/day2-1115-value-semantics.md)** — Marat Akhin. Dybden bak multi-field value classes (eksperimentelt i 2.5) med benchmarks. Passer bra ved siden av *Local Lifetimes* og *Context parameters*.
 3. **[How Kotlin Powers Functional Design: MCP Edition](talks/day2-1515-functional-design-mcp.md)** — David Denton (http4k). Skarp kritikk av offisielle MCP SDK-er + en spec-kompatibel MCP-server på ~50 linjer med http4k. Bra motstemme til hovedstrømmen.
 4. **[Automate upgrading to Kotlin 2 with OpenRewrite](talks/day2-1015-openrewrite-kotlin-2-upgrade.md)** — Rooz SF, Jonathan Schneider. Umiddelbart nyttig for oppgraderingsjobber: deterministiske recipes over Lossless Semantic Trees.

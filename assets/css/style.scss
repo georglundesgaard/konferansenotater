@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Mer luft i brødteksten på talk-sidene */
+.markdown-body {
+  font-size: 17px;
+  line-height: 1.75;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.markdown-body p {
+  margin-bottom: 1.3em;
+}
+
+.markdown-body li {
+  margin-bottom: 0.35em;
+}

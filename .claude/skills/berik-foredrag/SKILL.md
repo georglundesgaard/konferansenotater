@@ -36,8 +36,9 @@ Går gjennom talk-filer som mangler et ordentlig sammendrag, henter opptaket der
    1. WebFetch video-URL — be om beskrivelse, kapitler, tags, transkripsjons­utdrag.
    2. Hvis siden er tynn: WebFetch abstract-URL og søk på tittel + taler.
 
-   Skriv 1–7 setninger, én paragraf, på bokmål, som dekker det som faktisk
-   ble presentert – konkrete verktøy, biblioteker, mønstre, konklusjoner.
+   Skriv 1–7 setninger på bokmål som dekker det som faktisk ble presentert
+   – konkrete verktøy, biblioteker, mønstre, konklusjoner. Del i 2–3 korte
+   avsnitt ved naturlige temaskifter; unngå ett langt kompakt avsnitt.
 
    Regler:
    - Ikke reproduser transkripsjon ordrett – oppsummer med egne ord.

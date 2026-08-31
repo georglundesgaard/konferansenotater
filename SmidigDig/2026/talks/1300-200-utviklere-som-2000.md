@@ -2,7 +2,7 @@
 
 *[← SmidigDig 2026](../README.md) · 27. mai 2026 · kl 13:00 · Alexander Amiri (Piano)*
 
-Amiri deler praktiske erfaringer fra Piano: hva skjer med team, leveransekapasitet og kvalitet når AI-verktøy adopteres bredt i en utviklerorganisasjon? Foredraget tar opp både gevinstene og bivirkningene – hvordan måler man produktivitet realistisk, og hva sliter ledelsen mest med å håndtere?
+Amiri deler praktiske erfaringer fra Piano: hva skjer med team, leveransekapasitet og kvalitet når AI-verktøy tas bredt i bruk i en utviklerorganisasjon? Foredraget tar opp både gevinstene og bivirkningene – hvordan måler man produktivitet realistisk, og hva sliter ledelsen mest med å håndtere?
 
 **Notater fra konferansen:**
 - Erfaringsforedrag
