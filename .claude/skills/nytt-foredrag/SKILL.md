@@ -19,30 +19,35 @@ Interviews the user for a single talk, then writes the file and updates the conf
    - Ellers: bruk `AskUserQuestion` med eksisterende `<Konferanse>/<År>/`-mapper som valg, pluss "Ny konferanse". Ved "Ny konferanse": spør om navn og år, og opprett `mkdir -p <Konferanse>/<År>/talks`, kopier `_mal/README.md` til `<Konferanse>/<År>/README.md`, og `touch <Konferanse>/<År>/talks/.gitkeep`. Ikke kopier `_mal/talks/HHMM-slug.md` inn i den nye mappen.
 
 2. **Spør om selve foredraget** (én åpen prompt):
-   `Fortell meg om foredraget – tid (HHMM), tittel, og taler(e). Kan skrives fritt, jeg tolker.`
-   Parse: første `\d{4}` er tid, split på ` — ` eller ` - ` for taler, resten er tittel. Ved usikkerhet, still én kort oppfølging.
+   `Beskriv foredraget – noen stikkord holder (tittel, taler, tid, tema … jeg matcher mot programmet).`
+   Argumenter gitt direkte til skillen (`/nytt-foredrag <beskrivelse>`) brukes som svar uten å spørre på nytt.
 
-3. **Endags eller flerdags?** Avgjør fra konferansens `README.md`: dekker datolinjen i ingressen mer enn én dag (f.eks. «2.–3. september»), er den flerdags. Ikke tell filer i `talks/` – katalogen kan være tom. Hvis flerdags, spør `AskUserQuestion`: hvilken dag (Dag 1 / Dag 2 / ...).
+3. **Match mot programmet.** Finn programlenken i konferansens `README.md` (under Kilder, f.eks. `kotlinconf.com/talks/`, `2026.javazone.no/program`). WebFetch programmet og match brukerens beskrivelse mot foredragene – fuzzy på tittel, taler og tema. Bruk match til å fylle inn eksakt tittel, taler(e) og starttid (HHMM).
+   - Én klar match: vis den kort (`Fant: <tid> <tittel> — <taler>`) og fortsett.
+   - Flere kandidater: `AskUserQuestion` med toppkandidatene.
+   - Ingen match (eller programmet er utilgjengelig): fall tilbake til manuell parsing av beskrivelsen – første `\d{4}` er tid, split på ` — ` eller ` - ` for taler, resten er tittel. Ved hull, still én kort oppfølging.
 
-4. **Attended eller interest?** `AskUserQuestion` med to valg: `attended` / `interest`.
+4. **Dag.** Avgjør endags/flerdags fra konferansens `README.md`: dekker datolinjen i ingressen mer enn én dag (f.eks. «2.–3. september»), er den flerdags. Ikke tell filer i `talks/` – katalogen kan være tom. For flerdags: bruk dagen fra program-matchen hvis den er kjent; ellers anta dagens dato hvis den faller innenfor konferansedagene (meld kort hvilken dag som ble antatt, f.eks. `Antar dag 1 (onsdag)`); ellers spør `AskUserQuestion`.
 
-5. **Notater.** Spør: `Notater? (bare lim inn, tomt hvis ingen)`. Konverter linjeskift til `- `-liste. Hopp over blokken hvis tomt eller hvis interest.
+5. **Attended eller interest?** `AskUserQuestion` med to valg: `attended` / `interest`.
 
-6. **Tags.** Spør: `Tags? (kommaseparert – eller tomt for å hoppe over)`. Wrap hver i `` ` `` og join med ` · `.
+6. **Notater.** Spør: `Notater? (bare lim inn, tomt hvis ingen)`. Konverter linjeskift til `- `-liste. Hopp over blokken hvis tomt eller hvis interest.
 
-7. **Video-status.** Spør: `Video-lenke? (tomt hvis ikke publisert)`. Hvis tomt, bruk konferansens standard-fallback (finn ved å skumme README, f.eks. `Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/)`).
+7. **Tags.** Spør: `Tags? (kommaseparert – eller tomt for å hoppe over)`. Wrap hver i `` ` `` og join med ` · `.
 
-8. **Slug + filsti.**
+8. **Video-status.** Spør: `Video-lenke? (tomt hvis ikke publisert)`. Hvis tomt, bruk konferansens standard-fallback (finn ved å skumme README, f.eks. `Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/)`).
+
+9. **Slug + filsti.**
    - Slug: lowercase, ikke-alfanumerisk → `-`, kollaps, trim, kutt til 40 tegn.
    - Filnavn: `dayN-HHMM-<slug>.md` for flerdags, `HHMM-<slug>.md` for endags.
    - Sti: `<Konferanse>/<År>/talks/<filnavn>`.
 
-9. **Skriv fil.** Bruk skjelettet fra `_mal/talks/HHMM-slug.md` (kanonisk kilde – les den, ikke gjenskap fra hukommelsen). Fyll inn tittel, metadata-linje, notater (kun attended), tags og 📹-linje. Behold placeholder-linjen `*(Sammendrag fylles inn senere – bruk /berik-foredrag når opptaket er publisert.)*` som sammendrag – den er signalet `/berik-foredrag` ser etter.
+10. **Skriv fil.** Bruk skjelettet fra `_mal/talks/HHMM-slug.md` (kanonisk kilde – les den, ikke gjenskap fra hukommelsen). Fyll inn tittel, metadata-linje, notater (kun attended), tags og 📹-linje. Behold placeholder-linjen `*(Sammendrag fylles inn senere – bruk /berik-foredrag når opptaket er publisert.)*` som sammendrag – den er signalet `/berik-foredrag` ser etter.
 
-10. **Oppdater konferanse-README.** Åpne `<Konferanse>/<År>/README.md`. Under enten `## Foredrag jeg gikk på` eller `## Foredrag jeg vil se opptak av`, i riktig dag-underseksjon, sett inn (sortert på tid):
+11. **Oppdater konferanse-README.** Åpne `<Konferanse>/<År>/README.md`. Under enten `## Foredrag jeg gikk på` eller `## Foredrag jeg vil se opptak av`, i riktig dag-underseksjon, sett inn (sortert på tid):
     `- **[<HHMM> <Tittel>](talks/<filnavn>)** — <Taler(e)>`
 
-11. **Bekreft.** Meld: `Registrert: <filnavn>`. Ikke commit – la brukeren gjøre det når de er klare.
+12. **Bekreft.** Meld: `Registrert: <filnavn>`. Ikke commit – la brukeren gjøre det når de er klare.
 
 ## Ikke gjør
 
