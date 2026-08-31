@@ -21,7 +21,7 @@ Bruk: `/ny-konferanse <url>` — URL til konferansens forside eller program. Ute
    `- **HH:MM** · <Rom> · <varighet> · <SPRÅK> — **<Tittel>** — <Taler(e)> · _<tags>_`
    Øverst i filen: kildelenke og hentedato. Lenk `program.md` fra konferansens README. Er programmet ikke publisert ennå, dropp cachen og noter det i README-en.
 
-5. **Oppdater rot-README.** Legg konferansen inn i listen under `## Konferanser` (nyeste først): `- **[<Konferanse> <År>](<Konferanse>/<År>/README.md)** — <By>, <datoer>`.
+5. **Oppdater indeksene.** Legg konferansen inn i listen under `## Konferanser` (nyeste først) i BÅDE rot-`README.md` og `index.md` (web-forsiden): `- **[<Konferanse> <År>](<Konferanse>/<År>/README.md)** — <By>, <datoer>`.
 
 6. **Bekreft.** Vis kort hva som ble laget (mappe, README, programcache med antall foredrag). Ikke commit – la brukeren gjøre det.
 
