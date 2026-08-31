@@ -6,4 +6,4 @@ Arnaud Giuliani presenterte den største endringen i Koin på åtte år: en tett
 
 **Tags:** `Koin` · `DI` · `Compiler plugin` · `Compile-time` · `Performance`
 
-**📹** [Koin + Kotlin Compiler = ♥️ | Arnaud Giuliani](https://www.youtube.com/watch?v=eBu9i2MYWWM)
+**📹** [Koin + Kotlin Compiler = ♥️ – Arnaud Giuliani](https://www.youtube.com/watch?v=eBu9i2MYWWM)

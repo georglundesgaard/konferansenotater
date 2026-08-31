@@ -6,4 +6,4 @@ Timofey Solonin viste i denne lyntalen hvordan Kotlin Multiplatform nå kan kons
 
 **Tags:** `Lyntale` · `KMP` · `iOS` · `SwiftPM` · `Kotlin/Native` · `Tooling`
 
-**📹** [SwiftPM support for Kotlin Multiplatform | Timofey Solonin](https://www.youtube.com/watch?v=GrO-bTnn_Ng)
+**📹** [SwiftPM support for Kotlin Multiplatform – Timofey Solonin](https://www.youtube.com/watch?v=GrO-bTnn_Ng)

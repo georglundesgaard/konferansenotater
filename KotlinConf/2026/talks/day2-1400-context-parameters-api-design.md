@@ -9,4 +9,4 @@ Context parameters ble stabilisert i Kotlin 2.4 og skrives foran signaturen som 
 
 **Tags:** `Kotlin 2.4` · `Context parameters` · `API-design` · `DSL` · `Språkdesign`
 
-**📹** [Context parameters and API design | Alejandro Serrano Mena](https://www.youtube.com/watch?v=O1nTwf0QPj4)
+**📹** [Context parameters and API design – Alejandro Serrano Mena](https://www.youtube.com/watch?v=O1nTwf0QPj4)

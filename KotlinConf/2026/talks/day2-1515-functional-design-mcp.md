@@ -6,4 +6,4 @@ David Denton fra http4k viste hvordan Kotlin og funksjonell design gir en langt 
 
 **Tags:** `MCP` · `http4k` · `Funksjonell` · `Backend` · `API-design` · `Extension functions`
 
-**📹** [How Kotlin Powers Functional Design: MCP Edition | David Denton](https://www.youtube.com/watch?v=Xmkl7Y3lwUk)
+**📹** [How Kotlin Powers Functional Design: MCP Edition – David Denton](https://www.youtube.com/watch?v=Xmkl7Y3lwUk)

@@ -6,4 +6,4 @@ Gleb Lukianets tar utgangspunkt i at Kotlin og Swift på overflaten virker svær
 
 **Tags:** `KMP` · `iOS` · `Swift interop` · `Swift Export` · `Språkdesign`
 
-**📹** [Can Kotlin Swift Interop Ever Be Perfect? | Gleb Lukianets](https://www.youtube.com/watch?v=XnPmdTea3VA)
+**📹** [Can Kotlin Swift Interop Ever Be Perfect? – Gleb Lukianets](https://www.youtube.com/watch?v=XnPmdTea3VA)

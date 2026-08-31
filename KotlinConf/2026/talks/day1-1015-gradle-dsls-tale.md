@@ -6,4 +6,4 @@ Paul Merlin tar oss gjennom historikken til Gradle sine build-språk, fra den dy
 
 **Tags:** `Gradle` · `Kotlin DSL` · `Build tools` · `Historikk`
 
-**📹** [A tale of the Gradle DSLs | Paul Merlin](https://www.youtube.com/watch?v=k8T9IOnXPao)
+**📹** [A tale of the Gradle DSLs – Paul Merlin](https://www.youtube.com/watch?v=k8T9IOnXPao)

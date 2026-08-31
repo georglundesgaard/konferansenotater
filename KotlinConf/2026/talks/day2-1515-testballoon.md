@@ -6,4 +6,4 @@ Oliver Okrongli og Bernd Prünster presenterte TestBalloon, et Kotlin-first test
 
 **Tags:** `Testing` · `TestBalloon` · `KMP` · `Wasm` · `DSL` · `JUnit`
 
-**📹** [TestBalloon: Kotlin testing is easier (and more fun) than you think | Oliver Okrongli, Bernd Prünster](https://www.youtube.com/watch?v=80ASd_Kt2tw)
+**📹** [TestBalloon: Kotlin testing is easier (and more fun) than you think – Oliver Okrongli, Bernd Prünster](https://www.youtube.com/watch?v=80ASd_Kt2tw)

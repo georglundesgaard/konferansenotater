@@ -9,4 +9,4 @@ Urs Peter argumenterer for at Eval-Driven Development (EDD) er den ingeniørdisi
 
 **Tags:** `AI-agenter` · `Evaluering` · `Koog` · `Metode` · `Testing`
 
-**📹** [Eval-Driven Development | Urs Peter](https://www.youtube.com/watch?v=L2bZzPXfmyE)
+**📹** [Eval-Driven Development – Urs Peter](https://www.youtube.com/watch?v=L2bZzPXfmyE)

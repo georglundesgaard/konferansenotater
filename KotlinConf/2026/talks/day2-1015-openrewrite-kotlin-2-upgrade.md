@@ -6,4 +6,4 @@ Rooz SF og Jonathan Schneider viste hvordan OpenRewrite nå har fullverdig støt
 
 **Tags:** `Tooling` · `Refaktorering` · `OpenRewrite` · `Kotlin 2` · `Migrering`
 
-**📹** [Automate upgrading to Kotlin 2 with OpenRewrite | Rooz SF, Jonathan Schneider](https://www.youtube.com/watch?v=XrPqvtWniuk)
+**📹** [Automate upgrading to Kotlin 2 with OpenRewrite – Rooz SF, Jonathan Schneider](https://www.youtube.com/watch?v=XrPqvtWniuk)

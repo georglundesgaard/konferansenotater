@@ -6,4 +6,4 @@ Sergei Rybalkin fra Meta viste hvorfor bedre AI-generert Kotlin-kode krever mer 
 
 **Tags:** `AI` · `Kodekvalitet` · `Meta` · `Skala` · `Evaluering` · `Casestudie`
 
-**📹** [Increasing quality of AI generated Kotlin code | Sergei Rybalkin](https://www.youtube.com/watch?v=rZvEuqUiPnw)
+**📹** [Increasing quality of AI generated Kotlin code – Sergei Rybalkin](https://www.youtube.com/watch?v=rZvEuqUiPnw)

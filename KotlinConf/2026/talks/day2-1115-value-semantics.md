@@ -6,4 +6,4 @@ Marat Akhin fra JetBrains sitt Kotlin Language Evolution-team argumenterer for h
 
 **Tags:** `Språkdesign` · `Value classes` · `Immutability` · `Performance` · `Data class`
 
-**📹** [How I Learned to Stop Worrying and Love Value Semantics | Marat Akhin](https://www.youtube.com/watch?v=YeQijxpnI3E)
+**📹** [How I Learned to Stop Worrying and Love Value Semantics – Marat Akhin](https://www.youtube.com/watch?v=YeQijxpnI3E)

@@ -9,4 +9,4 @@ Alexander Sysoev viste i denne lyntalen hvordan kotlinx-rpc endelig gjør gRPC t
 
 **Tags:** `Lyntale` · `gRPC` · `kotlinx-rpc` · `Backend` · `Coroutines` · `Flow`
 
-**📹** [gRPC, Made for Kotlin | Alexander Sysoev](https://www.youtube.com/watch?v=RqbTeZXgkdQ)
+**📹** [gRPC, Made for Kotlin – Alexander Sysoev](https://www.youtube.com/watch?v=RqbTeZXgkdQ)

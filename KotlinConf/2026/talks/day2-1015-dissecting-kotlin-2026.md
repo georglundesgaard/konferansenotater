@@ -6,4 +6,4 @@ Ti år etter Kotlin 1.0 tar Huyen Tue Dao publikum gjennom et knippe ferske stab
 
 **Tags:** `Kotlin 2.4` · `Context parameters` · `KEEP` · `Språkdesign` · `Dypdykk`
 
-**📹** [Dissecting Kotlin: 2026 | Huyen Tue Dao](https://www.youtube.com/watch?v=PB2YYHpEhkQ)
+**📹** [Dissecting Kotlin: 2026 – Huyen Tue Dao](https://www.youtube.com/watch?v=PB2YYHpEhkQ)

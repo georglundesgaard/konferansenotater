@@ -6,4 +6,4 @@ Suhyeon (Leah) Kim delte erfaringer fra en to-måneders sprint der teamet skulle
 
 **Tags:** `KMP` · `iOS` · `Compose Multiplatform` · `Swift interop` · `Casestudie` · `Firebase`
 
-**📹** [What Nobody Told Us About Shipping Kotlin to iOS | Suhyeon Kim](https://www.youtube.com/watch?v=nziQi2Mg1OY)
+**📹** [What Nobody Told Us About Shipping Kotlin to iOS – Suhyeon Kim](https://www.youtube.com/watch?v=nziQi2Mg1OY)

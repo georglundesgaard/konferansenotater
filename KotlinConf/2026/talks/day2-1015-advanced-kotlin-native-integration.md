@@ -6,4 +6,4 @@ Tadeas Kriz fra Touchlab tar for seg en av de mest oversette begrensningene ved 
 
 **Tags:** `KMP` · `Kotlin/Native` · `Build tools` · `Avansert` · `Touchlab`
 
-**📹** [Advanced Kotlin Native Integration | Tadeas Kriz](https://www.youtube.com/watch?v=Qk2aClaCZgY)
+**📹** [Advanced Kotlin Native Integration – Tadeas Kriz](https://www.youtube.com/watch?v=Qk2aClaCZgY)

@@ -6,4 +6,4 @@ Ben Kadel tar oss med på en Tolkien-inspirert reise gjennom Kotlins collection-
 
 **Tags:** `Collections` · `Funksjonell` · `Standardbibliotek` · `Underholdning`
 
-**📹** [The Lord of Collection Functions | Ben Kadel](https://www.youtube.com/watch?v=iRum03U1oZo)
+**📹** [The Lord of Collection Functions – Ben Kadel](https://www.youtube.com/watch?v=iRum03U1oZo)

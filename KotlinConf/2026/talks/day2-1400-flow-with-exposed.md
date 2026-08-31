@@ -6,4 +6,4 @@ Chantal Loncle bruker en zero-player automaton-simulering som gjennomgående dem
 
 **Tags:** `Exposed` · `Database` · `Flow` · `Coroutines` · `DataFrame` · `Kandy`
 
-**📹** [Flow with Exposed: Life Finds a Way | Chantal Loncle](https://www.youtube.com/watch?v=Uoe7ClRkbGI)
+**📹** [Flow with Exposed: Life Finds a Way – Chantal Loncle](https://www.youtube.com/watch?v=Uoe7ClRkbGI)

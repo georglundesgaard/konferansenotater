@@ -6,4 +6,4 @@ Joffrey Bion oppsummerer et travelt år for Amper, som ved KotlinConf 2026 ble o
 
 **Tags:** `Amper` · `Kotlin Toolchain` · `Build tools` · `JetBrains` · `Tooling`
 
-**📹** [The State of Amper | Joffrey Bion](https://www.youtube.com/watch?v=S19BE4Xvyrs)
+**📹** [The State of Amper – Joffrey Bion](https://www.youtube.com/watch?v=S19BE4Xvyrs)

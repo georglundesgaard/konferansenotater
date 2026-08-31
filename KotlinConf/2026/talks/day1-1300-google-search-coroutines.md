@@ -10,4 +10,4 @@ Sam Berlin og Alessio Della Motta fra Google Search Infra viser hvordan google.c
 
 **Tags:** `Coroutines` · `Google` · `Qflow` · `Structured concurrency` · `Skala` · `Casestudie` · `Observability`
 
-**📹** [How google.com/search builds on Kotlin coroutines... | Sam Berlin, Alessio Della Motta](https://www.youtube.com/watch?v=6D1yV5o4CWo)
+**📹** [How google.com/search builds on Kotlin coroutines... – Sam Berlin, Alessio Della Motta](https://www.youtube.com/watch?v=6D1yV5o4CWo)

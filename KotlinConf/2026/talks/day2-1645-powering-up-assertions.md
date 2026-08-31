@@ -6,4 +6,4 @@ Brian Norman viser hvordan Power-Assert i Kotlin 2.4 tar et solid steg framover,
 
 **Tags:** `Testing` · `Power-Assert` · `Kotlin 2.4` · `Compiler plugin` · `Diagnostics`
 
-**📹** [Powering Up Your Assertions | Brian Norman](https://www.youtube.com/watch?v=KhT1jYMpkRU)
+**📹** [Powering Up Your Assertions – Brian Norman](https://www.youtube.com/watch?v=KhT1jYMpkRU)

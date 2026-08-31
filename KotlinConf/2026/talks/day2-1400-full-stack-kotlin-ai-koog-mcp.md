@@ -6,4 +6,4 @@ John O'Reilly viser hvordan Koog kan brukes som den intelligente kjernen i en Co
 
 **Tags:** `Koog` · `MCP` · `Compose Multiplatform` · `Full-stack` · `AI-agenter` · `On-device`
 
-**📹** [Full-Stack Kotlin AI: Powering Compose Multiplatform apps with Koog & MCP | John O'Reilly](https://www.youtube.com/watch?v=0ttH-wnawtA)
+**📹** [Full-Stack Kotlin AI: Powering Compose Multiplatform apps with Koog & MCP – John O'Reilly](https://www.youtube.com/watch?v=0ttH-wnawtA)

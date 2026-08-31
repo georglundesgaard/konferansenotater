@@ -9,4 +9,4 @@ I denne lyntalen viste Stanislav Sandler frem KotlinLLM, et forskningsprototyp f
 
 **Tags:** `Lyntale` · `KotlinLLM` · `Tracy` · `Runtime delegation` · `LLM`
 
-**📹** [KotlinLLM: Leveraging AI for Runtime Logic Delegation | Stanislav Sandler](https://www.youtube.com/watch?v=tmPZajBUsKg)
+**📹** [KotlinLLM: Leveraging AI for Runtime Logic Delegation – Stanislav Sandler](https://www.youtube.com/watch?v=tmPZajBUsKg)

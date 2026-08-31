@@ -63,7 +63,7 @@ Går gjennom talk-filer som mangler et ordentlig sammendrag, henter opptaket der
    - Erstatt placeholder-linjen (`*(Sammendrag fylles inn senere...*`) eller sett paragraf rett under metadata-linjen (en tom linje mellom).
    - La `**Notater fra konferansen:**`-blokken stå urørt.
    - Oppdater `**Tags:**`-linjen hvis agenten returnerte forbedrede tags (unngå duplikater).
-   - Hvis `**📹**`-linjen fortsatt sier "ikke publisert", erstatt statusdelen etter `**📹**`-prefikset slik at linjen blir `**📹** [<Tittel> | <Taler>](<url>)`. Prefikset `**📹**` skal alltid beholdes – steg 2 og 3 er avhengige av det ved senere kjøringer.
+   - Hvis `**📹**`-linjen fortsatt sier "ikke publisert", erstatt statusdelen etter `**📹**`-prefikset slik at linjen blir `**📹** [<Tittel> – <Taler>](<url>)`. Bruk aldri `|` i lenketeksten – kramdown på GitHub Pages tolker det som en tabell og knekker siden. Prefikset `**📹**` skal alltid beholdes – steg 2 og 3 er avhengige av det ved senere kjøringer.
 
 6. **Bekreft.** Meld: `Beriket X av Y foredrag. Y-X gjenstår (ingen video funnet).` List de som ble hoppet over. Ikke commit.
 

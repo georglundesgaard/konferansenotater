@@ -6,4 +6,4 @@ Adele Carpenter viser hvordan hun analyserer et powerlifting-datasett på over 3
 
 **Tags:** `Data Science` · `Kotlin Notebook` · `DataFrame` · `Kandy` · `Postgres`
 
-**📹** [Real-World Data Science With Kotlin Notebook | Adele Carpenter](https://www.youtube.com/watch?v=1sp05VqRVDA)
+**📹** [Real-World Data Science With Kotlin Notebook – Adele Carpenter](https://www.youtube.com/watch?v=1sp05VqRVDA)

@@ -6,4 +6,4 @@ Hammad Akram viste hvordan små språkmodeller (SLM-er) kan kjøre direkte på A
 
 **Tags:** `AI` · `LLM` · `On-device` · `Llama Stack` · `Android`
 
-**📹** [Tiny Models, Big Impact | Hammad Akram](https://www.youtube.com/watch?v=Rqj4QCdwBMc)
+**📹** [Tiny Models, Big Impact – Hammad Akram](https://www.youtube.com/watch?v=Rqj4QCdwBMc)

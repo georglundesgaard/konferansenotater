@@ -9,4 +9,4 @@ Vadim Briliantov peker på hvorfor de fleste AI-agenter aldri når produksjon: d
 
 **Tags:** `Koog` · `AI-agenter` · `Enterprise` · `Observability` · `LLM`
 
-**📹** [Why Most AI Agents Never Scale? | Vadim Briliantov](https://www.youtube.com/watch?v=9XL0r5lJNDs)
+**📹** [Why Most AI Agents Never Scale? – Vadim Briliantov](https://www.youtube.com/watch?v=9XL0r5lJNDs)

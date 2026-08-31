@@ -6,4 +6,4 @@ Jeffrey van Gogh, «språkgeek» hos Google, argumenterte i denne lyntalen for a
 
 **Tags:** `Lyntale` · `JVM` · `Compiler plugin` · `Compile-time` · `Språkdesign`
 
-**📹** [Reflection is Evil | Jeffrey van Gogh](https://www.youtube.com/watch?v=bxpmPZOWJOQ)
+**📹** [Reflection is Evil – Jeffrey van Gogh](https://www.youtube.com/watch?v=bxpmPZOWJOQ)

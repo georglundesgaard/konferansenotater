@@ -6,4 +6,4 @@ Marcin Mycek ga en tidlig demo av Kotlin Ecosystem Plugin – en eksperimentell 
 
 **Tags:** `Gradle` · `Build tools` · `Declarative` · `KMP` · `Tooling`
 
-**📹** [A First Look at the Kotlin Ecosystem Plugin for Declarative Gradle | Marcin Mycek](https://www.youtube.com/watch?v=25Ngfn9Bhqc)
+**📹** [A First Look at the Kotlin Ecosystem Plugin for Declarative Gradle – Marcin Mycek](https://www.youtube.com/watch?v=25Ngfn9Bhqc)

@@ -6,4 +6,4 @@ Dan Kim viser i praksis hvordan Kotlin/Wasm endelig lar deg bygge en komplett fu
 
 **Tags:** `Kotlin/Wasm` · `Full-stack` · `Compose` · `Ktor` · `Exposed`
 
-**📹** [Kotlin/Wasm: Finally, the missing piece | Dan Kim](https://www.youtube.com/watch?v=JThr4fn9OOw)
+**📹** [Kotlin/Wasm: Finally, the missing piece – Dan Kim](https://www.youtube.com/watch?v=JThr4fn9OOw)

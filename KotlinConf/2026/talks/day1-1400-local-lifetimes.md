@@ -9,4 +9,4 @@ Ross Tate presenterte et forslag om «local lifetimes» i Kotlin — et typesyst
 
 **Tags:** `Språkdesign` · `Type system` · `Forslag` · `Escape analysis` · `Effects` · `Compiler`
 
-**📹** [Local Lifetimes for Kotlin | Ross Tate](https://www.youtube.com/watch?v=6ALhoqxYrV0)
+**📹** [Local Lifetimes for Kotlin – Ross Tate](https://www.youtube.com/watch?v=6ALhoqxYrV0)

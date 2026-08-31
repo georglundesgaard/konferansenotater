@@ -6,4 +6,4 @@ I denne lyntalen tar Marc Reichelt utfordringen med å kjøre den samme lille `i
 
 **Tags:** `Lyntale` · `JVM` · `Kotlin/Native` · `Kotlin/Wasm` · `KMP`
 
-**📹** [Run, Kotlin, Run! | Marc Reichelt](https://www.youtube.com/watch?v=-w97euRLTBA)
+**📹** [Run, Kotlin, Run! – Marc Reichelt](https://www.youtube.com/watch?v=-w97euRLTBA)

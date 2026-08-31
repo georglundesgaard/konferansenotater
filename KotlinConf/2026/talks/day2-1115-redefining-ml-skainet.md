@@ -6,4 +6,4 @@ Michal Harakal presenterte SKaiNET, et Kotlin-basert rammeverk som gjør maskinl
 
 **Tags:** `AI` · `ML` · `KMP` · `On-device` · `SKaiNET` · `Personvern`
 
-**📹** [Redefining Machine Learning with Kotlin | Michal Harakal](https://www.youtube.com/watch?v=uTmCE0SlvSM)
+**📹** [Redefining Machine Learning with Kotlin – Michal Harakal](https://www.youtube.com/watch?v=uTmCE0SlvSM)

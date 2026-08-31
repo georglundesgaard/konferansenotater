@@ -6,4 +6,4 @@ Salomon Brys strukturerte lyntalen rundt to konkrete sideprosjekter som viser at
 
 **Tags:** `Lyntale` · `Compose Multiplatform` · `Kreativt` · `PDF` · `Print`
 
-**📹** [Compose beyond UI: Display and Print! | Salomon Brys](https://www.youtube.com/watch?v=gi3R122UpgM)
+**📹** [Compose beyond UI: Display and Print! – Salomon Brys](https://www.youtube.com/watch?v=gi3R122UpgM)

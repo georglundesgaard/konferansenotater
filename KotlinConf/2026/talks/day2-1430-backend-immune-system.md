@@ -6,4 +6,4 @@ Meike Felicia Hammer presenterte et Kotlin-native motstandsmønster hun kaller �
 
 **Tags:** `Backend` · `Ktor` · `Resilience` · `Observability` · `Feilhåndtering` · `Rich errors`
 
-**📹** [The Backend Immune System | Meike Felicia Hammer](https://www.youtube.com/watch?v=oPKxwwppnuA)
+**📹** [The Backend Immune System – Meike Felicia Hammer](https://www.youtube.com/watch?v=oPKxwwppnuA)

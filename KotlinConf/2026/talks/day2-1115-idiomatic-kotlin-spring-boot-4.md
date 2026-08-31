@@ -9,4 +9,4 @@ Sébastien Deleuze viser hvordan Spring Boot 4 gjør backend-utvikling i Kotlin 
 
 **Tags:** `Spring Boot` · `Backend` · `Null-safety` · `Coroutines` · `Virtual threads` · `JSpecify`
 
-**📹** [Idiomatic Kotlin applications with Spring Boot 4 | Sébastien Deleuze](https://www.youtube.com/watch?v=TxmBk_VhuqY)
+**📹** [Idiomatic Kotlin applications with Spring Boot 4 – Sébastien Deleuze](https://www.youtube.com/watch?v=TxmBk_VhuqY)

@@ -6,4 +6,4 @@ Gabriele Pappalardo (JetBrains) fortalte om den eksperimentelle reisen med å f�
 
 **Tags:** `Kotlin/Native` · `iOS` · `Compose` · `Hot reload` · `LLVM` · `Compiler`
 
-**📹** [Hot-Reloading Kotlin/Native | Gabriele Pappalardo](https://www.youtube.com/watch?v=hXDw2cOxnpo)
+**📹** [Hot-Reloading Kotlin/Native – Gabriele Pappalardo](https://www.youtube.com/watch?v=hXDw2cOxnpo)

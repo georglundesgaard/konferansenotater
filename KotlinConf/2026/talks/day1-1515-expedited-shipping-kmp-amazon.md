@@ -6,4 +6,4 @@ Jessalyn Wang forteller hvordan Amazon Delivery bruker Kotlin Multiplatform for 
 
 **Tags:** `KMP` · `iOS` · `SwiftUI` · `Skala` · `Casestudie` · `Amazon`
 
-**📹** [Expedited Shipping: Accelerating iOS Development with KMP at Amazon | Jessalyn Wang](https://www.youtube.com/watch?v=DKE_aNl-2HU)
+**📹** [Expedited Shipping: Accelerating iOS Development with KMP at Amazon – Jessalyn Wang](https://www.youtube.com/watch?v=DKE_aNl-2HU)

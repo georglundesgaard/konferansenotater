@@ -10,4 +10,4 @@ Josh Long leverte en klassisk live-kodet gjennomgang der han bygde en Spring Boo
 
 **Tags:** `Spring Boot` · `Live coding` · `AI-agenter` · `MCP` · `Backend`
 
-**📹** [Bootiful Kotlin | Josh Long](https://www.youtube.com/watch?v=_UJs3fkPAr8)
+**📹** [Bootiful Kotlin – Josh Long](https://www.youtube.com/watch?v=_UJs3fkPAr8)

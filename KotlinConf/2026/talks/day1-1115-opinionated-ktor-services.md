@@ -9,4 +9,4 @@ Simon Vergauwen tar utgangspunkt i at Ktor bevisst er et lite meningssterkt ramm
 
 **Tags:** `Ktor` · `Backend` · `Arkitektur` · `Arrow` · `Feilhåndtering` · `DDD`
 
-**📹** [Opinionated Ktor Services | Simon Vergauwen](https://www.youtube.com/watch?v=JOZFZ__3M7Q)
+**📹** [Opinionated Ktor Services – Simon Vergauwen](https://www.youtube.com/watch?v=JOZFZ__3M7Q)

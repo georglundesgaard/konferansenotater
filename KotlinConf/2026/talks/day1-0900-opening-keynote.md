@@ -6,4 +6,4 @@
 
 **Tags:** `Keynote` · `Kotlin 2.4` · `AI-agenter` · `KMP` · `Compose` · `Tooling` · `Koog` · `ACP` · `Kotlin Toolchain`
 
-**📹** [Keynote | KotlinConf '26](https://www.youtube.com/watch?v=MmwBJbzWbV0)
+**📹** [Keynote – KotlinConf '26](https://www.youtube.com/watch?v=MmwBJbzWbV0)

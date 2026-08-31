@@ -9,4 +9,4 @@ Jake Wharton tar oss med på et dypdykk i hvordan CLI-programmer faktisk snakker
 
 **Tags:** `TUI` · `CLI` · `Mosaic` · `Compose` · `KMP` · `Dypdykk`
 
-**📹** [Talking to terminals (and how they talk back) | Jake Wharton](https://www.youtube.com/watch?v=QYlzKV0Oe1A)
+**📹** [Talking to terminals (and how they talk back) – Jake Wharton](https://www.youtube.com/watch?v=QYlzKV0Oe1A)
