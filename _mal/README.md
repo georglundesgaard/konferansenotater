@@ -2,7 +2,11 @@
 
 **<Sted>, <dato>.** Kort ingress: hva slags konferanse, format, spor, og hvor opptakene ender opp.
 
+> **Om videoene:** <Status – hvor og når opptakene publiseres, og hvordan de lenkes inn.>
+
 Én fil per foredrag under [`talks/`](talks/). Klikk deg inn på titlene under.
+
+Filnavn: `<HHMM>-<slug>.md` for endagskonferanser, `day<N>-<HHMM>-<slug>.md` for flerdagskonferanser.
 
 ---
 
@@ -33,6 +37,14 @@ Hvis du bare skal se noen få opptak, dette er mine anbefalinger fra foredragene
 
 - **[<HHMM> <Tittel>](talks/<HHMM>-<slug>.md)** — <Taler(e)>
 - ...
+
+---
+
+## Livestream / hovedsal
+
+*(Valgfri seksjon – lenker til livestream-opptak som dekker flere sesjoner, f.eks. keynotes.)*
+
+- **<Dag>:** [<Tittel>](<url>)
 
 ---
 

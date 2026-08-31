@@ -2,7 +2,7 @@
 
 *[← <Konferanse> <ÅÅÅÅ>](../README.md) · <Dag / dato> · kl <HH:MM> · <Taler(e)>*
 
-Sammendrag (1–7 setninger, én paragraf) fra det offisielle programmet eller basert på opptaket.
+*(Sammendrag fylles inn senere – bruk `/berik-foredrag` når opptaket er publisert.)*
 
 **Notater fra konferansen:**       (kun for foredrag jeg var på)
 - Punkt 1

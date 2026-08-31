@@ -1,6 +1,6 @@
 # KotlinConf 2026
 
-**München, 21.–22. mai 2026.** JetBrains sin årlige Kotlin-konferanse. To dager, seks parallelle spor, ca. 74 foredrag. Videoene ble publisert på [Kotlin sin offisielle YouTube-kanal](https://www.youtube.com/@Kotlin) i juli–august 2026 og er også lenket fra [kotlinconf.com/talks/](https://kotlinconf.com/talks/).
+**München, 21.–22. mai 2026.** JetBrains sin årlige Kotlin-konferanse. To dager, seks parallelle spor, ca. 74 foredrag. De fleste videoene ble publisert på [Kotlin sin offisielle YouTube-kanal](https://www.youtube.com/@Kotlin) i juli–august 2026 og er også lenket fra [kotlinconf.com/talks/](https://kotlinconf.com/talks/) – sju sesjoner mangler fortsatt individuelle opptak (markert i talk-filene), jeg lenker dem inn etterhvert.
 
 Én fil per foredrag under [`talks/`](talks/). Klikk deg inn på titlene under.
 
@@ -20,7 +20,7 @@ Hvis du bare skal se noen få opptak, dette er mine anbefalinger fra foredragene
 
 ## Foredrag jeg gikk på
 
-### Dag 1 — 21. mai 2026
+### Dag 1 — 21. mai 2026 ([offisielt program](https://kotlinconf.com/schedule/?day=2026-05-21))
 
 - **[0900 Opening Keynote](talks/day1-0900-opening-keynote.md)** — JetBrains, Google, Anthropic
 - **[1015 Bootiful Kotlin](talks/day1-1015-bootiful-kotlin.md)** — Josh Long
@@ -31,7 +31,7 @@ Hvis du bare skal se noen få opptak, dette er mine anbefalinger fra foredragene
 - **[1615 Talking to terminals (and how they talk back)](talks/day1-1615-talking-to-terminals.md)** — Jake Wharton
 - **[1715 Robocoders: The [K]agematch](talks/day1-1715-robocoders-kagematch.md)** — Viktor Gamov, Baruch Sadogursky
 
-### Dag 2 — 22. mai 2026
+### Dag 2 — 22. mai 2026 ([offisielt program](https://kotlinconf.com/schedule/?day=2026-05-22))
 
 - **[0900 We were meant to be](talks/day2-0900-we-were-meant-to-be.md)** *(Day 2 Keynote)* — Lena Reinhard
 - **[1015 Dissecting Kotlin: 2026](talks/day2-1015-dissecting-kotlin-2026.md)** — Huyen Tue Dao
@@ -108,6 +108,7 @@ Foredrag jeg gikk glipp av (parallelle spor / kollisjoner), sortert etter tid.
 - [KotlinConf 2026: Talks to Help You Navigate the Schedule](https://blog.jetbrains.com/kotlin/2026/03/kotlinconf-2026-talks-schedule/)
 - [Eval-driven development: Build and evaluate reliable AI agents](https://developers.redhat.com/articles/2026/03/23/eval-driven-development-build-evaluate-ai-agents)
 - [Context parameters – Kotlin Documentation](https://kotlinlang.org/docs/context-parameters.html)
+- [Update on Context Parameters](https://blog.jetbrains.com/kotlin/2025/04/update-on-context-parameters/)
 - [Introducing Tracy: The AI Observability Library for Kotlin](https://blog.jetbrains.com/kotlin/2026/03/introducing-tracy-the-ai-observability-library-for-kotlin/)
 - [Golden Kodee Community Awards](https://kotlinconf.com/awards/)
 - [Kotlin DSLs in 2026: Patterns That Stood the Test of Time](https://jonnyzzz.com/blog/2026/01/19/kotlin-dsl-2026/)

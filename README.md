@@ -27,23 +27,9 @@ konferansenotater/
 
 ## Format for et foredrag
 
-Hver talk-fil følger samme skjelett:
+Skjelettet for en talk-fil er definert i [`_mal/talks/HHMM-slug.md`](_mal/talks/HHMM-slug.md) – det er den kanoniske kilden. Kort oppsummert: tittel, metadata-linje med tilbakelenke, sammendrag (1–7 setninger, én paragraf – eller en placeholder til `/berik-foredrag` kjøres), eventuelle egne notater, tags, og en `**📹**`-linje med video-lenke eller status.
 
-```markdown
-# {Tittel}
-
-*[← {Konferanse} {år}](../README.md) · Dag {N}, {dato} · kl {tid} · {Taler(e)}*
-
-Sammendrag (1–7 setninger, én paragraf).
-
-**Notater fra konferansen:**       (kun for foredrag jeg var på)
-- Punkt 1
-- Punkt 2
-
-**Tags:** `tag1` · `tag2` · `tag3`
-
-**📹** Video-lenke eller status.
-```
+Metadata-linjen bruker `Dag {N}, {dato}` for flerdagskonferanser og bare `{dato}` for endagskonferanser. Filnavn: `HHMM-slug.md` (endags) eller `dayN-HHMM-slug.md` (flerdags).
 
 ## Tag-vokabular
 
@@ -55,13 +41,18 @@ Holdes konsistent på tvers av konferanser:
 
 Listen er ikke uttømmende — legg til nye tags etter behov.
 
-## Bruke malen
+## Ny konferanse
 
-Kopier malen og bytt ut plassholderne:
+Enkleste vei: kjør `/nytt-foredrag` og velg «Ny konferanse» — skillen setter opp mappen riktig.
+
+Manuelt:
 
 ```sh
-cp -R _mal/. "<Konferanse>/<ÅÅÅÅ>/"
-# Fyll ut README.md og legg én fil per foredrag under talks/.
+mkdir -p "<Konferanse>/<ÅÅÅÅ>/talks"
+cp _mal/README.md "<Konferanse>/<ÅÅÅÅ>/README.md"
+touch "<Konferanse>/<ÅÅÅÅ>/talks/.gitkeep"
+# Fyll ut README.md. Talk-filer opprettes fra _mal/talks/HHMM-slug.md
+# (én kopi per foredrag – ikke kopier selve malfilen inn i talks/).
 ```
 
 Plassholdere i malen er på formen `<Konferanse>`, `<ÅÅÅÅ>`, `<HHMM>` og `<slug>` — enkle å finne med søk og erstatt.

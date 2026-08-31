@@ -7,5 +7,3 @@ Avsluttende paneldebatt med ettermiddagens foredragsholdere. Oppsummering av dag
 **Tags:** `Panel` · `Diskusjon` · `Avslutning`
 
 **📹** Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/).
-
----

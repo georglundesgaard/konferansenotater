@@ -10,5 +10,3 @@ Arhipov presenterte «spec-driven development» som en strukturert måte å jobb
 **Tags:** `AI` · `AI-agenter` · `Metode` · `Workflow`
 
 **📹** Individuell video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin). Lysbilder: [Speaker Deck](https://speakerdeck.com/antonarhipov/spec-driven-development-with-ai-agents-from-high-level-requirements-to-working-software-e397ad2e-3484-4bfa-a80b-6c47c593ed11).
-
----
