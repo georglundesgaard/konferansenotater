@@ -1,0 +1,8 @@
+title: Konferansenotater
+description: Personlige notater fra konferanser – sammendrag, observasjoner og lenker til opptak
+lang: nb
+theme: jekyll-theme-minimal
+
+# jekyll-readme-index, jekyll-relative-links, jekyll-optional-front-matter og
+# jekyll-titles-from-headings er aktivert som standard på GitHub Pages.
+# _mal/ (understrek-prefiks) og .claude/ ekskluderes automatisk fra siden.
