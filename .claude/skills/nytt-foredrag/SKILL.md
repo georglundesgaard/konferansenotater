@@ -16,7 +16,7 @@ Interviews the user for a single talk, then writes the file and updates the conf
 
 1. **Finn konferansen.**
    - Hvis `pwd` er inne i `<Konferanse>/<År>/`, bruk den. Meld: `Konferanse: <navn> <år>`.
-   - Ellers: bruk `AskUserQuestion` med eksisterende `<Konferanse>/<År>/`-mapper som valg, pluss "Ny konferanse". Ved "Ny konferanse": spør om navn og år, og opprett `mkdir -p <Konferanse>/<År>/talks`, kopier `_mal/README.md` til `<Konferanse>/<År>/README.md`, og `touch <Konferanse>/<År>/talks/.gitkeep`. Ikke kopier `_mal/talks/HHMM-slug.md` inn i den nye mappen.
+   - Ellers: bruk `AskUserQuestion` med eksisterende `<Konferanse>/<År>/`-mapper som valg, pluss "Ny konferanse". Ved "Ny konferanse": kjør `/ny-konferanse`-skillen (den setter opp mappen, README og programcache), og fortsett deretter her.
 
 2. **Spør om selve foredraget** (én åpen prompt):
    `Beskriv foredraget – noen stikkord holder (tittel, taler, tid, tema … jeg matcher mot programmet).`

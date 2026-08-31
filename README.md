@@ -31,13 +31,14 @@ konferansenotater/
 
 Repoet har prosjekt-skills i `.claude/skills/` som automatiserer arbeidsflyten (kjøres som `/kommando` i Claude Code):
 
+- **`/ny-konferanse <url>`** — sett opp en ny konferanse fra forside- eller program-URL: scaffold, README-ingress med sted/datoer/kilder, og lokal programcache i `program.md`.
 - **`/nytt-foredrag`** — registrer et foredrag under/etter konferansen. Ta med en fri beskrivelse (`/nytt-foredrag gunnar morling parquet`); skillen matcher mot programmet (lokal `program.md` først, ellers nettsiden), antar dagens dato, og looper til du er ferdig.
 - **`/planlegg-dagen`** — kvelden før / på morgenen: velg foredrag per tidsluke og få en personlig timeplan i `plan-dagN.md`. Kollisjoner kan registreres rett i ønskelisten.
 - **`/berik-foredrag`** — etter konferansen, når opptakene er ute: fyller inn sammendrag i talk-filer basert på videoene, og foreslår Topp 5 til README-en.
 - **`/video-sjekk`** — sjekker om utestående opptak har blitt publisert og lenker dem inn. Egner seg som ukentlig rutine via `/schedule`.
 - **`/konferanse-stats`** — nøkkeltall på tvers av konferansene: antall foredrag, attended vs. interest, videodekning, tag-fordeling.
 
-Typisk livssyklus: `/planlegg-dagen` → `/nytt-foredrag` (under konferansen) → `/video-sjekk` (ukene etter) → `/berik-foredrag` → Topp 5.
+Typisk livssyklus: `/ny-konferanse` → `/planlegg-dagen` → `/nytt-foredrag` (under konferansen) → `/video-sjekk` (ukene etter) → `/berik-foredrag` → Topp 5.
 
 ## Format for et foredrag
 
@@ -57,7 +58,7 @@ Listen er ikke uttømmende — legg til nye tags etter behov.
 
 ## Ny konferanse
 
-Enkleste vei: kjør `/nytt-foredrag` og velg «Ny konferanse» — skillen setter opp mappen riktig.
+Enkleste vei: `/ny-konferanse <url til konferansen eller programmet>` — setter opp mappen, fyller README-en med fakta fra nettsiden og cacher programmet lokalt. (`/nytt-foredrag` sitt «Ny konferanse»-valg gjør det samme.)
 
 Manuelt:
 
