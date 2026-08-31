@@ -1,39 +1,39 @@
 # Konferansenotater
 
-Personlige notater fra konferanser jeg har vært på – sammendrag av foredrag, egne observasjoner, tags og lenker til opptak når de blir publisert. Skrevet på norsk.
+Personlige notater fra konferanser jeg har vært på – sammendrag av foredrag, egne observasjoner, tags og lenker til opptak. Skrevet på norsk.
 
 ## Konferanser
 
-- **[KotlinConf 2026](KotlinConf/2026/)** – München, 21.–22. mai 2026
-- **[SmidigDig 2026](SmidigDig/2026/)** – Oslo, 27. mai 2026
+- **[KotlinConf 2026](KotlinConf/2026/README.md)** — München, 21.–22. mai 2026
+- **[SmidigDig 2026](SmidigDig/2026/README.md)** — Oslo, 27. mai 2026
+
+Hver konferanse har sin egen README med Topp 5-anbefalinger, deltakelsesliste og ønskeliste. Klikk deg videre inn til én fil per foredrag.
 
 ## Mappestruktur
 
 ```
 konferansenotater/
-├── _mal/                      # Maler for nye konferanser
-├── <Konferanse>/
-│   └── <ÅÅÅÅ>/
-│       ├── <Konferanse> <ÅÅÅÅ>.md                       # Hovedsammendrag
-│       ├── <Konferanse> <ÅÅÅÅ> - talks attended.md      # Liste over foredrag jeg gikk på
-│       └── <Konferanse> <ÅÅÅÅ> - talks interest.md      # Foredrag jeg vil se opptak av
-└── README.md
+├── _mal/                          # Maler for nye konferanser
+│   ├── README.md                  #   – konferanse-README
+│   └── talks/HHMM-slug.md         #   – én talk-fil
+├── <Konferanse>/<ÅÅÅÅ>/
+│   ├── README.md                  # Konferanse-oversikt: Topp 5, deltakelse, ønskeliste, kilder
+│   └── talks/
+│       ├── day1-HHMM-slug.md      # Ett foredrag per fil (flerdags-konferanse)
+│       └── HHMM-slug.md           # Ett foredrag per fil (endags-konferanse)
+└── README.md                      # Denne filen
 ```
 
-Hver konferanse får sin egen mappe, med en undermappe per år.
+## Format for et foredrag
 
-## Filtypene
-
-**`<Konferanse> <ÅÅÅÅ> - talks attended.md`** – kort, råtekstaktig liste over foredragene jeg deltok på, med kjappe stikkord under hvert. Brukes som arbeidsfil under konferansen.
-
-**`<Konferanse> <ÅÅÅÅ> - talks interest.md`** – foredrag som ble droppet på grunn av parallelle spor eller andre kollisjoner, og som jeg vil se på opptak senere.
-
-**`<Konferanse> <ÅÅÅÅ>.md`** – hovedsammendraget. Hvert foredrag har sin egen `###`-blokk:
+Hver talk-fil følger samme skjelett:
 
 ```markdown
-### HHMM Tittel — Presenter(s)
+# {Tittel}
 
-Sammendrag (1–3 setninger fra det offisielle programmet).
+*[← {Konferanse} {år}](../README.md) · Dag {N}, {dato} · kl {tid} · {Taler(e)}*
+
+Sammendrag (1–7 setninger, én paragraf).
 
 **Notater fra konferansen:**       (kun for foredrag jeg var på)
 - Punkt 1
@@ -46,21 +46,21 @@ Sammendrag (1–3 setninger fra det offisielle programmet).
 
 ## Tag-vokabular
 
-For å holde det konsistent på tvers av konferanser brukes følgende vokabular:
+Holdes konsistent på tvers av konferanser:
 
-- **Format:** `Keynote` · `Lyntale` · `Live demo` · `Casestudie` · `Underholdning`
-- **Tema:** `AI` · `LLM` · `AI-agenter` · `Backend` · `Frontend` · `Web` · `Mobil` · `Performance` · `Testing` · `Tooling` · `Build tools` · `Språkdesign` · `Database` · `Observability` · `API-design` · `Arkitektur` · `Skala`
-- **Tek:** `Kotlin 2.4` · `Compose` · `KMP` · `Ktor` · `Spring Boot` · `Coroutines` · `Kotlin/Wasm` · `Kotlin/Native` · `iOS` · `Android` · `JVM`
+- **Format:** `Keynote` · `Lyntale` · `Live demo` · `Live coding` · `Casestudie` · `Underholdning` · `Panel`
+- **Tema:** `AI` · `LLM` · `AI-agenter` · `Backend` · `Frontend` · `Web` · `Mobil` · `Performance` · `Testing` · `Tooling` · `Build tools` · `Språkdesign` · `Database` · `Observability` · `API-design` · `Arkitektur` · `Skala` · `Feilhåndtering` · `Karriere`
+- **Tek:** `Kotlin 2.4` · `Compose` · `Compose Multiplatform` · `KMP` · `Ktor` · `Spring Boot` · `Coroutines` · `Kotlin/Wasm` · `Kotlin/Native` · `iOS` · `Android` · `JVM` · `Koog` · `MCP`
 
-Listen er ikke uttømmende – legg til nye tags etter behov.
+Listen er ikke uttømmende — legg til nye tags etter behov.
 
 ## Bruke malen
 
 Kopier malen og bytt ut plassholderne:
 
 ```sh
-cp -r _mal/. "<Konferanse>/<ÅÅÅÅ>/"
-# rename filer og rediger innhold
+cp -R _mal/. "<Konferanse>/<ÅÅÅÅ>/"
+# Fyll ut README.md og legg én fil per foredrag under talks/.
 ```
 
-Plassholdere i malen er på formen `<Konferanse>`, `<ÅÅÅÅ>` og `<HHMM>` – enkle å finne med søk og erstatt.
+Plassholdere i malen er på formen `<Konferanse>`, `<ÅÅÅÅ>`, `<HHMM>` og `<slug>` — enkle å finne med søk og erstatt.
