@@ -15,7 +15,7 @@ Sjekker om det offisielle konferanseprogrammet har endret seg siden `program.md`
 
 3. **Diff mot cachen.** Sammenlign per foredrag (tid + rom som nøkkel): nye foredrag, fjernede, flyttede (endret tid/rom), endret tittel/taler.
 
-4. **Oppdater `program.md`.** Behold formatet: dag-lenker øverst («Hopp til»), én `## Dag N`-seksjon per dag med tidspunktlenker, og én `### HH:MM {#dN-hhmm}`-tidsluke per hovedslot med en HTML-tabell (`<table class="program-table">`, kolonner Foredrag / Taler(e) / Notater; enkeltsporede konferanser har én tabell med Tid-kolonne i tillegg). Radformat:
+4. **Oppdater `program.md`.** Behold formatet: dag-lenker øverst («Hopp til»), én `<h2 id="dag-N">Dag N — <ukedag> <dato></h2>`-seksjon per dag med tidspunktlenker, og én `<h3 id="dN-hhmm">HH:MM</h3>`-tidsluke per hovedslot med en HTML-tabell (`<table class="program-table">`, kolonner Foredrag / Taler(e) / Notater; enkeltsporede konferanser har én tabell med Tid-kolonne i tillegg). Headingene er rå HTML med id, ikke kramdown `{#...}` – ankrene må virke både på GitHub Pages og github.com. Radformat:
    - `<tr class="attended">` (✅-badge) for foredrag i README-ens «gikk på»-liste, `<tr class="wishlist">` (👀) for ønskelisten, umerket ellers.
    - Foredragscellen: `✅/👀 <strong><a href="<offisiell-url>">Tittel</a></strong>` etterfulgt av `<details><summary>om foredraget</summary>` med kort oppsummering (fra notatsiden) og en `<p class="meta">`-linje med tidsintervall/rom/lengde/språk og tags.
    - Notater-cellen: én-setnings oppsummering + `<a class="notes-link" href="talks/<fil>.html">📝 notater</a>` (merk `.html` – rå HTML omskrives ikke av jekyll-relative-links).

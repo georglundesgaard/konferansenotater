@@ -4,6 +4,8 @@
 
 Et motstykke til AI-hypen: hva blir igjen når KI håndterer koding, dokumentasjon og analyse? Gjøen-Gjøsæter argumenterer for hvilke kjerneoppgaver som fortsatt krever menneskelig dømmekraft – kontekstforståelse, ansvarlighet, samarbeid med kunde og kollega – og hvorfor utviklerrollen utvikler seg snarere enn å forsvinne.
 
+*(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
+
 **Notater fra konferansen:**
 - LLM-en er en veldig avansert tekst-generator og ikke egentlig intelligent
 - Mangler mye av det som mennesker kan, f.eks. smak

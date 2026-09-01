@@ -4,6 +4,8 @@
 
 Söderbom deler hvordan SpareBank1 kombinerer parprogrammering, kontinuerlig læring og AI-verktøy i sin leveransepipeline. Foredraget viser hvordan disse praksisene forsterker hverandre – AI som tredje «par» i programmeringen, læringskultur som motvekt til avhengighet, og kontinuerlige leveranser som rammen rundt det hele.
 
+*(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
+
 **Notater fra konferansen:**
 - Erfaringsforedrag fra Team PM Konto
 

@@ -4,6 +4,8 @@
 
 Åpningen av dagen ved Smidig-styret. Setter rammene for dagens tema: hva betyr det at AI-agenter blir kolleger i produktteam, og hvordan navigerer vi mellom hype, reell verdi og fallgruver?
 
+*(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
+
 **Tags:** `Åpning` · `AI i produktteam`
 
 **📹** Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/).

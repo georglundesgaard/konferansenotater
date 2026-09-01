@@ -4,6 +4,8 @@
 
 En underholdende avslutning på dag én der ulike AI-kodeagenter ble satt opp mot hverandre i en «cage match» (med K for Kotlin). Agentene fikk samme Kotlin-oppgaver og publikum kunne se i sanntid hvordan ulike modeller, prompts og verktøykjeder taklet reelle programmeringsutfordringer – like mye en demonstrasjon av status for AI-kodeassistenter som av hvor langt agentene ennå har igjen.
 
+*(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
+
 **Notater fra konferansen:**
 - Godt potensial, men foredraget var avhengig av god nettverksytelse – noe som ødela det
 - Kunne vært morsomt hvis nettverket hadde fungert som det skulle

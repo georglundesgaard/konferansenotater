@@ -4,6 +4,8 @@
 
 Gorman stiller et kritisk spørsmål: er all denne AI-investeringen nødvendig, og hva er den faktiske kostnaden – økonomisk, miljømessig, kognitivt? Et tankevekkende motstykke til toget alle later til å hoppe på, levert med Gormans karakteristiske tørrvittige stil.
 
+*(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
+
 **Notater fra konferansen:**
 - Jevons' paradox
 

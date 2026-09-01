@@ -9,7 +9,7 @@ Regner ut nøkkeltall på tvers av konferansene og presenterer dem kompakt. Bruk
 
 ## Steps
 
-1. **Samle data.** For hver `<Konferanse>/<År>/`: tell filer i `talks/`, klassifiser attended (har `**Notater fra konferansen:**`) vs interest, tell talks med video-lenke vs «ikke publisert», og hent alle `**Tags:**`-linjer.
+1. **Samle data.** For hver `<Konferanse>/<År>/`: tell filer i `talks/` (ignorer `.gitkeep`), klassifiser attended vs interest ut fra konferansens `README.md`-lister – «Foredrag jeg gikk på» = attended, «Foredrag jeg vil se opptak av» = interest. README-en er fasit; ikke bruk `**Notater fra konferansen:**`-blokken som markør (attended-foredrag uten notater mangler den). Tell talks med video-lenke vs statuslinje uten egen video («ikke publisert», «forventet senere» o.l.), og hent alle `**Tags:**`-linjer.
 
 2. **Presenter.** Kompakt tabell per konferanse (talks totalt, attended, interest, videodekning) pluss en topp-10 tagliste på tvers (normaliser case, slå sammen åpenbare duplikater som `AI`/`KI`).
 

@@ -4,11 +4,11 @@ Hentet fra [2026.javazone.no/program](https://2026.javazone.no/program) 1. septe
 
 **Hopp til:** [Dag 1](#dag-1) · [Dag 2](#dag-2)
 
-## Dag 1 — onsdag 2. september 2026 {#dag-1}
+<h2 id="dag-1">Dag 1 — onsdag 2. september 2026</h2>
 
 Tidspunkter: [09:00](#d1-0900) · [10:20](#d1-1020) · [11:40](#d1-1140) · [13:00](#d1-1300) · [14:20](#d1-1420) · [15:40](#d1-1540) · [17:00](#d1-1700) · [18:20](#d1-1820)
 
-### 09:00 {#d1-0900}
+<h3 id="d1-0900">09:00</h3>
 
 <table class="program-table">
 <colgroup><col class="c-talk"><col class="c-speaker"><col class="c-notes"></colgroup>
@@ -27,7 +27,7 @@ Tidspunkter: [09:00](#d1-0900) · [10:20](#d1-1020) · [11:40](#d1-1140) · [13:
 </tbody>
 </table>
 
-### 10:20 {#d1-1020}
+<h3 id="d1-1020">10:20</h3>
 
 <table class="program-table">
 <colgroup><col class="c-talk"><col class="c-speaker"><col class="c-notes"></colgroup>
@@ -47,7 +47,7 @@ Tidspunkter: [09:00](#d1-0900) · [10:20](#d1-1020) · [11:40](#d1-1140) · [13:
 </tbody>
 </table>
 
-### 11:40 {#d1-1140}
+<h3 id="d1-1140">11:40</h3>
 
 <table class="program-table">
 <colgroup><col class="c-talk"><col class="c-speaker"><col class="c-notes"></colgroup>
@@ -67,7 +67,7 @@ Tidspunkter: [09:00](#d1-0900) · [10:20](#d1-1020) · [11:40](#d1-1140) · [13:
 </tbody>
 </table>
 
-### 13:00 {#d1-1300}
+<h3 id="d1-1300">13:00</h3>
 
 <table class="program-table">
 <colgroup><col class="c-talk"><col class="c-speaker"><col class="c-notes"></colgroup>
@@ -86,7 +86,7 @@ Tidspunkter: [09:00](#d1-0900) · [10:20](#d1-1020) · [11:40](#d1-1140) · [13:
 </tbody>
 </table>
 
-### 14:20 {#d1-1420}
+<h3 id="d1-1420">14:20</h3>
 
 <table class="program-table">
 <colgroup><col class="c-talk"><col class="c-speaker"><col class="c-notes"></colgroup>
@@ -106,7 +106,7 @@ Tidspunkter: [09:00](#d1-0900) · [10:20](#d1-1020) · [11:40](#d1-1140) · [13:
 </tbody>
 </table>
 
-### 15:40 {#d1-1540}
+<h3 id="d1-1540">15:40</h3>
 
 <table class="program-table">
 <colgroup><col class="c-talk"><col class="c-speaker"><col class="c-notes"></colgroup>
@@ -126,7 +126,7 @@ Tidspunkter: [09:00](#d1-0900) · [10:20](#d1-1020) · [11:40](#d1-1140) · [13:
 </tbody>
 </table>
 
-### 17:00 {#d1-1700}
+<h3 id="d1-1700">17:00</h3>
 
 <table class="program-table">
 <colgroup><col class="c-talk"><col class="c-speaker"><col class="c-notes"></colgroup>
@@ -145,7 +145,7 @@ Tidspunkter: [09:00](#d1-0900) · [10:20](#d1-1020) · [11:40](#d1-1140) · [13:
 </tbody>
 </table>
 
-### 18:20 {#d1-1820}
+<h3 id="d1-1820">18:20</h3>
 
 <table class="program-table">
 <colgroup><col class="c-talk"><col class="c-speaker"><col class="c-notes"></colgroup>
@@ -159,11 +159,11 @@ Tidspunkter: [09:00](#d1-0900) · [10:20](#d1-1020) · [11:40](#d1-1140) · [13:
 </tbody>
 </table>
 
-## Dag 2 — torsdag 3. september 2026 {#dag-2}
+<h2 id="dag-2">Dag 2 — torsdag 3. september 2026</h2>
 
 Tidspunkter: [09:00](#d2-0900) · [10:20](#d2-1020) · [11:40](#d2-1140) · [13:00](#d2-1300) · [14:20](#d2-1420) · [15:40](#d2-1540) · [17:00](#d2-1700)
 
-### 09:00 {#d2-0900}
+<h3 id="d2-0900">09:00</h3>
 
 <table class="program-table">
 <colgroup><col class="c-talk"><col class="c-speaker"><col class="c-notes"></colgroup>
@@ -182,7 +182,7 @@ Tidspunkter: [09:00](#d2-0900) · [10:20](#d2-1020) · [11:40](#d2-1140) · [13:
 </tbody>
 </table>
 
-### 10:20 {#d2-1020}
+<h3 id="d2-1020">10:20</h3>
 
 <table class="program-table">
 <colgroup><col class="c-talk"><col class="c-speaker"><col class="c-notes"></colgroup>
@@ -201,7 +201,7 @@ Tidspunkter: [09:00](#d2-0900) · [10:20](#d2-1020) · [11:40](#d2-1140) · [13:
 </tbody>
 </table>
 
-### 11:40 {#d2-1140}
+<h3 id="d2-1140">11:40</h3>
 
 <table class="program-table">
 <colgroup><col class="c-talk"><col class="c-speaker"><col class="c-notes"></colgroup>
@@ -220,7 +220,7 @@ Tidspunkter: [09:00](#d2-0900) · [10:20](#d2-1020) · [11:40](#d2-1140) · [13:
 </tbody>
 </table>
 
-### 13:00 {#d2-1300}
+<h3 id="d2-1300">13:00</h3>
 
 <table class="program-table">
 <colgroup><col class="c-talk"><col class="c-speaker"><col class="c-notes"></colgroup>
@@ -239,7 +239,7 @@ Tidspunkter: [09:00](#d2-0900) · [10:20](#d2-1020) · [11:40](#d2-1140) · [13:
 </tbody>
 </table>
 
-### 14:20 {#d2-1420}
+<h3 id="d2-1420">14:20</h3>
 
 <table class="program-table">
 <colgroup><col class="c-talk"><col class="c-speaker"><col class="c-notes"></colgroup>
@@ -258,7 +258,7 @@ Tidspunkter: [09:00](#d2-0900) · [10:20](#d2-1020) · [11:40](#d2-1140) · [13:
 </tbody>
 </table>
 
-### 15:40 {#d2-1540}
+<h3 id="d2-1540">15:40</h3>
 
 <table class="program-table">
 <colgroup><col class="c-talk"><col class="c-speaker"><col class="c-notes"></colgroup>
@@ -276,7 +276,7 @@ Tidspunkter: [09:00](#d2-0900) · [10:20](#d2-1020) · [11:40](#d2-1140) · [13:
 </tbody>
 </table>
 
-### 17:00 {#d2-1700}
+<h3 id="d2-1700">17:00</h3>
 
 <table class="program-table">
 <colgroup><col class="c-talk"><col class="c-speaker"><col class="c-notes"></colgroup>

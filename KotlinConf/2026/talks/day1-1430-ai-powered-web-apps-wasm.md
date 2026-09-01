@@ -4,6 +4,8 @@
 
 Bashorov ser på de nye, native AI-API-ene som moderne nettlesere er i ferd med å standardisere, og hvordan man kan bygge fullt klientside-baserte AI-apper uten serverinfrastruktur. Han dekker fordelene (personvern, responsivitet, offline-bruk) og begrensningene ved Web AI, og demonstrerer eksempler som sanntidsoppsummering og oversettelse kjørt rett i nettleseren – alt fra Kotlin/Wasm.
 
+*(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
+
 **Tags:** `Kotlin/Wasm` · `AI` · `Web` · `On-device`
 
 **📹** Individuell video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).

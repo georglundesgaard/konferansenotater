@@ -17,10 +17,11 @@ Bruk: `/ny-konferanse <url>` — URL til konferansens forside eller program. Ute
 
 3. **Fyll README.** Erstatt plassholderne i den nye README-en med faktaene fra steg 1: ingress (sted, datoer, format/spor), «Om videoene»-blokken, og Kilder (konferansens forside, program-URL, arrangør, video-kanal). La Topp 5-, attended- og interest-seksjonene stå som tomme skall med dag-underoverskrifter for hver konferansedag.
 
-4. **Cache programmet.** Finn program-/schedule-siden (ofte `/program` eller `/schedule`). Scrape alle foredrag – tid, rom, varighet, språk, tittel, taler(e), tags, beskrivelses-URL – og skriv `<Konferanse>/<År>/program.md`:
-   - Flersporet: «Hopp til»-daglenker øverst, én `## Dag N — <ukedag> <dato> {#dag-N}`-seksjon per dag med tidspunktlenker, og én `### HH:MM {#dN-hhmm}`-tidsluke per hovedslot med tabell over de parallelle foredragene (Tid, Rom, ev. Lengde/Språk, Foredrag, Taler(e) og tema). Språk skrives helt ut (Norsk/Engelsk). Foredragstitler lenker til beskrivelsen (offisiell side, eller egen notatside når den finnes).
-   - Enkeltsporet: én enkel tabell (Tid, Foredrag, Taler) uten tidsluke-headinger.
-   Øverst i filen: kildelenke og hentedato. Lenk `program.md` fremhevet fra konferansens README (`**[📋 Hele programmet](program.md)**`). Er programmet ikke publisert ennå, dropp cachen og noter det i README-en.
+4. **Cache programmet.** Finn program-/schedule-siden (ofte `/program` eller `/schedule`). Scrape alle foredrag – tid, rom, varighet, språk, tittel, taler(e), tags, beskrivelse og beskrivelses-URL – og skriv `<Konferanse>/<År>/program.md` i samme format som `/oppdater-program` steg 4 beskriver (den er kanonisk – les den ved tvil):
+   - Flersporet: «Hopp til»-daglenker øverst, én `<h2 id="dag-N">Dag N — <ukedag> <dato></h2>`-seksjon per dag med tidspunktlenker, og én `<h3 id="dN-hhmm">HH:MM</h3>`-tidsluke per hovedslot med en HTML-tabell (`<table class="program-table">` med colgroup, kolonner Foredrag / Taler(e) / Notater). Rå HTML-headinger med id, ikke kramdown `{#...}` – ankrene må virke både på GitHub Pages og github.com.
+   - Enkeltsporet: én tabell med Tid-kolonne i tillegg (Tid / Foredrag / Taler(e) / Notater), uten tidsluke-headinger.
+   - Radformat: Foredragscellen har `<strong><a href="<offisiell-url>">Tittel</a></strong>` + `<details><summary>om foredraget</summary>` med den offisielle beskrivelsen og en `<p class="meta">`-linje (tidsintervall · rom · ev. språk · tags). Språk skrives helt ut (Norsk/Engelsk). Notater-cellen står tom til foredrag registreres via `/nytt-foredrag`.
+   Øverst i filen: kildelenke, hentedato og tegnforklaring (`✅ = deltatt · 👀 = vil se opptak`). Lenk `program.md` fremhevet fra konferansens README (`**[📋 Hele programmet](program.md)**`). Er programmet ikke publisert ennå, dropp cachen og noter det i README-en.
 
 5. **Oppdater indeksene.** Legg konferansen inn i listen under `## Konferanser` (nyeste først) i BÅDE rot-`README.md` og `index.md` (web-forsiden): `- **[<Konferanse> <År>](<Konferanse>/<År>/README.md)** — <By>, <datoer>`.
 

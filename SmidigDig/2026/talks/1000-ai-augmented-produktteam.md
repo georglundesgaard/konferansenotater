@@ -4,6 +4,8 @@
 
 Moe fra SINTEF presenterer forskningsfunn om hvordan AI påvirker produktteam i praksis. Foredraget oppsummerer hva man har lært til nå, og peker på kritiske utfordringer fremover: avhengighet, kompetansegap, kvalitetskontroll og hvordan teamdynamikk endres når AI tar over deler av arbeidet.
 
+*(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
+
 **Notater fra konferansen:**
 - Flaskehalser blir veldig tydelige
 - Rollene blir mindre spesialiserte

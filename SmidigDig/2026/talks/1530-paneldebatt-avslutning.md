@@ -4,6 +4,8 @@
 
 Avsluttende paneldebatt med ettermiddagens foredragsholdere. Oppsummering av dagens hovedinnsikter og blikket fremover.
 
+*(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
+
 **Tags:** `Panel` · `Diskusjon` · `Avslutning`
 
 **📹** Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/).

@@ -21,7 +21,7 @@ Bruk: `/berik-foredrag` eller `/berik-foredrag <konferanse>` (f.eks. `/berik-for
    - Ellers: hvis `pwd` er inne i `<Konferanse>/<År>/`, bruk den.
    - Ellers: `AskUserQuestion` med eksisterende år-mapper.
 
-2. **Finn kandidater.** List alle filer under `<Konferanse>/<År>/talks/` (ignorer `.gitkeep`). En fil er kandidat hvis den inneholder placeholder-linjen `*(Sammendrag fylles inn senere` eller mangler prosa mellom metadata-linjen og `**Notater / Tags / 📹**`. Filer med uerstattede mal-plassholdere (`<Tittel>` e.l.) er feilkopierte maler – meld fra om dem, ikke berik dem. Vis brukeren listen, og la dem bekrefte / plukke undermengde via `AskUserQuestion` (`Alle` / `Bare de uten video-lenke` / `Velg manuelt`).
+2. **Finn kandidater.** List alle filer under `<Konferanse>/<År>/talks/` (ignorer `.gitkeep`). En fil er kandidat hvis den inneholder placeholder-linjen `*(Sammendrag fylles inn senere`, markør-linjen `*(Sammendrag basert på programomtalen` (sammendraget er skrevet fra programbeskrivelsen, ikke opptaket), eller mangler prosa mellom metadata-linjen og `**Notater / Tags / 📹**`. Filer med uerstattede mal-plassholdere (`<Tittel>` e.l.) er feilkopierte maler – meld fra om dem, ikke berik dem. Vis brukeren listen, og la dem bekrefte / plukke undermengde via `AskUserQuestion` (`Alle` / `Bare de uten video-lenke` / `Velg manuelt`).
 
 3. **Finn video-URL per talk.**
    - Sjekk `**📹**`-linjen i talk-filen. Hvis den peker på YouTube/Vimeo, bruk den.
@@ -66,7 +66,7 @@ Bruk: `/berik-foredrag` eller `/berik-foredrag <konferanse>` (f.eks. `/berik-for
 
 5. **Merge tilbake i filene.** For hver returnerte SUMMARY:
    - Åpne talk-filen.
-   - Erstatt placeholder-linjen (`*(Sammendrag fylles inn senere...*`) eller sett paragraf rett under metadata-linjen (en tom linje mellom).
+   - Erstatt placeholder-linjen (`*(Sammendrag fylles inn senere...*`) eller sett paragraf rett under metadata-linjen (en tom linje mellom). Har filen markør-linjen `*(Sammendrag basert på programomtalen ...)*`: erstatt hele det eksisterende sammendraget (prosaen mellom metadata-linjen og markøren) med det nye, og fjern markør-linjen – den skal aldri bli stående i en beriket fil.
    - La `**Notater fra konferansen:**`-blokken stå urørt.
    - Oppdater `**Tags:**`-linjen hvis agenten returnerte forbedrede tags (unngå duplikater).
    - Hvis `**📹**`-linjen fortsatt sier "ikke publisert", erstatt statusdelen etter `**📹**`-prefikset slik at linjen blir `**📹** [<Tittel> – <Taler>](<url>)`. Bruk aldri `|` i lenketeksten – kramdown på GitHub Pages tolker det som en tabell og knekker siden. Prefikset `**📹**` skal alltid beholdes – steg 2 og 3 er avhengige av det ved senere kjøringer.
@@ -80,7 +80,7 @@ Bruk: `/berik-foredrag` eller `/berik-foredrag <konferanse>` (f.eks. `/berik-for
 ## Tips
 
 - Kjør maks ~15 sub-agenter parallelt. Ved store konferanser, batch i to omganger.
-- Hvis en talk-fil allerede har et rikt sammendrag (ikke placeholder), hopp over med mindre brukeren eksplisitt sier "kjør på nytt".
+- Hvis en talk-fil allerede har et rikt sammendrag (verken placeholder eller `*(Sammendrag basert på programomtalen`-markør), hopp over med mindre brukeren eksplisitt sier "kjør på nytt". Skrives et sammendrag fra programbeskrivelsen i stedet for opptaket (f.eks. fordi video mangler), skal markør-linjen legges til under sammendraget.
 - Konferansens `README.md` trenger ingen oppdatering – lenkene der peker fortsatt på samme filer.
 
 ## Ikke gjør

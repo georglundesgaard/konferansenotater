@@ -4,6 +4,8 @@
 
 Kniberg, tidligere kjent fra Crisp/Spotify-modellen og nå chief scientist i Abundly, deler erfaringer med å integrere AI-agenter på tvers av produktutviklingsfunksjoner – backlog-arbeid, design, utvikling, testing og release. Foredraget utforsker hva det faktisk innebærer å ha AI-agenter som fullverdige teammedlemmer, ikke bare verktøy. Sentralt: rolleendringer, samarbeidsmønstre og hva som må fungere for at agenter skal være produktive kolleger.
 
+*(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
+
 **Notater fra konferansen:**
 - abundly.ai
 - Agenter er fullverdige team-medlemmer og kan jobbe på tvers

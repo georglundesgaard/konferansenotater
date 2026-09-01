@@ -4,6 +4,8 @@
 
 Kort sesjon om hvordan OpenAI Codex passer godt sammen med Kotlin sitt strenge typesystem, tydelige domenemodeller og testbare struktur når man genererer, refaktorerer og gjennomgår kode. Kerres demonstrerer hvordan man bruker Codex effektivt i en Kotlin-arbeidsflyt. Praktisk innretning mot AI-assistert utvikling for Kotlin-utviklere.
 
+*(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
+
 **Tags:** `AI` · `Codex` · `Workflow` · `AI-assistert utvikling`
 
 **📹** Individuell video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).

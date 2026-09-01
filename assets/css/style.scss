@@ -42,7 +42,13 @@
   max-width: 1100px;
 }
 
-.program-table {
+/* Temaet gir .markdown-body table `display: block; overflow: auto`, som gjør
+   table-layout og colgroup-bredder upålitelige. På brede skjermer overstyrer vi
+   til ekte tabell-layout med faste kolonnebredder; på smale skjermer beholder vi
+   temaets scroll-oppførsel og lar innholdet styre bredden, med minimumsbredder
+   så kolonnene ikke klemmes uleselige. */
+.markdown-body table.program-table {
+  display: table;
   width: 100%;
   table-layout: fixed;
 }
@@ -51,6 +57,24 @@
 .program-table col.c-talk { width: 46%; }
 .program-table col.c-speaker { width: 22%; }
 .program-table col.c-notes { width: 32%; }
+
+@media (max-width: 767px) {
+  .markdown-body table.program-table {
+    display: block;
+    overflow-x: auto;
+    table-layout: auto;
+  }
+
+  .markdown-body .program-table th,
+  .markdown-body .program-table td {
+    min-width: 8em;
+  }
+
+  /* Foredragskolonnen (der details-blokken bor) trenger mest plass */
+  .markdown-body .program-table details {
+    min-width: 16em;
+  }
+}
 
 .markdown-body .program-table th,
 .markdown-body .program-table td {

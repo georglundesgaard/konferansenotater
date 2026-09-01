@@ -4,6 +4,8 @@
 
 Statusoppdatering på Swift Export-prosjektet fra JetBrains, som skal erstatte den gamle Objective-C-broen og gi mer idiomatisk Swift-tilgang til delt Kotlin-kode. Hill-Galloway viser kodeeksempler på overgangen, hvilke features som støttes i dag, og hvilke kanttilfeller som fortsatt mangler arbeid. Målet er at du selv skal kunne vurdere om Swift Export er klar for ditt team.
 
+*(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
+
 **Tags:** `KMP` · `iOS` · `Swift interop` · `Swift Export`
 
 **📹** Individuell video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).

@@ -10,7 +10,7 @@
 
 ---
 
-## Foredrag jeg gikk på
+## <a id="foredrag-jeg-gikk-på"></a>Foredrag jeg gikk på
 
 ### <Dag / dato>
 
@@ -28,7 +28,7 @@
 
 ---
 
-## Anbefalt: Topp 5 fra ønskelisten
+## <a id="anbefalt-topp-5-fra-ønskelisten"></a>Anbefalt: Topp 5 fra ønskelisten
 
 *(Kun for konferanser med parallelle spor. Fylles ut når opptakene er sett/beriket.)*
 

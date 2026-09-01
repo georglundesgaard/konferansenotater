@@ -4,6 +4,8 @@
 
 Amiri deler praktiske erfaringer fra Piano: hva skjer med team, leveransekapasitet og kvalitet når AI-verktøy tas bredt i bruk i en utviklerorganisasjon? Foredraget tar opp både gevinstene og bivirkningene – hvordan måler man produktivitet realistisk, og hva sliter ledelsen mest med å håndtere?
 
+*(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
+
 **Notater fra konferansen:**
 - Erfaringsforedrag
 - Organisering blir mer flytende

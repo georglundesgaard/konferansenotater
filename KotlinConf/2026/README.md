@@ -8,7 +8,7 @@
 
 ---
 
-## Foredrag jeg gikk på
+## <a id="foredrag-jeg-gikk-på"></a>Foredrag jeg gikk på
 
 ### Dag 1 — 21. mai 2026 ([offisielt program](https://kotlinconf.com/schedule/?day=2026-05-21))
 
@@ -78,7 +78,7 @@ Foredrag jeg gikk glipp av (parallelle spor / kollisjoner), sortert etter tid.
 
 ---
 
-## Anbefalt: Topp 5 fra ønskelisten
+## <a id="anbefalt-topp-5-fra-ønskelisten"></a>Anbefalt: Topp 5 fra ønskelisten
 
 Hvis du bare skal se noen få opptak, er dette mine anbefalinger fra foredragene jeg selv gikk glipp av — valgt fordi de spinner videre på tråder jeg gikk mye på (AI-agenter, Ktor/backend, språkdesign):
 

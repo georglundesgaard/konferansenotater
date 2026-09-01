@@ -70,7 +70,7 @@ Skjelettet for en talk-fil er definert i [`_mal/talks/HHMM-slug.md`](_mal/talks/
 
 Metadata-linjen bruker `Dag {N}, {dato}` for flerdagskonferanser og bare `{dato}` for endagskonferanser, og kan avsluttes med en ankerlenke inn i `program.md`. Filnavn: `HHMM-slug.md` (endags) eller `dayN-HHMM-slug.md` (flerdags).
 
-Attended-talks avsluttes med en forrige/neste-navigasjonslinje (`*[← <forrige>](<fil>) · [<neste> →](<fil>)*`) i kronologisk rekkefølge; `/nytt-foredrag` vedlikeholder kjeden. `program.md` er én tabell per dag der hver rad har et anker (`d<dag>-<hhmm>-room-<n>`) som talk-sidene kan lenke til.
+Attended-talks avsluttes med en forrige/neste-navigasjonslinje (`*[← <forrige>](<fil>) · [<neste> →](<fil>)*`) i kronologisk rekkefølge; `/nytt-foredrag` vedlikeholder kjeden. `program.md` har for flersporede konferanser én tabell per tidsluke, der tidsluke-headingen bærer ankeret (`<h3 id="d<dag>-<hhmm>">`) som talk-sidene lenker til; enkeltsporede konferanser har én samlet tabell uten tidsluke-ankere.
 
 ## Tag-vokabular
 

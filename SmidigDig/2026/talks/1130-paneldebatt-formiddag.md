@@ -4,6 +4,8 @@
 
 Felles paneldebatt med formiddagens foredragsholdere. Spørsmål fra salen og åpne refleksjoner rundt morgenens temaer.
 
+*(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
+
 **Tags:** `Panel` · `Diskusjon`
 
 **📹** Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/).

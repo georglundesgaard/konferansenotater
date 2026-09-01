@@ -8,7 +8,7 @@
 
 ---
 
-## Foredrag jeg gikk på
+## <a id="foredrag-jeg-gikk-på"></a>Foredrag jeg gikk på
 
 ### Onsdag 2. september 2026
 
