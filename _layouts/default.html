@@ -38,6 +38,23 @@
         a.textContent = '↑ til toppen';
         h.appendChild(a);
       });
+      // Tidsluke-headinger i programsider (id «dN-hhmm»): lenke tilbake til dagens tidspunktliste
+      document.querySelectorAll('.markdown-body h3[id]').forEach(function (h) {
+        var m = h.id.match(/^d(\d)-\d{4}$/);
+        if (!m) return;
+        var a = document.createElement('a');
+        a.href = '#dag-' + m[1];
+        a.className = 'to-top';
+        a.textContent = '↑ til tidspunktene';
+        h.appendChild(a);
+      });
+      // Eksterne lenker åpner i ny fane
+      document.querySelectorAll('.markdown-body a[href^="http"]').forEach(function (a) {
+        if (a.host !== location.host) {
+          a.target = '_blank';
+          a.rel = 'noopener';
+        }
+      });
     </script>
   </body>
 </html>
