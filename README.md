@@ -37,6 +37,7 @@ Repoet har prosjekt-skills i `.claude/skills/` som automatiserer arbeidsflyten (
 - **`/nytt-foredrag`** — registrer et foredrag under/etter konferansen. Ta med en fri beskrivelse (`/nytt-foredrag gunnar morling parquet`); skillen matcher mot programmet (lokal `program.md` først, ellers nettsiden), antar dagens dato, og looper til du er ferdig.
 - **`/planlegg-dagen`** — kvelden før / på morgenen: velg foredrag per tidsluke og få en personlig timeplan i `plan-dagN.md`. Kollisjoner kan registreres rett i ønskelisten.
 - **`/berik-foredrag`** — etter konferansen, når opptakene er ute: fyller inn sammendrag i talk-filer basert på videoene, og foreslår Topp 5 til README-en.
+- **`/oppdater-program`** — sjekker om det offisielle konferanseprogrammet har endret seg og oppdaterer `program.md`-cachen; melder fra hvis registrerte foredrag er berørt.
 - **`/video-sjekk`** — sjekker om utestående opptak har blitt publisert og lenker dem inn. Egner seg som ukentlig rutine via `/schedule`.
 - **`/konferanse-stats`** — nøkkeltall på tvers av konferansene: antall foredrag, attended vs. interest, videodekning, tag-fordeling.
 
@@ -46,7 +47,9 @@ Typisk livssyklus: `/ny-konferanse` → `/planlegg-dagen` → `/nytt-foredrag` (
 
 Skjelettet for en talk-fil er definert i [`_mal/talks/HHMM-slug.md`](_mal/talks/HHMM-slug.md) – det er den kanoniske kilden. Kort oppsummert: tittel, metadata-linje (dag, tid, taler), sammendrag (1–7 setninger i 2–3 korte avsnitt – eller en placeholder til `/berik-foredrag` kjøres), eventuelle egne notater, tags, og en `**📹**`-linje med video-lenke eller status.
 
-Metadata-linjen bruker `Dag {N}, {dato}` for flerdagskonferanser og bare `{dato}` for endagskonferanser. Filnavn: `HHMM-slug.md` (endags) eller `dayN-HHMM-slug.md` (flerdags).
+Metadata-linjen bruker `Dag {N}, {dato}` for flerdagskonferanser og bare `{dato}` for endagskonferanser, og kan avsluttes med en ankerlenke inn i `program.md`. Filnavn: `HHMM-slug.md` (endags) eller `dayN-HHMM-slug.md` (flerdags).
+
+Attended-talks avsluttes med en forrige/neste-navigasjonslinje (`*[← <forrige>](<fil>) · [<neste> →](<fil>)*`) i kronologisk rekkefølge; `/nytt-foredrag` vedlikeholder kjeden. `program.md` er én tabell per dag der hver rad har et anker (`d<dag>-<hhmm>-room-<n>`) som talk-sidene kan lenke til.
 
 ## Tag-vokabular
 

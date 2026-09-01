@@ -14,3 +14,5 @@ Under panseret er kotlinx-rpc sin gRPC-modul bygget som en Kotlin Multiplatform-
 **Tags:** `Lyntale` · `gRPC` · `kotlinx-rpc` · `Backend` · `Coroutines` · `Flow`
 
 **📹** [gRPC, Made for Kotlin – Alexander Sysoev](https://www.youtube.com/watch?v=RqbTeZXgkdQ)
+
+*[← 1400 Context parameters and API design](day2-1400-context-parameters-api-design.md) · [1545 KotlinLLM →](day2-1545-kotlinllm-runtime-delegation.md)*

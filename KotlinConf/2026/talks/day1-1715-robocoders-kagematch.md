@@ -11,3 +11,5 @@ En underholdende avslutning på dag én der ulike AI-kodeagenter ble satt opp mo
 **Tags:** `AI` · `AI-agenter` · `Live demo` · `Underholdning`
 
 **📹** Individuell video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+*[← 1615 Talking to terminals](day1-1615-talking-to-terminals.md) · [Dag 2, 0900 We were meant to be →](day2-0900-we-were-meant-to-be.md)*

@@ -4,21 +4,9 @@
 
 > **Om videoene:** <Status – hvor og når opptakene publiseres, og hvordan de lenkes inn.>
 
-Én fil per foredrag under [`talks/`](talks/). Klikk deg inn på titlene under.
+**[📋 Hele programmet](program.md)** (<antall> foredrag)       *(kun hvis program.md finnes)*
 
-Filnavn: `<HHMM>-<slug>.md` for endagskonferanser, `day<N>-<HHMM>-<slug>.md` for flerdagskonferanser.
-
----
-
-## Anbefalt: Topp 5 fra ønskelisten
-
-Hvis du bare skal se noen få opptak, dette er mine anbefalinger fra foredragene jeg selv gikk glipp av:
-
-1. **[<Tittel>](talks/<HHMM>-<slug>.md)** — <Taler>. <Kort begrunnelse>.
-2. **[<Tittel>](talks/<HHMM>-<slug>.md)** — <Taler>. <Kort begrunnelse>.
-3. **[<Tittel>](talks/<HHMM>-<slug>.md)** — <Taler>. <Kort begrunnelse>.
-4. **[<Tittel>](talks/<HHMM>-<slug>.md)** — <Taler>. <Kort begrunnelse>.
-5. **[<Tittel>](talks/<HHMM>-<slug>.md)** — <Taler>. <Kort begrunnelse>.
+[Foredrag jeg gikk på](#foredrag-jeg-gikk-på) · [Ønskeliste](#foredrag-jeg-vil-se-opptak-av) · [Topp 5](#anbefalt-topp-5-fra-ønskelisten) · [Kilder](#kilder)
 
 ---
 
@@ -37,6 +25,15 @@ Hvis du bare skal se noen få opptak, dette er mine anbefalinger fra foredragene
 
 - **[<HHMM> <Tittel>](talks/<HHMM>-<slug>.md)** — <Taler(e)>
 - ...
+
+---
+
+## Anbefalt: Topp 5 fra ønskelisten
+
+*(Kun for konferanser med parallelle spor. Fylles ut når opptakene er sett/beriket.)*
+
+1. **[<Tittel>](talks/<HHMM>-<slug>.md)** — <Taler>. <Kort begrunnelse>.
+2. ...
 
 ---
 

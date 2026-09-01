@@ -11,3 +11,5 @@ Et motstykke til AI-hypen: hva blir igjen når KI håndterer koding, dokumentasj
 **Tags:** `Karriere` · `AI` · `Rolleendring`
 
 **📹** Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/).
+
+*[← 1025 Vill vibekoding](1025-vill-vibekoding.md) · [1130 Paneldebatt →](1130-paneldebatt-formiddag.md)*

@@ -14,3 +14,5 @@ Anti-mønsteret Serrano advarer mot er «bridge function hell» – å duplisere
 **Tags:** `Kotlin 2.4` · `Context parameters` · `API-design` · `DSL` · `Språkdesign`
 
 **📹** [Context parameters and API design – Alejandro Serrano Mena](https://www.youtube.com/watch?v=O1nTwf0QPj4)
+
+*[← 1300 Eval-Driven Development](day2-1300-eval-driven-development.md) · [1515 gRPC, Made for Kotlin →](day2-1515-grpc-made-for-kotlin.md)*

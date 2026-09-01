@@ -7,3 +7,5 @@
 **Tags:** `Åpning` · `AI i produktteam`
 
 **📹** Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/).
+
+*[0910 The new crossfunctional team →](0910-crossfunctional-team-humans-agents.md)*

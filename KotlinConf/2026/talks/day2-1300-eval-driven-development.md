@@ -14,3 +14,5 @@ Konkret vises alt integrert i Koog gjennom JetBrains sitt rammeverk: agent- og v
 **Tags:** `AI-agenter` · `Evaluering` · `Koog` · `Metode` · `Testing`
 
 **📹** [Eval-Driven Development – Urs Peter](https://www.youtube.com/watch?v=L2bZzPXfmyE)
+
+*[← 1115 Idiomatic Kotlin, Spring Boot 4](day2-1115-idiomatic-kotlin-spring-boot-4.md) · [1400 Context parameters and API design →](day2-1400-context-parameters-api-design.md)*

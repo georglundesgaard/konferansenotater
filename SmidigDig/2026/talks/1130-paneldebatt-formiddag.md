@@ -7,3 +7,5 @@ Felles paneldebatt med formiddagens foredragsholdere. Spørsmål fra salen og å
 **Tags:** `Panel` · `Diskusjon`
 
 **📹** Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/).
+
+*[← 1105 Derfor tar ikke KI jobben din](1105-ki-tar-ikke-jobben.md) · [1300 Når 200 utviklere gjør jobben til 2000! →](1300-200-utviklere-som-2000.md)*

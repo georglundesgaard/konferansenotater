@@ -14,3 +14,5 @@ Mønsteret gir mest mening der input er semistrukturert eller reglene endrer seg
 **Tags:** `Lyntale` · `KotlinLLM` · `Tracy` · `Runtime delegation` · `LLM`
 
 **📹** [KotlinLLM: Leveraging AI for Runtime Logic Delegation – Stanislav Sandler](https://www.youtube.com/watch?v=tmPZajBUsKg)
+
+*[← 1515 gRPC, Made for Kotlin](day2-1515-grpc-made-for-kotlin.md) · [1615 Spec-Driven Development →](day2-1615-spec-driven-development.md)*

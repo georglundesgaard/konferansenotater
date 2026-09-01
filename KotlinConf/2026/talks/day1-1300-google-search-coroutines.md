@@ -15,3 +15,5 @@ Erfaringen fra Google-skala er at «asynkron som standard» bare fungerer når s
 **Tags:** `Coroutines` · `Google` · `Qflow` · `Structured concurrency` · `Skala` · `Casestudie` · `Observability`
 
 **📹** [How google.com/search builds on Kotlin coroutines... – Sam Berlin, Alessio Della Motta](https://www.youtube.com/watch?v=6D1yV5o4CWo)
+
+*[← 1115 Opinionated Ktor Services](day1-1115-opinionated-ktor-services.md) · [1400 Local Lifetimes for Kotlin →](day1-1400-local-lifetimes.md)*

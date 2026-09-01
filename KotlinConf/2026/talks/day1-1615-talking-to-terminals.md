@@ -14,3 +14,5 @@ Underveis viser han levende demoer med bilder rendret rett i terminalen, jevn fr
 **Tags:** `TUI` · `CLI` · `Mosaic` · `Compose` · `KMP` · `Dypdykk`
 
 **📹** [Talking to terminals (and how they talk back) – Jake Wharton](https://www.youtube.com/watch?v=QYlzKV0Oe1A)
+
+*[← 1515 Why Most AI Agents Never Scale?](day1-1515-why-ai-agents-never-scale-koog.md) · [1715 Robocoders: The [K]agematch →](day1-1715-robocoders-kagematch.md)*

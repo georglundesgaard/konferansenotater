@@ -15,3 +15,5 @@ Seres ser på «vibe coding»-trenden og hva som skjer når kode genereres raske
 **Tags:** `AI-koding` · `Hastighet vs kvalitet` · `Ledelse`
 
 **📹** Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/).
+
+*[← 1000 AI-augmented produktteam](1000-ai-augmented-produktteam.md) · [1105 Derfor tar ikke KI jobben din →](1105-ki-tar-ikke-jobben.md)*

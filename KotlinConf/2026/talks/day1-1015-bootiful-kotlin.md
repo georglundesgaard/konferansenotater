@@ -13,3 +13,5 @@ En stor del av økten dreide seg om Spring AI-økosystemet i 2026: han integrert
 **Tags:** `Spring Boot` · `Live coding` · `AI-agenter` · `MCP` · `Backend`
 
 **📹** [Bootiful Kotlin – Josh Long](https://www.youtube.com/watch?v=_UJs3fkPAr8)
+
+*[← 0900 Opening Keynote](day1-0900-opening-keynote.md) · [1115 Opinionated Ktor Services →](day1-1115-opinionated-ktor-services.md)*

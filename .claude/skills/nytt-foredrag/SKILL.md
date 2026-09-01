@@ -43,9 +43,14 @@ Interviews the user for a single talk, then writes the file and updates the conf
    - Sti: `<Konferanse>/<År>/talks/<filnavn>`.
 
 10. **Skriv fil.** Bruk skjelettet fra `_mal/talks/HHMM-slug.md` (kanonisk kilde – les den, ikke gjenskap fra hukommelsen). Fyll inn tittel, metadata-linje, notater (kun attended), tags og 📹-linje. Behold placeholder-linjen `*(Sammendrag fylles inn senere – bruk /berik-foredrag når opptaket er publisert.)*` som sammendrag – den er signalet `/berik-foredrag` ser etter.
+    - Hvis `program.md` finnes og talken ble matchet der: legg til ` · [i programmet](../program.md#<anker>)` bakerst i metadata-linjen. Ankeret står i program-radens Tid-celle (`d<dag>-<hhmm>-room-<n>`).
 
 11. **Oppdater konferanse-README.** Åpne `<Konferanse>/<År>/README.md`. Under enten `## Foredrag jeg gikk på` eller `## Foredrag jeg vil se opptak av`, i riktig dag-underseksjon, sett inn (sortert på tid):
     `- **[<HHMM> <Tittel>](talks/<filnavn>)** — <Taler(e)>`
+
+11b. **Vedlikehold forrige/neste-kjeden** (kun attended). Attended-talks har en avsluttende navigasjonslinje på formen `*[← <forrige>](<fil>) · [<neste> →](<fil>)*`. Finn den nye talkens kronologiske plass blant attended-filene (README-listen er fasit), og:
+    - Legg navigasjonslinje nederst i den nye filen (utelat «forrige» hvis først, «neste» hvis sist).
+    - Oppdater navigasjonslinjen i nabo-filene (forrige fils «neste»-lenke og neste fils «forrige»-lenke) så kjeden forblir sammenhengende.
 
 12. **Bekreft og loop.** Meld: `Registrert: <filnavn>`. Spør så: `Ett til? (beskriv neste foredrag, eller tomt for å avslutte)`. Ved nytt svar: gå til steg 3 med samme konferanse og dag-kontekst. Ikke commit – la brukeren gjøre det når de er klare.
 

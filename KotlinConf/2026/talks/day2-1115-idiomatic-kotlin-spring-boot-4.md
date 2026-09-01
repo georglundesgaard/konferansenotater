@@ -14,3 +14,5 @@ Spring Boot 4 leverer også en dedikert `spring-boot-starter-kotlinx-serializati
 **Tags:** `Spring Boot` · `Backend` · `Null-safety` · `Coroutines` · `Virtual threads` · `JSpecify`
 
 **📹** [Idiomatic Kotlin applications with Spring Boot 4 – Sébastien Deleuze](https://www.youtube.com/watch?v=TxmBk_VhuqY)
+
+*[← 1015 Dissecting Kotlin: 2026](day2-1015-dissecting-kotlin-2026.md) · [1300 Eval-Driven Development →](day2-1300-eval-driven-development.md)*

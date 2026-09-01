@@ -10,3 +10,5 @@ Lederutvikler og tidligere VP of Engineering Lena Reinhard holdt dag 2-keynoten 
 **Tags:** `Keynote` · `Karriere` · `Mennesker` · `AI-debatt`
 
 **📹** Inngår i [Day 2 Livestream](https://www.youtube.com/watch?v=S3CjlmpsC0I) – individuell video forventet senere.
+
+*[← 1715 Robocoders: The [K]agematch](day1-1715-robocoders-kagematch.md) · [1015 Dissecting Kotlin: 2026 →](day2-1015-dissecting-kotlin-2026.md)*

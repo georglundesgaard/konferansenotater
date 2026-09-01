@@ -11,3 +11,5 @@ Google fremhevet at 92 % av profesjonelle Android-utviklere bruker Kotlin, og at
 **Tags:** `Keynote` · `Kotlin 2.4` · `AI-agenter` · `KMP` · `Compose` · `Tooling` · `Koog` · `ACP` · `Kotlin Toolchain`
 
 **📹** [Keynote – KotlinConf '26](https://www.youtube.com/watch?v=MmwBJbzWbV0)
+
+*[1015 Bootiful Kotlin →](day1-1015-bootiful-kotlin.md)*

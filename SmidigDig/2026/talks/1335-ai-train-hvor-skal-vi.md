@@ -10,3 +10,5 @@ Gorman stiller et kritisk spørsmål: er all denne AI-investeringen nødvendig, 
 **Tags:** `Kritisk blikk` · `AI-debatt` · `Kostnad`
 
 **📹** Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/).
+
+*[← 1300 Når 200 utviklere gjør jobben til 2000!](1300-200-utviklere-som-2000.md) · [1435 Kontinuerlige leveranser →](1435-kontinuerlige-leveranser-par-og-ai.md)*

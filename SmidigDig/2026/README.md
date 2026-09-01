@@ -2,16 +2,7 @@
 
 **Oslo Kongressenter, 27. mai 2026.** Årets tema: *«AI i produktteam»*. Enkeltsporet program fra 09:00 til 16:00. Opptak legges ut fortløpende på [smidig.no](https://www.smidig.no/).
 
-Én fil per foredrag under [`talks/`](talks/). Klikk deg inn på titlene under.
-
----
-
-## Anbefalt: opptak jeg vil se
-
-Jeg fikk med meg det meste, men to sesjoner jeg gikk glipp av mot slutten av dagen står øverst på ønskelisten:
-
-1. **[Agentic AI i praksis](talks/1500-agentic-ai-i-praksis.md)** — Lars-Erik Monsvik (Telenor Norge). Konkrete erfaringer med agenter som tar initiativ i en stor driftsorganisasjon; nyttig komplement til morgenens mer prinsippbaserte foredrag.
-2. **[Paneldebatt (avslutning)](talks/1530-paneldebatt-avslutning.md)** — oppsummering av dagens hovedinnsikter og blikket fremover.
+[Foredrag jeg gikk på](#foredrag-jeg-gikk-på) · [Ønskeliste](#foredrag-jeg-vil-se-opptak-av) · [Kilder](#kilder)
 
 ---
 

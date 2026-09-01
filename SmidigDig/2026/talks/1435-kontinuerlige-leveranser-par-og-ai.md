@@ -10,3 +10,5 @@ Söderbom deler hvordan SpareBank1 kombinerer parprogrammering, kontinuerlig læ
 **Tags:** `Casestudie` · `Parprogrammering` · `Continuous delivery` · `Læring` · `SpareBank1`
 
 **📹** Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/).
+
+*[← 1335 All aboard the AI train!](1335-ai-train-hvor-skal-vi.md)*

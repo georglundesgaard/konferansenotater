@@ -13,3 +13,5 @@ Amiri deler praktiske erfaringer fra Piano: hva skjer med team, leveransekapasit
 **Tags:** `Casestudie` · `Produktivitet` · `AI-adopsjon` · `Skala`
 
 **📹** Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/).
+
+*[← 1130 Paneldebatt](1130-paneldebatt-formiddag.md) · [1335 All aboard the AI train! →](1335-ai-train-hvor-skal-vi.md)*

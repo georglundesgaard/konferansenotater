@@ -14,3 +14,5 @@ Han la vekt på at forslaget er bakoverkompatibelt: eksisterende kode fortsetter
 **Tags:** `Språkdesign` · `Type system` · `Forslag` · `Escape analysis` · `Effects` · `Compiler`
 
 **📹** [Local Lifetimes for Kotlin – Ross Tate](https://www.youtube.com/watch?v=6ALhoqxYrV0)
+
+*[← 1300 Google Search-coroutines](day1-1300-google-search-coroutines.md) · [1515 Why Most AI Agents Never Scale? →](day1-1515-why-ai-agents-never-scale-koog.md)*

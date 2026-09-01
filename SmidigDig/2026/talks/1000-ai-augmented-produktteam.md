@@ -14,3 +14,5 @@ Moe fra SINTEF presenterer forskningsfunn om hvordan AI påvirker produktteam i 
 **Tags:** `Forskning` · `Produktteam` · `AI` · `SINTEF`
 
 **📹** Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/).
+
+*[← 0910 The new crossfunctional team](0910-crossfunctional-team-humans-agents.md) · [1025 Vill vibekoding →](1025-vill-vibekoding.md)*

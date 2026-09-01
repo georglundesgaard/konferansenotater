@@ -14,3 +14,5 @@ Under KotlinConf 2026 annonserte Briliantov Koog 1.0 som stabil utgivelse med et
 **Tags:** `Koog` · `AI-agenter` · `Enterprise` · `Observability` · `LLM`
 
 **📹** [Why Most AI Agents Never Scale? – Vadim Briliantov](https://www.youtube.com/watch?v=9XL0r5lJNDs)
+
+*[← 1400 Local Lifetimes for Kotlin](day1-1400-local-lifetimes.md) · [1615 Talking to terminals →](day1-1615-talking-to-terminals.md)*

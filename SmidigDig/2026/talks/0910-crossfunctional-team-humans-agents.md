@@ -13,3 +13,5 @@ Kniberg, tidligere kjent fra Crisp/Spotify-modellen og nå chief scientist i Abu
 **Tags:** `Keynote` · `AI-agenter` · `Produktteam` · `Samarbeid`
 
 **📹** Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/).
+
+*[← 0900 Velkommen](0900-velkommen.md) · [1000 AI-augmented produktteam →](1000-ai-augmented-produktteam.md)*

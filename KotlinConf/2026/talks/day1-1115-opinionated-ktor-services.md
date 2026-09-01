@@ -14,3 +14,5 @@ Hovedbudskapet er at en Ktor-utvikler bør velge sitt eget «meningssett» tidli
 **Tags:** `Ktor` · `Backend` · `Arkitektur` · `Arrow` · `Feilhåndtering` · `DDD`
 
 **📹** [Opinionated Ktor Services – Simon Vergauwen](https://www.youtube.com/watch?v=JOZFZ__3M7Q)
+
+*[← 1015 Bootiful Kotlin](day1-1015-bootiful-kotlin.md) · [1300 Google Search-coroutines →](day1-1300-google-search-coroutines.md)*
