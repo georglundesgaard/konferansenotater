@@ -114,6 +114,6 @@ Foredrag jeg gikk glipp av (parallelle spor / kollisjoner), sortert etter tid.
 - [Kotlin DSLs in 2026: Patterns That Stood the Test of Time](https://jonnyzzz.com/blog/2026/01/19/kotlin-dsl-2026/)
 - [Kotlin DSL Is Now the Default for New Gradle Builds](https://blog.gradle.org/kotlin-dsl-is-now-the-default-for-new-gradle-builds)
 - [SKaiNET – Multiplatform On Device Deep Learning](https://skainet.sk/)
-- [Adding Swift packages as dependencies to KMP modules | Kotlin docs](https://kotlinlang.org/docs/multiplatform/multiplatform-spm-import.html)
-- [Interoperability with Swift using Swift export | Kotlin Documentation](https://kotlinlang.org/docs/native-swift-export.html)
+- [Adding Swift packages as dependencies to KMP modules – Kotlin docs](https://kotlinlang.org/docs/multiplatform/multiplatform-spm-import.html)
+- [Interoperability with Swift using Swift export – Kotlin Documentation](https://kotlinlang.org/docs/native-swift-export.html)
 - [KEEP-485: Local Lifetimes](https://github.com/Kotlin/KEEP/blob/main/proposals/lifetimes.md)
