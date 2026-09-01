@@ -23,6 +23,20 @@
   color: #57606a;
 }
 
+/* «Til toppen»-lenke i h2-overskrifter */
+.to-top {
+  float: right;
+  font-size: 13px;
+  font-weight: normal;
+  color: #57606a;
+  text-decoration: none;
+  margin-top: 6px;
+}
+
+.to-top:hover {
+  color: #0969da;
+}
+
 /* Mer luft i brødteksten på talk-sidene */
 .markdown-body {
   font-size: 17px;
