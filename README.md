@@ -2,6 +2,8 @@
 
 Personlige notater fra konferanser jeg har vært på – sammendrag av foredrag, egne observasjoner, tags og lenker til opptak. Skrevet på norsk.
 
+**🌐 Les notatene på web:** [georglundesgaard.github.io/konferansenotater](https://georglundesgaard.github.io/konferansenotater/)
+
 ## Konferanser
 
 - **[JavaZone 2026](JavaZone/2026/README.md)** — Lillestrøm, 2.–3. september 2026
