@@ -28,7 +28,7 @@ konferansenotater/
 │   └── <ÅÅÅÅ>/
 │       ├── README.md              # Konferanse-oversikt: Topp 5, deltakelse, ønskeliste, kilder
 │       ├── program.md             # (valgfri) Lokal cache av offisielt program – offline-matching
-│       ├── plan-dagN.md           # (valgfri) Personlig timeplan per dag, fra /planlegg-dagen
+│       ├── plan-dagN.md           # (valgfri) Timeplan per dag, fra /planlegg-dagen; slettes av /avslutt-konferanse
 │       └── talks/
 │           ├── day1-HHMM-slug.md  # Ett foredrag per fil (flerdags-konferanse)
 │           └── HHMM-slug.md       # Ett foredrag per fil (endags-konferanse)
@@ -44,10 +44,12 @@ Repoet har prosjekt-skills i `.claude/skills/` som automatiserer arbeidsflyten (
 - **`/planlegg-dagen`** — kvelden før / på morgenen: velg foredrag per tidsluke og få en personlig timeplan i `plan-dagN.md`. Kollisjoner kan registreres rett i ønskelisten.
 - **`/berik-foredrag`** — etter konferansen, når opptakene er ute: fyller inn sammendrag i talk-filer basert på videoene, og foreslår Topp 5 til README-en.
 - **`/oppdater-program`** — sjekker om det offisielle konferanseprogrammet har endret seg og oppdaterer `program.md`-cachen; melder fra hvis registrerte foredrag er berørt.
+- **`/avslutt-konferanse`** — rett etter siste konferansedag: kvalitetssjekk av notatene, «Oppsummering»-seksjon i konferanse-README-en (med din godkjenning) og opprydding av dagsplanene.
 - **`/video-sjekk`** — sjekker om utestående opptak har blitt publisert og lenker dem inn. Egner seg som ukentlig rutine via `/schedule`.
+- **`/topp-5`** — foreslår eller regenererer «Anbefalt: Topp 5» fra ønskelisten basert på temaene du faktisk fulgte; kjøres helst etter `/berik-foredrag`.
 - **`/konferanse-stats`** — nøkkeltall på tvers av konferansene: antall foredrag, deltatt vs. ønskeliste, videodekning, tag-fordeling.
 
-Typisk livssyklus: `/ny-konferanse` → `/planlegg-dagen` → `/nytt-foredrag` (under konferansen) → `/video-sjekk` (ukene etter) → `/berik-foredrag` → Topp 5.
+Typisk livssyklus: `/ny-konferanse` → `/planlegg-dagen` → `/nytt-foredrag` (under konferansen) → `/avslutt-konferanse` → `/video-sjekk` (ukene etter) → `/berik-foredrag` → `/topp-5`.
 
 ## Tips og triks
 
@@ -63,8 +65,9 @@ Typisk livssyklus: `/ny-konferanse` → `/planlegg-dagen` → `/nytt-foredrag` (
 - Commit og push på slutten av dagen – notatene ligger da på nettsiden samme kveld.
 
 **Etter konferansen:**
+- Rett etter siste dag: kjør `/avslutt-konferanse` – kvalitetssjekk, oppsummering og opprydding mens inntrykkene er ferske.
 - Sett opp `/video-sjekk` som ukentlig rutine med `/schedule` til alle opptakene er publisert og lenket inn.
-- Når opptakene er ute: kjør `/berik-foredrag` – den skriver sammendrag fra videoene (dine egne notater røres aldri) og foreslår Topp 5 til konferanse-README-en.
+- Når opptakene er ute: kjør `/berik-foredrag` – den skriver sammendrag fra videoene (dine egne notater røres aldri) – og avslutt med `/topp-5` for oppdaterte anbefalinger.
 - `/konferanse-stats` gir deg tall og tag-fordeling på tvers av alle konferansene når du vil ha oversikt.
 
 ## Format for et foredrag

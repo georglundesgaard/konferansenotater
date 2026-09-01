@@ -28,7 +28,7 @@
 
 ## <a id="anbefalt-topp-5-fra-ønskelisten"></a>Anbefalt: Topp 5 fra ønskelisten
 
-*(Kun for konferanser med parallelle spor. Fylles ut når opptakene er sett/beriket.)*
+*(Kun for konferanser med parallelle spor. Fylles ut med /topp-5 når opptakene er beriket.)*
 
 1. **[<Tittel>](talks/<HHMM>-<slug>.md)** — <Taler>. <Kort begrunnelse>.
 2. ...

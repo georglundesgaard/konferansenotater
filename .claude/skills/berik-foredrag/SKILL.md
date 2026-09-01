@@ -76,7 +76,7 @@ Bruk: `/berik-foredrag` eller `/berik-foredrag <konferanse>` (f.eks. `/berik-for
 
 6. **Bekreft.** Meld: `Beriket X av Y foredrag. Y-X gjenstår (ingen video funnet).` List de som ble hoppet over. Ikke commit.
 
-7. **Foreslå Topp 5.** Hvis konferansens `README.md` har en tom eller placeholder-aktig «Anbefalt: Topp 5»-seksjon, foreslå fem foredrag fra interest-listen basert på de nye sammendragene og brukerens tags/notater fra attended-foredragene (velg det som spinner videre på temaer brukeren faktisk fulgte). Vis forslaget og spør om det skal skrives inn i README-en – ikke skriv uten bekreftelse.
+7. **Foreslå Topp 5.** Hvis konferansens `README.md` har en Topp 5-seksjon som er tom eller moden for oppdatering etter berikingen: kjør `/topp-5`-skillen. Den eier utvalgslogikken og gammel→ny-visningen – ikke gjenskap den her.
 
 ## Tips
 
