@@ -11,3 +11,5 @@ Denton demonstrerte dette med en spec-kompatibel MCP-server på cirka 50 linjer 
 **Tags:** `MCP` · `http4k` · `Funksjonell` · `Backend` · `API-design` · `Extension functions`
 
 **📹** [How Kotlin Powers Functional Design: MCP Edition – David Denton](https://www.youtube.com/watch?v=Xmkl7Y3lwUk)
+
+*[← KotlinConf 2026](../README.md)*

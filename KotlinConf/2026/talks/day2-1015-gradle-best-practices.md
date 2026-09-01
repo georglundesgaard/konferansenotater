@@ -9,3 +9,5 @@ Lynforedrag med 10 viktige Gradle-praksiser basert på offisielle anbefalinger f
 **Tags:** `Lyntale` · `Gradle` · `Build tools` · `Best practices`
 
 **📹** Individuell video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+*[← KotlinConf 2026](../README.md)*

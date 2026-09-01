@@ -11,3 +11,5 @@
 **Tags:** `tag1` · `tag2` · `tag3`
 
 **📹** [<Video-tittel>](<url>) — eller status hvis ikke publisert ennå.
+
+*[← <Konferanse> <ÅÅÅÅ>](../README.md)*       (kun ønskeliste-foredrag; foredrag jeg var på får forrige/neste-navigasjon fra /nytt-foredrag)

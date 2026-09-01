@@ -19,7 +19,7 @@ Bruk: `/video-sjekk` (alle konferanser) eller `/video-sjekk <konferanse>` (f.eks
 
 3. **Oppdater treff.** For hver talk med funnet opptak: erstatt statusdelen etter `**📹**`-prefikset med `[<Tittel> – <Taler>](<url>)`. Hadde statuslinjen en samlesending-lenke («Inngår i …»), behold den etter video-lenken som ` · Inngår også i [<samlesending>](<url>).` Bruk aldri `|` i lenketeksten (kramdown tolker det som tabell på GitHub Pages). Prefikset beholdes alltid.
 
-4. **Oppdater konferanse-README ved behov.** Hvis README-en har en formulering om hvor mange som mangler (f.eks. «sju sesjoner mangler fortsatt»), juster tallet eller fjern setningen når alt er på plass.
+4. **Oppdater konferanse-README ved behov.** Fjern ⏳-markøren bakerst på talkens rad(er) i README-listene for hvert opptak som ble lenket inn. Hvis README-en har en formulering om hvor mange som mangler (f.eks. «sju sesjoner mangler fortsatt»), juster tallet eller fjern setningen når alt er på plass.
 
 5. **Rapportér.** `Fant X nye opptak (oppdatert). Y mangler fortsatt: <liste>`. Ikke commit.
 

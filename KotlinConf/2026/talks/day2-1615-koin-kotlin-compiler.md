@@ -8,6 +8,8 @@ Pluginen bygger også forhåndsberegnede avhengighetsindekser, noe som gir merkb
 
 Resultatet er at Koin beholder sin pragmatiske ergonomi, men flytter seg fra ren runtime-DI til en løsning som konkurrerer med kompilator-genererte rammeverk på ytelse og sikkerhet.
 
-**Tags:** `Koin` · `DI` · `Compiler plugin` · `Compile-time` · `Performance`
+**Tags:** `Lyntale` · `Koin` · `DI` · `Compiler plugin` · `Compile-time` · `Performance`
 
 **📹** [Koin + Kotlin Compiler = ♥️ – Arnaud Giuliani](https://www.youtube.com/watch?v=eBu9i2MYWWM)
+
+*[← KotlinConf 2026](../README.md)*

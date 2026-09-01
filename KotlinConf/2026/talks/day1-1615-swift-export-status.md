@@ -6,6 +6,8 @@ Statusoppdatering på Swift Export-prosjektet fra JetBrains, som skal erstatte d
 
 *(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
 
-**Tags:** `KMP` · `iOS` · `Swift interop` · `Swift Export`
+**Tags:** `Lyntale` · `KMP` · `iOS` · `Swift interop` · `Swift Export`
 
 **📹** Individuell video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+*[← KotlinConf 2026](../README.md)*

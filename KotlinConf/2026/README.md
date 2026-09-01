@@ -1,6 +1,6 @@
 # KotlinConf 2026
 
-**München, 21.–22. mai 2026.** JetBrains' årlige Kotlin-konferanse. To dager, seks parallelle spor, ca. 74 foredrag. De fleste videoene ble publisert på [Kotlin sin offisielle YouTube-kanal](https://www.youtube.com/@Kotlin) i juli–august 2026 og er også lenket fra [kotlinconf.com/talks/](https://kotlinconf.com/talks/) – sju sesjoner mangler fortsatt individuelle opptak (markert i talk-filene); jeg lenker dem inn etter hvert.
+**München, 21.–22. mai 2026.** JetBrains' årlige Kotlin-konferanse. To dager, seks parallelle spor, 84 sesjoner (foredrag, lyntaler og keynotes). De fleste videoene ble publisert på [Kotlin sin offisielle YouTube-kanal](https://www.youtube.com/@Kotlin) i juli–august 2026 og er også lenket fra [kotlinconf.com/talks/](https://kotlinconf.com/talks/) – sju sesjoner mangler fortsatt individuelle opptak (markert med ⏳ i listene under); jeg lenker dem inn etter hvert.
 
 **[📋 Hele programmet](program.md)** (84 sesjoner, begge dager)
 
@@ -19,18 +19,18 @@
 - **[1400 Local Lifetimes for Kotlin](talks/day1-1400-local-lifetimes.md)** — Ross Tate
 - **[1515 Why Most AI Agents Never Scale? Building Enterprise-Ready AI with Koog](talks/day1-1515-why-ai-agents-never-scale-koog.md)** — Vadim Briliantov
 - **[1615 Talking to terminals (and how they talk back)](talks/day1-1615-talking-to-terminals.md)** — Jake Wharton
-- **[1715 Robocoders: The [K]agematch](talks/day1-1715-robocoders-kagematch.md)** — Viktor Gamov, Baruch Sadogursky
+- **[1715 Robocoders: The [K]agematch](talks/day1-1715-robocoders-kagematch.md)** — Viktor Gamov, Baruch Sadogursky ⏳
 
 ### Dag 2 — 22. mai 2026 ([offisielt program](https://kotlinconf.com/schedule/?day=2026-05-22))
 
-- **[0900 We were meant to be](talks/day2-0900-we-were-meant-to-be.md)** *(Day 2 Keynote)* — Lena Reinhard
+- **[0900 We were meant to be](talks/day2-0900-we-were-meant-to-be.md)** *(Day 2 Keynote)* — Lena Reinhard ⏳
 - **[1015 Dissecting Kotlin: 2026](talks/day2-1015-dissecting-kotlin-2026.md)** — Huyen Tue Dao
 - **[1115 Idiomatic Kotlin applications with Spring Boot 4](talks/day2-1115-idiomatic-kotlin-spring-boot-4.md)** — Sébastien Deleuze
 - **[1300 Eval-Driven Development](talks/day2-1300-eval-driven-development.md)** — Urs Peter
 - **[1400 Context parameters and API design](talks/day2-1400-context-parameters-api-design.md)** — Alejandro Serrano Mena
 - **[1515 gRPC, Made for Kotlin](talks/day2-1515-grpc-made-for-kotlin.md)** — Alexander Sysoev
 - **[1545 KotlinLLM: Leveraging AI for Runtime Logic Delegation](talks/day2-1545-kotlinllm-runtime-delegation.md)** — Stanislav Sandler
-- **[1615 Spec-Driven Development with AI Agents](talks/day2-1615-spec-driven-development.md)** — Anton Arhipov
+- **[1615 Spec-Driven Development with AI Agents](talks/day2-1615-spec-driven-development.md)** — Anton Arhipov ⏳
 
 ---
 
@@ -46,13 +46,13 @@ Foredrag jeg gikk glipp av (parallelle spor / kollisjoner), sortert etter tid.
 - **[1115 Kotlin/Wasm: Finally, the missing piece for a full stack Kotlin webapp!](talks/day1-1115-kotlin-wasm-full-stack.md)** — Dan Kim
 - **[1300 Real-World Data Science With Kotlin Notebook](talks/day1-1300-real-world-data-science-notebook.md)** — Adele Carpenter
 - **[1330 SwiftPM support for Kotlin Multiplatform](talks/day1-1330-swiftpm-support-kmp.md)** — Timofey Solonin
-- **[1400 Codex for Kotlin Engineers](talks/day1-1400-codex-for-kotlin.md)** — Benedict Kerres
-- **[1430 Building AI-Powered Web Apps in Kotlin/Wasm](talks/day1-1430-ai-powered-web-apps-wasm.md)** — Zalim Bashorov
+- **[1400 Codex for Kotlin Engineers](talks/day1-1400-codex-for-kotlin.md)** — Benedict Kerres ⏳
+- **[1430 Building AI-Powered Web Apps in Kotlin/Wasm](talks/day1-1430-ai-powered-web-apps-wasm.md)** — Zalim Bashorov ⏳
 - **[1515 Compose beyond UI: Display and Print!](talks/day1-1515-compose-beyond-ui.md)** — Salomon Brys
 - **[1515 Expedited Shipping: Accelerating iOS Development with KMP at Amazon](talks/day1-1515-expedited-shipping-kmp-amazon.md)** — Jessalyn Wang
 - **[1515 The State of Amper](talks/day1-1515-state-of-amper.md)** — Joffrey Bion
 - **[1615 Increasing quality of AI generated Kotlin code](talks/day1-1615-ai-generated-code-quality.md)** — Sergei Rybalkin (Meta)
-- **[1615 Swift Export: Where We Stand](talks/day1-1615-swift-export-status.md)** — Pamela Hill-Galloway
+- **[1615 Swift Export: Where We Stand](talks/day1-1615-swift-export-status.md)** — Pamela Hill-Galloway ⏳
 - **[1645 Can Kotlin Swift Interop Ever Be Perfect?](talks/day1-1645-kotlin-swift-interop-perfect.md)** — Gleb Lukianets
 - **[1715 The Lord of Collection Functions](talks/day1-1715-lord-of-collection-functions.md)** — Ben Kadel
 
@@ -60,7 +60,7 @@ Foredrag jeg gikk glipp av (parallelle spor / kollisjoner), sortert etter tid.
 
 - **[1015 Advanced Kotlin Native Integration](talks/day2-1015-advanced-kotlin-native-integration.md)** — Tadeas Kriz (Touchlab)
 - **[1015 Automate upgrading to Kotlin 2 with OpenRewrite](talks/day2-1015-openrewrite-kotlin-2-upgrade.md)** — Rooz SF, Jonathan Schneider
-- **[1015 10 Gradle Best Practices Every Kotlin Developer Should Know](talks/day2-1015-gradle-best-practices.md)** — Stefan Wolf
+- **[1015 10 Gradle Best Practices Every Kotlin Developer Should Know](talks/day2-1015-gradle-best-practices.md)** — Stefan Wolf ⏳
 - **[1045 A First Look at the Kotlin Ecosystem Plugin for Declarative Gradle](talks/day2-1045-kotlin-ecosystem-plugin-declarative-gradle.md)** — Marcin Mycek
 - **[1115 How I Learned to Stop Worrying and Love Value Semantics](talks/day2-1115-value-semantics.md)** — Marat Akhin
 - **[1115 Redefining Machine Learning with Kotlin](talks/day2-1115-redefining-ml-skainet.md)** — Michal Harakal
@@ -80,7 +80,7 @@ Foredrag jeg gikk glipp av (parallelle spor / kollisjoner), sortert etter tid.
 
 ## <a id="anbefalt-topp-5-fra-ønskelisten"></a>Anbefalt: Topp 5 fra ønskelisten
 
-Hvis du bare skal se noen få opptak, er dette mine anbefalinger fra foredragene jeg selv gikk glipp av — valgt fordi de spinner videre på tråder jeg gikk mye på (AI-agenter, Ktor/backend, språkdesign):
+Hvis du bare skal se noen få opptak, er dette mine anbefalinger fra foredragene jeg selv gikk glipp av – valgt fordi de spinner videre på temaer jeg fulgte tett (AI-agenter, Ktor/backend, språkdesign):
 
 1. **[Full-Stack Kotlin AI: Powering Compose Multiplatform apps with Koog & MCP](talks/day2-1400-full-stack-kotlin-ai-koog-mcp.md)** — John O'Reilly. Praktisk demo av Koog + Kotlin MCP SDK i en Compose Multiplatform-app, med hopp mellom sky-LLM og on-device. Direkte oppfølging til Briliantovs Koog-foredrag.
 2. **[How I Learned to Stop Worrying and Love Value Semantics (in Kotlin)](talks/day2-1115-value-semantics.md)** — Marat Akhin. Dybden bak multi-field value classes (eksperimentelt i 2.5) med benchmarks. Passer bra ved siden av *Local Lifetimes* og *Context parameters*.

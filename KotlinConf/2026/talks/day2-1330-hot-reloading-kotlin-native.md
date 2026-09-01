@@ -8,6 +8,8 @@ Han gikk under panseret på nødvendige kompilatorendringer, spesielt split comp
 
 Foredraget ga et konkret innblikk i lavnivå-runtime-manipulasjon på Kotlin/Native og pekte fram mot en langt raskere utviklingsopplevelse for KMP-apper på iOS.
 
-**Tags:** `Kotlin/Native` · `iOS` · `Compose` · `Hot reload` · `LLVM` · `Compiler`
+**Tags:** `Lyntale` · `Kotlin/Native` · `iOS` · `Compose` · `Hot reload` · `LLVM` · `Compiler`
 
 **📹** [Hot-Reloading Kotlin/Native – Gabriele Pappalardo](https://www.youtube.com/watch?v=hXDw2cOxnpo)
+
+*[← KotlinConf 2026](../README.md)*

@@ -47,10 +47,11 @@ Interviews the user for a single talk, then writes the file and updates the conf
 
 11. **Oppdater konferanse-README.** Åpne `<Konferanse>/<År>/README.md`. Under enten `## Foredrag jeg gikk på` eller `## Foredrag jeg vil se opptak av`, i riktig dag-underseksjon, sett inn (sortert på tid):
     `- **[<HHMM> <Tittel>](talks/<filnavn>)** — <Taler(e)>`
+    Fikk foredraget en statuslinje uten eget opptak i steg 8, avslutt raden med ` ⏳` (fjernes av `/video-sjekk` når opptaket lenkes inn).
 
 11a. **Oppdater programraden.** Hvis `program.md` finnes og talken ble matchet der: sett radens `<tr>`-klasse til `attended` eller `wishlist`, legg ✅/👀-badge foran tittelen, og fyll Notater-cellen med `<a class="notes-link" href="talks/<filnavn med .html>">📝 notater</a>` – slik at programmet lenker begge veier. (Én-setnings oppsummering i Notater-cellen kommer fra `/berik-foredrag` senere.)
 
-11b. **Vedlikehold forrige/neste-kjeden** (kun attended). Attended-talks har en avsluttende navigasjonslinje på formen `*[← <forrige>](<fil>) · [<neste> →](<fil>)*`. Finn den nye talkens kronologiske plass blant attended-filene (README-listen er fasit), og:
+11b. **Avslutt filen med navigasjon.** For interest-foredrag: avslutt filen med `*[← <Konferanse> <År>](../README.md)*` (tilbakelenke – de har ingen forrige/neste-kjede). For attended: vedlikehold forrige/neste-kjeden som følger. Attended-talks har en avsluttende navigasjonslinje på formen `*[← <forrige>](<fil>) · [<neste> →](<fil>)*`. Finn den nye talkens kronologiske plass blant attended-filene (README-listen er fasit), og:
     - Legg navigasjonslinje nederst i den nye filen (utelat «forrige» hvis først, «neste» hvis sist).
     - Oppdater navigasjonslinjen i nabo-filene (forrige fils «neste»-lenke og neste fils «forrige»-lenke) så kjeden forblir sammenhengende.
 

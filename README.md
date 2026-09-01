@@ -6,7 +6,7 @@
 [![Foredrag](https://img.shields.io/badge/foredrag-59-blue)](https://georglundesgaard.github.io/konferansenotater/)
 [![Språk](https://img.shields.io/badge/spr%C3%A5k-norsk-red)](README.md)
 
-Personlige notater fra konferanser jeg har vært på – sammendrag av foredrag, egne observasjoner, tags og lenker til opptak. Skrevet på norsk.
+Personlige notater fra konferanser jeg deltar på – sammendrag av foredrag, egne observasjoner, tags og lenker til opptak. Skrevet på norsk.
 
 ## Konferanser
 
@@ -23,13 +23,15 @@ konferansenotater/
 ├── _mal/                          # Maler for nye konferanser
 │   ├── README.md                  #   – konferanse-README
 │   └── talks/HHMM-slug.md         #   – én talk-fil
-├── <Konferanse>/<ÅÅÅÅ>/
-│   ├── README.md                  # Konferanse-oversikt: Topp 5, deltakelse, ønskeliste, kilder
-│   ├── program.md                 # (valgfri) Lokal cache av offisielt program – offline-matching
-│   ├── plan-dagN.md               # (valgfri) Personlig timeplan per dag, fra /planlegg-dagen
-│   └── talks/
-│       ├── day1-HHMM-slug.md      # Ett foredrag per fil (flerdags-konferanse)
-│       └── HHMM-slug.md           # Ett foredrag per fil (endags-konferanse)
+├── <Konferanse>/
+│   ├── README.md                  # Årgangsindeks for konferansen
+│   └── <ÅÅÅÅ>/
+│       ├── README.md              # Konferanse-oversikt: Topp 5, deltakelse, ønskeliste, kilder
+│       ├── program.md             # (valgfri) Lokal cache av offisielt program – offline-matching
+│       ├── plan-dagN.md           # (valgfri) Personlig timeplan per dag, fra /planlegg-dagen
+│       └── talks/
+│           ├── day1-HHMM-slug.md  # Ett foredrag per fil (flerdags-konferanse)
+│           └── HHMM-slug.md       # Ett foredrag per fil (endags-konferanse)
 └── README.md                      # Denne filen
 ```
 
@@ -50,24 +52,24 @@ Typisk livssyklus: `/ny-konferanse` → `/planlegg-dagen` → `/nytt-foredrag` (
 ## Tips og triks
 
 **Før konferansen:**
-- Sett opp konferansen med `/ny-konferanse <url>` så snart programmet er publisert — da får du både mappe, README og lokal programcache i én operasjon.
+- Sett opp konferansen med `/ny-konferanse <url>` så snart programmet er publisert – da får du både mappe, README og lokal programcache i én operasjon.
 - Kvelden før hver dag: kjør `/planlegg-dagen` og plukk foredrag per tidsluke. Foredrag du ikke rekker på grunn av kollisjoner, havner rett i ønskelisten.
 - Commit gjerne planen med en gang, men vent med å pushe til dagen er i gang – en pushet dagsplan forteller offentlig hvor du kommer til å være.
-- Kjør `/oppdater-program` på morgenen — programmer endres gjerne siste døgn, og cachen bør stemme med virkeligheten før du registrerer noe.
+- Kjør `/oppdater-program` på morgenen – programmer endres gjerne siste døgn, og cachen bør stemme med virkeligheten før du registrerer noe.
 
 **Under konferansen:**
-- Registrer foredrag i pausene med `/nytt-foredrag <noen stikkord>` — skillen matcher mot den lokale programcachen (fungerer på dårlig konferanse-WiFi), så et par ord om tittel eller taler holder. Den spør «Ett til?» så du kan ta hele formiddagen i én kjøring.
-- Ikke skriv sammendrag selv — lim inn stikkordsnotater og la placeholder-linjen stå. `/berik-foredrag` skriver sammendraget fra opptaket senere.
-- Commit og push på slutten av dagen — notatene ligger da på web-siden samme kveld.
+- Registrer foredrag i pausene med `/nytt-foredrag <noen stikkord>` – skillen matcher mot den lokale programcachen (fungerer på dårlig konferanse-WiFi), så et par ord om tittel eller taler holder. Den spør «Ett til?» så du kan ta hele formiddagen i én kjøring.
+- Ikke skriv sammendrag selv – lim inn stikkordsnotater og la placeholder-linjen stå. `/berik-foredrag` skriver sammendraget fra opptaket senere.
+- Commit og push på slutten av dagen – notatene ligger da på nettsiden samme kveld.
 
 **Etter konferansen:**
 - Sett opp `/video-sjekk` som ukentlig rutine med `/schedule` til alle opptakene er publisert og lenket inn.
-- Når opptakene er ute: kjør `/berik-foredrag` — den skriver sammendrag fra videoene (dine egne notater røres aldri) og foreslår Topp 5 til konferanse-README-en.
+- Når opptakene er ute: kjør `/berik-foredrag` – den skriver sammendrag fra videoene (dine egne notater røres aldri) og foreslår Topp 5 til konferanse-README-en.
 - `/konferanse-stats` gir deg tall og tag-fordeling på tvers av alle konferansene når du vil ha oversikt.
 
 ## Format for et foredrag
 
-Skjelettet for en talk-fil er definert i [`_mal/talks/HHMM-slug.md`](_mal/talks/HHMM-slug.md) – det er den kanoniske kilden. Kort oppsummert: tittel, metadata-linje (dag, tid, taler), sammendrag (1–7 setninger i 2–3 korte avsnitt – eller en placeholder til `/berik-foredrag` kjøres), eventuelle egne notater, tags, og en `**📹**`-linje med video-lenke eller status. Statuslinjer uten eget opptak har tre godkjente varianter – skills gjenkjenner nøyaktig disse: «Video ikke publisert ennå – se [kilde]», «Individuell video ikke publisert ennå – se [kilde]» og «Inngår i [samlesending] – individuell video forventet senere.»
+Skjelettet for en talk-fil er definert i [`_mal/talks/HHMM-slug.md`](_mal/talks/HHMM-slug.md) – det er den kanoniske kilden. Kort oppsummert: tittel, metadata-linje (dag, tid, taler), sammendrag (1–3 korte avsnitt – eller en placeholder til `/berik-foredrag` kjøres), eventuelle egne notater, tags, og en `**📹**`-linje med video-lenke eller status. Statuslinjer uten eget opptak har tre godkjente varianter – skills gjenkjenner nøyaktig disse: «Video ikke publisert ennå – se [kilde]», «Individuell video ikke publisert ennå – se [kilde]» og «Inngår i [samlesending] – individuell video forventet senere.»
 
 Metadata-linjen bruker `Dag {N}, {dato}` for flerdagskonferanser og bare `{dato}` for endagskonferanser, og kan avsluttes med en ankerlenke inn i `program.md`. Filnavn: `HHMM-slug.md` (endags) eller `dayN-HHMM-slug.md` (flerdags).
 
@@ -81,11 +83,11 @@ Holdes konsistent på tvers av konferanser:
 - **Tema:** `AI` · `LLM` · `AI-agenter` · `Backend` · `Frontend` · `Web` · `Mobil` · `Performance` · `Testing` · `Tooling` · `Build tools` · `Språkdesign` · `Database` · `Observability` · `API-design` · `Arkitektur` · `Skala` · `Feilhåndtering` · `Karriere`
 - **Tek:** `Kotlin 2.4` · `Compose` · `Compose Multiplatform` · `KMP` · `Ktor` · `Spring Boot` · `Coroutines` · `Kotlin/Wasm` · `Kotlin/Native` · `iOS` · `Android` · `JVM` · `Koog` · `MCP`
 
-Listen er ikke uttømmende — legg til nye tags etter behov.
+Listen er ikke uttømmende – legg til nye tags etter behov.
 
 ## Ny konferanse
 
-Enkleste vei: `/ny-konferanse <url til konferansen eller programmet>` — setter opp mappen, fyller README-en med fakta fra nettsiden og cacher programmet lokalt. (`/nytt-foredrag` sitt «Ny konferanse»-valg gjør det samme.)
+Enkleste vei: `/ny-konferanse <url til konferansen eller programmet>` – setter opp mappen, fyller README-en med fakta fra nettsiden og cacher programmet lokalt. (`/nytt-foredrag` sitt «Ny konferanse»-valg gjør det samme.)
 
 Manuelt:
 
@@ -97,4 +99,4 @@ touch "<Konferanse>/<ÅÅÅÅ>/talks/.gitkeep"
 # (én kopi per foredrag – ikke kopier selve malfilen inn i talks/).
 ```
 
-Plassholdere i malen er på formen `<Konferanse>`, `<ÅÅÅÅ>`, `<HHMM>` og `<slug>` — enkle å finne med søk og erstatt.
+Plassholdere i malen er på formen `<Konferanse>`, `<ÅÅÅÅ>`, `<HHMM>` og `<slug>` – enkle å finne med søk og erstatt.

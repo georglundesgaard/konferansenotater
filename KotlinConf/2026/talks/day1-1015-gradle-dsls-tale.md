@@ -9,3 +9,5 @@ Sentralt i foredraget står skillet mellom software definition og build logic, o
 **Tags:** `Gradle` · `Kotlin DSL` · `Build tools` · `Historikk`
 
 **📹** [A tale of the Gradle DSLs – Paul Merlin](https://www.youtube.com/watch?v=k8T9IOnXPao)
+
+*[← KotlinConf 2026](../README.md)*

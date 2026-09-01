@@ -6,6 +6,8 @@ Meike Felicia Hammer presenterte et Kotlin-native motstandsmønster hun kaller �
 
 Demoen kjørte samme tjeneste i to moduser: i «legacy mode» ble en forbigående feil sluppet gjennom som en 500-respons, mens «immune mode» fanget den samme feilen, klassifiserte den via de rike feiltypene og gjennomførte en avgrenset lokal utbedring før svaret forlot serveren. Poenget er at motstandsdyktighet bør bygges inn nær årsaken framfor å overlates til retries lenger ute i kjeden eller til uforutsigbare AI-mekanismer, slik at kjente feilmodi håndteres automatisk uten menneskelig inngripen.
 
-**Tags:** `Backend` · `Ktor` · `Resilience` · `Observability` · `Feilhåndtering` · `Rich errors`
+**Tags:** `Lyntale` · `Backend` · `Ktor` · `Resilience` · `Observability` · `Feilhåndtering` · `Rich errors`
 
 **📹** [The Backend Immune System – Meike Felicia Hammer](https://www.youtube.com/watch?v=oPKxwwppnuA)
+
+*[← KotlinConf 2026](../README.md)*

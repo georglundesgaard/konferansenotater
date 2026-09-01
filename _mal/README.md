@@ -1,8 +1,6 @@
 # <Konferanse> <ÅÅÅÅ>
 
-**<Sted>, <dato>.** Kort ingress: hva slags konferanse, format, spor, og hvor opptakene ender opp.
-
-> **Om videoene:** <Status – hvor og når opptakene publiseres, og hvordan de lenkes inn.>
+**<Sted>, <dato>.** Kort ingress: hva slags konferanse, format, spor, og hvor og når opptakene publiseres. Nevn gjerne at ⏳ i listene under betyr at opptaket ikke er publisert ennå.
 
 **[📋 Hele programmet](program.md)** (<antall> foredrag)       *(kun hvis program.md finnes)*
 
@@ -14,7 +12,7 @@
 
 ### <Dag / dato>
 
-- **[<HHMM> <Tittel>](talks/<HHMM>-<slug>.md)** — <Taler(e)>
+- **[<HHMM> <Tittel>](talks/<HHMM>-<slug>.md)** — <Taler(e)>       (flerdags: talks/day<N>-<HHMM>-<slug>.md · avslutt raden med ⏳ hvis opptaket mangler)
 - ...
 
 ---

@@ -6,6 +6,8 @@ Chantal Loncle bruker en zero-player automaton-simulering som gjennomgående dem
 
 Etter at simuleringen har generert data, tar hun resultatene inn i Kotlin Notebook og analyserer og visualiserer atferden med DataFrame og Kandy, slik at man ser hvordan automatens «liv» utvikler seg over tid. Til slutt introduserer hun den nye Exposed Gradle-pluginen som forenkler skjemamigrasjoner ved å generere migrasjonsscript direkte fra tabelldefinisjonene i koden.
 
-**Tags:** `Exposed` · `Database` · `Flow` · `Coroutines` · `DataFrame` · `Kandy`
+**Tags:** `Lyntale` · `Exposed` · `Database` · `Flow` · `Coroutines` · `DataFrame` · `Kandy`
 
 **📹** [Flow with Exposed: Life Finds a Way – Chantal Loncle](https://www.youtube.com/watch?v=Uoe7ClRkbGI)
+
+*[← KotlinConf 2026](../README.md)*

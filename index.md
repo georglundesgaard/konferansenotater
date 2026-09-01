@@ -1,6 +1,6 @@
 # Konferansenotater
 
-Personlige notater fra konferanser jeg har vært på – sammendrag av foredrag, egne observasjoner, tags og lenker til opptak. Skrevet på norsk.
+Personlige notater fra konferanser jeg deltar på – sammendrag av foredrag, egne observasjoner, tags og lenker til opptak. Skrevet på norsk.
 
 ## Konferanser
 

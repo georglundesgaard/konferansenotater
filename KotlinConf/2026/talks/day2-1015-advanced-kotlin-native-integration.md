@@ -11,3 +11,5 @@ Passer for team som allerede bruker KMP i produksjon og møter skaleringssmerter
 **Tags:** `KMP` · `Kotlin/Native` · `Build tools` · `Avansert` · `Touchlab`
 
 **📹** [Advanced Kotlin Native Integration – Tadeas Kriz](https://www.youtube.com/watch?v=Qk2aClaCZgY)
+
+*[← KotlinConf 2026](../README.md)*

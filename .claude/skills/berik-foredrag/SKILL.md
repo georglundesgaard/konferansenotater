@@ -41,9 +41,10 @@ Bruk: `/berik-foredrag` eller `/berik-foredrag <konferanse>` (f.eks. `/berik-for
    1. WebFetch video-URL — be om beskrivelse, kapitler, tags, transkripsjons­utdrag.
    2. Hvis siden er tynn: WebFetch abstract-URL og søk på tittel + taler.
 
-   Skriv 1–7 setninger på bokmål som dekker det som faktisk ble presentert
-   – konkrete verktøy, biblioteker, mønstre, konklusjoner. Del i 2–3 korte
-   avsnitt ved naturlige temaskifter; unngå ett langt kompakt avsnitt.
+   Skriv et sammendrag på bokmål – typisk 4–10 setninger fordelt på 1–3
+   korte avsnitt – som dekker det som faktisk ble presentert: konkrete
+   verktøy, biblioteker, mønstre, konklusjoner. Del avsnitt ved naturlige
+   temaskifter; unngå ett langt kompakt avsnitt.
 
    Regler:
    - Ikke reproduser transkripsjon ordrett – oppsummer med egne ord.
@@ -81,7 +82,7 @@ Bruk: `/berik-foredrag` eller `/berik-foredrag <konferanse>` (f.eks. `/berik-for
 
 - Kjør maks ~15 sub-agenter parallelt. Ved store konferanser, batch i to omganger.
 - Hvis en talk-fil allerede har et rikt sammendrag (verken placeholder eller `*(Sammendrag basert på programomtalen`-markør), hopp over med mindre brukeren eksplisitt sier "kjør på nytt". Skrives et sammendrag fra programbeskrivelsen i stedet for opptaket (f.eks. fordi video mangler), skal markør-linjen legges til under sammendraget.
-- Konferansens `README.md` trenger ingen oppdatering – lenkene der peker fortsatt på samme filer.
+- Konferansens `README.md` trenger vanligvis ingen oppdatering – lenkene der peker fortsatt på samme filer. Unntak: lenkes et opptak inn i en `**📹**`-linje (steg 5), fjern ⏳-markøren bakerst på talkens rad i README-listene.
 
 ## Ikke gjør
 

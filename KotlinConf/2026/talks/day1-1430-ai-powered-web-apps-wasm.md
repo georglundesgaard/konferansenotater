@@ -6,6 +6,8 @@ Bashorov ser på de nye, native AI-API-ene som moderne nettlesere er i ferd med 
 
 *(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
 
-**Tags:** `Kotlin/Wasm` · `AI` · `Web` · `On-device`
+**Tags:** `Lyntale` · `Kotlin/Wasm` · `AI` · `Web` · `On-device`
 
 **📹** Individuell video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+*[← KotlinConf 2026](../README.md)*

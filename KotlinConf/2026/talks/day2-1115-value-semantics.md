@@ -11,3 +11,5 @@ Benchmarks i foredraget viser at value-orientert design ikke er en akademisk luk
 **Tags:** `Språkdesign` · `Value classes` · `Immutability` · `Performance` · `Data class`
 
 **📹** [How I Learned to Stop Worrying and Love Value Semantics – Marat Akhin](https://www.youtube.com/watch?v=YeQijxpnI3E)
+
+*[← KotlinConf 2026](../README.md)*

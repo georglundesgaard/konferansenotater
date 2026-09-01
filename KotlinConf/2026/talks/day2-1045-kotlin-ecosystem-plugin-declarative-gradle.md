@@ -8,6 +8,8 @@ Mycek viste hvordan den deklarative modellen gjør typiske smertepunkter i KMP �
 
 Foredraget var eksplisitt en «first look» på en prototyp under aktiv utvikling, men skisserte tydelig retningen JetBrains og Gradle tar for Kotlin-builds fremover.
 
-**Tags:** `Gradle` · `Build tools` · `Declarative` · `KMP` · `Tooling`
+**Tags:** `Lyntale` · `Gradle` · `Build tools` · `Declarative` · `KMP` · `Tooling`
 
 **📹** [A First Look at the Kotlin Ecosystem Plugin for Declarative Gradle – Marcin Mycek](https://www.youtube.com/watch?v=25Ngfn9Bhqc)
+
+*[← KotlinConf 2026](../README.md)*

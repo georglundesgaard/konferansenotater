@@ -11,3 +11,5 @@ Casestudien fra Meta viste at kombinasjonen av kuraterte retningslinjer, målret
 **Tags:** `AI` · `Kodekvalitet` · `Meta` · `Skala` · `Evaluering` · `Casestudie`
 
 **📹** [Increasing quality of AI generated Kotlin code – Sergei Rybalkin](https://www.youtube.com/watch?v=rZvEuqUiPnw)
+
+*[← KotlinConf 2026](../README.md)*

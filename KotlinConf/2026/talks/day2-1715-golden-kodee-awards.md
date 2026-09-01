@@ -7,3 +7,5 @@ Avslutningsseremonien på KotlinConf 2026 delte ut de aller første Golden Kodee
 **Tags:** `Awards` · `Community` · `Avslutning`
 
 **📹** [Golden Kodee Awards – KotlinConf'26](https://www.youtube.com/watch?v=p88y4pjb8Cg) · Inngår også i [Day 2 Livestream](https://www.youtube.com/watch?v=S3CjlmpsC0I).
+
+*[← KotlinConf 2026](../README.md)*

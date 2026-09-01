@@ -11,3 +11,5 @@ Til slutt viser hun hvordan plattformen skalerer i en Amazon-kontekst der mange 
 **Tags:** `KMP` · `iOS` · `SwiftUI` · `Skala` · `Casestudie` · `Amazon`
 
 **📹** [Expedited Shipping: Accelerating iOS Development with KMP at Amazon – Jessalyn Wang](https://www.youtube.com/watch?v=DKE_aNl-2HU)
+
+*[← KotlinConf 2026](../README.md)*

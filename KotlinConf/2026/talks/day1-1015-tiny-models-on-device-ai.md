@@ -6,6 +6,8 @@ Hammad Akram viste hvordan små språkmodeller (SLM-er) kan kjøre direkte på A
 
 Foredraget var ærlig om avveiningene ved on-device AI: latens og personvern vinner, men du må designe rundt modellstørrelse på disk, batteribruk under generering og at kvaliteten ligger et hakk under skybaserte flaggskipmodeller. Akram plasserte tilnærmingen som et komplement til JetBrains sin bredere AI-satsning – der Koog og MCP dekker agent-flyter og IDE-integrasjon – mens SLM-er på enhet passer best i personvernkritiske og offline-scenarier. Konklusjonen var at en riktig valgt liten modell allerede kan levere reell nytteverdi i produksjonsapper, så lenge man er bevisst på begrensningene.
 
-**Tags:** `AI` · `LLM` · `On-device` · `Llama Stack` · `Android`
+**Tags:** `Lyntale` · `AI` · `LLM` · `On-device` · `Llama Stack` · `Android`
 
 **📹** [Tiny Models, Big Impact – Hammad Akram](https://www.youtube.com/watch?v=Rqj4QCdwBMc)
+
+*[← KotlinConf 2026](../README.md)*

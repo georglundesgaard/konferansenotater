@@ -9,3 +9,5 @@ Under panseret oppdager Kotlin Gradle-pluginen Clang-modulene i Swift-pakkene og
 **Tags:** `Lyntale` · `KMP` · `iOS` · `SwiftPM` · `Kotlin/Native` · `Tooling`
 
 **📹** [SwiftPM support for Kotlin Multiplatform – Timofey Solonin](https://www.youtube.com/watch?v=GrO-bTnn_Ng)
+
+*[← KotlinConf 2026](../README.md)*

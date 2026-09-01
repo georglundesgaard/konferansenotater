@@ -7,7 +7,7 @@ Gorman stiller et kritisk spørsmål: er all denne AI-investeringen nødvendig, 
 *(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
 
 **Notater fra konferansen:**
-- Jevons' paradox
+- Jevons-paradokset
 
 **Tags:** `Kritisk blikk` · `AI-debatt` · `Kostnad`
 

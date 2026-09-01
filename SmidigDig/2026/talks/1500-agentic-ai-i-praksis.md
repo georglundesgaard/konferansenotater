@@ -9,3 +9,5 @@ Monsvik forteller om Telenors reise med agentic AI – hvordan AI går fra å v�
 **Tags:** `Casestudie` · `AI-agenter` · `Telenor` · `Agentic AI`
 
 **📹** Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/).
+
+*[← SmidigDig 2026](../README.md)*

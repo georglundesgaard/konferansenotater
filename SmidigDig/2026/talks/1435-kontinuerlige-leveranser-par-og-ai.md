@@ -2,7 +2,7 @@
 
 *27. mai 2026 · kl 14:35 · Asgaut Mjølne Söderbom (SpareBank1) · 📋 [i programmet](../program.md)*
 
-Söderbom deler hvordan SpareBank1 kombinerer parprogrammering, kontinuerlig læring og AI-verktøy i sin leveransepipeline. Foredraget viser hvordan disse praksisene forsterker hverandre – AI som tredje «par» i programmeringen, læringskultur som motvekt til avhengighet, og kontinuerlige leveranser som rammen rundt det hele.
+Söderbom deler hvordan SpareBank1 kombinerer parprogrammering, kontinuerlig læring og AI-verktøy i sin leveransepipeline. Foredraget viser hvordan disse praksisene forsterker hverandre – AI som tredje partner i parprogrammeringen, læringskultur som motvekt til avhengighet, og kontinuerlige leveranser som rammen rundt det hele.
 
 *(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
 

@@ -11,3 +11,5 @@ På veikartet framover står deling og publisering av plugins slik at de kan gje
 **Tags:** `Amper` · `Kotlin Toolchain` · `Build tools` · `JetBrains` · `Tooling`
 
 **📹** [The State of Amper – Joffrey Bion](https://www.youtube.com/watch?v=S19BE4Xvyrs)
+
+*[← KotlinConf 2026](../README.md)*

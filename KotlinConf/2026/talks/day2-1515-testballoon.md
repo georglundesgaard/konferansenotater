@@ -8,6 +8,8 @@ En sentral demonstrasjon var førsteklasses støtte for alle Kotlin-mål: ved å
 
 Foredragsholderne viste også hvordan rammeverket gir dyp Gradle-integrasjon og fungerer sømløst sammen med eksisterende assertion-biblioteker, inkludert Kotlin Power-Assert. Til slutt gikk de gjennom JUnit 4- og JUnit 6-interop og en gradvis migreringsvei, slik at eksisterende JVM-prosjekter kan ta i bruk TestBalloon uten å måtte skrive om hele testsuiten på én gang.
 
-**Tags:** `Testing` · `TestBalloon` · `KMP` · `Wasm` · `DSL` · `JUnit`
+**Tags:** `Testing` · `TestBalloon` · `KMP` · `Kotlin/Wasm` · `DSL` · `JUnit`
 
 **📹** [TestBalloon: Kotlin testing is easier (and more fun) than you think – Oliver Okrongli, Bernd Prünster](https://www.youtube.com/watch?v=80ASd_Kt2tw)
+
+*[← KotlinConf 2026](../README.md)*

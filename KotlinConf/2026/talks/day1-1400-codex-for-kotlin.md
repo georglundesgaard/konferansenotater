@@ -6,6 +6,8 @@ Kort sesjon om hvordan OpenAI Codex passer godt sammen med Kotlin sitt strenge t
 
 *(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
 
-**Tags:** `AI` · `Codex` · `Workflow` · `AI-assistert utvikling`
+**Tags:** `Lyntale` · `AI` · `Codex` · `Workflow` · `AI-assistert utvikling`
 
 **📹** Individuell video ikke publisert ennå – se [Kotlin-kanalen](https://www.youtube.com/@Kotlin).
+
+*[← KotlinConf 2026](../README.md)*

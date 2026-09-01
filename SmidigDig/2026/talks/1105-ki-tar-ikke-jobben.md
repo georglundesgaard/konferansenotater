@@ -2,7 +2,7 @@
 
 *27. mai 2026 · kl 11:05 · Nora Gjøen-Gjøsæter (Kantega) · 📋 [i programmet](../program.md)*
 
-Et motstykke til AI-hypen: hva blir igjen når KI håndterer koding, dokumentasjon og analyse? Gjøen-Gjøsæter argumenterer for hvilke kjerneoppgaver som fortsatt krever menneskelig dømmekraft – kontekstforståelse, ansvarlighet, samarbeid med kunde og kollega – og hvorfor utviklerrollen utvikler seg snarere enn å forsvinne.
+Et motstykke til AI-hypen: hva blir igjen når AI håndterer koding, dokumentasjon og analyse? Gjøen-Gjøsæter argumenterer for hvilke kjerneoppgaver som fortsatt krever menneskelig dømmekraft – kontekstforståelse, ansvarlighet, samarbeid med kunde og kollega – og hvorfor utviklerrollen utvikler seg snarere enn å forsvinne.
 
 *(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
 

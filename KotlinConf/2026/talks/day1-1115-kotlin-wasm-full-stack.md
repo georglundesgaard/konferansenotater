@@ -9,3 +9,5 @@ Wasm er den «manglende brikken» fordi det gir Kotlin en førsteklasses fronten
 **Tags:** `Kotlin/Wasm` · `Full-stack` · `Compose` · `Ktor` · `Exposed`
 
 **📹** [Kotlin/Wasm: Finally, the missing piece – Dan Kim](https://www.youtube.com/watch?v=JThr4fn9OOw)
+
+*[← KotlinConf 2026](../README.md)*

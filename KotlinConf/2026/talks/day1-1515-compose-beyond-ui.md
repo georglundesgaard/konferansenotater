@@ -11,3 +11,5 @@ Den bærende innsikten er at Compose i praksis er en tegnemotor bundet til Skia 
 **Tags:** `Lyntale` · `Compose Multiplatform` · `Kreativt` · `PDF` · `Print`
 
 **📹** [Compose beyond UI: Display and Print! – Salomon Brys](https://www.youtube.com/watch?v=gi3R122UpgM)
+
+*[← KotlinConf 2026](../README.md)*

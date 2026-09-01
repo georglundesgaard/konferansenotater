@@ -9,3 +9,5 @@ Sammensatte oppskrifter håndterer hele migreringsløpet: `UpgradeDependencyVers
 **Tags:** `Tooling` · `Refaktorering` · `OpenRewrite` · `Kotlin 2` · `Migrering`
 
 **📹** [Automate upgrading to Kotlin 2 with OpenRewrite – Rooz SF, Jonathan Schneider](https://www.youtube.com/watch?v=XrPqvtWniuk)
+
+*[← KotlinConf 2026](../README.md)*

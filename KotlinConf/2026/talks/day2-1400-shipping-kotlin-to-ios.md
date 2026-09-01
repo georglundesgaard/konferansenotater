@@ -11,3 +11,5 @@ Til slutt oppsummerte hun et jukseark over vanlige interop-fallgruver – sealed
 **Tags:** `KMP` · `iOS` · `Compose Multiplatform` · `Swift interop` · `Casestudie` · `Firebase`
 
 **📹** [What Nobody Told Us About Shipping Kotlin to iOS – Suhyeon Kim](https://www.youtube.com/watch?v=nziQi2Mg1OY)
+
+*[← KotlinConf 2026](../README.md)*

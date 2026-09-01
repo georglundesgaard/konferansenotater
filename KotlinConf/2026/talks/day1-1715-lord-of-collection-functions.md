@@ -11,3 +11,5 @@ Foredraget er både et underholdende show og en praktisk oppslagsbok for utvikle
 **Tags:** `Collections` · `Funksjonell` · `Standardbibliotek` · `Underholdning`
 
 **📹** [The Lord of Collection Functions – Ben Kadel](https://www.youtube.com/watch?v=iRum03U1oZo)
+
+*[← KotlinConf 2026](../README.md)*

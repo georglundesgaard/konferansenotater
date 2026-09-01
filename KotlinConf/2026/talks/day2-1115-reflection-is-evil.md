@@ -11,3 +11,5 @@ Som alternativer viste han fram verktøykassen som allerede finnes: KSP og Java-
 **Tags:** `Lyntale` · `JVM` · `Compiler plugin` · `Compile-time` · `Språkdesign`
 
 **📹** [Reflection is Evil – Jeffrey van Gogh](https://www.youtube.com/watch?v=bxpmPZOWJOQ)
+
+*[← KotlinConf 2026](../README.md)*

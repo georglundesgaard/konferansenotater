@@ -9,3 +9,5 @@ Fra utviklerverktøyene demonstrerer han IntelliJ scratch files, `.kts`-skript k
 **Tags:** `Lyntale` · `JVM` · `Kotlin/Native` · `Kotlin/Wasm` · `KMP`
 
 **📹** [Run, Kotlin, Run! – Marc Reichelt](https://www.youtube.com/watch?v=-w97euRLTBA)
+
+*[← KotlinConf 2026](../README.md)*

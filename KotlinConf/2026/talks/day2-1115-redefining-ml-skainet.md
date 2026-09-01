@@ -11,3 +11,5 @@ Poenget er at typesikkerhet, ytelse og personvern kan gå hånd i hånd når AI 
 **Tags:** `AI` · `ML` · `KMP` · `On-device` · `SKaiNET` · `Personvern`
 
 **📹** [Redefining Machine Learning with Kotlin – Michal Harakal](https://www.youtube.com/watch?v=uTmCE0SlvSM)
+
+*[← KotlinConf 2026](../README.md)*

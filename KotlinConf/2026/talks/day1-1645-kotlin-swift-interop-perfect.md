@@ -8,6 +8,8 @@ Samtidig tvinger de semantiske forskjellene fram harde designvalg: generiske typ
 
 Konklusjonen er at Swift Export flytter smertepunktene, men fordi Kotlins nominelle, JVM-inspirerte objektmodell og Swifts protokoll- og value-type-orienterte modell trekker i hver sin retning, må teamet velge mellom Kotlin-troskap og Swift-idiomatikk i hver eneste mapping.
 
-**Tags:** `KMP` · `iOS` · `Swift interop` · `Swift Export` · `Språkdesign`
+**Tags:** `Lyntale` · `KMP` · `iOS` · `Swift interop` · `Swift Export` · `Språkdesign`
 
 **📹** [Can Kotlin Swift Interop Ever Be Perfect? – Gleb Lukianets](https://www.youtube.com/watch?v=XnPmdTea3VA)
+
+*[← KotlinConf 2026](../README.md)*

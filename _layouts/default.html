@@ -2,7 +2,6 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
@@ -17,12 +16,12 @@
         {% assign conf = parts[1] %}
         {% assign year = parts[2] %}
         {% assign confpath = '/' | append: conf | append: '/' | append: year | append: '/' %}
-        <span class="sep">›</span>
+        <span class="sep" aria-hidden="true">›</span>
         {% if page.url == confpath %}
           <span class="here">{{ conf }} {{ year }}</span>
         {% else %}
           <a href="{{ confpath | relative_url }}">{{ conf }} {{ year }}</a>
-          <span class="sep">›</span>
+          <span class="sep" aria-hidden="true">›</span>
           <span class="here">{{ page.title | default: parts.last }}</span>
         {% endif %}
       </nav>

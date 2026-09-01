@@ -9,3 +9,5 @@ Poenget hennes er at Kotlin-utviklere kan drive reell, utforskende dataanalyse i
 **Tags:** `Data Science` · `Kotlin Notebook` · `DataFrame` · `Kandy` · `Postgres`
 
 **📹** [Real-World Data Science With Kotlin Notebook – Adele Carpenter](https://www.youtube.com/watch?v=1sp05VqRVDA)
+
+*[← KotlinConf 2026](../README.md)*
