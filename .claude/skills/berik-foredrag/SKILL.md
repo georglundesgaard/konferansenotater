@@ -12,9 +12,14 @@ Går gjennom talk-filer som mangler et ordentlig sammendrag, henter opptaket der
 - Bruker skriver `/berik-foredrag` (eller ber om å "fylle inn sammendrag", "berike foredragene", "hente sammendrag fra videoene")
 - Opptakene er publisert på YouTube/Vimeo/konferansesiden
 
+Bruk: `/berik-foredrag` eller `/berik-foredrag <konferanse>` (f.eks. `/berik-foredrag javazone`, `/berik-foredrag KotlinConf 2026`).
+
 ## Steps
 
-1. **Finn konferansen.** Hvis `pwd` er inne i `<Konferanse>/<År>/`, bruk den. Ellers `AskUserQuestion` med eksisterende år-mapper.
+1. **Finn konferansen.** Prioritert rekkefølge:
+   - Argument til skillen (fuzzy: match mot mappenavn under repo-roten, år valgfritt – uten år, ta nyeste årgang). Ukjent navn: vis tilgjengelige konferanser og spør.
+   - Ellers: hvis `pwd` er inne i `<Konferanse>/<År>/`, bruk den.
+   - Ellers: `AskUserQuestion` med eksisterende år-mapper.
 
 2. **Finn kandidater.** List alle filer under `<Konferanse>/<År>/talks/` (ignorer `.gitkeep`). En fil er kandidat hvis den inneholder placeholder-linjen `*(Sammendrag fylles inn senere` eller mangler prosa mellom metadata-linjen og `**Notater / Tags / 📹**`. Filer med uerstattede mal-plassholdere (`<Tittel>` e.l.) er feilkopierte maler – meld fra om dem, ikke berik dem. Vis brukeren listen, og la dem bekrefte / plukke undermengde via `AskUserQuestion` (`Alle` / `Bare de uten video-lenke` / `Velg manuelt`).
 
