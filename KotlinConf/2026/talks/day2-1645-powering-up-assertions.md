@@ -1,6 +1,6 @@
 # Powering Up Your Assertions
 
-*[← KotlinConf 2026](../README.md) · Dag 2, 22. mai 2026 · kl 16:45 · Brian Norman*
+*Dag 2, 22. mai 2026 · kl 16:45 · Brian Norman*
 
 Brian Norman viser hvordan Power-Assert i Kotlin 2.4 tar et solid steg framover, med direkte respons på tilbakemeldingene fra brukerne. Gradle-konfigurasjonen blir vesentlig enklere å sette opp, feildiagrammene blir mer lesbare og lettere å tolke når en assertion feiler, og integrasjonen med tredjeparts assertion-biblioteker fungerer langt bedre enn før.
 

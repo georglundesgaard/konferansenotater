@@ -1,6 +1,6 @@
 # Compose beyond UI : Display and Print!
 
-*[← KotlinConf 2026](../README.md) · Dag 1, 21. mai 2026 · kl 15:15 · Salomon Brys*
+*Dag 1, 21. mai 2026 · kl 15:15 · Salomon Brys*
 
 Salomon Brys strukturerte lyntalen rundt to konkrete sideprosjekter som viser at Compose kan brukes langt utover vanlige app-grensesnitt: presentasjonsrammeverket CuP (Compose ur Pres), som lar ham programmere lysbilder med de samme komponentene som han bygger UI med til daglig, og Card-Composer, et Compose Desktop-bibliotek for å designe og trykke brettspillkort.
 

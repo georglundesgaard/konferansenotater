@@ -1,6 +1,6 @@
 # The Backend Immune System - Rich Errors, Ktor Observability and Safe Local Remediation
 
-*[← KotlinConf 2026](../README.md) · Dag 2, 22. mai 2026 · kl 14:30 · Meike Felicia Hammer*
+*Dag 2, 22. mai 2026 · kl 14:30 · Meike Felicia Hammer*
 
 Meike Felicia Hammer presenterte et Kotlin-native motstandsmønster hun kaller «The Backend Immune System», bygd på tre samvirkende lag: rike, typede feil som bærer presis diagnostisk kontekst, Ktor-basert observability som gjør symptomene synlige i sanntid, og lokale deterministiske «agenter» som utfører små, idempotente og strengt avgrensede mikroutbedringer innenfor selve request-grensen. Hun var eksplisitt på at disse agentene ikke er LLM-drevne – det er ren Kotlin-logikk med forutsigbar oppførsel, klare invarianter og korte tidsvinduer, slik at oppførselen kan testes og revideres på vanlig måte.
 

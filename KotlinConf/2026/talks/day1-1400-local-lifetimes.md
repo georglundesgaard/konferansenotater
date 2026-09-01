@@ -1,6 +1,6 @@
 # Local Lifetimes for Kotlin
 
-*[← KotlinConf 2026](../README.md) · Dag 1, 21. mai 2026 · kl 14:00 · Ross Tate*
+*Dag 1, 21. mai 2026 · kl 14:00 · Ross Tate*
 
 Ross Tate presenterte et forslag om «local lifetimes» i Kotlin — et typesystem-tillegg der et nytt `local`-nøkkelord på parametere (og `local class`-deklarasjoner) begrenser hvor lenge en referanse får leve, supplert av en subskript-notasjon som `Iterator<B>_{this&transform}` som binder returtypens levetid til inn-parameterne. Målet er å forhindre at ressurser og tilbakekall lekker ut av kallets leksikalske ramme, slik at man trygt kan bygge effektlignende mønstre som `Raise<E>`, non-local return i `fold`, samt lekkasjefrie byggere som `buildMap` og `lazy`.
 

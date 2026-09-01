@@ -1,6 +1,6 @@
 # How I Learned to Stop Worrying and Love Value Semantics (in Kotlin)
 
-*[← KotlinConf 2026](../README.md) · Dag 2, 22. mai 2026 · kl 11:15 · Marat Akhin*
+*Dag 2, 22. mai 2026 · kl 11:15 · Marat Akhin*
 
 Marat Akhin fra JetBrains sitt Kotlin Language Evolution-team argumenterer for hvorfor value-semantikk fortjener en langt mer sentral plass i Kotlin, i motsetning til den referansesemantikken JVM-utviklere er vant til å sjonglere. Han viser hvordan `data class` og `.copy()` allerede gir et snev av value-tankegang, men at nøstede `.copy()`-kall raskt blir tungvinte når domenemodellen vokser.
 

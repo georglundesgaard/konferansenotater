@@ -1,6 +1,6 @@
 # gRPC, Made for Kotlin
 
-*[← KotlinConf 2026](../README.md) · Dag 2, 22. mai 2026 · kl 15:15 · Alexander Sysoev*
+*Dag 2, 22. mai 2026 · kl 15:15 · Alexander Sysoev*
 
 Alexander Sysoev viste i denne lyntalen hvordan kotlinx-rpc endelig gjør gRPC til et fullt idiomatisk Kotlin-verktøy, i stedet for at man må lene seg på autogenererte Java-stubber med callbacks og manuell trådhåndtering. Tjenester defineres som vanlige Kotlin-interfaces der de fire gRPC-mønstrene faller rett inn i språket: unary blir en ren `suspend fun`, server-streaming returnerer `Flow<T>`, klient-streaming tar `Flow<T>` som parameter, og bidirectional kombinerer begge – alt bundet sammen av strukturert samtidighet slik at kansellering av en coroutine også river ned den underliggende RPC-en.
 

@@ -1,6 +1,6 @@
 # Run, Kotlin, Run!
 
-*[← KotlinConf 2026](../README.md) · Dag 1, 21. mai 2026 · kl 10:45 · Marc Reichelt*
+*Dag 1, 21. mai 2026 · kl 10:45 · Marc Reichelt*
 
 I denne lyntalen tar Marc Reichelt utfordringen med å kjøre den samme lille `isPrime`-funksjonen fra et Kotlin Multiplatform-prosjekt på så mange – og gjerne så eksotiske – måter som mulig i løpet av et kvarter. Han går raskt gjennom det opplagte som JVM og Android, hopper over til Kotlin Playground (der man også kan bytte backend til JS eller Wasm), og bruker deretter Kotlin/Native til å bygge egne binærfiler for macOS, for Linux (kjørt via Docker) og for Windows (`.exe` kjørt via Wine på Mac).
 

@@ -1,6 +1,6 @@
 # Bootiful Kotlin
 
-*[← KotlinConf 2026](../README.md) · Dag 1, 21. mai 2026 · kl 10:15 · Josh Long*
+*Dag 1, 21. mai 2026 · kl 10:15 · Josh Long*
 
 Josh Long leverte en klassisk live-kodet gjennomgang der han bygde en Spring Boot 4-applikasjon i Kotlin fra bunnen av og viste hvor tett rammeverket og språket har vokst sammen. Underveis demonstrerte han hvordan Kotlins konsise syntaks, dataklasser, extension-funksjoner og coroutines spiller sammen med Spring sine DSL-er, virtuelle tråder på moderne JVM og deklarative HTTP-klienter for å skjære bort seremoniell kode i en typisk backend.
 

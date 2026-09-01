@@ -1,6 +1,6 @@
 # The Lord of Collection Functions - The Fellowship of Kotlin
 
-*[← KotlinConf 2026](../README.md) · Dag 1, 21. mai 2026 · kl 17:15 · Ben Kadel*
+*Dag 1, 21. mai 2026 · kl 17:15 · Ben Kadel*
 
 Ben Kadel tar oss med på en Tolkien-inspirert reise gjennom Kotlins collection-funksjoner, der hver funksjon presenteres som et medlem av følget i kampen mot imperativ kode. Vi følger klassikere som `filter`, `map` og `partition` sammen med kraftigere våpen som `flatMap`, `zip`, `groupBy` og `associateWith`, før turen ender hos mer eksotiske reisefeller som `windowed` og `runningFold`.
 

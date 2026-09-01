@@ -3,6 +3,26 @@
 
 @import "{{ site.theme }}";
 
+/* Brødsmulesti */
+.crumbs {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #57606a;
+}
+
+.crumbs a {
+  text-decoration: none;
+}
+
+.crumbs .sep {
+  margin: 0 6px;
+  color: #8c959f;
+}
+
+.crumbs .here {
+  color: #57606a;
+}
+
 /* Mer luft i brødteksten på talk-sidene */
 .markdown-body {
   font-size: 17px;

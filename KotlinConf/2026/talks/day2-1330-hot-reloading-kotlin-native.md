@@ -1,6 +1,6 @@
 # Hot-Reloading Kotlin/Native
 
-*[← KotlinConf 2026](../README.md) · Dag 2, 22. mai 2026 · kl 13:30 · Gabriele Pappalardo*
+*Dag 2, 22. mai 2026 · kl 13:30 · Gabriele Pappalardo*
 
 Gabriele Pappalardo (JetBrains) fortalte om den eksperimentelle reisen med å få Compose Hot-Reload til å fungere på iOS-simulator uten en JVM, noe som lenge har blitt ansett som umulig på Apples Darwin-plattformer. I stedet for å bygge en egen Kotlin-virtuell maskin utnyttet teamet LLVM ORC v2 for å laste og linke ny kode dynamisk i den kjørende native-prosessen.
 

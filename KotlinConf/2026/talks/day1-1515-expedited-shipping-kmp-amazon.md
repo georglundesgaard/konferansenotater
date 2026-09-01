@@ -1,6 +1,6 @@
 # Expedited Shipping: Accelerating iOS Development with KMP at Amazon
 
-*[← KotlinConf 2026](../README.md) · Dag 1, 21. mai 2026 · kl 15:15 · Jessalyn Wang*
+*Dag 1, 21. mai 2026 · kl 15:15 · Jessalyn Wang*
 
 Jessalyn Wang forteller hvordan Amazon Delivery bruker Kotlin Multiplatform for å akselerere iOS-utvikling på tvers av en stor organisasjon med mange team. Kjernen er et internt bibliotek kalt «App Platform» som standardiserer state management, dependency injection og dekopling mellom logikklag, slik at forretningslogikk kan deles mens hver plattform beholder sitt eget UI.
 

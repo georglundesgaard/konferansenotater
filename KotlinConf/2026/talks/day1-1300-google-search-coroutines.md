@@ -1,6 +1,6 @@
 # How google.com/search builds on Kotlin coroutines for highly scalable, streaming, concurrent servers
 
-*[← KotlinConf 2026](../README.md) · Dag 1, 21. mai 2026 · kl 13:00 · Sam Berlin, Alessio Della Motta*
+*Dag 1, 21. mai 2026 · kl 13:00 · Sam Berlin, Alessio Della Motta*
 
 Sam Berlin og Alessio Della Motta fra Google Search Infra viser hvordan google.com/search har bygget en tjener-stack på Kotlin coroutines for å drive lavlatens, streaming og massivt samtidige søkeforespørsler i produksjon. Kjernen i foredraget er Qflow – et internt grafbasert DSL som lar utviklere deklarere asynkrone dataavhengigheter på toppen av vanlig Kotlin-forretningslogikk, slik at planleggeren automatisk kan kjøre uavhengige noder parallelt og streame delresultater videre så snart de er klare.
 

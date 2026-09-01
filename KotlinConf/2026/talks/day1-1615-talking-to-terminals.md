@@ -1,6 +1,6 @@
 # Talking to terminals (and how they talk back)
 
-*[← KotlinConf 2026](../README.md) · Dag 1, 21. mai 2026 · kl 16:15 · Jake Wharton*
+*Dag 1, 21. mai 2026 · kl 16:15 · Jake Wharton*
 
 Jake Wharton tar oss med på et dypdykk i hvordan CLI-programmer faktisk snakker med moderne terminaler, langt utover det å skrive ut tekst i en farge. Han rammer inn terminal-I/O gjennom ANSI-escape-sekvenser, kontrollkoder, terminfo-databasen og innkommende input som må parses byte for byte, og viser hvor stor forskjell det er mellom Windows-konsollen og Unix-pty-er.
 

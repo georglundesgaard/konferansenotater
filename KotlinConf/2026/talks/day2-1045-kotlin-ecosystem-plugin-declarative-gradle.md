@@ -1,6 +1,6 @@
 # A First Look at the Kotlin Ecosystem Plugin for Declarative Gradle
 
-*[← KotlinConf 2026](../README.md) · Dag 2, 22. mai 2026 · kl 10:45 · Marcin Mycek*
+*Dag 2, 22. mai 2026 · kl 10:45 · Marcin Mycek*
 
 Marcin Mycek ga en tidlig demo av Kotlin Ecosystem Plugin – en eksperimentell prototyp bygget oppå Declarative Gradle – som skal gi Kotlin- og KMP-builds en helt ny, deklarativ syntaks. I stedet for imperative Kotlin/Groovy-scripts med håndkonfigurerte source sets, targets og hierarkier, pakker pluginen kompliserte konsepter inn i opinionated «Software Types» (som `kotlinJvmApplication` og en KMP-variant) der utvikleren bare beskriver *hva* som skal bygges, ikke *hvordan*.
 

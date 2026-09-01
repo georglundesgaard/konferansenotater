@@ -1,6 +1,6 @@
 # A tale of the Gradle DSLs
 
-*[← KotlinConf 2026](../README.md) · Dag 1, 21. mai 2026 · kl 10:15 · Paul Merlin*
+*Dag 1, 21. mai 2026 · kl 10:15 · Paul Merlin*
 
 Paul Merlin tar oss gjennom historikken til Gradle sine build-språk, fra den dynamiske Groovy-DSL-en som ga stor fleksibilitet, men svakt IDE-vern, via den statisk typede Kotlin DSL-en som ble innført for å styrke vedlikeholdbarhet, brukeropplevelse og navigering, og videre mot et rent deklarativt konfigurasjonsspråk inspirert av Kotlin. Han viser hvilke mønstre som har vist seg holdbare på tvers av generasjonene, særlig tanken om et deklarativt kjernespråk med tydelige utvidelsespunkter, og forklarer hvorfor Kotlin DSL nå er standardvalget: den kombinerer lesbarhet og autofullføring med tilstrekkelig kraft til plugin-utvikling.
 

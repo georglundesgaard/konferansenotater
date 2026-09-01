@@ -1,6 +1,6 @@
 # TestBalloon: Kotlin testing is easier (and more fun) than you think
 
-*[← KotlinConf 2026](../README.md) · Dag 2, 22. mai 2026 · kl 15:15 · Oliver Okrongli, Bernd Prünster*
+*Dag 2, 22. mai 2026 · kl 15:15 · Oliver Okrongli, Bernd Prünster*
 
 Oliver Okrongli og Bernd Prünster presenterte TestBalloon, et Kotlin-first testrammeverk bygget rundt en liten, konsis API-flate og en utvidbar DSL i ren Kotlin – uten den vanlige annotasjonsmagien. De viste hvordan hierarkiske testtrær med vilkårlig nesting, uttrykksfulle testnavn og dekoratørkjeder gir god struktur, mens fixtures og parameteriserte/datadrevne tester (med tilhørende addons) dekker oppsett, opprydding og gjentagelser på en idiomatisk måte.
 

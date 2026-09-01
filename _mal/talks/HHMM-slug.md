@@ -1,6 +1,6 @@
 # <Tittel>
 
-*[← <Konferanse> <ÅÅÅÅ>](../README.md) · <Dag / dato> · kl <HH:MM> · <Taler(e)>*
+*<Dag / dato> · kl <HH:MM> · <Taler(e)>*
 
 *(Sammendrag fylles inn senere – bruk `/berik-foredrag` når opptaket er publisert.)*
 

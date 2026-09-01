@@ -1,6 +1,6 @@
 # Koin + Kotlin Compiler = ♥️
 
-*[← KotlinConf 2026](../README.md) · Dag 2, 22. mai 2026 · kl 16:15 · Arnaud Giuliani*
+*Dag 2, 22. mai 2026 · kl 16:15 · Arnaud Giuliani*
 
 Arnaud Giuliani presenterte den største endringen i Koin på åtte år: en tett integrasjon med Kotlin-kompilatoren som flytter mesteparten av arbeidet fra kjøretid til kompileringstid. Med en ny kompilator-plugin blir DSL-oppsettet automatisert, slik at utviklerne slipper å skrive og vedlikeholde like mye modul-boilerplate for hånd.
 

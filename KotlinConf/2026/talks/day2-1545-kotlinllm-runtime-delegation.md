@@ -1,6 +1,6 @@
 # KotlinLLM: Leveraging AI for Runtime Logic Delegation in Kotlin
 
-*[← KotlinConf 2026](../README.md) · Dag 2, 22. mai 2026 · kl 15:45 · Stanislav Sandler*
+*Dag 2, 22. mai 2026 · kl 15:45 · Stanislav Sandler*
 
 I denne lyntalen viste Stanislav Sandler frem KotlinLLM, en forskningsprototyp fra JetBrains som lar deg delegere forretningslogikk til en LLM ved runtime bak en typet Kotlin-fasade – via såkalte Smart macros som `asLlm<F, T>()` der du beskriver hva du vil ha, og AI-en fyller inn kroppen med generert Kotlin-kode mot dine data classes og enums. Poenget er at delegeringen er eksplisitt i koden, at resultatet persisteres som vanlig Kotlin-kildekode og at det blir portabelt: når koden først er generert kjører den uten LLM-kall, uten ekstra latens eller kostnad.
 

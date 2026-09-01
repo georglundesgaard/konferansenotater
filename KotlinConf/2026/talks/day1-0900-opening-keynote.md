@@ -1,6 +1,6 @@
 # Opening Keynote
 
-*[← KotlinConf 2026](../README.md) · Dag 1, 21. mai 2026 · kl 09:00 · JetBrains, Google, Anthropic*
+*Dag 1, 21. mai 2026 · kl 09:00 · JetBrains, Google, Anthropic*
 
 Åpningskeynoten samlet ti talere fra JetBrains, Google og Anthropic for å tegne opp Kotlins retning på tvers av språk, verktøy, AI og multiplattform, med Kotlin 2.4 som rød tråd der context parameters og explicit backing fields ble stabilisert og multi-field value classes ble varslet som eksperimentell funksjon fra 2.5, samtidig som standardbiblioteket nå får en 18-måneders sikkerhetsstøttepolicy. Sentralt sto lanseringen av Kotlin Toolchain, et samlet CLI-inngangspunkt bygget rundt Amper som dekker prosjektopprettelse, bygg, testing, formatering og agentintegrasjon, sammen med en ny Kotlin Language Server i alfa, offisiell VS Code-utvidelse, ktfmt-standardisering og førsteklasses Bazel-støtte.
 

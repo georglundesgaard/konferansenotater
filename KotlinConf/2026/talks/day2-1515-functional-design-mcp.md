@@ -1,6 +1,6 @@
 # How Kotlin Powers Functional Design: MCP Edition
 
-*[← KotlinConf 2026](../README.md) · Dag 2, 22. mai 2026 · kl 15:15 · David Denton*
+*Dag 2, 22. mai 2026 · kl 15:15 · David Denton*
 
 David Denton fra http4k viste hvordan Kotlin og funksjonell design gir en langt enklere vei til MCP-servere enn de offisielle SDK-ene, som han kritiserer for tung bruk av refleksjon, tett kobling mellom protokoll og transport (spesielt stdio som sammenfletter klient- og server-runtime) og feil som først dukker opp ved kjøretid.
 

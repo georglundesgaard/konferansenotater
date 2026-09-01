@@ -1,6 +1,6 @@
 # Agentic AI i praksis
 
-*[← SmidigDig 2026](../README.md) · 27. mai 2026 · kl 15:00 · Lars-Erik Monsvik (Telenor Norge)*
+*27. mai 2026 · kl 15:00 · Lars-Erik Monsvik (Telenor Norge)*
 
 Monsvik forteller om Telenors reise med agentic AI – hvordan AI går fra å være et verktøy til å bli et teammedlem som tar initiativ, utfører oppgaver og interagerer med systemer på egen hånd. Praktiske erfaringer med rammeverk, sikkerhetsmodeller og hvordan man bygger tillit til agenter i en kompleks driftsorganisasjon.
 

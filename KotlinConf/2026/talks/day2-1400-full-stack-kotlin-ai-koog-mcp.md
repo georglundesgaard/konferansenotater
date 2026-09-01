@@ -1,6 +1,6 @@
 # Full-Stack Kotlin AI: Powering Compose Multiplatform apps with Koog & MCP
 
-*[← KotlinConf 2026](../README.md) · Dag 2, 22. mai 2026 · kl 14:00 · John O'Reilly*
+*Dag 2, 22. mai 2026 · kl 14:00 · John O'Reilly*
 
 John O'Reilly viser hvordan Koog kan brukes som den intelligente kjernen i en Compose Multiplatform-app, og dermed gi ett felles rammeverk for AI-agenter på tvers av Android, iOS og desktop. Han demonstrerer hvordan «local tools» utvider agenten med plattformspesifikke muligheter, slik at den kan utføre reelle handlinger på hver enkelt enhet i tillegg til å svare i chat.
 

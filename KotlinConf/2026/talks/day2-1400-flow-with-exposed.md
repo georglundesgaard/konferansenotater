@@ -1,6 +1,6 @@
 # Flow with Exposed: Life Finds a Way
 
-*[← KotlinConf 2026](../README.md) · Dag 2, 22. mai 2026 · kl 14:00 · Chantal Loncle*
+*Dag 2, 22. mai 2026 · kl 14:00 · Chantal Loncle*
 
 Chantal Loncle bruker en zero-player automaton-simulering som gjennomgående demo for å vise hvordan Exposed takler høy throughput og asynkrone databaseoperasjoner uten å knele. Simuleringen genererer store mengder tilstandsendringer per tick, og Loncle demonstrerer hvordan man kombinerer Kotlin Flow over Exposed DSL-spørringer for å strømme kontinuerlige tilstandsoppdateringer ut til klienten via Coroutines. Underveis viser hun konkrete mønstre for å håndtere backpressure og batch-skriving når Exposed presses på grensen av hva biblioteket kan levere.
 

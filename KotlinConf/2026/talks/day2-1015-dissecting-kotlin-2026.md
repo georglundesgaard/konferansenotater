@@ -1,6 +1,6 @@
 # Dissecting Kotlin: 2026
 
-*[← KotlinConf 2026](../README.md) · Dag 2, 22. mai 2026 · kl 10:15 · Huyen Tue Dao*
+*Dag 2, 22. mai 2026 · kl 10:15 · Huyen Tue Dao*
 
 Ti år etter Kotlin 1.0 tar Huyen Tue Dao publikum gjennom et knippe ferske stabile og forhåndsvisningsfunksjoner – med hovedvekt på context parameters som stabiliseres i Kotlin 2.4, sammen med tilhørende KEEP-forslag og andre nyheter fra språkets siste utviklingsrunder.
 

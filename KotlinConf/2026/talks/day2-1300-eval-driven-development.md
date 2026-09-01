@@ -1,6 +1,6 @@
 # Eval-Driven Development: The Fine Line Between Agentic Success and Failure
 
-*[← KotlinConf 2026](../README.md) · Dag 2, 22. mai 2026 · kl 13:00 · Urs Peter*
+*Dag 2, 22. mai 2026 · kl 13:00 · Urs Peter*
 
 Urs Peter argumenterer for at Eval-Driven Development (EDD) er den ingeniørdisiplinen som skiller fungerende AI-agenter fra prototyper som havarerer i produksjon, og han flytter dermed evaluering fra en ad hoc-aktivitet til et førsteklasses utviklingsartefakt på linje med tester og CI. Han organiserer testing av agenter i tydelige lag: enhetstester for enkeltverktøy og promptfunksjoner, integrasjonstester for verktøykjeder og LLM-kall, ende-til-ende-tester som kjører hele agentflyten mot realistiske scenarier, og regresjonstester som fanger opp at nye modellversjoner eller promptendringer bryter tidligere adferd.
 
