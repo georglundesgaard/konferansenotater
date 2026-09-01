@@ -15,7 +15,7 @@ Sjekker om det offisielle konferanseprogrammet har endret seg siden `program.md`
 
 3. **Diff mot cachen.** Sammenlign per foredrag (tid + rom som nøkkel): nye foredrag, fjernede, flyttede (endret tid/rom), endret tittel/taler.
 
-4. **Oppdater `program.md`.** Behold formatet: dag-lenker øverst («Hopp til»), én `## Dag N`-seksjon per dag med tidspunktlenker, én `### HH:MM {#dN-hhmm}`-tidsluke per hovedslot med tabell over de parallelle foredragene (Tid, Rom, ev. Lengde/Språk, Foredrag med beskrivelseslenke, Taler(e)). Språk skrives helt ut (Norsk/Engelsk). Enkeltsporede konferanser bruker én enkel tabell uten tidsluke-headinger. Foredragstitler lenker til egen notatside der den finnes, ellers offisiell beskrivelse. Oppdater hentedatoen øverst.
+4. **Oppdater `program.md`.** Behold formatet: dag-lenker øverst («Hopp til»), én `## Dag N`-seksjon per dag med tidspunktlenker, én `### HH:MM {#dN-hhmm}`-tidsluke per hovedslot med tabell over de parallelle foredragene (Tid, Rom, ev. Lengde/Språk, Foredrag med beskrivelseslenke, Taler(e)). Språk skrives helt ut (Norsk/Engelsk). Enkeltsporede konferanser bruker én enkel tabell uten tidsluke-headinger. Hver foredragscelle har tittelen i fet, etterfulgt av tydelig merkede lenker på egen linje (`<br>`): `📝 [notater](talks/<fil>)` når notatside finnes, og `🌐 [offisiell beskrivelse](<url>)`. Behold eksisterende 📝-lenker ved regenerering. Oppdater hentedatoen øverst.
 
 5. **Sjekk konsekvenser.** Hvis en flyttet/fjernet talk er registrert i `talks/` eller i en `plan-dagN.md`, meld fra (ikke endre dem automatisk – ankerlenker fra talk-filer kan trenge oppdatering).
 
