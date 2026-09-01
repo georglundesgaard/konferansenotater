@@ -17,9 +17,10 @@ Bruk: `/ny-konferanse <url>` — URL til konferansens forside eller program. Ute
 
 3. **Fyll README.** Erstatt plassholderne i den nye README-en med faktaene fra steg 1: ingress (sted, datoer, format/spor), «Om videoene»-blokken, og Kilder (konferansens forside, program-URL, arrangør, video-kanal). La Topp 5-, attended- og interest-seksjonene stå som tomme skall med dag-underoverskrifter for hver konferansedag.
 
-4. **Cache programmet.** Finn program-/schedule-siden (ofte `/program` eller `/schedule`). Scrape alle foredrag – tid, rom, varighet, språk, tittel, taler(e), tags – og skriv `<Konferanse>/<År>/program.md` med én `## Dag N — <ukedag> <dato>`-seksjon per dag og én linje per foredrag:
-   `- **HH:MM** · <Rom> · <varighet> · <SPRÅK> — **<Tittel>** — <Taler(e)> · _<tags>_`
-   Øverst i filen: kildelenke og hentedato. Lenk `program.md` fra konferansens README. Er programmet ikke publisert ennå, dropp cachen og noter det i README-en.
+4. **Cache programmet.** Finn program-/schedule-siden (ofte `/program` eller `/schedule`). Scrape alle foredrag – tid, rom, varighet, språk, tittel, taler(e), tags, beskrivelses-URL – og skriv `<Konferanse>/<År>/program.md`:
+   - Flersporet: «Hopp til»-daglenker øverst, én `## Dag N — <ukedag> <dato> {#dag-N}`-seksjon per dag med tidspunktlenker, og én `### HH:MM {#dN-hhmm}`-tidsluke per hovedslot med tabell over de parallelle foredragene (Tid, Rom, ev. Lengde/Språk, Foredrag, Taler(e) og tema). Språk skrives helt ut (Norsk/Engelsk). Foredragstitler lenker til beskrivelsen (offisiell side, eller egen notatside når den finnes).
+   - Enkeltsporet: én enkel tabell (Tid, Foredrag, Taler) uten tidsluke-headinger.
+   Øverst i filen: kildelenke og hentedato. Lenk `program.md` fremhevet fra konferansens README (`**[📋 Hele programmet](program.md)**`). Er programmet ikke publisert ennå, dropp cachen og noter det i README-en.
 
 5. **Oppdater indeksene.** Legg konferansen inn i listen under `## Konferanser` (nyeste først) i BÅDE rot-`README.md` og `index.md` (web-forsiden): `- **[<Konferanse> <År>](<Konferanse>/<År>/README.md)** — <By>, <datoer>`.
 

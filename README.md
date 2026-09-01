@@ -43,6 +43,23 @@ Repoet har prosjekt-skills i `.claude/skills/` som automatiserer arbeidsflyten (
 
 Typisk livssyklus: `/ny-konferanse` → `/planlegg-dagen` → `/nytt-foredrag` (under konferansen) → `/video-sjekk` (ukene etter) → `/berik-foredrag` → Topp 5.
 
+## Tips og triks
+
+**Før konferansen:**
+- Sett opp konferansen med `/ny-konferanse <url>` så snart programmet er publisert — da får du både mappe, README og lokal programcache i én operasjon.
+- Kvelden før hver dag: kjør `/planlegg-dagen` og plukk foredrag per tidsluke. Kollisjoner du ikke rekker havner rett i ønskelisten.
+- Kjør `/oppdater-program` på morgenen — programmer endres gjerne siste døgn, og cachen bør stemme med virkeligheten før du registrerer noe.
+
+**Under konferansen:**
+- Registrer foredrag i pausene med `/nytt-foredrag <noen stikkord>` — skillen matcher mot den lokale programcachen (fungerer på dårlig konferanse-WiFi), så et par ord om tittel eller taler holder. Den spør «Ett til?» så du kan ta hele formiddagen i én kjøring.
+- Ikke skriv sammendrag selv — lim inn stikkordsnotater og la placeholder-linjen stå. `/berik-foredrag` skriver sammendraget fra opptaket senere.
+- Commit og push på slutten av dagen — notatene ligger da på web-siden samme kveld.
+
+**Etter konferansen:**
+- Sett opp `/video-sjekk` som ukentlig rutine med `/schedule` til alle opptakene er publisert og lenket inn.
+- Når opptakene er ute: kjør `/berik-foredrag` — den skriver sammendrag fra videoene (dine egne notater røres aldri) og foreslår Topp 5 til konferanse-README-en.
+- `/konferanse-stats` gir deg tall og tag-fordeling på tvers av alle konferansene når du vil ha oversikt.
+
 ## Format for et foredrag
 
 Skjelettet for en talk-fil er definert i [`_mal/talks/HHMM-slug.md`](_mal/talks/HHMM-slug.md) – det er den kanoniske kilden. Kort oppsummert: tittel, metadata-linje (dag, tid, taler), sammendrag (1–7 setninger i 2–3 korte avsnitt – eller en placeholder til `/berik-foredrag` kjøres), eventuelle egne notater, tags, og en `**📹**`-linje med video-lenke eller status.

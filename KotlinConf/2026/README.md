@@ -2,6 +2,8 @@
 
 **München, 21.–22. mai 2026.** JetBrains' årlige Kotlin-konferanse. To dager, seks parallelle spor, ca. 74 foredrag. De fleste videoene ble publisert på [Kotlin sin offisielle YouTube-kanal](https://www.youtube.com/@Kotlin) i juli–august 2026 og er også lenket fra [kotlinconf.com/talks/](https://kotlinconf.com/talks/) – sju sesjoner mangler fortsatt individuelle opptak (markert i talk-filene); jeg lenker dem inn etter hvert.
 
+**[📋 Hele programmet](program.md)** (84 sesjoner, begge dager)
+
 [Foredrag jeg gikk på](#foredrag-jeg-gikk-på) · [Ønskeliste](#foredrag-jeg-vil-se-opptak-av) · [Topp 5](#anbefalt-topp-5-fra-ønskelisten) · [Livestream](#livestream--hovedsal) · [Kilder](#kilder)
 
 ---
