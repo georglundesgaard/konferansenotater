@@ -71,6 +71,8 @@ Bruk: `/berik-foredrag` eller `/berik-foredrag <konferanse>` (f.eks. `/berik-for
    - Oppdater `**Tags:**`-linjen hvis agenten returnerte forbedrede tags (unngå duplikater).
    - Hvis `**📹**`-linjen fortsatt sier "ikke publisert", erstatt statusdelen etter `**📹**`-prefikset slik at linjen blir `**📹** [<Tittel> – <Taler>](<url>)`. Bruk aldri `|` i lenketeksten – kramdown på GitHub Pages tolker det som en tabell og knekker siden. Prefikset `**📹**` skal alltid beholdes – steg 2 og 3 er avhengige av det ved senere kjøringer.
 
+5b. **Oppdater programraden.** Hvis konferansens `program.md` har en rad for talken: sett inn/oppdater den korte oppsummeringen i `<details>`-blokken og én-setnings-versjonen i Notater-cellen (foran 📝-lenken). Behold radstatus og lenker.
+
 6. **Bekreft.** Meld: `Beriket X av Y foredrag. Y-X gjenstår (ingen video funnet).` List de som ble hoppet over. Ikke commit.
 
 7. **Foreslå Topp 5.** Hvis konferansens `README.md` har en tom eller placeholder-aktig «Anbefalt: Topp 5»-seksjon, foreslå fem foredrag fra interest-listen basert på de nye sammendragene og brukerens tags/notater fra attended-foredragene (velg det som spinner videre på temaer brukeren faktisk fulgte). Vis forslaget og spør om det skal skrives inn i README-en – ikke skriv uten bekreftelse.

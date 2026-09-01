@@ -37,6 +37,47 @@
   color: #0969da;
 }
 
+/* Programsider: bredere container og programtabeller */
+.markdown-body.wide {
+  max-width: 1100px;
+}
+
+.program-table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.program-table col.c-time { width: 8%; }
+.program-table col.c-talk { width: 46%; }
+.program-table col.c-speaker { width: 22%; }
+.program-table col.c-notes { width: 32%; }
+
+.markdown-body .program-table th,
+.markdown-body .program-table td {
+  padding: 12px 14px;
+  vertical-align: top;
+}
+
+.markdown-body .program-table tr.attended td { background: #ddf4e4; }
+.markdown-body .program-table tr.wishlist td { background: #fff3c4; }
+
+.program-table details {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #57606a;
+}
+
+.program-table details p { margin: 6px 0 0; }
+
+.program-table summary {
+  cursor: pointer;
+  color: #0969da;
+  font-weight: normal;
+}
+
+.program-table .meta { color: #6e7781; font-style: italic; }
+.program-table .notes-link { white-space: nowrap; }
+
 /* Mer luft i brødteksten på talk-sidene */
 .markdown-body {
   font-size: 17px;

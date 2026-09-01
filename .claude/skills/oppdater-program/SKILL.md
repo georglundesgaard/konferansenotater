@@ -15,7 +15,11 @@ Sjekker om det offisielle konferanseprogrammet har endret seg siden `program.md`
 
 3. **Diff mot cachen.** Sammenlign per foredrag (tid + rom som nøkkel): nye foredrag, fjernede, flyttede (endret tid/rom), endret tittel/taler.
 
-4. **Oppdater `program.md`.** Behold formatet: dag-lenker øverst («Hopp til»), én `## Dag N`-seksjon per dag med tidspunktlenker, én `### HH:MM {#dN-hhmm}`-tidsluke per hovedslot med tabell over de parallelle foredragene (Tid, Rom, ev. Lengde/Språk, Foredrag med beskrivelseslenke, Taler(e)). Språk skrives helt ut (Norsk/Engelsk). Enkeltsporede konferanser bruker én enkel tabell uten tidsluke-headinger. Hver foredragscelle har tittelen i fet, etterfulgt av tydelig merkede lenker på egen linje (`<br>`): `📝 [notater](talks/<fil>)` når notatside finnes, og `🌐 [offisiell beskrivelse](<url>)`. Behold eksisterende 📝-lenker ved regenerering. Oppdater hentedatoen øverst.
+4. **Oppdater `program.md`.** Behold formatet: dag-lenker øverst («Hopp til»), én `## Dag N`-seksjon per dag med tidspunktlenker, og én `### HH:MM {#dN-hhmm}`-tidsluke per hovedslot med en HTML-tabell (`<table class="program-table">`, kolonner Foredrag / Taler(e) / Notater; enkeltsporede konferanser har én tabell med Tid-kolonne i tillegg). Radformat:
+   - `<tr class="attended">` (✅-badge) for foredrag i README-ens «gikk på»-liste, `<tr class="wishlist">` (👀) for ønskelisten, umerket ellers.
+   - Foredragscellen: `✅/👀 <strong><a href="<offisiell-url>">Tittel</a></strong>` etterfulgt av `<details><summary>om foredraget</summary>` med kort oppsummering (fra notatsiden) og en `<p class="meta">`-linje med tidsintervall/rom/lengde/språk og tags.
+   - Notater-cellen: én-setnings oppsummering + `<a class="notes-link" href="talks/<fil>.html">📝 notater</a>` (merk `.html` – rå HTML omskrives ikke av jekyll-relative-links).
+   Behold eksisterende radstatus og notatlenker ved regenerering. Oppdater hentedatoen øverst.
 
 5. **Sjekk konsekvenser.** Hvis en flyttet/fjernet talk er registrert i `talks/` eller i en `plan-dagN.md`, meld fra (ikke endre dem automatisk – ankerlenker fra talk-filer kan trenge oppdatering).
 
