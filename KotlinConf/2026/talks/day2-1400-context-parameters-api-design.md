@@ -1,6 +1,6 @@
 # Context parameters and API design
 
-*Dag 2, 22. mai 2026 · kl 14:00 · Alejandro Serrano Mena*
+*Dag 2, 22. mai 2026 · kl 14:00 · Alejandro Serrano Mena · 📋 [i programmet](../program.md#d2-1400) · 🌐 [offisiell beskrivelse](https://kotlinconf.com/talks/1064863/)*
 
 Context parameters ble stabilisert i Kotlin 2.4 og skrives foran signaturen som `context(users: UserService) fun User.getFriends()`, slik at verdien tres implisitt gjennom kallkjeden uten manuell videresending på hvert nivå. Serrano Mena bruker en teater-metafor – «spotlight-prinsippene» – for å skille hovedroller (mottakere, `this`) fra biroller (context parameters): en mottaker kan fylle et kontekstargument implisitt, men aldri motsatt, og Kotlin begrenser bevisst antall «hovedroller» på scenen for å unngå at det implisitte scopet blir uoversiktlig, slik det tidligere context receivers-forslaget led under.
 

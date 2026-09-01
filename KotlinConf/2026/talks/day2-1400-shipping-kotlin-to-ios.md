@@ -1,6 +1,6 @@
 # What Nobody Told Us About Shipping Kotlin to iOS
 
-*Dag 2, 22. mai 2026 · kl 14:00 · Suhyeon (Leah) Kim*
+*Dag 2, 22. mai 2026 · kl 14:00 · Suhyeon (Leah) Kim · 📋 [i programmet](../program.md#d2-1400) · 🌐 [offisiell beskrivelse](https://kotlinconf.com/talks/1086104/)*
 
 Suhyeon (Leah) Kim delte erfaringer fra en tomåneders sprint der teamet skulle levere en Kotlin Multiplatform-basert iOS-app under sterk tidspress, og hun brukte tre casestudier for å vise hvor Swift-Kotlin-interop faktisk knirker.
 

@@ -1,6 +1,6 @@
 # Paneldebatt
 
-*27. mai 2026 · kl 11:30*
+*27. mai 2026 · kl 11:30 · 📋 [i programmet](../program.md)*
 
 Felles paneldebatt med formiddagens foredragsholdere. Spørsmål fra salen og åpne refleksjoner rundt morgenens temaer.
 

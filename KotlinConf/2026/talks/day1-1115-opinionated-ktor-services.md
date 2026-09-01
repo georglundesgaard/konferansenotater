@@ -1,6 +1,6 @@
 # Opinionated Ktor Services
 
-*Dag 1, 21. mai 2026 · kl 11:15 · Simon Vergauwen*
+*Dag 1, 21. mai 2026 · kl 11:15 · Simon Vergauwen · 📋 [i programmet](../program.md#d1-1115) · 🌐 [offisiell beskrivelse](https://kotlinconf.com/talks/1087289/)*
 
 Simon Vergauwen tar utgangspunkt i at Ktor bevisst er et lite meningssterkt rammeverk – kjernen er coroutines, et plugin-system og modulfunksjoner – og bruker økten til å legge sine egne meninger oppå denne fleksible grunnmuren. Han argumenterer for å strukturere en Ktor-tjeneste rundt små, utskiftbare `Application`-moduler som er extension-funksjoner, kombinert med eksplisitt dependency injection (den nye Ktor 3.2 DI-pluginen, eller Koin/Kodein), slik at man kan bytte ut infrastruktur og laste moduler forskjellig i test og produksjon.
 

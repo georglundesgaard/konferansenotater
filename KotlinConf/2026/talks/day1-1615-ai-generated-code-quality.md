@@ -1,6 +1,6 @@
 # Increasing quality of AI generated Kotlin code
 
-*Dag 1, 21. mai 2026 · kl 16:15 · Sergei Rybalkin (Meta)*
+*Dag 1, 21. mai 2026 · kl 16:15 · Sergei Rybalkin (Meta) · 📋 [i programmet](../program.md#d1-1615) · 🌐 [offisiell beskrivelse](https://kotlinconf.com/talks/1081924/)*
 
 Sergei Rybalkin fra Meta viste hvorfor bedre AI-generert Kotlin-kode krever mer enn smartere prompter, og delte hvordan teamet hans løfter kodekvalitet i stor skala. Han beskrev typiske utfordringer som at modellene produserer plausibel, men inkonsistent kode, bruker foreldede API-er eller bryter etablerte idiomer og konvensjoner i en enorm kodebase.
 

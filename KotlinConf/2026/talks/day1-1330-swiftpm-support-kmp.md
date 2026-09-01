@@ -1,6 +1,6 @@
 # SwiftPM support for Kotlin Multiplatform
 
-*Dag 1, 21. mai 2026 · kl 13:30 · Timofey Solonin*
+*Dag 1, 21. mai 2026 · kl 13:30 · Timofey Solonin · 📋 [i programmet](../program.md#d1-1300) · 🌐 [offisiell beskrivelse](https://kotlinconf.com/talks/1086933/)*
 
 Timofey Solonin viste i denne lyntalen hvordan Kotlin Multiplatform nå kan konsumere SwiftPM-avhengigheter direkte fra Gradle via en ny `swiftPMDependencies {}`-blokk, demonstrert med populære pakker som FirebaseFirestore, Sentry og Google Maps SDK. Xcode-integrasjonen fungerer ved at Gradle-tasken `integrateLinkagePackage` genererer en syntetisk SwiftPM-pakke som legges inn i `.xcodeproj` og deretter oppdateres automatisk når avhengigheter endres, med en `Package.resolved`-låsfil sjekket inn i repoet.
 

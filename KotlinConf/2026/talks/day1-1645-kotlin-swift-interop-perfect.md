@@ -1,6 +1,6 @@
 # Can Kotlin Swift Interop Ever Be Perfect?
 
-*Dag 1, 21. mai 2026 · kl 16:45 · Gleb Lukianets*
+*Dag 1, 21. mai 2026 · kl 16:45 · Gleb Lukianets · 📋 [i programmet](../program.md#d1-1615) · 🌐 [offisiell beskrivelse](https://kotlinconf.com/talks/1121678/)*
 
 Gleb Lukianets tar utgangspunkt i at Kotlin og Swift på overflaten virker svært like, men at typesystemene, minnemodellene og runtime-semantikken skiller lag på måter som gjør «perfekt» interop nesten umulig. Han går gjennom hva den nye Swift Export-pipelinen faktisk klarer å bygge bro over sammenlignet med den gamle Objective-C-headeren: nullbare primitiver mappes nå direkte til Swift optionals uten `KotlinInt`-bokseklasser, `suspend`-funksjoner blir `async`, `Flow` blir `AsyncSequence`, pakker blir nøstede Swift-enumer, og Kotlin `enum class` blir ekte Swift `enum`.
 

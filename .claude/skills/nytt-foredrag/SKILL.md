@@ -43,7 +43,7 @@ Interviews the user for a single talk, then writes the file and updates the conf
    - Sti: `<Konferanse>/<År>/talks/<filnavn>`.
 
 10. **Skriv fil.** Bruk skjelettet fra `_mal/talks/HHMM-slug.md` (kanonisk kilde – les den, ikke gjenskap fra hukommelsen). Fyll inn tittel, metadata-linje, notater (kun attended), tags og 📹-linje. Behold placeholder-linjen `*(Sammendrag fylles inn senere – bruk /berik-foredrag når opptaket er publisert.)*` som sammendrag – den er signalet `/berik-foredrag` ser etter.
-    - Hvis `program.md` finnes og talken ble matchet der: legg til ` · [i programmet](../program.md#<anker>)` bakerst i metadata-linjen. Ankeret er tidsluke-headingen talken hører til (`#d<dag>-<hhmm>`, f.eks. `#d1-0900`).
+    - Hvis `program.md` finnes og talken ble matchet der: legg til ` · 📋 [i programmet](../program.md#<anker>)` bakerst i metadata-linjen (anker = tidsluke-headingen, `#d<dag>-<hhmm>`), og deretter ` · 🌐 [offisiell beskrivelse](<url>)` med URL-en fra programradens 🌐-lenke.
 
 11. **Oppdater konferanse-README.** Åpne `<Konferanse>/<År>/README.md`. Under enten `## Foredrag jeg gikk på` eller `## Foredrag jeg vil se opptak av`, i riktig dag-underseksjon, sett inn (sortert på tid):
     `- **[<HHMM> <Tittel>](talks/<filnavn>)** — <Taler(e)>`

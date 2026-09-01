@@ -1,6 +1,6 @@
 # Why Most AI Agents Never Scale? Building Enterprise-Ready AI with Koog
 
-*Dag 1, 21. mai 2026 · kl 15:15 · Vadim Briliantov*
+*Dag 1, 21. mai 2026 · kl 15:15 · Vadim Briliantov · 📋 [i programmet](../program.md#d1-1515) · 🌐 [offisiell beskrivelse](https://kotlinconf.com/talks/1086353/)*
 
 Vadim Briliantov peker på hvorfor de fleste AI-agenter aldri når produksjon: de mangler feiltoleranse når LLM-kall svikter, de mister tilstand under lange kjøringer, kontekstvinduet eksploderer i løpende samtaler, arbeidsflytene er løst typet og «prompt-limt», og de er dårlig koblet til eksisterende enterprise-stack og observability.
 

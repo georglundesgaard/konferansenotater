@@ -1,6 +1,6 @@
 # Idiomatic Kotlin applications with Spring Boot 4
 
-*Dag 2, 22. mai 2026 · kl 11:15 · Sébastien Deleuze*
+*Dag 2, 22. mai 2026 · kl 11:15 · Sébastien Deleuze · 📋 [i programmet](../program.md#d2-1115) · 🌐 [offisiell beskrivelse](https://kotlinconf.com/talks/1086701/)*
 
 Sébastien Deleuze viser hvordan Spring Boot 4 gjør backend-utvikling i Kotlin mer idiomatisk enn noen gang, med korte demoer på tvers av bygg, null-safety, serialisering, observability, persistens og AI. JSpecify-annotasjoner er nå rullet ut i hele Spring-porteføljen og oversettes automatisk til Kotlin-nullability takket være K2-kompilatoren, slik at plattformtyper og uventede NPE-er i praksis forsvinner og Spring-API-ene føles native i Kotlin.
 

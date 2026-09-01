@@ -1,6 +1,6 @@
 # Automate upgrading to Kotlin 2 with OpenRewrite
 
-*Dag 2, 22. mai 2026 · kl 10:15 · Rooz SF, Jonathan Schneider*
+*Dag 2, 22. mai 2026 · kl 10:15 · Rooz SF, Jonathan Schneider · 📋 [i programmet](../program.md#d2-1015) · 🌐 [offisiell beskrivelse](https://kotlinconf.com/talks/1100229/)*
 
 Rooz SF og Jonathan Schneider viste hvordan OpenRewrite nå har fullverdig støtte for Kotlin 2, slik at store kodebaser kan oppgraderes automatisk i stedet for manuelt. Verktøyet bygger opp en Lossless Semantic Tree (LST) – en type- og formatbevarende representasjon av kildekoden – som gjør at oppskriftene (recipes) kan gjøre presise, kompilatornøyaktige endringer uten å ødelegge kommentarer, whitespace eller stil.
 

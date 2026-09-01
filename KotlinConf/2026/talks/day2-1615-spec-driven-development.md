@@ -1,6 +1,6 @@
 # Spec-Driven Development with AI Agents: From High-Level Requirements to Working Software
 
-*Dag 2, 22. mai 2026 · kl 16:15 · Anton Arhipov*
+*Dag 2, 22. mai 2026 · kl 16:15 · Anton Arhipov · 📋 [i programmet](../program.md#d2-1615) · 🌐 [offisiell beskrivelse](https://kotlinconf.com/talks/1132572/)*
 
 Arhipov presenterte «spec-driven development» som en strukturert måte å jobbe med AI-kodeagenter på. Metoden går ut på å starte med høynivåkrav, raffinere dem til en utviklingsplan, og bryte planen ned i en sporbar oppgaveliste – alt som artefakter (`requirements.md`, `plan.md`, `tasks.md`) som agenten jobber fra. Et rammeverk for å gjøre AI-koding forutsigbar og reviewbar i stedet for kaotisk.
 

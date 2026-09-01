@@ -1,6 +1,6 @@
 # Real-World Data Science With Kotlin Notebook
 
-*Dag 1, 21. mai 2026 · kl 13:00 · Adele Carpenter*
+*Dag 1, 21. mai 2026 · kl 13:00 · Adele Carpenter · 📋 [i programmet](../program.md#d1-1300) · 🌐 [offisiell beskrivelse](https://kotlinconf.com/talks/1075549/)*
 
 Adele Carpenter viser hvordan hun analyserer et powerlifting-datasett på over 3,3 millioner rader fra Open Powerlifting direkte i Kotlin Notebook, uten å forlate IntelliJ eller lære Python fra bunnen av. Rådataene ligger i Postgres, og hun bruker DataFrame-bibliotekets `readSqlTable` og `readSqlQuery` til å filtrere på databasesiden før resultatene hentes inn som en dataframe – en pragmatisk løsning når hele datasettet ikke får plass i minnet. Deretter validerer og utforsker hun tallene, og visualiserer trender rundt deltakelsen i 2023 med Kandy, et deklarativt plottbibliotek bygget på lets-plot.
 

@@ -1,6 +1,6 @@
 # Reflection is Evil
 
-*Dag 2, 22. mai 2026 · kl 11:15 · Jeffrey van Gogh*
+*Dag 2, 22. mai 2026 · kl 11:15 · Jeffrey van Gogh · 📋 [i programmet](../program.md#d2-1115) · 🌐 [offisiell beskrivelse](https://kotlinconf.com/talks/1061540/)*
 
 Jeffrey van Gogh, «språkgeek» hos Google, argumenterte i denne lyntalen for at refleksjon – evnen kjørende JVM- og .NET-kode har til å inspisere og kalle sine egne komponenter – koster ytelse (mindre inlining fra JIT-en), typesikkerhet, sikkerhet (serialisering) og verktøystøtte, og saboterer kodeslankere som Androids R8: Bouncy Castle må for eksempel friholdes med over 240 ProGuard-regler for ikke å krasje ved kjøring.
 

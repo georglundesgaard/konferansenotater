@@ -1,6 +1,6 @@
 # Redefining Machine Learning with Kotlin: A Device-First Approach to AI
 
-*Dag 2, 22. mai 2026 · kl 11:15 · Michal Harakal*
+*Dag 2, 22. mai 2026 · kl 11:15 · Michal Harakal · 📋 [i programmet](../program.md#d2-1115) · 🌐 [offisiell beskrivelse](https://kotlinconf.com/talks/1082547/)*
 
 Michal Harakal presenterte SKaiNET, et Kotlin-basert rammeverk som gjør maskinlæring praktisk på enheten uten å måtte gå veien om Python eller skyløsninger. Kjernen er en typesikker DSL (`nn { }` / `dag { }`) der utviklere definerer nevrale nettverk én gang i idiomatisk Kotlin, og modellen fanges enten som en tape eller en DAG-basert beregningsgraf.
 

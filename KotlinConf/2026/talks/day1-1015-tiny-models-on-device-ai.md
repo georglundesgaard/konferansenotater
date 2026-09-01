@@ -1,6 +1,6 @@
 # Tiny Models, Big Impact: On-Device AI for Real Apps
 
-*Dag 1, 21. mai 2026 · kl 10:15 · Hammad Akram*
+*Dag 1, 21. mai 2026 · kl 10:15 · Hammad Akram · 📋 [i programmet](../program.md#d1-1015) · 🌐 [offisiell beskrivelse](https://kotlinconf.com/talks/1086800/)*
 
 Hammad Akram viste hvordan små språkmodeller (SLM-er) kan kjøre direkte på Android-enheter via Llama Stack Kotlin SDK-en, som pakker inn ExecuTorch og lar utviklere bytte mellom lokal og fjern inferens med tilnærmet identisk kode. Han demonstrerte praktiske bruksområder som chat-fullføring, RAG med on-device vektordatabaser og bildeforståelse, uten at brukerdata må forlate telefonen.
 

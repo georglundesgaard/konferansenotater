@@ -1,6 +1,6 @@
 # <Tittel>
 
-*<Dag / dato> · kl <HH:MM> · <Taler(e)>*
+*<Dag / dato> · kl <HH:MM> · <Taler(e)> · 📋 [i programmet](../program.md#<anker>) · 🌐 [offisiell beskrivelse](<url>)*
 
 *(Sammendrag fylles inn senere – bruk `/berik-foredrag` når opptaket er publisert.)*
 

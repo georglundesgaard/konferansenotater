@@ -1,6 +1,6 @@
 # The State of Amper
 
-*Dag 1, 21. mai 2026 · kl 15:15 · Joffrey Bion*
+*Dag 1, 21. mai 2026 · kl 15:15 · Joffrey Bion · 📋 [i programmet](../program.md#d1-1515) · 🌐 [offisiell beskrivelse](https://kotlinconf.com/talks/1085095/)*
 
 Joffrey Bion oppsummerer et travelt år for Amper, som ved KotlinConf 2026 ble omdøpt og reposisjonert som selve fundamentet for Kotlin Toolchain – JetBrains sin visjon om én `kotlin`-kommando som dekker prosjektopprettelse, bygging, testing, pakking og publisering.
 
