@@ -43,7 +43,7 @@ Repoet har prosjekt-skills i `.claude/skills/` som automatiserer arbeidsflyten (
 - **`/berik-foredrag`** — etter konferansen, når opptakene er ute: fyller inn sammendrag i talk-filer basert på videoene, og foreslår Topp 5 til README-en.
 - **`/oppdater-program`** — sjekker om det offisielle konferanseprogrammet har endret seg og oppdaterer `program.md`-cachen; melder fra hvis registrerte foredrag er berørt.
 - **`/video-sjekk`** — sjekker om utestående opptak har blitt publisert og lenker dem inn. Egner seg som ukentlig rutine via `/schedule`.
-- **`/konferanse-stats`** — nøkkeltall på tvers av konferansene: antall foredrag, attended vs. interest, videodekning, tag-fordeling.
+- **`/konferanse-stats`** — nøkkeltall på tvers av konferansene: antall foredrag, deltatt vs. ønskeliste, videodekning, tag-fordeling.
 
 Typisk livssyklus: `/ny-konferanse` → `/planlegg-dagen` → `/nytt-foredrag` (under konferansen) → `/video-sjekk` (ukene etter) → `/berik-foredrag` → Topp 5.
 
@@ -51,7 +51,8 @@ Typisk livssyklus: `/ny-konferanse` → `/planlegg-dagen` → `/nytt-foredrag` (
 
 **Før konferansen:**
 - Sett opp konferansen med `/ny-konferanse <url>` så snart programmet er publisert — da får du både mappe, README og lokal programcache i én operasjon.
-- Kvelden før hver dag: kjør `/planlegg-dagen` og plukk foredrag per tidsluke. Kollisjoner du ikke rekker havner rett i ønskelisten.
+- Kvelden før hver dag: kjør `/planlegg-dagen` og plukk foredrag per tidsluke. Foredrag du ikke rekker på grunn av kollisjoner, havner rett i ønskelisten.
+- Commit gjerne planen med en gang, men vent med å pushe til dagen er i gang – en pushet dagsplan forteller offentlig hvor du kommer til å være.
 - Kjør `/oppdater-program` på morgenen — programmer endres gjerne siste døgn, og cachen bør stemme med virkeligheten før du registrerer noe.
 
 **Under konferansen:**
@@ -66,11 +67,11 @@ Typisk livssyklus: `/ny-konferanse` → `/planlegg-dagen` → `/nytt-foredrag` (
 
 ## Format for et foredrag
 
-Skjelettet for en talk-fil er definert i [`_mal/talks/HHMM-slug.md`](_mal/talks/HHMM-slug.md) – det er den kanoniske kilden. Kort oppsummert: tittel, metadata-linje (dag, tid, taler), sammendrag (1–7 setninger i 2–3 korte avsnitt – eller en placeholder til `/berik-foredrag` kjøres), eventuelle egne notater, tags, og en `**📹**`-linje med video-lenke eller status.
+Skjelettet for en talk-fil er definert i [`_mal/talks/HHMM-slug.md`](_mal/talks/HHMM-slug.md) – det er den kanoniske kilden. Kort oppsummert: tittel, metadata-linje (dag, tid, taler), sammendrag (1–7 setninger i 2–3 korte avsnitt – eller en placeholder til `/berik-foredrag` kjøres), eventuelle egne notater, tags, og en `**📹**`-linje med video-lenke eller status. Statuslinjer uten eget opptak har tre godkjente varianter – skills gjenkjenner nøyaktig disse: «Video ikke publisert ennå – se [kilde]», «Individuell video ikke publisert ennå – se [kilde]» og «Inngår i [samlesending] – individuell video forventet senere.»
 
 Metadata-linjen bruker `Dag {N}, {dato}` for flerdagskonferanser og bare `{dato}` for endagskonferanser, og kan avsluttes med en ankerlenke inn i `program.md`. Filnavn: `HHMM-slug.md` (endags) eller `dayN-HHMM-slug.md` (flerdags).
 
-Attended-talks avsluttes med en forrige/neste-navigasjonslinje (`*[← <forrige>](<fil>) · [<neste> →](<fil>)*`) i kronologisk rekkefølge; `/nytt-foredrag` vedlikeholder kjeden. `program.md` har for flersporede konferanser én tabell per tidsluke, der tidsluke-headingen bærer ankeret (`<h3 id="d<dag>-<hhmm>">`) som talk-sidene lenker til; enkeltsporede konferanser har én samlet tabell uten tidsluke-ankere.
+Foredrag i «gikk på»-listen avsluttes med en forrige/neste-navigasjonslinje (`*[← <forrige>](<fil>) · [<neste> →](<fil>)*`) i kronologisk rekkefølge; `/nytt-foredrag` vedlikeholder kjeden. `program.md` har for flersporede konferanser én tabell per tidsluke, der tidsluke-headingen bærer ankeret (`<h3 id="d<dag>-<hhmm>">`) som talk-sidene lenker til; enkeltsporede konferanser har én samlet tabell uten tidsluke-ankere.
 
 ## Tag-vokabular
 

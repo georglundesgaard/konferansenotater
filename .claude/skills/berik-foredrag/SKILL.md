@@ -24,7 +24,7 @@ Bruk: `/berik-foredrag` eller `/berik-foredrag <konferanse>` (f.eks. `/berik-for
 2. **Finn kandidater.** List alle filer under `<Konferanse>/<År>/talks/` (ignorer `.gitkeep`). En fil er kandidat hvis den inneholder placeholder-linjen `*(Sammendrag fylles inn senere`, markør-linjen `*(Sammendrag basert på programomtalen` (sammendraget er skrevet fra programbeskrivelsen, ikke opptaket), eller mangler prosa mellom metadata-linjen og `**Notater / Tags / 📹**`. Filer med uerstattede mal-plassholdere (`<Tittel>` e.l.) er feilkopierte maler – meld fra om dem, ikke berik dem. Vis brukeren listen, og la dem bekrefte / plukke undermengde via `AskUserQuestion` (`Alle` / `Bare de uten video-lenke` / `Velg manuelt`).
 
 3. **Finn video-URL per talk.**
-   - Sjekk `**📹**`-linjen i talk-filen. Hvis den peker på YouTube/Vimeo, bruk den.
+   - Sjekk `**📹**`-linjen i talk-filen. Hvis den peker på YouTube/Vimeo, bruk den. NB: en samlesending-/livestream-lenke i en statuslinje («Inngår i …») er ikke talkens eget opptak – bruk den bare som kilde hvis talken beviselig inngår der, og noter i så fall det i outputen.
    - Ellers: skum konferansens `README.md` etter en "hovedkilde"-lenke (f.eks. Kotlin YouTube-kanal, Vimeo/javazone, smidig.no) og prøv å finne talken der. WebFetch + søk på tittel/taler.
    - Hvis ingen video finnes, hopp over den — meld i output.
 
@@ -62,14 +62,14 @@ Bruk: `/berik-foredrag` eller `/berik-foredrag <konferanse>` (f.eks. `/berik-for
    TAGS: `t1` · `t2` · `t3` · `t4`
    ```
 
-   Kall alle Agent-tools i én melding for parallell kjøring.
+   Legg ved tag-vokabularet fra rot-`README.md` («Tag-vokabular»-seksjonen) nederst i prompten som referanse for TAGS-forslagene. Kall alle Agent-tools i én melding for parallell kjøring.
 
 5. **Merge tilbake i filene.** For hver returnerte SUMMARY:
    - Åpne talk-filen.
    - Erstatt placeholder-linjen (`*(Sammendrag fylles inn senere...*`) eller sett paragraf rett under metadata-linjen (en tom linje mellom). Har filen markør-linjen `*(Sammendrag basert på programomtalen ...)*`: erstatt hele det eksisterende sammendraget (prosaen mellom metadata-linjen og markøren) med det nye, og fjern markør-linjen – den skal aldri bli stående i en beriket fil.
    - La `**Notater fra konferansen:**`-blokken stå urørt.
-   - Oppdater `**Tags:**`-linjen hvis agenten returnerte forbedrede tags (unngå duplikater).
-   - Hvis `**📹**`-linjen fortsatt sier "ikke publisert", erstatt statusdelen etter `**📹**`-prefikset slik at linjen blir `**📹** [<Tittel> – <Taler>](<url>)`. Bruk aldri `|` i lenketeksten – kramdown på GitHub Pages tolker det som en tabell og knekker siden. Prefikset `**📹**` skal alltid beholdes – steg 2 og 3 er avhengige av det ved senere kjøringer.
+   - Flett agentens tags inn i `**Tags:**`-linjen: behold alltid brukerens eksisterende tags (de kom fra intervjuet i `/nytt-foredrag`), bare suppler, og unngå duplikater. Normaliser mot tag-vokabularet i rot-`README.md` (f.eks. `AI`, ikke `KI`; `Kotlin/Wasm`, ikke `Wasm`).
+   - Hvis `**📹**`-linjen fortsatt har en status uten eget opptak («ikke publisert», «forventet senere» – se statusvariantene i rot-`README.md`), erstatt statusdelen etter `**📹**`-prefikset slik at linjen blir `**📹** [<Tittel> – <Taler>](<url>)`. Bruk aldri `|` i lenketeksten – kramdown på GitHub Pages tolker det som en tabell og knekker siden. Prefikset `**📹**` skal alltid beholdes – steg 2 og 3 er avhengige av det ved senere kjøringer.
 
 5b. **Oppdater programraden.** Hvis konferansens `program.md` har en rad for talken: sett inn/oppdater den korte oppsummeringen i `<details>`-blokken og én-setnings-versjonen i Notater-cellen (foran 📝-lenken). Behold radstatus og lenker.
 

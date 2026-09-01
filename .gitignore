@@ -1,0 +1,12 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+vendor/
+
+# Claude Code (lokale innstillinger skal ikke publiseres)
+.claude/settings.local.json
+
+# macOS
+.DS_Store

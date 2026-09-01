@@ -9,3 +9,7 @@ Personlige notater fra konferanser jeg har vært på – sammendrag av foredrag,
 - **[KotlinConf 2026](KotlinConf/2026/README.md)** — München, 21.–22. mai 2026
 
 Hver konferanse har liste over foredrag jeg gikk på og ønskeliste over opptak jeg vil se – konferanser med parallelle spor har i tillegg Topp 5-anbefalinger fra ønskelisten. Klikk deg videre inn til én side per foredrag.
+
+---
+
+Oppsett, arbeidsflyt og tag-vokabular er dokumentert i [README-en på GitHub](https://github.com/georglundesgaard/konferansenotater#readme).

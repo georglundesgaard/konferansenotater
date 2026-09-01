@@ -23,7 +23,7 @@ Bruk: `/ny-konferanse <url>` — URL til konferansens forside eller program. Ute
    - Radformat: Foredragscellen har `<strong><a href="<offisiell-url>">Tittel</a></strong>` + `<details><summary>om foredraget</summary>` med den offisielle beskrivelsen og en `<p class="meta">`-linje (tidsintervall · rom · ev. språk · tags). Språk skrives helt ut (Norsk/Engelsk). Notater-cellen står tom til foredrag registreres via `/nytt-foredrag`.
    Øverst i filen: kildelenke, hentedato og tegnforklaring (`✅ = deltatt · 👀 = vil se opptak`). Lenk `program.md` fremhevet fra konferansens README (`**[📋 Hele programmet](program.md)**`). Er programmet ikke publisert ennå, dropp cachen og noter det i README-en.
 
-5. **Oppdater indeksene.** Legg konferansen inn i listen under `## Konferanser` (nyeste først) i BÅDE rot-`README.md` og `index.md` (web-forsiden): `- **[<Konferanse> <År>](<Konferanse>/<År>/README.md)** — <By>, <datoer>`.
+5. **Oppdater indeksene.** Legg konferansen inn i listen under `## Konferanser` (nyeste først) i BÅDE rot-`README.md` og `index.md` (web-forsiden): `- **[<Konferanse> <År>](<Konferanse>/<År>/README.md)** — <By>, <datoer>`. Oppdater også `konferanser-<antall>`-badgen øverst i rot-`README.md`.
 
 6. **Bekreft.** Vis kort hva som ble laget (mappe, README, programcache med antall foredrag). Ikke commit – la brukeren gjøre det.
 

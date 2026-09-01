@@ -135,7 +135,7 @@ Tidspunkter: [09:00](#d2-0900) · [10:15](#d2-1015) · [11:15](#d2-1115) · [13:
 <colgroup><col class="c-talk"><col class="c-speaker"><col class="c-notes"></colgroup>
 <thead><tr><th>Foredrag</th><th>Taler(e)</th><th>Notater</th></tr></thead>
 <tbody>
-<tr class="attended"><td>✅ <strong><a href="https://kotlinconf.com/talks/1095750/">We were meant to be</a></strong><details><summary>om foredraget</summary><p class="meta">09:00 – 10:00 · Keynote, Room 14</p></details></td><td>Lena Reinhard</td><td></td></tr>
+<tr class="attended"><td>✅ <strong><a href="https://kotlinconf.com/talks/1095750/">We were meant to be</a></strong><details><summary>om foredraget</summary><p>Dag 2-keynoten med et menneskelig blikk på tech-bransjen i 2026: produktivitetsdebatten, karriereveier i endring og usikkerheten mange kjenner på i AI-tidsalderen, formet gjennom en åpen «work log» i månedene før konferansen.</p><p class="meta">09:00 – 10:00 · Keynote, Room 14 · Tags: Keynote · Karriere · Mennesker · AI-debatt</p></details></td><td>Lena Reinhard</td><td>Lena Reinhard holdt dag 2-keynoten med et menneskelig blikk på tech-bransjen i 2026 – produktivitet, karriereveier og usikkerhet i AI-tidsalderen … <a class="notes-link" href="talks/day2-0900-we-were-meant-to-be.html">📝 notater</a></td></tr>
 </tbody>
 </table>
 

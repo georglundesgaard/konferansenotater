@@ -3,6 +3,19 @@
 
 @import "{{ site.theme }}";
 
+/* Lenker skal kunne skjelnes uten farge (WCAG 1.4.1) – temaet fra 2019
+   understreker bare på hover. Navigasjonselementer unntas under. */
+.markdown-body a {
+  text-decoration: underline;
+}
+
+/* Synlig tastaturfokus */
+a:focus-visible,
+summary:focus-visible {
+  outline: 2px solid #0969da;
+  outline-offset: 2px;
+}
+
 /* Brødsmulesti */
 .crumbs {
   font-size: 14px;
@@ -24,7 +37,7 @@
 }
 
 /* «Til toppen»-lenke i h2-overskrifter */
-.to-top {
+.markdown-body .to-top {
   float: right;
   font-size: 13px;
   font-weight: normal;
@@ -33,7 +46,7 @@
   margin-top: 6px;
 }
 
-.to-top:hover {
+.markdown-body .to-top:hover {
   color: #0969da;
 }
 
@@ -99,7 +112,8 @@
   font-weight: normal;
 }
 
-.program-table .meta { color: #6e7781; font-style: italic; }
+/* #57606a holder WCAG AA-kontrast også på de grønne/gule radhøydepunktene */
+.program-table .meta { color: #57606a; font-style: italic; }
 .program-table .notes-link { white-space: nowrap; }
 
 /* Mer luft i brødteksten på talk-sidene */

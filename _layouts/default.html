@@ -9,7 +9,7 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <div class="container-lg px-3 my-5 markdown-body{% if page.url contains '/program' %} wide{% endif %}">
+    <main class="container-lg px-3 my-5 markdown-body{% if page.url contains '/program' %} wide{% endif %}">
       {% assign parts = page.url | split: '/' %}
       {% if parts.size > 2 %}
       <nav class="crumbs" aria-label="Brødsmulesti">
@@ -28,12 +28,15 @@
       </nav>
       {% endif %}
       {{ content }}
-    </div>
+    </main>
     <script>
-      // «Til toppen»-lenke på hver h2 for enklere navigering mellom seksjoner
+      // «Til toppen»-lenke på hver h2 for enklere navigering mellom seksjoner.
+      // aria-label settes FØR lenken legges til, så headingens tilgjengelige
+      // navn ikke forurenses av lenketeksten i skjermleseres headingliste.
       document.querySelectorAll('.markdown-body h2').forEach(function (h) {
+        h.setAttribute('aria-label', h.textContent.trim());
         var a = document.createElement('a');
-        a.href = '#';
+        a.href = '#top';
         a.className = 'to-top';
         a.textContent = '↑ til toppen';
         h.appendChild(a);
@@ -42,17 +45,26 @@
       document.querySelectorAll('.markdown-body h3[id]').forEach(function (h) {
         var m = h.id.match(/^d(\d)-\d{4}$/);
         if (!m) return;
+        h.setAttribute('aria-label', h.textContent.trim());
         var a = document.createElement('a');
         a.href = '#dag-' + m[1];
         a.className = 'to-top';
         a.textContent = '↑ til tidspunktene';
         h.appendChild(a);
       });
-      // Eksterne lenker åpner i ny fane
+      // Programsidenes mange identiske «om foredraget»-disclosures får
+      // foredragstittelen i det tilgjengelige navnet
+      document.querySelectorAll('.program-table summary').forEach(function (s) {
+        var cell = s.closest('td');
+        var title = cell && cell.querySelector('strong');
+        if (title) s.setAttribute('aria-label', 'Om foredraget: ' + title.textContent.trim());
+      });
+      // Eksterne lenker åpner i ny fane – annonser det for skjermlesere
       document.querySelectorAll('.markdown-body a[href^="http"]').forEach(function (a) {
         if (a.host !== location.host) {
           a.target = '_blank';
           a.rel = 'noopener';
+          a.setAttribute('aria-label', a.textContent.trim() + ' (åpnes i ny fane)');
         }
       });
     </script>

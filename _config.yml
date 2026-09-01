@@ -3,6 +3,16 @@ description: Personlige notater fra konferanser – sammendrag, observasjoner og
 lang: nb
 theme: jekyll-theme-primer
 
-# jekyll-readme-index, jekyll-relative-links, jekyll-optional-front-matter og
-# jekyll-titles-from-headings er aktivert som standard på GitHub Pages.
+# Siden avhenger av pluginene GitHub Pages aktiverer som standard:
+# jekyll-optional-front-matter (md-filer uten front matter blir sider),
+# jekyll-default-layout (default-layouten brukes uten front matter),
+# jekyll-readme-index, jekyll-relative-links og jekyll-titles-from-headings.
+# Lokal forhåndsvisning: `bundle install && bundle exec jekyll serve` (se Gemfile).
 # _mal/ (understrek-prefiks) og .claude/ ekskluderes automatisk fra siden.
+
+# Rot-README-en er GitHub-forsiden; index.md er Pages-forsiden. Uten denne
+# ekskluderingen publiseres README-en i tillegg som /README.html.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

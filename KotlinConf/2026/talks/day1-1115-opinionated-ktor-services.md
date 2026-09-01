@@ -9,7 +9,7 @@ For feilhåndtering anbefaler han typede feil via Arrow sin Raise-DSL i stedet f
 Hovedbudskapet er at en Ktor-utvikler bør velge sitt eget «meningssett» tidlig – modulær DI, typede feil og en tydelig domenekjerne – slik at tjenesten forblir enkel å teste, refaktorere og skalere når den vokser.
 
 **Notater fra konferansen:**
-- Greit foredrag, men ikke spesielt interessant
+- Temaet traff ikke helt mine interesser denne gangen
 
 **Tags:** `Ktor` · `Backend` · `Arkitektur` · `Arrow` · `Feilhåndtering` · `DDD`
 

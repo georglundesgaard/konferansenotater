@@ -20,7 +20,7 @@ Interviews the user for a single talk, then writes the file and updates the conf
 
 2. **Spør om selve foredraget** (én åpen prompt):
    `Beskriv foredraget – noen stikkord holder (tittel, taler, tid, tema … jeg matcher mot programmet).`
-   Argumenter gitt direkte til skillen (`/nytt-foredrag <beskrivelse>`) brukes som svar uten å spørre på nytt.
+   Argumenter gitt direkte til skillen (`/nytt-foredrag <beskrivelse>`) brukes som svar uten å spørre på nytt. NB: argumentet er en foredragsbeskrivelse, ikke et konferansenavn (ulikt `/video-sjekk` og `/berik-foredrag`). Ligner argumentet kun på et konferansenavn (f.eks. `/nytt-foredrag javazone`), avklar med brukeren i stedet for å fuzzy-matche det mot foredragstitler.
 
 3. **Match mot programmet.** Sjekk først om `<Konferanse>/<År>/program.md` finnes (lokal cache – foretrukket, fungerer offline). Hvis ikke: finn programlenken i konferansens `README.md` (under Kilder, f.eks. `kotlinconf.com/talks/`, `2026.javazone.no/program`) og WebFetch den. Match brukerens beskrivelse mot foredragene – fuzzy på tittel, taler og tema. Bruk match til å fylle inn eksakt tittel, taler(e) og starttid (HHMM).
    - Én klar match: vis den kort (`Fant: <tid> <tittel> — <taler>`) og fortsett.
@@ -48,13 +48,15 @@ Interviews the user for a single talk, then writes the file and updates the conf
 11. **Oppdater konferanse-README.** Åpne `<Konferanse>/<År>/README.md`. Under enten `## Foredrag jeg gikk på` eller `## Foredrag jeg vil se opptak av`, i riktig dag-underseksjon, sett inn (sortert på tid):
     `- **[<HHMM> <Tittel>](talks/<filnavn>)** — <Taler(e)>`
 
-11a. **Oppdater programraden.** Hvis `program.md` finnes og talken ble matchet der: sett radens `<tr>`-klasse til `attended` eller `wishlist`, legg ✅/👀-badge foran tittelen, og fyll Notater-cellen med `<a class="notes-link" href="talks/<filnavn måtte .html>">📝 notater</a>` – slik at programmet lenker begge veier. (Én-setnings oppsummering i Notater-cellen kommer fra `/berik-foredrag` senere.)
+11a. **Oppdater programraden.** Hvis `program.md` finnes og talken ble matchet der: sett radens `<tr>`-klasse til `attended` eller `wishlist`, legg ✅/👀-badge foran tittelen, og fyll Notater-cellen med `<a class="notes-link" href="talks/<filnavn med .html>">📝 notater</a>` – slik at programmet lenker begge veier. (Én-setnings oppsummering i Notater-cellen kommer fra `/berik-foredrag` senere.)
 
 11b. **Vedlikehold forrige/neste-kjeden** (kun attended). Attended-talks har en avsluttende navigasjonslinje på formen `*[← <forrige>](<fil>) · [<neste> →](<fil>)*`. Finn den nye talkens kronologiske plass blant attended-filene (README-listen er fasit), og:
     - Legg navigasjonslinje nederst i den nye filen (utelat «forrige» hvis først, «neste» hvis sist).
     - Oppdater navigasjonslinjen i nabo-filene (forrige fils «neste»-lenke og neste fils «forrige»-lenke) så kjeden forblir sammenhengende.
 
 12. **Bekreft og loop.** Meld: `Registrert: <filnavn>`. Spør så: `Ett til? (beskriv neste foredrag, eller tomt for å avslutte)`. Ved nytt svar: gå til steg 3 med samme konferanse og dag-kontekst. Ikke commit – la brukeren gjøre det når de er klare.
+
+13. **Oppdater foredrag-badgen.** Når loopen avsluttes: tell talk-filene på tvers av alle konferanser (`<Konferanse>/<År>/talks/*.md`, ignorer `.gitkeep`) og oppdater `foredrag-<antall>`-badgen øverst i rot-`README.md` hvis tallet har endret seg.
 
 ## Ikke gjør
 
