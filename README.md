@@ -3,7 +3,7 @@
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-2ea44f?logo=github)](https://georglundesgaard.github.io/konferansenotater/)
 [![Sist oppdatert](https://img.shields.io/github/last-commit/georglundesgaard/konferansenotater?label=sist%20oppdatert)](https://github.com/georglundesgaard/konferansenotater/commits/main)
 [![Konferanser](https://img.shields.io/badge/konferanser-3-blue)](https://georglundesgaard.github.io/konferansenotater/)
-[![Foredrag](https://img.shields.io/badge/foredrag-59-blue)](https://georglundesgaard.github.io/konferansenotater/)
+[![Foredrag](https://img.shields.io/badge/foredrag-77-blue)](https://georglundesgaard.github.io/konferansenotater/)
 [![Språk](https://img.shields.io/badge/spr%C3%A5k-norsk-red)](README.md)
 
 Personlige notater fra konferanser jeg deltar på – sammendrag av foredrag, egne observasjoner, tags og lenker til opptak. Skrevet på norsk.
