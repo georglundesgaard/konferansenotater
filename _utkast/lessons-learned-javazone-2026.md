@@ -24,6 +24,8 @@ Det viktigste grepet skjedde før konferansen: Skillene ble ikke bare skrevet, d
 
 **På kvelden** fant `/video-sjekk` at elleve av dagens opptak allerede lå på Vimeo – publisert samme dag som foredragene ble holdt. Berikingen av sammendragene møtte derimot veggen, og det er en historie for seg.
 
+**Og resten av kvelden** hørte konferansen til, ikke verktøykjeden: en runde quiz og sosialt på messegulvet med gamle og nåværende kolleger, før Matoma entret scenen klokka 21 og leverte et times forrykende show. Notatene tar seg av seg selv – det er jo hele poenget.
+
 ## Det som knirket
 
 Subagentene som skulle skrive sammendrag fra opptakene, fikk bare tynne metadata: Videosidene ligger bak bot-sjekk, `yt-dlp` krever innlogging, og player-endepunktene svarer «Sorry». Løsningen ble ærlig merking: Sammendrag skrevet fra programomtalen får en proveniensmarkør, slik at en senere kjøring vet at de skal oppgraderes.
