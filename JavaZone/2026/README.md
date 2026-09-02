@@ -16,6 +16,7 @@ Min plan: [dag 1](plan-dag1.md)
 
 - **[1020 The positive value of negative space](talks/day1-1020-the-positive-value-of-negative-space.md)** — Christin Gorman ⏳
 - **[1300 Java Patterns: Why, How, and When Not](talks/day1-1300-java-patterns-why-how-and-when-not.md)** — Cay Horstmann ⏳
+- **[1420 Å skifte vinger i lufta eller hjul mens sykkelen er i nedoverbakke: Modernisering av samfunnskritiske systemer uten høye skuldre](talks/day1-1420-skifte-vinger-i-lufta.md)** — Johannes Brodwall, Hafsa Elkam ⏳
 
 ### Torsdag 3. september 2026
 
@@ -43,6 +44,7 @@ Min plan: [dag 1](plan-dag1.md)
 - **[1420 Managing the chaos: Automating internal dependency upgrades with OpenRewrite](talks/day1-1420-openrewrite-dependency-upgrades.md)** — Jago de Vreede ⏳
 - **[1540 Building Intelligent Java Apps: Agent Patterns, MCP, and the Future of AI Native Design](talks/day1-1540-agent-patterns-mcp-java.md)** — Daniel Oh ⏳
 - **[1540 Hvordan logger kan felle en Nav-direktør](talks/day1-1540-logger-kan-felle-en-nav-direktor.md)** — Trond Arve Wasskog, Audun Fauchald Strand ⏳
+- **[1540 10 Things I Hate About Java](talks/day1-1540-10-things-i-hate-about-java.md)** — Adele Carpenter ⏳
 - **[1700 Bra tools, ubrukelige svar: Læring fra ett år med MCP](talks/day1-1700-bra-tools-ubrukelige-svar-mcp.md)** — Bjørn Nordlund, Eirik Fagtun Kjærnli ⏳
 - **[1725 De usette langtidskostnadene med dagens KI](talks/day1-1725-langtidskostnadene-med-ki.md)** — Magnus Elden ⏳
 - **[1820 Snake in 10 Lines: Learning More by Coding Less](talks/day1-1820-snake-in-10-lines.md)** — Guus de Wit ⏳

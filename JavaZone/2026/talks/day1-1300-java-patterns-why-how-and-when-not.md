@@ -20,4 +20,4 @@
 
 **📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone). Lysbilder: [horstmann.com](https://horstmann.com/presentations/2026/javazone/).
 
-*[← 1020 The positive value of negative space](day1-1020-the-positive-value-of-negative-space.md)*
+*[← 1020 The positive value of negative space](day1-1020-the-positive-value-of-negative-space.md) · [1420 Å skifte vinger i lufta →](day1-1420-skifte-vinger-i-lufta.md)*
