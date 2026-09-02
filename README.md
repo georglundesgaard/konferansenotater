@@ -37,7 +37,7 @@ konferansenotater/
 
 ## Skills
 
-Repoet har prosjekt-skills i `.claude/skills/` som automatiserer arbeidsflyten (kjøres som `/kommando` i Claude Code):
+Repoet har prosjekt-skills i `.claude/skills/` som automatiserer arbeidsflyten (kjøres som `/kommando` i Claude Code). Andre kodeagenter (Codex, Cursor, Gemini m.fl.) plukker opp de samme arbeidsflytene via [AGENTS.md](AGENTS.md), som peker dem til skill-filene:
 
 - **`/ny-konferanse <url>`** — sett opp en ny konferanse fra forside- eller program-URL: scaffold, README-ingress med sted/datoer/kilder, og lokal programcache i `program.md`.
 - **`/nytt-foredrag`** — registrer et foredrag under/etter konferansen. Ta med en fri beskrivelse (`/nytt-foredrag gunnar morling parquet`); skillen matcher mot programmet (lokal `program.md` først, ellers nettsiden), antar dagens dato, og looper til du er ferdig.
@@ -91,7 +91,7 @@ Listen er ikke uttømmende – legg til nye tags etter behov.
 
 ## Bruk verktøyet selv
 
-Lyst til å bruke opplegget til egne konferansenotater? Fork repoet, åpne forken i Claude Code, og kjør `/nullstill` – den fjerner notatene og dataene mine, beholder skills/maler/struktur, og peker sidene til din fork. Skal du på en av de samme konferansene, kan du beholde konferansemappen med programcachen (uten notatene). Deretter er `/ny-konferanse <url>` neste steg.
+Lyst til å bruke opplegget til egne konferansenotater? Fork repoet, åpne forken i Claude Code (eller en annen kodeagent som leser [AGENTS.md](AGENTS.md)), og kjør `/nullstill` – den fjerner notatene og dataene mine, beholder skills/maler/struktur, og peker sidene til din fork. Skal du på en av de samme konferansene, kan du beholde konferansemappen med programcachen (uten notatene). Deretter er `/ny-konferanse <url>` neste steg.
 
 ## Ny konferanse
 

@@ -14,5 +14,6 @@ theme: jekyll-theme-primer
 # ekskluderingen publiseres README-en i tillegg som /README.html.
 exclude:
   - README.md
+  - AGENTS.md
   - Gemfile
   - Gemfile.lock
