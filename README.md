@@ -5,6 +5,7 @@
 [![Konferanser](https://img.shields.io/badge/konferanser-3-blue)](https://georglundesgaard.github.io/konferansenotater/)
 [![Foredrag](https://img.shields.io/badge/foredrag-82-blue)](https://georglundesgaard.github.io/konferansenotater/)
 [![Språk](https://img.shields.io/badge/spr%C3%A5k-norsk-red)](README.md)
+[![Lisens](https://img.shields.io/github/license/georglundesgaard/konferansenotater?label=lisens)](#lisens)
 
 Personlige notater fra konferanser jeg deltar på – sammendrag av foredrag, egne observasjoner, tags og lenker til opptak. Skrevet på norsk.
 
@@ -108,3 +109,11 @@ touch "<Konferanse>/<ÅÅÅÅ>/talks/.gitkeep"
 ```
 
 Plassholdere i malen er på formen `<Konferanse>`, `<ÅÅÅÅ>`, `<HHMM>` og `<slug>` – enkle å finne med søk og erstatt.
+
+## Lisens
+
+Repoet har tre lag med ulikt eierskap:
+
+- **Verktøyet** – skills (`.claude/`), maler (`_mal/`), sidefiler (`_layouts/`, `_includes/`, `assets/`, konfig) og dokumentasjonen: [MIT](LICENSE). Fork og gjenbruk fritt.
+- **Mine notater og sammendrag** – prosaen i talk-filene og konferanse-README-ene: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.no) – del og siter gjerne, med navngivelse.
+- **Konferanseinnhold** – offisielle programbeskrivelser, abstracts og omtaler (i `program.md` og details-blokkene) tilhører de respektive konferansene og foredragsholderne. De er gjengitt med kildehenvisning som lokal cache og er **ikke** omfattet av lisensene over.
