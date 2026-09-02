@@ -2,7 +2,11 @@
 
 *Dag 1, 2. september 2026 · kl 10:20 · Christin Gorman · 📋 [i programmet](../program.md#d1-1020) · 🌐 [offisiell beskrivelse](https://2026.javazone.no/program/d8028049-c093-44e3-b929-a848351b7834)*
 
-*(Sammendrag fylles inn senere – bruk `/berik-foredrag` når opptaket er publisert.)*
+Christin Gorman retter et kritisk blikk mot programvarebransjens verktøybesettelse og argumenterer for at «mer» sjelden er svaret. Hun peker på hvordan bransjen driver opp energiforbruket, bygger avhengighetsskapende algoritmer og lager «slop machines» – generative verktøy som spyr ut innhold og oppmuntrer til mental latskap hos både utviklere og brukere.
+
+Foredraget er samtidig et forsvar for negativitet som en positiv kraft: å si nei, kutte og la ting være ugjort er en verdifull faglig ferdighet, ikke sur pessimisme. Gorman løfter frem minimalisme som ideal – verdien av det negative rommet, altså det vi bevisst velger bort – som en vei til bedre, mer bærekraftig programvare.
+
+*(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
 
 **Notater fra konferansen:**
 - Underholdende foredrag – som alltid
@@ -11,7 +15,7 @@
 - Nyttige libs hun nevnte: Javalin og Helidon Níma
 - Bokanbefaling: «The Experience Machine»
 
-**Tags:** `Produktivitet` · `Minimalisme` · `Kritisk blikk`
+**Tags:** `Produktivitet` · `Minimalisme` · `Kritisk blikk` · `AI` · `Tooling` · `Bærekraft`
 
 **📹** [The positive value of negative space – Christin Gorman](https://vimeo.com/1223305711)
 
