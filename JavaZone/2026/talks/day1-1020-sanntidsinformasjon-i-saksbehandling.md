@@ -6,6 +6,6 @@
 
 **Tags:** `Arkitektur` · `Skala` · `Performance` · `Casestudie`
 
-**📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone).
+**📹** [Sanntidsinformasjon i saksbehandlingssystemer – Sandnes, Stojkovic](https://vimeo.com/1223320660)
 
 *[← JavaZone 2026](../README.md)*

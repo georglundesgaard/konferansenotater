@@ -6,6 +6,6 @@
 
 **Tags:** `Språkdesign` · `Java` · `Historikk`
 
-**📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone).
+**📹** [Talking to Machines – Piotr Łaskawiec](https://vimeo.com/1223278888)
 
 *[← JavaZone 2026](../README.md)*

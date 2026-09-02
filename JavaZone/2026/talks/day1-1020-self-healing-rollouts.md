@@ -6,6 +6,6 @@
 
 **Tags:** `AI-agenter` · `Java` · `Kubernetes` · `CI/CD` · `Observability`
 
-**📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone).
+**📹** [Self-Healing Rollouts – Kevin Dubois](https://vimeo.com/1223322662)
 
 *[← JavaZone 2026](../README.md)*

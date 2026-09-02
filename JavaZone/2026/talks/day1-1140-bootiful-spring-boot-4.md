@@ -6,6 +6,6 @@
 
 **Tags:** `Spring Boot` · `Java` · `Kotlin` · `Live coding`
 
-**📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone).
+**📹** [Bootiful Spring Boot 4 – Josh Long](https://vimeo.com/1223346611)
 
 *[← JavaZone 2026](../README.md)*

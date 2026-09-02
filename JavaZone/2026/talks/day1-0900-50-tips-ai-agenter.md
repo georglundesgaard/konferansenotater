@@ -6,6 +6,6 @@
 
 **Tags:** `AI` · `AI-agenter` · `Produktivitet` · `Tooling`
 
-**📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone).
+**📹** [50 tips på 60 min – bli bedre med AI-agenter – Kjetil Jørgensen-Dahl](https://vimeo.com/1223281331)
 
 *[← JavaZone 2026](../README.md)*

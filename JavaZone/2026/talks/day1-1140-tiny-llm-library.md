@@ -6,6 +6,6 @@
 
 **Tags:** `LLM` · `Java` · `Live coding`
 
-**📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone).
+**📹** [Let's create a tiny LLM library together – Johannes Bechberger](https://vimeo.com/1223358361)
 
 *[← JavaZone 2026](../README.md)*

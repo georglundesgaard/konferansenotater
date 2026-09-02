@@ -14,7 +14,7 @@ Min plan: [dag 1](plan-dag1.md)
 
 ### Onsdag 2. september 2026
 
-- **[1020 The positive value of negative space](talks/day1-1020-the-positive-value-of-negative-space.md)** — Christin Gorman ⏳
+- **[1020 The positive value of negative space](talks/day1-1020-the-positive-value-of-negative-space.md)** — Christin Gorman
 - **[1300 Java Patterns: Why, How, and When Not](talks/day1-1300-java-patterns-why-how-and-when-not.md)** — Cay Horstmann ⏳
 - **[1420 Å skifte vinger i lufta eller hjul mens sykkelen er i nedoverbakke: Modernisering av samfunnskritiske systemer uten høye skuldre](talks/day1-1420-skifte-vinger-i-lufta.md)** — Johannes Brodwall, Hafsa Elkam ⏳
 - **[1700 Dream Machines & Walled Gardens](talks/day1-1700-dream-machines-walled-gardens.md)** — Anders Norås ⏳
@@ -30,17 +30,17 @@ Min plan: [dag 1](plan-dag1.md)
 
 ### Onsdag 2. september 2026
 
-- **[0900 Talking to Machines: The History and Future of Programming Languages](talks/day1-0900-talking-to-machines.md)** — Piotr Łaskawiec ⏳
-- **[0900 50 tips på 60 min – bli bedre med AI-agenter](talks/day1-0900-50-tips-ai-agenter.md)** — Kjetil Jørgensen-Dahl ⏳
-- **[1020 Self-Healing Rollouts: Automating Production Fixes with Agentic AI](talks/day1-1020-self-healing-rollouts.md)** — Kevin Dubois ⏳
-- **[1020 Fremtidens applikasjoner lages for maskiner](talks/day1-1020-fremtidens-applikasjoner-for-maskiner.md)** — Stig Lau ⏳
-- **[1020 Sanntidsinformasjon i saksbehandlingssystemer](talks/day1-1020-sanntidsinformasjon-i-saksbehandling.md)** — Jørgen Sølvernes Sandnes, Dragana Stojkovic ⏳
-- **[1100 Kotlin extension functions - en advarsel fra skyttergravene](talks/day1-1100-kotlin-extension-functions-advarsel.md)** — Anders Karlsen ⏳
-- **[1140 Let’s create a tiny LLM library together](talks/day1-1140-tiny-llm-library.md)** — Johannes Bechberger ⏳
-- **[1140 Bootiful Spring Boot 4](talks/day1-1140-bootiful-spring-boot-4.md)** — Josh Long ⏳
+- **[0900 Talking to Machines: The History and Future of Programming Languages](talks/day1-0900-talking-to-machines.md)** — Piotr Łaskawiec
+- **[0900 50 tips på 60 min – bli bedre med AI-agenter](talks/day1-0900-50-tips-ai-agenter.md)** — Kjetil Jørgensen-Dahl
+- **[1020 Self-Healing Rollouts: Automating Production Fixes with Agentic AI](talks/day1-1020-self-healing-rollouts.md)** — Kevin Dubois
+- **[1020 Fremtidens applikasjoner lages for maskiner](talks/day1-1020-fremtidens-applikasjoner-for-maskiner.md)** — Stig Lau
+- **[1020 Sanntidsinformasjon i saksbehandlingssystemer](talks/day1-1020-sanntidsinformasjon-i-saksbehandling.md)** — Jørgen Sølvernes Sandnes, Dragana Stojkovic
+- **[1100 Kotlin extension functions - en advarsel fra skyttergravene](talks/day1-1100-kotlin-extension-functions-advarsel.md)** — Anders Karlsen
+- **[1140 Let’s create a tiny LLM library together](talks/day1-1140-tiny-llm-library.md)** — Johannes Bechberger
+- **[1140 Bootiful Spring Boot 4](talks/day1-1140-bootiful-spring-boot-4.md)** — Josh Long
 - **[1140 The 1% Problem: An Introduction to AI Security](talks/day1-1140-ai-security-1-percent-problem.md)** — Lars Smeby ⏳
-- **[1140 Talk to me Java!](talks/day1-1140-talk-to-me-java.md)** — Martin Skarsaune ⏳
-- **[1140 My Year with Claude: Building Midimeria - music production analytics](talks/day1-1140-my-year-with-claude.md)** — Øyvind Løkling ⏳
+- **[1140 Talk to me Java!](talks/day1-1140-talk-to-me-java.md)** — Martin Skarsaune
+- **[1140 My Year with Claude: Building Midimeria - music production analytics](talks/day1-1140-my-year-with-claude.md)** — Øyvind Løkling
 - **[1300 No More Magic: Mastering the Explicit Kotlin Stack with Ktor, Exposed and Koin](talks/day1-1300-explicit-kotlin-stack.md)** — Geoffrey Rekier ⏳
 - **[1350 How to Keep Secrets from your Agent](talks/day1-1350-keep-secrets-from-your-agent.md)** — Nikolai Norman Andersen ⏳
 - **[1420 Managing the chaos: Automating internal dependency upgrades with OpenRewrite](talks/day1-1420-openrewrite-dependency-upgrades.md)** — Jago de Vreede ⏳

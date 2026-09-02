@@ -6,6 +6,6 @@
 
 **Tags:** `AI-agenter` · `Claude Code` · `Casestudie`
 
-**📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone).
+**📹** [My Year with Claude – Øyvind Løkling](https://vimeo.com/1223359618)
 
 *[← JavaZone 2026](../README.md)*

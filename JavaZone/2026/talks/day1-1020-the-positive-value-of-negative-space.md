@@ -13,6 +13,6 @@
 
 **Tags:** `Produktivitet` · `Minimalisme` · `Kritisk blikk`
 
-**📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone).
+**📹** [The positive value of negative space – Christin Gorman](https://vimeo.com/1223305711)
 
 *[1300 Java Patterns →](day1-1300-java-patterns-why-how-and-when-not.md)*

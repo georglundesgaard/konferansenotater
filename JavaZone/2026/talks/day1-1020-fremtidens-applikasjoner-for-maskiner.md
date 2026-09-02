@@ -6,6 +6,6 @@
 
 **Tags:** `AI-agenter` · `API-design` · `Arkitektur` · `REST`
 
-**📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone).
+**📹** [Fremtidens applikasjoner lages for maskiner – Stig Lau](https://vimeo.com/1223287917)
 
 *[← JavaZone 2026](../README.md)*

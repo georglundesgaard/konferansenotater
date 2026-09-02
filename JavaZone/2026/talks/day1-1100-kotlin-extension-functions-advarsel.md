@@ -6,6 +6,6 @@
 
 **Tags:** `Lyntale` · `Kotlin` · `Språkdesign`
 
-**📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone).
+**📹** [Kotlin extension functions – en advarsel – Anders Karlsen](https://vimeo.com/1223334643)
 
 *[← JavaZone 2026](../README.md)*

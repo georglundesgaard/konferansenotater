@@ -6,6 +6,6 @@
 
 **Tags:** `Java` · `Observability` · `Tooling`
 
-**📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone).
+**📹** [Talk to me Java! – Martin Skarsaune](https://vimeo.com/1223363059)
 
 *[← JavaZone 2026](../README.md)*
