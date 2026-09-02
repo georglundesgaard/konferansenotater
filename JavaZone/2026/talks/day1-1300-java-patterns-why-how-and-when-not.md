@@ -18,6 +18,6 @@
 
 **Tags:** `Java` · `Pattern matching`
 
-**📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone).
+**📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone). Lysbilder: [horstmann.com](https://horstmann.com/presentations/2026/javazone/).
 
 *[← 1020 The positive value of negative space](day1-1020-the-positive-value-of-negative-space.md)*
