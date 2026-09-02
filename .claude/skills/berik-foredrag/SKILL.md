@@ -27,6 +27,7 @@ Bruk: `/berik-foredrag` eller `/berik-foredrag <konferanse>` (f.eks. `/berik-for
    - Sjekk `**📹**`-linjen i talk-filen. Hvis den peker på YouTube/Vimeo, bruk den. NB: en samlesending-/livestream-lenke i en statuslinje («Inngår i …») er ikke talkens eget opptak – bruk den bare som kilde hvis talken beviselig inngår der, og noter i så fall det i outputen.
    - Ellers: skum konferansens `README.md` etter en "hovedkilde"-lenke (f.eks. Kotlin YouTube-kanal, Vimeo/javazone, smidig.no) og prøv å finne talken der. WebFetch + søk på tittel/taler.
    - Hvis ingen video finnes, hopp over den — meld i output.
+   - **Bot-sperrede kilder (kjent: Vimeo):** WebFetch fra sub-agenter blokkeres av bot-sjekk og gir bare oEmbed-metadata uten beskrivelse/transkripsjon; `yt-dlp` krever innlogging. Fungerende fallback: bruk nettleserverktøyene (claude-in-chrome) til å åpne videosiden i brukerens Chrome — som ekte nettleser passerer den sperren, og Vimeos transkripsjonspanel (CC) kan leses derfra. Dette går sekvensielt (én fane om gangen); hent transkripsjonsutdrag per talk FØR sub-agentene dispatches, og legg dem inline i promptene i stedet for video-URL-instruksen. Uten nettleser-tilgang: skriv fra programomtalen og sett markør-linjen (se steg 5).
 
 4. **Dispatch parallelle sub-agenter.** Én general-purpose Agent per talk med lenke. Prompt-mal (norsk):
 
