@@ -17,6 +17,7 @@ Min plan: [dag 1](plan-dag1.md)
 - **[1020 The positive value of negative space](talks/day1-1020-the-positive-value-of-negative-space.md)** — Christin Gorman ⏳
 - **[1300 Java Patterns: Why, How, and When Not](talks/day1-1300-java-patterns-why-how-and-when-not.md)** — Cay Horstmann ⏳
 - **[1420 Å skifte vinger i lufta eller hjul mens sykkelen er i nedoverbakke: Modernisering av samfunnskritiske systemer uten høye skuldre](talks/day1-1420-skifte-vinger-i-lufta.md)** — Johannes Brodwall, Hafsa Elkam ⏳
+- **[1700 Dream Machines & Walled Gardens](talks/day1-1700-dream-machines-walled-gardens.md)** — Anders Norås ⏳
 
 ### Torsdag 3. september 2026
 

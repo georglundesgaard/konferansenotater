@@ -15,4 +15,4 @@
 
 **📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone).
 
-*[← 1300 Java Patterns](day1-1300-java-patterns-why-how-and-when-not.md)*
+*[← 1300 Java Patterns](day1-1300-java-patterns-why-how-and-when-not.md) · [1700 Dream Machines & Walled Gardens →](day1-1700-dream-machines-walled-gardens.md)*
