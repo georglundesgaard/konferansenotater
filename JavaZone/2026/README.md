@@ -18,6 +18,7 @@ Min plan: [dag 1](plan-dag1.md)
 - **[1300 Java Patterns: Why, How, and When Not](talks/day1-1300-java-patterns-why-how-and-when-not.md)** — Cay Horstmann ⏳
 - **[1420 Å skifte vinger i lufta eller hjul mens sykkelen er i nedoverbakke: Modernisering av samfunnskritiske systemer uten høye skuldre](talks/day1-1420-skifte-vinger-i-lufta.md)** — Johannes Brodwall, Hafsa Elkam ⏳
 - **[1700 Dream Machines & Walled Gardens](talks/day1-1700-dream-machines-walled-gardens.md)** — Anders Norås ⏳
+- **[1820 Hacking i "gamle" dager - røverhistorier fra 80- og 90-tallet](talks/day1-1820-hacking-i-gamle-dager.md)** — Eivind Vea ⏳
 
 ### Torsdag 3. september 2026
 
