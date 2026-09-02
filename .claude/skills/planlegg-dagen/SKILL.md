@@ -37,6 +37,10 @@ Bruk: `/planlegg-dagen` eller `/planlegg-dagen <konferanse>` (f.eks. `/planlegg-
 
 6. **Bekreft.** Vis planen kort. Ikke commit. Minn brukeren på at en pushet dagsplan forteller offentlig hvor de kommer til å være – vent med push til dagen er i gang.
 
+## Underveis i dagen
+
+Hopper brukeren over et planlagt foredrag («jeg hopper over neste foredrag», «dropper 15:40»): fjern raden fra `plan-dag<N>.md` og registrer foredraget som interest etter `/nytt-foredrag` steg 9–11b og 13 (talk-fil med placeholder, 👀-programrad med 📝-lenke, sortert README-ønskelistelinje med ⏳, tilbakelenke, badge). Rader for gjennomførte foredrag blir stående i planen – bare hoppede fjernes.
+
 ## Ikke gjør
 
 - Ikke velg for brukeren – presenter kandidater, la dem bestemme.

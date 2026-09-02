@@ -11,6 +11,7 @@ Interviews the user for a single talk, then writes the file and updates the conf
 
 - User types `/nytt-foredrag` (or asks in Norwegian to "registrere et foredrag", "legge til en talk", "notere en sesjon")
 - User wants to add a talk during or right after a conference
+- User skips a planned talk («jeg hopper over neste foredrag») → follow «Underveis i dagen» in `/planlegg-dagen` (fjern planraden, registrer som interest)
 
 ## Steps
 
@@ -31,11 +32,11 @@ Interviews the user for a single talk, then writes the file and updates the conf
 
 5. **Attended eller interest?** `AskUserQuestion` med to valg: `attended` / `interest`.
 
-6. **Notater.** Spør: `Notater? (bare lim inn, tomt hvis ingen)`. Konverter linjeskift til `- `-liste. Hopp over blokken hvis tomt eller hvis interest.
+6. **Notater.** Åpent innspill – egner seg IKKE som `AskUserQuestion` (den krever minst to reelle valg, og notater har bare ett: lim inn). Si i stedet, sammen med status/tags-spørsmålet: «notater limer du bare inn etterpå». Når notater kommer (nå eller senere i samtalen): konverter linjeskift til `- `-liste. Hopp over blokken hvis interest eller ingen notater.
 
 7. **Tags.** Spør: `Tags? (kommaseparert – eller tomt for å hoppe over)`. Wrap hver i `` ` `` og join med ` · `.
 
-8. **Video-status.** Spør: `Video-lenke? (tomt hvis ikke publisert)`. Hvis tomt, bruk konferansens standard-fallback (finn ved å skumme README, f.eks. `Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/)`).
+8. **Video-status.** Under konferansen er opptaket aldri ute – ikke spør, bare meld at standard-fallbacken brukes (finn den ved å skumme README, f.eks. `Video ikke publisert ennå – se [smidig.no](https://www.smidig.no/)`) og la brukeren overstyre med en lenke hvis de har en. Deler brukeren en lysbilde-lenke (eller QR-kode til en): legg den bakerst på 📹-linjen som ` Lysbilder: [<kilde>](<url>).` – statusfrasen først på linjen må bestå.
 
 9. **Slug + filsti.**
    - Slug: lowercase, ikke-alfanumerisk → `-`, kollaps, trim, kutt til 40 tegn.
