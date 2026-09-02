@@ -14,3 +14,5 @@
 **Tags:** `Produktivitet` · `Minimalisme` · `Kritisk blikk`
 
 **📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone).
+
+*[1300 Java Patterns →](day1-1300-java-patterns-why-how-and-when-not.md)*

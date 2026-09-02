@@ -15,6 +15,7 @@ Min plan: [dag 1](plan-dag1.md)
 ### Onsdag 2. september 2026
 
 - **[1020 The positive value of negative space](talks/day1-1020-the-positive-value-of-negative-space.md)** — Christin Gorman ⏳
+- **[1300 Java Patterns: Why, How, and When Not](talks/day1-1300-java-patterns-why-how-and-when-not.md)** — Cay Horstmann ⏳
 
 ### Torsdag 3. september 2026
 
