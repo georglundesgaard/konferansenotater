@@ -48,6 +48,7 @@ Repoet har prosjekt-skills i `.claude/skills/` som automatiserer arbeidsflyten (
 - **`/video-sjekk`** — sjekker om utestående opptak har blitt publisert og lenker dem inn. Egner seg som ukentlig rutine via `/schedule`.
 - **`/topp-5`** — foreslår eller regenererer «Anbefalt: Topp 5» fra ønskelisten basert på temaene du faktisk fulgte; kjøres helst etter `/berik-foredrag`.
 - **`/konferanse-stats`** — nøkkeltall på tvers av konferansene: antall foredrag, deltatt vs. ønskeliste, videodekning, tag-fordeling.
+- **`/nullstill`** — for forks: vasker bort notatene og dataene mine, beholder skills/maler/struktur og peker sidene til din fork (se «Bruk verktøyet selv»).
 
 Typisk livssyklus: `/ny-konferanse` → `/planlegg-dagen` → `/nytt-foredrag` (under konferansen) → `/avslutt-konferanse` → `/video-sjekk` (ukene etter) → `/berik-foredrag` → `/topp-5`.
 
@@ -87,6 +88,10 @@ Holdes konsistent på tvers av konferanser:
 - **Tek:** `Kotlin 2.4` · `Compose` · `Compose Multiplatform` · `KMP` · `Ktor` · `Spring Boot` · `Coroutines` · `Kotlin/Wasm` · `Kotlin/Native` · `iOS` · `Android` · `JVM` · `Koog` · `MCP`
 
 Listen er ikke uttømmende – legg til nye tags etter behov.
+
+## Bruk verktøyet selv
+
+Lyst til å bruke opplegget til egne konferansenotater? Fork repoet, åpne forken i Claude Code, og kjør `/nullstill` – den fjerner notatene og dataene mine, beholder skills/maler/struktur, og peker sidene til din fork. Skal du på en av de samme konferansene, kan du beholde konferansemappen med programcachen (uten notatene). Deretter er `/ny-konferanse <url>` neste steg.
 
 ## Ny konferanse
 
