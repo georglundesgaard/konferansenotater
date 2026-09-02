@@ -1,48 +1,46 @@
-# Jeg tok med en agentisk verktøykjede på JavaZone
+# Agenten min slettet seksti filer. Derfor gikk JavaZone på skinner.
 
 *Utkast – dag 1 skrevet, dag 2 og tallene fylles ut etter konferansen.*
 
-Alle snakker om agentisk utvikling for tiden. På JavaZone 2026 satt jeg i salen og hørte foredrag om AI-agenter, instruksjonsfiler og delegering – mens jeg i pausene praktiserte nøyaktig det foredragene beskrev: Jeg hadde tatt med meg en agentisk verktøykjede på konferansen, og lot den føre notatene mine.
+Midt under JavaZone, i en pause mellom foredragene, kjørte jeg en test: En agent fikk oppgaven «nullstill repoet» – uten instruksjoner, i en trygg, isolert arbeidskopi. Den slettet seksti filer uten å spørre, og bortforklarte det med at oppdraget i seg selv var godkjenning. Regelen som ble født, står nå ordrett i verktøykjeden min: **Oppdraget er ikke bekreftelse.** Vis planen, med omfang, og vent på ja.
 
-Dette er historien om det eksperimentet – hva som fungerte, hva som knirket, og hvilke prinsipper som vokste frem underveis. Repoet du leser dette i er selve demoen: hver konvensjon jeg beskriver, kan du klikke deg inn og se.
+Det er den typen funn man bare gjør ved å *teste* instruksjonene sine, ikke bare skrive dem. Og det er egentlig hele tesen i dette innlegget: Jeg tok med meg en agentisk verktøykjede på konferanse, lot den føre notatene mine – og lærte mest av testene som gikk galt med vilje.
 
 ## Oppsettet
 
-Utgangspunktet er et [notatrepo](https://github.com/georglundesgaard/konferansenotater) i ren markdown, publisert med Jekyll på GitHub Pages. Oppå det ligger en samling *skills* – instruksjonsfiler i `.claude/skills/` som Claude Code kjører som `/kommandoer`: sett opp en konferanse, planlegg dagen, registrer et foredrag, sjekk etter opptak, berik notatene fra videoene, avslutt konferansen.
+Utgangspunktet er et [notatrepo](https://github.com/georglundesgaard/konferansenotater) i ren Markdown, publisert med Jekyll på GitHub Pages. Oppå det ligger en samling *skills* – instruksjonsfiler som Claude Code (Anthropics kodeagent i terminalen) kjører som `/kommandoer`: sett opp en konferanse, planlegg dagen, registrer et foredrag, sjekk etter opptak, berik notatene fra videoene, avslutt konferansen.
 
-Det viktigste grepet skjedde før konferansen: skillene ble ikke bare skrevet, de ble *testet*. Først en baseline – en agent i isolert arbeidskopi som fikk oppgaven **uten** instruksjonene, for å se hva som faktisk gikk galt. Så ble skillen skrevet mot de observerte feilene, og verifisert med nye agenter som fulgte den. TDD, bare at «koden» er prosessdokumentasjon. Det høres seremonielt ut. Det var det som gjorde at dag 1 gikk på skinner.
+Det viktigste grepet skjedde før konferansen: Skillene ble ikke bare skrevet, de ble *testet*. Først en baseline – en agent i isolert arbeidskopi som fikk oppgaven **uten** instruksjonene, for å se hva som faktisk gikk galt. Så ble skillene skrevet mot de observerte feilene og verifisert med nye agenter som fulgte dem. TDD, bare at «koden» er prosessdokumentasjon. Det høres seremonielt ut. Det var det som gjorde at konferansedagen gikk på skinner. (Konvensjonene kan du klikke deg inn i repoet og se; selve testene levde i øktene.)
 
 ## Slik føltes dagen
 
-**Kvelden før** kjørte jeg `/planlegg-dagen`: programmets tidsluker kom som spørsmålsrunder, jeg krysset av det som fristet, og valgte vinnere der det kolliderte. Kollisjonstaperne ble ikke bare notert – de ble registrert som fullverdige ønskeliste-filer med programlenker og videostatus, elleve stykker, før dagen hadde begynt.
+**Kvelden før** kjørte jeg `/planlegg-dagen`: Programmets tidsluker kom som spørsmålsrunder, jeg krysset av det som fristet, og valgte vinnere der det kolliderte. De elleve kollisjonstaperne ble ikke bare notert – de ble registrert som fullverdige ønskelistefiler med programlenker og videostatus, og et ekstra søk gjennom resten av programmet la til seks til. Sytten ønskeliste-foredrag før dagen hadde begynt. Planen ble committet, men bevisst ikke pushet før dagen var i gang – en publisert dagsplan forteller offentlig hvor du kommer til å være, så den regelen ligger også i verktøykjeden.
 
-**På morgenen** sjekket `/oppdater-program` den lokale programcachen mot arrangørens API – og fant tre reelle endringer siste døgn: ett foredrag flyttet, ett med ny tittel, én taler-endring. Cachen er poenget: resten av dagen fungerte alt offline, på konferanse-wifi.
+**På morgenen** sjekket `/oppdater-program` den lokale programcachen mot arrangørens API – og fant tre reelle endringer siste døgn: ett foredrag flyttet, ett med ny tittel, én talerendring. Cachen er poenget: Resten av dagen fungerte alt offline, på konferanse-wifi.
 
-**I pausene** var registrering ett minutt: `/nytt-foredrag brodwall el kam` fuzzy-matcher mot cachen, finner riktig foredrag, spør om to ting (deltatt/ønskeliste og tags), og skriver fil, indeks og programrad med toveis lenking. Notatene limte jeg inn som stikkord etterpå; de er fredet – ingen agent får røre dem.
+**I pausene** tok registreringen ett minutt: `/nytt-foredrag brodwall el kam` fuzzy-matcher mot cachen, finner riktig foredrag, spør om to ting (deltatt/ønskeliste og tags) og skriver fil, indeks og programrad med toveis lenking. Notatene limte jeg inn som stikkord etterpå; de er fredet – ingen agent får røre dem.
 
-**Underveis** oppsto mønstre ingen hadde planlagt. «Jeg hopper over neste foredrag» ble til en flyt: planraden fjernes, foredraget registreres på ønskelisten. En foredragsholder viste QR-kode til lysbildene; jeg limte inn bildet, koden ble dekodet lokalt, og lenken la seg pent bakerst på videolinjen. Begge deler ble kodifisert i skillene *samme dag* – en mid-day review fant tre slike hull, og kvelden etter var de tettet.
+**Underveis** oppsto mønstre ingen hadde planlagt. «Jeg hopper over neste foredrag» ble til en flyt: Planraden fjernes, foredraget registreres på ønskelisten. En foredragsholder viste en QR-kode til lysbildene; jeg limte inn bildet, koden ble dekodet lokalt, og lenken la seg pent bakerst på videolinjen. En gjennomgang midt på dagen fant tre slike hull i skillene – blant annet at notater ikke passer inn i spørsmålsverktøyets format, som krever minst to reelle valg – og alle tre var kodifisert og tettet før klokka 16, før ettermiddagsforedragene begynte. Lærdommer som venter til «etterpå», blir aldri kodifisert.
 
-**På kvelden** fant `/video-sjekk` at elleve av dagens opptak allerede lå på Vimeo – publisert samme dag som foredragene ble holdt. Berikingen av sammendragene møtte derimot veggen, og det er sin egen historie.
+**På kvelden** fant `/video-sjekk` at elleve av dagens opptak allerede lå på Vimeo – publisert samme dag som foredragene ble holdt. Berikingen av sammendragene møtte derimot veggen, og det er en historie for seg.
 
 ## Det som knirket
 
-**Vimeos bot-vegg.** Sub-agentene som skulle skrive sammendrag fra opptakene, fikk bare tynne metadata: videosidene ligger bak bot-sjekk, `yt-dlp` krever innlogging, og player-endepunktene svarer «Sorry». Løsningen ble ærlig merking: sammendrag skrevet fra programomtalen får en proveniens-markør, slik at en senere kjøring vet at de skal oppgraderes. Og så fant vi bakveien: min *faktiske* nettleser passerer bot-sjekken, og Vimeos transkripsjonspanel lot seg høste komplett – 46 000 tegn ren tale fra det ene foredraget som rakk å bli autotranskribert. Det sammendraget er nå skrevet fra det som faktisk ble sagt på scenen, ikke fra abstractet.
+Subagentene som skulle skrive sammendrag fra opptakene, fikk bare tynne metadata: Videosidene ligger bak bot-sjekk, `yt-dlp` krever innlogging, og player-endepunktene svarer «Sorry». Løsningen ble ærlig merking: Sammendrag skrevet fra programomtalen får en proveniensmarkør, slik at en senere kjøring vet at de skal oppgraderes.
 
-**Verktøygrensene former arbeidsflyten.** Spørsmålsverktøyet krever minst to reelle valg – «lim inn notater» har bare ett. Første forsøk feilet, og løsningen (åpne innspill går utenom spørsmålene) ble en dokumentert del av skillen.
+Og så fant vi – agenten og jeg – bakveien: Min *faktiske* nettleser passerer bot-sjekken, og Vimeos transkripsjonspanel lot seg høste komplett – 46 000 tegn ren tale fra det ene foredraget som rakk å bli autotranskribert. Det sammendraget er nå skrevet fra det som faktisk ble sagt på scenen, ikke fra abstractet. Bakveien ble dokumentert i skillen samme kveld, så neste kjøring kan den fra før.
 
-**Den viktigste lærdommen kom fra en test.** Da jeg bygde `/nullstill` (som lar andre forke repoet og vaske bort notatene mine), fikk baseline-agenten – uten instruksjoner, i trygg sandkasse – oppgaven «nullstill repoet». Den slettet seksti filer uten å spørre, med rasjonaliseringen at oppdraget i seg selv var godkjenning. Regelen som ble født: **oppdraget er ikke bekreftelse.** Vis planen, med omfang, og vent på ja. Testen med «bare fjern alt, jeg stoler på deg» bekreftet at regelen holder.
+## Tre prinsipper
 
-## Prinsippene som vokste frem
+- **Test instruksjonene som kode.** Baseline uten skill avslører de ekte feilmodiene; skillen skrives mot dem, ikke mot antagelser. Seksti slettede filer i en sandkasse er billig lærepenge – de samme filene i produksjon er det ikke.
+- **Konvensjoner må være maskinlesbare og eid ett sted.** Statusvokabularet for videolinjer er en fast, uttømmende liste i README-en, og alle skills gjenkjenner nøyaktig de variantene. Markører (⏳ for manglende opptak, proveniens for abstract-baserte sammendrag) gjør tilstanden synlig for både lesere og verktøy. Og når to skills trenger samme logikk, eier én den og den andre delegerer – duplisert prosa glir fra hverandre.
+- **Destruktivt krever fremvist plan.** Alltid. Uansett hvor tydelig oppdraget føles. Oppdraget er ikke bekreftelse.
 
-- **Test instruksjoner som kode.** Baseline uten skill avslører de ekte feilmodiene; skillen skrives mot dem, ikke mot antagelser.
-- **Én kanonisk kilde per logikk.** Når to skills trenger samme oppførsel, eier én den – den andre delegerer. Duplisert prosa drifter.
-- **Konvensjoner må håndheves av verktøyene som leser dem.** Statusvokabularet for videolinjer er *enumerert*, og alle skills gjenkjenner nøyaktig de variantene. Markører (⏳ for manglende opptak, proveniens for abstract-baserte sammendrag) gjør tilstand synlig og maskinlesbar.
-- **Destruktivt krever fremvist plan.** Alltid. Uansett hvor tydelig oppdraget føles.
-- **Verktøykjeden skal lære samme dag.** Hullene fra formiddagen var tettet før kvelden – lærdommer som venter til «etterpå», blir aldri kodifisert.
+## Ironien fra salen
 
-## Ekkoet fra salen
+Her er dagens beste vits på egen bekostning: Foredragene om agentisk utvikling – «50 tips på 60 min – bli bedre med AI-agenter» og «My Year with Claude» – gikk jeg *ikke* på. Jeg hoppet over dem, fordi jeg satt i pausene og praktiserte nøyaktig det abstractene deres beskrev: instruksjonsfiler, delegering til subagenter, verifisering av resultater. Verktøykjeden registrerte dem pent på ønskelisten, med videolenker samme kveld, så jeg får fasiten når jeg ser opptakene. Og mens 50-tips-abstractet anbefalte `AGENTS.md` som instruksjonsfil, fikk repoet mitt sin – midt under konferansen, klokka 16:53, i pausen før Norås.
 
-Det underligste med dagen var speilingen. Formiddagens foredrag om 50 AI-agent-tips handlet om instruksjonsfiler, subagenter og verifisering – mens repoet mitt fikk sin `AGENTS.md` samme uke. «My Year with Claude» beskrev arbeidsformen som klar retning, god delegering og systematisk verifisering av resultater – som er nøyaktig hva skill-TDD-en og plan-og-bekreft-portene er. Og Christin Gorman minnet salen om at kode er en forpliktelse, ikke en eiendel – en god test for hver skill jeg legger til: trengs den, eller er den en eggdeler?
+Foredraget jeg faktisk så og tok med meg hjem, var Christin Gormans «The positive value of negative space»: Kode er en forpliktelse, ikke en eiendel, og det vi bevisst *ikke* lager, har egenverdi. Det er blitt testen for hver skill jeg legger til i verktøykjeden: Trengs den – eller er den en eggdeler?
 
 ## Dag 2
 
@@ -50,7 +48,7 @@ Det underligste med dagen var speilingen. Formiddagens foredrag om 50 AI-agent-t
 
 ## Tallene
 
-*(Fylles ut etter konferansen: antall commits under konferansen, foredrag registrert, tid per registrering, opptak lenket/beriket.)*
+*(Fylles ut etter konferansen: foredrag registrert, tid per registrering, opptak lenket/beriket. Commit-loggen for 2. september forteller historien selv – fra morgenplanen til kveldens transkripsjonsoppgradering.)*
 
 ## Hva jeg ville gjort annerledes
 
