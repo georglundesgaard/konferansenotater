@@ -14,7 +14,7 @@ Min plan: [dag 1](plan-dag1.md)
 
 ### Onsdag 2. september 2026
 
-- *(fylles ut underveis / i etterkant)*
+- **[1020 The positive value of negative space](talks/day1-1020-the-positive-value-of-negative-space.md)** — Christin Gorman ⏳
 
 ### Torsdag 3. september 2026
 
@@ -36,6 +36,7 @@ Min plan: [dag 1](plan-dag1.md)
 - **[1140 Bootiful Spring Boot 4](talks/day1-1140-bootiful-spring-boot-4.md)** — Josh Long ⏳
 - **[1140 The 1% Problem: An Introduction to AI Security](talks/day1-1140-ai-security-1-percent-problem.md)** — Lars Smeby ⏳
 - **[1140 Talk to me Java!](talks/day1-1140-talk-to-me-java.md)** — Martin Skarsaune ⏳
+- **[1140 My Year with Claude: Building Midimeria - music production analytics](talks/day1-1140-my-year-with-claude.md)** — Øyvind Løkling ⏳
 - **[1300 No More Magic: Mastering the Explicit Kotlin Stack with Ktor, Exposed and Koin](talks/day1-1300-explicit-kotlin-stack.md)** — Geoffrey Rekier ⏳
 - **[1350 How to Keep Secrets from your Agent](talks/day1-1350-keep-secrets-from-your-agent.md)** — Nikolai Norman Andersen ⏳
 - **[1420 Managing the chaos: Automating internal dependency upgrades with OpenRewrite](talks/day1-1420-openrewrite-dependency-upgrades.md)** — Jago de Vreede ⏳

@@ -3,7 +3,6 @@
 | Tid | Rom | Foredrag | Taler(e) |
 |-----|-----|----------|----------|
 | 10:20 | Room 1 | [The positive value of negative space](program.md#d1-1020) | Christin Gorman |
-| 11:40 | Room 3 | [My Year with Claude: Building Midimeria](program.md#d1-1140) | Øyvind Løkling |
 | 13:00 | Room 1 | [Java Patterns: Why, How, and When Not](program.md#d1-1300) | Cay Horstmann |
 | 14:20 | Room 1 | [Å skifte vinger i lufta … Modernisering av samfunnskritiske systemer](program.md#d1-1420) | Johannes Brodwall, Hafsa Elkam |
 | 15:40 | Room 7 | [10 Things I Hate About Java](program.md#d1-1540) | Adele Carpenter |
