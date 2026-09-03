@@ -4,7 +4,7 @@
 
 **[📋 Hele programmet](program.md)** (143 foredrag, begge dager)
 
-Min plan: [dag 1](plan-dag1.md)
+Min plan: [dag 1](plan-dag1.md) · [dag 2](plan-dag2.md)
 
 [Foredrag jeg gikk på](#foredrag-jeg-gikk-på) · [Ønskeliste](#foredrag-jeg-vil-se-opptak-av) · [Topp 5](#anbefalt-topp-5) · [Kilder](#kilder)
 
@@ -53,7 +53,17 @@ Min plan: [dag 1](plan-dag1.md)
 
 ### Torsdag 3. september 2026
 
-- *(fylles ut etter hvert)*
+- **[0900 Hardwood: Building a Parquet Parser From Scratch (With a Little Help From AI)](talks/day2-0900-hardwood-parquet-parser.md)** — Gunnar Morling ⏳
+- **[0900 Modern Java in the age of AI](talks/day2-0900-modern-java-age-of-ai.md)** — Georges Saab ⏳
+- **[1020 The Decision Layer: Context Graphs for Spring AI](talks/day2-1020-context-graphs-spring-ai.md)** — James Ward, Ryan Knight ⏳
+- **[1020 Flyt i AI-ens tid: når det blir lettere å lage, men vanskeligere å bevege seg](talks/day2-1020-flyt-i-ai-ens-tid.md)** — Christian Neverdal ⏳
+- **[1140 The Right 300 Tokens Beat 100k Noisy Ones: Four Context Antipatterns That Kill Your AI Agent](talks/day2-1140-context-antipatterns-ai-agent.md)** — Baruch Sadogursky ⏳
+- **[1140 Erstatningssystemfella](talks/day2-1140-erstatningssystemfella.md)** — Fredrik de Vibe ⏳
+- **[1300 A Brief History of Artificial Intelligence](talks/day2-1300-brief-history-of-ai.md)** — Tim Berglund ⏳
+- **[1300 Fra 123 entusiastiske brukere daglig, til 3.7 millioner, Norgespris som arkitektur katalysator i Elhub](talks/day2-1300-elhub-norgespris-skalering.md)** — Trond Strømme, Michael Akinde ⏳
+- **[1420 The AI puppet dance](talks/day2-1420-ai-puppet-dance.md)** — Einar Waaler Høst ⏳
+- **[1540 Kodearkeologer på legacy eventyr](talks/day2-1540-kodearkeologer-legacy-eventyr.md)** — Elisabeth Irgens, Robin Kåveland ⏳
+- **[1700 The Sound of Privacy – What Your Spotify Data Reveals About You](talks/day2-1700-sound-of-privacy-spotify.md)** — Dennis Schulz, Thomas Hugle ⏳
 
 ---
 
