@@ -3,7 +3,6 @@
 | Tid | Rom | Foredrag | Taler(e) |
 |-----|-----|----------|----------|
 | 09:00 | Room 8 | [Event Sourcing: The Only Sane Way to Run Agentic Systems](program.md#d2-0900) | Einar Ingebrigtsen |
-| 10:20 | Room 5 | [Trust, But Verify: Skill-Driven Development for the Sceptical Java Developer](program.md#d2-1020) | Totto – Thor Henning Hetland |
 | 11:40 | Room 1 | [Heis.fm LIVE](program.md#d2-1140) | Audun Fauchald Strand, Truls Jørgensen |
 | 13:00 | Room 3 | [We're making this a lot harder than it needs to be](program.md#d2-1300) | Robin Heggelund Hansen |
 | 14:20 | Room 8 | [You're absolutely right, it was your home directory!](program.md#d2-1420) | Oleg Šelajev |

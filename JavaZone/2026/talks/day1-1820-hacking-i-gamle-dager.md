@@ -12,4 +12,4 @@
 
 **📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone).
 
-*[← 1700 Dream Machines & Walled Gardens](day1-1700-dream-machines-walled-gardens.md)*
+*[← 1700 Dream Machines & Walled Gardens](day1-1700-dream-machines-walled-gardens.md) · [Dag 2, 0900 Event Sourcing →](day2-0900-event-sourcing-agentic-systems.md)*
