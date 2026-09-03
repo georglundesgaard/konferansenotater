@@ -4,11 +4,15 @@
 
 **[📋 Hele programmet](program.md)** (143 foredrag, begge dager)
 
-Min plan: [dag 1](plan-dag1.md) · [dag 2](plan-dag2.md)
-
-[Foredrag jeg gikk på](#foredrag-jeg-gikk-på) · [Ønskeliste](#foredrag-jeg-vil-se-opptak-av) · [Topp 5](#anbefalt-topp-5) · [Kilder](#kilder)
+[Oppsummering](#oppsummering) · [Foredrag jeg gikk på](#foredrag-jeg-gikk-på) · [Ønskeliste](#foredrag-jeg-vil-se-opptak-av) · [Topp 5](#anbefalt-topp-5) · [Kilder](#kilder)
 
 ---
+
+## Oppsummering
+
+Flott konferanse – som alltid, holdt jeg på å si. Med etter hvert ganske mange JavaZone-konferanser bak meg er den fortsatt på mange måter årets høydepunkt: spennende og variert program, god mat gjennom hele dagen i matbodene, og hyggelig å treffe kjentfolk og kolleger fra JPro. AweZone på onsdagen leverte også, med Matoma som høydepunkt.
+
+Faglig gikk AI igjen i nesten alle foredrag – på godt og vondt. Jeg fulgte tråden fra event sourcing for agentiske systemer til retrospill bygget med Claude, men satte vel så stor pris på motvektene: Gormans forsvar for det negative rommet og Heggelund Hansens påminnelse om at vi gjør ting vanskeligere enn de trenger å være. Og innimellom: Horstmanns dataorienterte Java, politiets moderniseringshistorie, Norås om hypertekstens tapte fremtid og Veas røverhistorier fra 80- og 90-tallet.
 
 ## <a id="foredrag-jeg-gikk-på"></a>Foredrag jeg gikk på
 
