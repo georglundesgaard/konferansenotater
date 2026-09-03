@@ -23,6 +23,7 @@ Min plan: [dag 1](plan-dag1.md) · [dag 2](plan-dag2.md)
 ### Torsdag 3. september 2026
 
 - **[0900 Event Sourcing: The Only Sane Way to Run Agentic Systems](talks/day2-0900-event-sourcing-agentic-systems.md)** — Einar Ingebrigtsen ⏳
+- **[1140 Heis.fm LIVE](talks/day2-1140-heis-fm-live.md)** — Audun Fauchald Strand, Truls Jørgensen ⏳
 
 ---
 
