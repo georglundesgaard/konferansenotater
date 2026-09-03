@@ -10,6 +10,8 @@ Det er den typen funn man bare gjør ved å *teste* instruksjonene sine, ikke ba
 
 Utgangspunktet er et [notatrepo](https://github.com/georglundesgaard/konferansenotater) i ren Markdown, publisert med Jekyll på GitHub Pages. Oppå det ligger en samling *skills* – instruksjonsfiler som Claude Code (Anthropics kodeagent i terminalen) kjører som `/kommandoer`: sett opp en konferanse, planlegg dagen, registrer et foredrag, sjekk etter opptak, berik notatene fra videoene, avslutt konferansen.
 
+En detalj som fortjener å nevnes: PC-en sto igjen hjemme hele konferansen. Alt – planlegging, registrering, commits – ble styrt fra telefonen via remote control mot maskinen på hjemmekontoret. Konferansesekken inneholdt ingen laptop.
+
 Det viktigste grepet skjedde før konferansen: Skillene ble ikke bare skrevet, de ble *testet*. Først en baseline – en agent i isolert arbeidskopi som fikk oppgaven **uten** instruksjonene, for å se hva som faktisk gikk galt. Så ble skillene skrevet mot de observerte feilene og verifisert med nye agenter som fulgte dem. TDD, bare at «koden» er prosessdokumentasjon. Det høres seremonielt ut. Det var det som gjorde at konferansedagen gikk på skinner. (Konvensjonene kan du klikke deg inn i repoet og se; selve testene levde i øktene.)
 
 ## Slik føltes dagen
@@ -50,6 +52,8 @@ Dag 2 var testen på om dag 1 var flaks. Det var den ikke – men den føltes an
 
 Ironien fikk også en oppfølger: Dagens program hadde et foredrag som bokstavelig talt handlet om metoden min – «Trust, But Verify: Skill-Driven Development for the Sceptical Java Developer». Jeg hoppet over det også. Det ligger på ønskelisten, pent registrert av skillene det handler om.
 
+Infrastrukturen fikk også sin test. Fjernstyringen fra telefonen fungerte utmerket hele dag 1 – men dag 2 bød på utfall flere ganger og merkbare forsinkelser. Mistanken var at hjemme-PC-en hadde gått i dvale, og strømloggen bekreftet det om kvelden med tall som ikke lot seg misforstå: 56 dvale-hendelser i arbeidstiden dag 2, mot null dag 1. Maskinen døset mellom hver økt, og hver kommando fra konferansegulvet måtte først vekke den. Lærdommen er banal og viktig: Den svakeste lenken i en agentisk verktøykjede er ikke agenten – det er strømsparingsinnstillingene på maskinen den bor på.
+
 Kvelden ga en lærdom om tålmodighet. JavaZone publiserte 20 nye opptak samme dag – fem av dem foredrag jeg selv satt i – men Vimeos autotranskripsjoner var ikke generert ennå; selv gårsdagens videoer manglet. Planen om en full transkripsjonsrunde ble justert på fakta: Alle 30 abstract-baserte sammendrag bærer proveniensmarkøren og oppgraderes i én samlet runde når transkripsjonene finnes. Verktøykjeden vet forskjellen på det den vet og det den antar – det er kanskje det viktigste enkelttrekket ved hele designet.
 
 ## Tallene
@@ -58,4 +62,6 @@ Kvelden ga en lærdom om tålmodighet. JavaZone publiserte 20 nye opptak samme d
 
 ## Hva jeg ville gjort annerledes
 
-*(Fylles ut etter konferansen.)*
+- **Skrudd av dvalemodus på hjemme-PC-en før avreise.** Fjernstyringen fra telefonen var sømløs dag 1 og hakkete dag 2 – trolig fordi maskinen sovnet. Én `caffeinate`-kommando (eller en strømsparingsinnstilling) hadde spart flere utfall.
+
+*(Flere punkter fylles ut etter konferansen.)*
