@@ -2,7 +2,11 @@
 
 *Dag 1, 2. september 2026 · kl 13:00 · Cay Horstmann · 📋 [i programmet](../program.md#d1-1300) · 🌐 [offisiell beskrivelse](https://2026.javazone.no/program/6092efef-0afe-4681-9b6b-1a2d5c8cdbf6)*
 
-*(Sammendrag fylles inn senere – bruk `/berik-foredrag` når opptaket er publisert.)*
+Cay Horstmann utforsker Javas voksende støtte for pattern matching og dataorientert programmering: når stilen faktisk lønner seg, hvordan programmer bør struktureres for å dra nytte av den, og syntaksens utvikling frem mot kommende Java-versjoner.
+
+Like viktig er baksiden: de nye mulighetene åpner også for forvirrende og feilutsatt bruk, og foredraget gir en mental modell for når pattern matching og dataorientering er riktig verktøy – og når det ikke er det.
+
+*(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
 
 **Notater fra konferansen:**
 - Hovedtema: OOP vs DOP
@@ -18,6 +22,6 @@
 
 **Tags:** `Java` · `Pattern matching`
 
-**📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone). Lysbilder: [horstmann.com](https://horstmann.com/presentations/2026/javazone/).
+**📹** [Java Patterns: Why, How, and When Not – Cay Horstmann](https://vimeo.com/1223388783) Lysbilder: [horstmann.com](https://horstmann.com/presentations/2026/javazone/).
 
 *[← 1020 The positive value of negative space](day1-1020-the-positive-value-of-negative-space.md) · [1420 Å skifte vinger i lufta →](day1-1420-skifte-vinger-i-lufta.md)*

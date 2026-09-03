@@ -2,7 +2,11 @@
 
 *Dag 2, 3. september 2026 · kl 09:00 · Einar Ingebrigtsen · 📋 [i programmet](../program.md#d2-0900) · 🌐 [offisiell beskrivelse](https://2026.javazone.no/program/13fb6b2e-35e2-4fec-9e82-b28cebf73c7e)*
 
-*(Sammendrag fylles inn senere – bruk `/berik-foredrag` når opptaket er publisert.)*
+Einar Ingebrigtsen tar utgangspunkt i den agentiske verdenen der programvare ikke lenger bare svarer på input, men handler på våre vegne: beslutninger tas av AI-agenter, arbeidsflyter kjøres autonomt, og systemer endrer seg selv. Når noe går galt, er «tilstanden» ikke lenger et tilstrekkelig svar.
+
+Derfor blir event sourcing fundamentalt: eventtyper registrerer ikke bare hva som endret seg, men hvorfor, hvem som initierte det, på vegne av hvem og hva som forårsaket det – inkludert opprinnelig prompt, modell og beslutningskjede. Med identitet, intensjon og kausalitet som førsteklasses data får agentiske systemer den sporbarheten de trenger.
+
+*(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
 
 **Notater fra konferansen:**
 - Fra skaperen av [cratis.io](https://cratis.io)
@@ -14,6 +18,6 @@
 
 **Tags:** `AI-agenter` · `Event sourcing`
 
-**📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone).
+**📹** [Event Sourcing: The Only Sane Way to Run Agentic Systems – Einar Ingebrigtsen](https://vimeo.com/1223620243)
 
 *[← Dag 1, 1820 Hacking i «gamle» dager](day1-1820-hacking-i-gamle-dager.md) · [1140 Heis.fm LIVE →](day2-1140-heis-fm-live.md)*
