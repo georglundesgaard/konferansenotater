@@ -58,10 +58,13 @@ Kvelden ga en lærdom om tålmodighet. JavaZone publiserte 20 nye opptak samme d
 
 ## Tallene
 
-*(Fylles ut etter konferansen: foredrag registrert, tid per registrering, opptak lenket/beriket. Commit-loggen for 2. september forteller historien selv – fra morgenplanen til kveldens transkripsjonsoppgradering.)*
+To konferansedager ga **26 commits** – fra morgenplanen 2. september kl. 09:13 til avslutningscommiten 3. september kl. 20:20 – alle styrt fra telefonen. Resultatet: **43 foredragsfiler** for JavaZone alene (9 jeg deltok på, 34 på ønskelisten), **45 egne notatlinjer** skrevet i pausene, **31 opptak lenket** – de fleste samme dag som foredraget ble holdt – og 31 sammendrag på plass i første versjon. Fem planlagte foredrag ble hoppet over underveis; alle fem ble automatisk konvertert til ønskeliste-oppføringer i stedet for å forsvinne.
+
+Verktøykjeden selv vokste også: Dagen før konferansen fantes ni skills; nå er det ti, pluss `AGENTS.md`, lisens og seks skill-forbedringer kodifisert *mens* konferansen pågikk. Foredragstelleren i repoet gikk fra 59 til 102 på tre dager. Og den kanskje viktigste målingen har ingen enhet: Registrering av et foredrag tok omtrent ett minutt av en pause – resten av tiden var jeg på konferanse.
 
 ## Hva jeg ville gjort annerledes
 
-- **Skrudd av dvalemodus på hjemme-PC-en før avreise.** Fjernstyringen fra telefonen var sømløs dag 1 og hakkete dag 2 – trolig fordi maskinen sovnet. Én `caffeinate`-kommando (eller en strømsparingsinnstilling) hadde spart flere utfall.
+- **Skrudd av dvalemodus på hjemme-PC-en før avreise.** Fjernstyringen fra telefonen var sømløs dag 1 og hakkete dag 2 – strømloggen viste i etterkant 56 dvale-hendelser i arbeidstiden. Én `caffeinate`-kommando hadde spart alle utfallene.
+- **Ventet noen dager med videojakten.** Opptakene kom imponerende raskt, men transkripsjonene tar sin tid – og beriking uten dem gir sammendrag som uansett skal oppgraderes. Neste gang: `/video-sjekk` som ukentlig rutine fra noen dager etter konferansen, og berikingsrundene når kildene faktisk er klare. Markørsystemet gjør heldigvis gjentatte runder billige – ferdig berikede foredrag hoppes over automatisk.
 
-*(Flere punkter fylles ut etter konferansen.)*
+Og ett punkt jeg *ikke* ville gjort annerledes: hoppene. Fem planlagte foredrag røk til fordel for messegulvet – å gå rundt, snakke med folk og ta inn inntrykk er en vel så viktig del av konferansen som salene. Planen viser hva jeg ville sett om foredrag var alt; ønskelisten fanger dem når de ikke er det. Det er ikke et avvik fra systemet – det er systemet.
