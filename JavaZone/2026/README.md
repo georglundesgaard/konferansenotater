@@ -24,6 +24,8 @@ Min plan: [dag 1](plan-dag1.md) · [dag 2](plan-dag2.md)
 
 - **[0900 Event Sourcing: The Only Sane Way to Run Agentic Systems](talks/day2-0900-event-sourcing-agentic-systems.md)** — Einar Ingebrigtsen ⏳
 - **[1140 Heis.fm LIVE](talks/day2-1140-heis-fm-live.md)** — Audun Fauchald Strand, Truls Jørgensen ⏳
+- **[1300 We're making this a lot harder than it needs to be](talks/day2-1300-harder-than-it-needs-to-be.md)** — Robin Heggelund Hansen ⏳
+- **[1540 Retro Meets AI: Shipping Games Across 40 Years of Tech](talks/day2-1540-retro-meets-ai.md)** — Ricki Sickenger ⏳
 
 ---
 
@@ -64,8 +66,10 @@ Min plan: [dag 1](plan-dag1.md) · [dag 2](plan-dag2.md)
 - **[1300 A Brief History of Artificial Intelligence](talks/day2-1300-brief-history-of-ai.md)** — Tim Berglund ⏳
 - **[1300 Fra 123 entusiastiske brukere daglig, til 3.7 millioner, Norgespris som arkitektur katalysator i Elhub](talks/day2-1300-elhub-norgespris-skalering.md)** — Trond Strømme, Michael Akinde ⏳
 - **[1420 The AI puppet dance](talks/day2-1420-ai-puppet-dance.md)** — Einar Waaler Høst ⏳
+- **[1420 You're absolutely right, it was your home directory!](talks/day2-1420-your-home-directory.md)** — Oleg Šelajev ⏳
 - **[1540 Kodearkeologer på legacy eventyr](talks/day2-1540-kodearkeologer-legacy-eventyr.md)** — Elisabeth Irgens, Robin Kåveland ⏳
 - **[1700 The Sound of Privacy – What Your Spotify Data Reveals About You](talks/day2-1700-sound-of-privacy-spotify.md)** — Dennis Schulz, Thomas Hugle ⏳
+- **[1700 How I built my own intelligent Robot Arm from Scratch](talks/day2-1700-robot-arm-from-scratch.md)** — Iulia Feroli ⏳
 
 ---
 

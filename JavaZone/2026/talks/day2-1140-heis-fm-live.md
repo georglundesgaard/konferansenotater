@@ -14,4 +14,4 @@
 
 **📹** Video ikke publisert ennå – se [JavaZone på Vimeo](https://vimeo.com/javazone).
 
-*[← 0900 Event Sourcing](day2-0900-event-sourcing-agentic-systems.md)*
+*[← 0900 Event Sourcing](day2-0900-event-sourcing-agentic-systems.md) · [1300 We're making this a lot harder →](day2-1300-harder-than-it-needs-to-be.md)*
