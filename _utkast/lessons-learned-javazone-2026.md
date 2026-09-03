@@ -46,7 +46,11 @@ Foredraget jeg faktisk så og tok med meg hjem, var Christin Gormans «The posit
 
 ## Dag 2
 
-*(Fylles ut etter dag 2 – ny planlegging, flere registreringer, og avslutningen med kvalitetssjekk og oppsummering.)*
+Dag 2 var testen på om dag 1 var flaks. Det var den ikke – men den føltes annerledes: kjedeligere, i ordets beste betydning. Planleggingen om morgenen tok minutter, registreringene i pausene var rutine, og hopp-flyten som ble improvisert i går, var nå dokumentert oppførsel. Verktøykjeden hadde sluttet å være eksperimentet og begynt å være notatboken.
+
+Ironien fikk også en oppfølger: Dagens program hadde et foredrag som bokstavelig talt handlet om metoden min – «Trust, But Verify: Skill-Driven Development for the Sceptical Java Developer». Jeg hoppet over det også. Det ligger på ønskelisten, pent registrert av skillene det handler om.
+
+Kvelden ga en lærdom om tålmodighet. JavaZone publiserte 20 nye opptak samme dag – fem av dem foredrag jeg selv satt i – men Vimeos autotranskripsjoner var ikke generert ennå; selv gårsdagens videoer manglet. Planen om en full transkripsjonsrunde ble justert på fakta: Alle 30 abstract-baserte sammendrag bærer proveniensmarkøren og oppgraderes i én samlet runde når transkripsjonene finnes. Verktøykjeden vet forskjellen på det den vet og det den antar – det er kanskje det viktigste enkelttrekket ved hele designet.
 
 ## Tallene
 
