@@ -24,12 +24,15 @@ konferansenotater/
 ├── _mal/                          # Maler for nye konferanser
 │   ├── README.md                  #   – konferanse-README
 │   └── talks/HHMM-slug.md         #   – én talk-fil
+├── _utkast/                       # Utkast til blogginnlegg o.l. (upublisert av Jekyll)
 ├── <Konferanse>/
 │   ├── README.md                  # Årgangsindeks for konferansen
 │   └── <ÅÅÅÅ>/
 │       ├── README.md              # Konferanse-oversikt: Topp 5, deltakelse, ønskeliste, kilder
 │       ├── program.md             # (valgfri) Lokal cache av offisielt program – offline-matching
 │       ├── plan-dagN.md           # (valgfri) Timeplan per dag, fra /planlegg-dagen; slettes av /avslutt-konferanse
+│       ├── _notater/              # Rånotater arkivert ordrett etter verifisert beriking (upublisert)
+│       │   └── <slug>.md
 │       └── talks/
 │           ├── day1-HHMM-slug.md  # Ett foredrag per fil (flerdags-konferanse)
 │           └── HHMM-slug.md       # Ett foredrag per fil (endags-konferanse)
