@@ -6,11 +6,7 @@ Vea definerer hacking som å bruke teknologi annerledes enn tiltenkt, og tar oss
 
 Favorittemaet er phreaking: blue box-trikset med 2600 Hz-tonen (kjent fra Captain Crunch og plastfløyten i frokostblandingen, og senere Apples oppstart), ruting av gratis norske nummer via USA for å ringe verden rundt gratis, PBXing og wardialing – et wardialing-funn ga dem til slutt tilgang til flybookingsystemet Amadeus. Han forteller også om en Perl-basert manipulering av nettbaserte meningsmålinger i NRK, VG og andre – der poenget var å vise at slike målinger ikke er til å stole på, men mediene festet seg heller ved at han hadde kåret Mia Hundvin til Norges mest sexy dame i 1999.
 
-Foredraget krydres med demoer fra Amiga-scenen (bl.a. norske Spaceballs' «State of the Art»), en dramatisk politirazzia mot en dataparty i Drammen i 1990, og en klassisk anekdote om verdens første «distribuerte denial of service»-angrep med pizza som angrepsvektor. Han avslutter med at hackermentaliteten – å se ting utenfra og tenke annerledes – fortsatt er en verdifull ferdighet i jobben som utvikler.
-
-**Notater fra konferansen:**
-- Fantastisk underholdende talk med mange gode historier fra «hacker-miljøet» på 80- og 90-tallet
-- Mye gjenkjennbart
+Foredraget krydres med demoer fra Amiga-scenen (bl.a. norske Spaceballs' «State of the Art»), en dramatisk politirazzia mot en dataparty i Drammen i 1990, og en klassisk anekdote om verdens første «distribuerte denial of service»-angrep med pizza som angrepsvektor. Han avslutter med at hackermentaliteten – å se ting utenfra og tenke annerledes – fortsatt er en verdifull ferdighet i jobben som utvikler. Fantastisk underholdende – og med mye gjenkjennbart for min egen del.
 
 **Tags:** `Historikk` · `Sikkerhet` · `Underholdning` · `Retro` · `Karriere`
 

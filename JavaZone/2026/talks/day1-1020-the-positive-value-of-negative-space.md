@@ -6,15 +6,7 @@ Christin Gorman (nå i eget familiefirma, Piece of Cake) bygger foredraget rundt
 
 Verktøykritikken konkretiseres med kjøkkenmetaforer (eggdeleren du ikke trenger – egget skiller selv) og left-pad-kollapsen, før hun viser frem sitt eget motstykke: pieceofcake.no bygget i ren HTML/CSS/JS, deployet med `git push` til en norsk VPS med post-receive-hook og NGINX – «90-tallsteknologi på moderne maskinvare» og den raskeste pipelinen hun har hatt. Spring får gjennomgå i en live-demo av hvor lite rammeverket egentlig gjør: DI-interfaces med én implementasjon, mapper-objekter som burde vært pure functions, og mock-tester som bare verifiserer sine egne mocks. Alternativet er en main-funksjon som instansierer det lille som trenger tilstand, programmatiske ruter med Javalin eller Helidon Níma, og lynraske tester uten kontekst-oppspinning – illustrert med anekdoten om «current date»-mikrotjenesten som distribuerte dagens dato over Kafka.
 
-Mot slutten løfter hun blikket: med AI produseres det mer kode enn noensinne, og med hjernens prediktive natur (fra boken «The Experience Machine») ser vi bare det vi forventer i digre PR-er – «looks good to me». Hun er ikke anti-teknologi, men anti-søppel: bransjen trenger folk som tør å si nei, tettere regulering av aktørene som tjener på volumet, og et ideal om at fravær av ting er vakkert – som nattehimmelen vi ikke lenger ser på grunn av lysforurensning.
-
-
-**Notater fra konferansen:**
-- Underholdende foredrag – som alltid
-- Christin er opptatt av minimalisme og å ikke bruke rammeverk unødvendig
-- Ikke fan av Spring – mener man kan bygge mye uten
-- Nyttige libs hun nevnte: Javalin og Helidon Níma
-- Bokanbefaling: «The Experience Machine»
+Mot slutten løfter hun blikket: med AI produseres det mer kode enn noensinne, og med hjernens prediktive natur (fra boken «The Experience Machine») ser vi bare det vi forventer i digre PR-er – «looks good to me». Hun er ikke anti-teknologi, men anti-søppel: bransjen trenger folk som tør å si nei, tettere regulering av aktørene som tjener på volumet, og et ideal om at fravær av ting er vakkert – som nattehimmelen vi ikke lenger ser på grunn av lysforurensning. Underholdende levert – som alltid med Gorman.
 
 **Tags:** `Produktivitet` · `Minimalisme` · `Kritisk blikk` · `AI` · `Tooling` · `Bærekraft`
 

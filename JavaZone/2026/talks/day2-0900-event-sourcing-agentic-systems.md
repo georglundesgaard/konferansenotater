@@ -6,15 +6,7 @@ Ingebrigtsen argumenterte for at event sourcing er nødvendig når agenter handl
 
 Kjernen i opplegget er en immutabel event store som sannhetskilde, formålsbygde read models per feature (gjerne polyglot persistens), outbox/inbox-oversettelse mellom systemer, og rik metadata med kommando, identitet og kausasjonskjede – der også agenter formaliseres som teammedlemmer med egen identitet. Han viste verktøy for å pivotere i eventdata, «time machine»-scrubbing gjennom historiske tilstander og heatmaps over aktivitetsmønstre for både brukere og agenter. LLM-er elsker dessuten event sourcing fordi eventsekvenser er ren språklig mening de kan analysere. Videre demonstrerte han event modeling med fire slice-typer (state change, state view, automation, translation) og Kotlin-kode fra hans open source-rammeverk Cratis.
 
-I en lang spørsmålsrunde var han ærlig om hvorfor event sourcing knapt finnes i produksjon: 40–50 år med relasjonsdatabase-vane og nesten fraværende verktøyøkosystem – noe rammeverket hans prøver å bøte på med pragmatiske mekanismer som redact og revision, et deskriptivt «Screenplay»-språk, og «prologue»-verktøy som bruker LLM-er til å utlede events fra logger og databasetransaksjoner i eksisterende systemer.
-
-**Notater fra konferansen:**
-- Fra skaperen av [cratis.io](https://cratis.io)
-- Intro om event sourcing for å fange alt som skjer i et system
-- Events er domain events (fra DDD)
-- Eventene lagres i en event store – den holder sannheten
-- Observers, read models, outbox, inbox og «source box»
-- Interessant foredrag om event sourcing og hvorfor det er viktig for å holde styr på hva agentene gjør og hvorfor i agentiske systemer
+I en lang spørsmålsrunde var han ærlig om hvorfor event sourcing knapt finnes i produksjon: 40–50 år med relasjonsdatabase-vane og nesten fraværende verktøyøkosystem – noe rammeverket hans prøver å bøte på med pragmatiske mekanismer som redact og revision, et deskriptivt «Screenplay»-språk, og «prologue»-verktøy som bruker LLM-er til å utlede events fra logger og databasetransaksjoner i eksisterende systemer. Et foredrag jeg fant genuint interessant.
 
 **Tags:** `AI-agenter` · `Event sourcing` · `Arkitektur` · `Database` · `Observability` · `Live demo`
 
