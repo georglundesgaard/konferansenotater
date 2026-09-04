@@ -14,7 +14,9 @@ Faglig var det umulig å ikke legge merke til mønsteret: AI gikk igjen i en sto
 
 ## AI-tråden
 
-Dagen min på torsdag startet og sluttet i hver sin ende av den: Einar Ingebrigtsens **«Event Sourcing: The Only Sane Way to Run Agentic Systems»** argumenterte for at logger og CRUD-databaser viser *hva* som skjedde, men aldri *hvorfor* – og at man ikke kan stole på et agentisk system uten intensjon, kausalitet og hvem som autoriserte endringen. Grepet hans med å formalisere agenter som teammedlemmer med egen identitet i eventstrømmen er den mest konkrete oppskriften på agent-etterrettelighet jeg har sett. Genuint interessant – og ærlig om hvorfor event sourcing likevel knapt finnes i produksjon.
+Dagen min på torsdag startet og sluttet i hver sin ende av den: Einar Ingebrigtsens **«Event Sourcing: The Only Sane Way to Run Agentic Systems»** argumenterte for at logger og CRUD-databaser viser *hva* som skjedde, men aldri *hvorfor* – og at man ikke kan stole på et agentisk system uten intensjon, kausalitet og hvem som autoriserte endringen. Genuint interessant – og ærlig om hvorfor event sourcing likevel knapt finnes i produksjon.
+
+Grepet hans med å formalisere agenter som teammedlemmer med egen identitet i eventstrømmen er den mest konkrete oppskriften på agent-etterrettelighet jeg har sett – og det slo meg at [Henrik Knibergs SmidigDig-keynote om Abundly](../SmidigDig/2026/talks/0910-crossfunctional-team-humans-agents.md) fra i mai er den andre halvdelen av samme tanke: der er agentene allerede teammedlemmer med navn, egne ansvarsområder og retrospektiver på seg selv, mens menneskene beholder siste godkjenning. På en måte to svar på samme spørsmål – hva skal til for å stole på agenter som handler i systemene våre? Kniberg svarer med organisering, Ingebrigtsen med arkitektur.
 
 I den andre enden: Ricki Sickengers **«Retro Meets AI»**, underholdende om å bygge retrospill med Claude på tvers av førti år med teknologi. Mellom de to: en ønskeliste som este ut, for AI-foredragene sto i kø – mer om den under.
 
