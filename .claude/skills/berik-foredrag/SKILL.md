@@ -27,7 +27,12 @@ Bruk: `/berik-foredrag` eller `/berik-foredrag <konferanse>` (f.eks. `/berik-for
    - Sjekk `**📹**`-linjen i talk-filen. Hvis den peker på YouTube/Vimeo, bruk den. NB: en samlesending-/livestream-lenke i en statuslinje («Inngår i …») er ikke talkens eget opptak – bruk den bare som kilde hvis talken beviselig inngår der, og noter i så fall det i outputen.
    - Ellers: skum konferansens `README.md` etter en "hovedkilde"-lenke (f.eks. Kotlin YouTube-kanal, Vimeo/javazone, smidig.no) og prøv å finne talken der. WebFetch + søk på tittel/taler.
    - Hvis ingen video finnes, hopp over den — meld i output.
-   - **Bot-sperrede kilder (kjent: Vimeo):** WebFetch fra sub-agenter blokkeres av bot-sjekk og gir bare oEmbed-metadata uten beskrivelse/transkripsjon; `yt-dlp` krever innlogging. Fungerende fallback: bruk nettleserverktøyene (claude-in-chrome) til å åpne videosiden i brukerens Chrome — som ekte nettleser passerer den sperren, og Vimeos transkripsjonspanel (CC) kan leses derfra. Dette går sekvensielt (én fane om gangen); hent transkripsjonsutdrag per talk FØR sub-agentene dispatches, og legg dem inline i promptene i stedet for video-URL-instruksen. Uten nettleser-tilgang: skriv fra programomtalen og sett markør-linjen (se steg 5).
+   - **Bot-sperrede kilder (kjent: Vimeo):** WebFetch blokkeres av bot-sjekk og gir bare oEmbed-metadata; `yt-dlp` krever innlogging, og `player.vimeo.com/video/<id>/config` gir 403 også fra sidekontekst. Fungerende fallback: hent hele transkripsjonene via brukerens Chrome (claude-in-chrome) FØR sub-agentene dispatches, lagre dem som filer i scratchpad, og la hver sub-agent `Read`-e sin fil (ikke inline i prompten – det blåser opp orkestrator-konteksten). To faner i pipeline (last neste video mens forrige skrapes) halverer veggtiden. Oppskrift per video:
+     1. Naviger til videosiden og klikk «Transcript»-knappen (JS: finn `button` med «transcript» i tekst/aria-label).
+     2. Panelet lazy-loader og kan henge i minutter med bare første cue – et fysisk museskroll i panelet (computer scroll på panel-koordinatene) trigger lastingen. Vent til scrolleren finnes: en `div` med `scrollHeight` langt over `clientHeight` og timestamps i `innerText`.
+     3. Panelet er virtualisert: slam til bunnen til `scrollHeight` er stabil (den vokser underveis), sveip så gjennom med JS (`scrollTop` i steg på ~0,7 × `clientHeight`, ~150 ms pause, samle «tekst + timestamp»-par i et Map; resume-tilstand i `window` hvis 45 s CDP-grensen truer). Sjekk at siste timestamp ligger nær videolengden.
+     4. Ut uten å gå via konteksten: klikk i siden (clipboard krever fokus), `navigator.clipboard.writeText(transkript)`, deretter `pbpaste > scratchpad-fil` i Bash med talk/kilde-header. (DOM-dump + get_page_text trunkeres rundt 50 k tegn – ikke bruk den veien.)
+     Transkripsjonen kan være autooversatt (norsk tale kan gi engelsk tekst) – noter språket i filhodet. Uten nettleser-tilgang: skriv fra programomtalen og sett markør-linjen (se steg 5).
 
 4. **Dispatch parallelle sub-agenter.** Én general-purpose Agent per talk med lenke. Prompt-mal (norsk):
 
@@ -64,7 +69,7 @@ Bruk: `/berik-foredrag` eller `/berik-foredrag <konferanse>` (f.eks. `/berik-for
    TAGS: `t1` · `t2` · `t3` · `t4`
    ```
 
-   Legg ved tag-vokabularet fra rot-`README.md` («Tag-vokabular»-seksjonen) nederst i prompten som referanse for TAGS-forslagene. Kall alle Agent-tools i én melding for parallell kjøring.
+   Legg ved tag-vokabularet fra rot-`README.md` («Tag-vokabular»-seksjonen) nederst i prompten som referanse for TAGS-forslagene. Kall alle Agent-tools i én melding for parallell kjøring. Har talken en transkriptfil i scratchpad (Vimeo-fallbacken i steg 3): bytt punkt 1–2 i malen med «Les transkripsjonen med Read-verktøyet: <sti>» – da trenger sub-agenten ikke WebFetch. Ved mange talks kan puljene dispatches løpende mens resten skrapes.
 
 5. **Merge tilbake i filene.** For hver returnerte SUMMARY:
    - Åpne talk-filen.
