@@ -25,6 +25,7 @@ konferansenotater/
 │   ├── README.md                  #   – konferanse-README
 │   └── talks/HHMM-slug.md         #   – én talk-fil
 ├── _utkast/                       # Utkast til blogginnlegg o.l. (upublisert av Jekyll)
+├── blogg/                         # Publiserte blogginnlegg (lenket fra index.md)
 ├── <Konferanse>/
 │   ├── README.md                  # Årgangsindeks for konferansen
 │   └── <ÅÅÅÅ>/

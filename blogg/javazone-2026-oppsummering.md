@@ -1,12 +1,14 @@
 # JavaZone 2026: AI overalt – og motvektene som traff best
 
-*Utkast – siste gjennomlesning før publisering.*
+*4. september 2026*
 
 > **TL;DR:** To dager på Nova Spektrum: AI i annethvert foredrag, men motvektene traff best – Gormans forsvar for det negative rommet og Heggelund Hansens påminnelse om at vi gjør ting vanskeligere enn de trenger å være. Pluss topp 5 fra ønskelisten og fire ønsker til neste års program. *Innlegget er laget med KI, skrevet fra mine egne notater og vurderinger.*
->
-> **Les også:** [Jeg dro på JavaZone uten laptop](lessons-learned-javazone-2026.md) – om verktøykjeden som førte notatene.
 
-Med etter hvert ganske mange JavaZone-konferanser bak meg er den fortsatt på mange måter årets høydepunkt: spennende og variert program på sju parallelle spor, topp mat gjennom hele dagen fra matbodene, og hyggelig å treffe igjen kjentfolk og kolleger fra JPro. AweZone på onsdagen leverte også – Matoma entret scenen klokka 21 og ga oss et times forrykende show.
+<!-- Når verktøykjede-innlegget publiseres i blogg/: legg denne linjen tilbake i TL;DR-blokken over (med «>»-prefiks og en tom «>»-linje mellom):
+**Les også:** [Jeg dro på JavaZone uten laptop](lessons-learned-javazone-2026.md) – om verktøykjeden som førte notatene.
+-->
+
+Med etter hvert ganske mange JavaZone-konferanser bak meg er den fortsatt på mange måter årets høydepunkt: spennende og variert program på sju parallelle spor, topp mat gjennom hele dagen fra matbodene, og hyggelig å treffe igjen kjentfolk og kolleger fra JPro. AweZone på onsdagen leverte også, med et forrykende, timelangt Matoma-show fra klokka 21.
 
 Faglig var det umulig å ikke legge merke til mønsteret: AI gikk igjen i en stor andel av foredragene. Jeg fulgte den tråden med vilje – men det som traff best, var like ofte motvektene.
 
@@ -25,7 +27,7 @@ Robin Heggelund Hansens **«We're making this a lot harder than it needs to be»
 ## Innimellom
 
 - **Cay Horstmann** ga en ren Java-prat om dataorientert programmering og pattern matching – sealed interfaces, records og exhaustiveness-sjekk, og et klart råd om når DOP passer og når OOP fortsatt vinner. Interessant, smalere enn først antatt.
-- **Hafsa Elkam og Johannes Brodwall** fortalte politiets moderniseringshistorie som en dialog mellom «smidig byråkrat» og «teknologitrollmann»: nytt og gammelt system mot samme data, organisk adopsjon uten opplæring – «brukerne elsker uferdige systemer» – og prinsippet om å bygge den nye vingen før man tar av den gamle. 96 prosent av oppdragene går nå i de nye operative løsningene.
+- **Hafsa Elkam og Johannes Brodwall** fortalte politiets moderniseringshistorie som en dialog mellom «smidig byråkrat» og «teknologitrollmann»: nytt og gammelt system mot samme data, organisk adopsjon uten opplæring – «brukerne elsker uferdige systemer» – og prinsippet om å bygge den nye vingen før man tar av den gamle. Rundt 96 prosent av oppdragene går nå i de nye operative løsningene.
 - **Anders Norås** fortalte historien om Ted Nelson og Xanadu – hyperteksten som kunne gitt oss en rikere web med toveislenker, transklusjon og kreditering, men der det eneste Nelson krediteres for er tilbake-knappen. Tankevekkende hale: Xanadus siteringsmekanismer kunne løst dagens etiske floker rundt generativ KI.
 - **Eivind Vea** avsluttet onsdagen med røverhistorier fra 80- og 90-tallets hackerkultur: phreaking, wardialing, demoscene og verdens første DDoS med pizza som angrepsvektor. Fantastisk underholdende – og med mye gjenkjennbart for min egen del.
 - Og **Heis.fm LIVE** – podcast-innspilling fra scenen med Erik Bakstad og Ivar Conradi Østhus som gjester – var akkurat den typen pusterom et konferanseprogram trenger.
@@ -38,9 +40,9 @@ Robin Heggelund Hansens **«We're making this a lot harder than it needs to be»
 2. **50 tips på 60 min – bli bedre med AI-agenter** (Kjetil Jørgensen-Dahl) – konsentrert agent-praksis fra Telenor.
 3. **Trust, But Verify: Skill-Driven Development** (Totto) – «bygg systemer rundt frykten din»: tester og kunnskapsgrafer som gjør at agentene ikke kan jukse.
 4. **My Year with Claude: Building Midimeria** (Øyvind Løkling) – ett år med autonome agenter på hobbyprosjekt, med ærlig regnskap over kognitiv gjeld.
-5. **Hvordan logger kan felle en Nav-direktør** (Wasskog & Strand) – historien bak direktøravgangen og opprydningen i Nav.
+5. **Hvordan logger kan felle en Nav-direktør** (Trond Arve Wasskog og Audun Fauchald Strand) – historien bak direktøravgangen og opprydningen i Nav.
 
-Alle notatene, med lenker til opptak etter hvert som de publiseres, ligger i [konferansenotat-repoet](https://github.com/georglundesgaard/konferansenotater).
+Alle notatene, med lenker til opptak etter hvert som de publiseres, ligger på [JavaZone 2026-siden](../JavaZone/2026/README.md) i [konferansenotat-repoet](https://github.com/georglundesgaard/konferansenotater).
 
 ## Hva jeg vil se på neste konferanse
 
