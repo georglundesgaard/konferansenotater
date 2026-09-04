@@ -4,12 +4,9 @@
 
 Alexander Sysoev viste i denne lyntalen hvordan kotlinx-rpc endelig gjør gRPC til et fullt idiomatisk Kotlin-verktøy, i stedet for at man må lene seg på autogenererte Java-stubber med callbacks og manuell trådhåndtering. Tjenester defineres som vanlige Kotlin-interfaces der de fire gRPC-mønstrene faller rett inn i språket: unary blir en ren `suspend fun`, server-streaming returnerer `Flow<T>`, klient-streaming tar `Flow<T>` som parameter, og bidirectional kombinerer begge – alt bundet sammen av strukturert samtidighet slik at kansellering av en coroutine også river ned den underliggende RPC-en.
 
-Demoen viste en Kotlin-klient og en Kotlin-server som snakker sammen over samme grensesnitt, med Flow-baserte streams som håndteres på begge sider uten boilerplate.
+Demoen var en chat-app i Compose Multiplatform der Android- og iOS-klienter snakket med samme server over samme grensesnitt – en server som også kan plugges rett inn i en Ktor-applikasjon på egen port i samme prosess.
 
-Under panseret er kotlinx-rpc sin gRPC-modul bygget som en Kotlin Multiplatform-implementasjon med egen protobuf-serialisering, og første dev-utgivelse (0.11.0-grpc) støtter JVM, Android og native mål. Statusen er fortsatt eksperimentell preview, men biblioteket følger Kotlin-utviklingen tett og er klart for Kotlin 2.4, slik at team kan begynne å prøve det ut i backend-prosjekter allerede nå.
-
-**Notater fra konferansen:**
-- Fin lyntale om hvordan bruke det nye Kotlin-biblioteket for gRPC
+Under panseret er kotlinx-rpc sin gRPC-modul en Kotlin Multiplatform-implementasjon med egen protobuf-serialisering, der all kodegenerering skjer i en kompilator-plugin på FIR/IR-nivå – de omfangsrike klassene gRPC Java ellers genererer er helt skjult, og IDE-en slipper å indeksere dem. Selve gRPC-maskineriet delegeres til plattformbibliotekene: gRPC Java på JVM og gRPC C på Kotlin/Native. Protobuf-genereringen er nær 100 % spesifikasjonskompatibel, mens gRPC-funksjonspariteten ennå ikke er komplett – autentisering og interceptors er på plass, tracing og deadlines mangler. Statusen er fortsatt eksperimentell dev-preview, og planen er å gjøre gRPC til hovedfokus for kotlinx-rpc og flytte previewen inn i hovedgrenen, via alpha mot en 1.0-utgivelse. En fin lyntale som viste hvor enkelt det nye biblioteket gjør gRPC-bruk i Kotlin.
 
 **Tags:** `Lyntale` · `gRPC` · `kotlinx-rpc` · `Backend` · `Coroutines` · `Flow`
 
