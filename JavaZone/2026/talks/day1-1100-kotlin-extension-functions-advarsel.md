@@ -2,13 +2,11 @@
 
 *Dag 1, 2. september 2026 · kl 11:00 · Anders Karlsen · 📋 [i programmet](../program.md#d1-1020) · 🌐 [offisiell beskrivelse](https://2026.javazone.no/program/c1b449a3-139b-4c70-9852-7b203d4ffae0)*
 
-I denne lyntalen deler Anders Karlsen erfaringer fra praktisk bruk av Kotlin extension functions – et språktrekk som gjør koden elegant og lettlest, men som har noen skarpe kanter man bør kjenne til. Talen er formet som en advarsel fra skyttergravene: eksemplene er hentet fra reelle situasjoner der tilsynelatende uskyldig kode har skapt trøbbel.
+Karlsen fra Jaypro (og JavaZone-arrangør) brukte lyntalen til å advare mot ukritisk bruk av Kotlins extension functions, basert på egne erfaringer. Han anerkjente at muligheten til å legge egne metoder på klasser man ikke kontrollerer – som String – er kul, men pekte på flere feller: en uskyldig utseende getter kan skjule nettverks- eller databasekall som plutselig tar minutter i en løkke, og logikken i en klasse kan bli spredt utover titalls filer slik at det som ser ut som en liten klasse med to metoder i realiteten har 200 – noe som undergraver objektorienteringen og gjør refaktorering smertefull.
 
-Karlsen viser blant annet hvordan feil i extension functions kan gi stack traces som peker på linjenumre som ikke finnes, noe som gjør feilsøking unødig forvirrende, og hvordan tilsynelatende enkle kall kan ødelegge ytelsen. Gjennom konkrete kodeeksempler får publikum et knippe fallgruver å passe seg for, slik at de kan fortsette å bruke extension functions – men med åpne øyne.
+Han advarte spesielt mot inline extension functions: siden koden limes inn ved kompilering, peker stack tracer ved exceptions til feil linjenummer – lite gøy ved produksjonsfeil midt på natta. Extension functions på generiske lister er også farlige, fordi ulike typeparametre kompileres til samme statiske metode og gir kompileringsfeil IDE-en ikke alltid fanger opp; utveien med @JvmName gjør refaktorering vond. Rådene hans: legg heller metoden inn i klassen når du eier den, ikke skjul IO bak extensions, «ikke lyv» for den som leser koden etterpå – og spar extension functions til klasser du faktisk ikke kontrollerer, som eksterne biblioteker og String, der de fungerer utmerket.
 
-*(Sammendrag basert på programomtalen – oppdateres via /berik-foredrag når opptaket er publisert.)*
-
-**Tags:** `Lyntale` · `Kotlin` · `Språkdesign` · `Performance`
+**Tags:** `Lyntale` · `Kotlin` · `Språkdesign` · `Performance` · `JVM`
 
 **📹** [Kotlin extension functions – en advarsel – Anders Karlsen](https://vimeo.com/1223334643)
 
