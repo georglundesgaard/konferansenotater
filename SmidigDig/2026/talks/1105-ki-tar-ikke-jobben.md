@@ -8,10 +8,6 @@ Om relasjoner bruker hun begravelsesbransjen som eksempel: det som så ut som en
 
 Hun avslutter med smak: en voksende aversjon mot åpenbart KI-generert innhold som føles likt og uærlig, og en påstand om at språkmodeller – som «bare» predikerer neste token – aldri vil treffe spesifikke menneskegrupper presist nok. Konklusjonen er at KI neppe tar jobben din helt, men den endrer arbeidsoppgavene, stiller nye krav og viser hva som egentlig krevde et menneske.
 
-**Notater fra konferansen:**
-- LLM-en er en veldig avansert tekst-generator og ikke egentlig intelligent
-- Mangler mye av det som mennesker kan, f.eks. smak
-
 **Tags:** `Karriere` · `AI` · `Rolleendring` · `LLM` · `AI-agenter`
 
 **📹** [Derfor tar ikke KI jobben din – Nora Gjøen-Gjøsæter](https://vimeo.com/1196381928)

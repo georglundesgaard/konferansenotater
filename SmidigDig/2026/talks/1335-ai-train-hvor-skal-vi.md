@@ -8,9 +8,6 @@ Videre karakteriserer hun LLM-er som «bullshitmaskiner» i teknisk-filosofisk f
 
 Mot slutten lister hun de reelle kostnadene: en ulønnsom bransje som venter på at boblen sprekker og prisene skrus opp («make it shitty»-forretningsmodellen), makt konsentrert hos amerikanske og kinesiske aktører, ødelagte forretningsmodeller for innholdsskapere og open source, energiforbruk, stille kontorer og chatboter som har medvirket til selvmord blant ungdom. Med boka «Peak Human» minner hun om at samfunn kan forfalle – ting går bra når gode folk tar ansvar. Konklusjonen er politisk: regulering og beskatning av AI-selskapene, ansvarliggjøring når ting går galt, og debatt om borgerlønn, firedagersuke og lavere pensjonsalder, slik at automatiseringen faktisk gir oss mer fritid.
 
-**Notater fra konferansen:**
-- Jevons-paradokset
-
 **Tags:** `Kritisk blikk` · `AI-debatt` · `Kostnad` · `AI` · `LLM` · `Karriere`
 
 **📹** [All aboard the AI train! Men… hvor skal vi egentlig? – Christin Gorman](https://vimeo.com/1196396617)

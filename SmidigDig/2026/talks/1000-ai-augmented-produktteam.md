@@ -6,14 +6,7 @@ Moe presenterer ferske resultater fra SINTEFs aksjonsforskning på norske team s
 
 To hovedfunn: man må se på hele arbeidsprosessen, ikke bare kodeskriving (utviklerne i teamene har knapt skrevet kode de siste 6–7 månedene – de planlegger og reviewer i stedet), og man må sette av langt mer tid til læring enn forventet. Teamene følger en J-kurve: produktiviteten går først ned mens de rydder i egen prosess, setter opp guardrails og lærer, før den går opp – kaos blir bare mer kaos med agenter. Fra dataene utledet forskerne sju modenhetsfaktorer: læringsorientert mindset (fremfor f.eks. å måle token-forbruk), verktøystøtte med de beste modellene til alle, praksisfellesskap, tid til læring på reelle oppgaver i arbeidstiden, en endringsagent som driver omstillingen, psykologisk trygghet til å dele feil og AI-bruk, og redesign av arbeidsflyten for agenter.
 
-Moe delte også lederperspektiver: roller viskes ut (utviklere designer, produktledere bygger), det blir færre underveis-samtaler og mindre læring ved tavla, agenter som jobber om natten skaper ny stress og avhengighet, og flaskehalsene – som alltid har ligget mellom team, støttefunksjoner og eksterne aktører, ikke inni teamet – blir ekstremt synlige når teamene leverer raskt. Fremover trengs to komplementære profiler: de som orkestrerer og optimaliserer arbeidsflyt, og de som virkelig forstår produktet og behovene. Hovedbudskapet: uten slakk og tid til å eksperimentere får man ingen fart.
-
-**Notater fra konferansen:**
-- Flaskehalser blir veldig tydelige
-- Rollene blir mindre spesialiserte
-- Mindre team
-- Tverrfaglig samarbeid blir viktigere
-- Må ha tid til eksperimentering og læring
+Moe delte også lederperspektiver: roller viskes ut (utviklere designer, produktledere bygger), det blir færre underveis-samtaler og mindre læring ved tavla, agenter som jobber om natten skaper ny stress og avhengighet, og flaskehalsene – som alltid har ligget mellom team, støttefunksjoner og eksterne aktører, ikke inni teamet – blir ekstremt synlige når teamene leverer raskt. Teamene blir dessuten mindre, hver enkelt må dekke flere oppgaver, og tverrfaglig samarbeid blir stadig viktigere. Fremover trengs to komplementære profiler: de som orkestrerer og optimaliserer arbeidsflyt, og de som virkelig forstår produktet og behovene. Hovedbudskapet: uten slakk og tid til å eksperimentere får man ingen fart.
 
 **Tags:** `Forskning` · `Produktteam` · `AI` · `SINTEF` · `AI-agenter` · `Ledelse`
 
