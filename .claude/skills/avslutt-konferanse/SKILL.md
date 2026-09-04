@@ -28,7 +28,7 @@ Bruk: `/avslutt-konferanse` eller `/avslutt-konferanse <konferanse>` (f.eks. `/a
 
 3. **Retrospektiv («Oppsummering»).** Seksjonen er brukerens stemme – skriv den ALDRI inn uten at brukeren har sett og godkjent utkastet:
    - Spør først: `Noe du vil ha med i oppsummeringen? (høydepunkt, hovedinntrykk – tomt for å la notatene tale)`
-   - Lag et utkast på 2–3 korte avsnitt fra brukerens svar, deres egne `**Notater fra konferansen:**`-linjer og sammendragene: hovedinntrykk, temaer på tvers av foredragene, høydepunkter. Ikke dikt opp vurderinger brukeren ikke selv har antydet.
+   - Lag et utkast på 2–3 korte avsnitt fra brukerens svar, deres egne `**Notater fra konferansen:**`-linjer (evt. `<År>/_notater/` hvis de alt er arkivert) og sammendragene: hovedinntrykk, temaer på tvers av foredragene, høydepunkter. Ikke dikt opp vurderinger brukeren ikke selv har antydet.
    - Vis utkastet og spør om det skal skrives inn. Ved ja: legg det inn som `## Oppsummering` rett etter hopp-lenkene (før første `---`), og legg «Oppsummering» først i hopp-lenkelinjen. ASCII-anker (`#oppsummering`) – trenger ingen `<a id>`.
 
 4. **Opprydding.** Slett `plan-dagN.md`-filene og fjern «Min plan»-linjen fra konferanse-README-en. Finnes ingen planer, hopp over uten å nevne det.

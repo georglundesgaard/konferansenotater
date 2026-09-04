@@ -5,7 +5,7 @@ description: Use when the user wants to enrich already-registered talk files wit
 
 # berik-foredrag
 
-Går gjennom talk-filer som mangler et ordentlig sammendrag, henter opptaket der det finnes, og lar sub-agenter skrive et rikt sammendrag på norsk basert på det som faktisk ble presentert. Brukerens `**Notater fra konferansen:**`-blokk røres aldri.
+Går gjennom talk-filer som mangler et ordentlig sammendrag, henter opptaket der det finnes, og lar sub-agenter skrive et rikt sammendrag på norsk basert på det som faktisk ble presentert. Brukerens `**Notater fra konferansen:**`-punkter endres aldri i ordlyd – de verifiseres mot opptaket, flettes inn i sammendraget og arkiveres ordrett i `_notater/` (steg 5c).
 
 ## When to use
 
@@ -74,11 +74,13 @@ Bruk: `/berik-foredrag` eller `/berik-foredrag <konferanse>` (f.eks. `/berik-for
 5. **Merge tilbake i filene.** For hver returnerte SUMMARY:
    - Åpne talk-filen.
    - Erstatt placeholder-linjen (`*(Sammendrag fylles inn senere...*`) eller sett paragraf rett under metadata-linjen (en tom linje mellom). Har filen markør-linjen `*(Sammendrag basert på programomtalen ...)*`: erstatt hele det eksisterende sammendraget (prosaen mellom metadata-linjen og markøren) med det nye, og fjern markør-linjen – den skal aldri bli stående i en beriket fil.
-   - La `**Notater fra konferansen:**`-blokken stå urørt.
+   - La `**Notater fra konferansen:**`-blokken stå urørt i dette steget – den håndteres i steg 5c.
    - Flett agentens tags inn i `**Tags:**`-linjen: behold alltid brukerens eksisterende tags (de kom fra intervjuet i `/nytt-foredrag`), bare suppler, og unngå duplikater. Normaliser mot tag-vokabularet i rot-`README.md` (f.eks. `AI`, ikke `KI`; `Kotlin/Wasm`, ikke `Wasm`).
    - Hvis `**📹**`-linjen fortsatt har en status uten eget opptak («ikke publisert», «forventet senere» – se statusvariantene i rot-`README.md`), erstatt statusdelen etter `**📹**`-prefikset slik at linjen blir `**📹** [<Tittel> – <Taler>](<url>)`. Tillegg etter statusen (f.eks. `Lysbilder: [...]` eller samlesending-lenker) skal bestå – flytt dem bak video-lenken, aldri slett dem. Bruk aldri `|` i lenketeksten – kramdown på GitHub Pages tolker det som en tabell og knekker siden. Prefikset `**📹**` skal alltid beholdes – steg 2 og 3 er avhengige av det ved senere kjøringer.
 
 5b. **Oppdater programraden.** Hvis konferansens `program.md` har en rad for talken: sett inn/oppdater den korte oppsummeringen i `<details>`-blokken og én-setnings-versjonen i Notater-cellen (foran 📝-lenken). Behold radstatus og lenker.
+
+5c. **Verifiser og flett notater (attended talks med transkripsjon).** Har talk-filen en `**Notater fra konferansen:**`-blokk: dispatch én sub-agent per talk som vurderer hvert notatpunkt mot transkripsjonen og gir verdikt (BEKREFTET/DELVIS/IKKE FUNNET/MOTSIES) med tidsstempel-belegg. Punkter med IKKE FUNNET/MOTSIES tas opp med brukeren (intervju via `AskUserQuestion`) før noe skrives – notater kan stamme fra lysbilder som ikke sies høyt. Flett så verifiserte faktapunkter og brukerens korte vurderinger inn i sammendraget der de tilfører noe, flytt rånotatene ordrett til `<Konferanse>/<År>/_notater/<slug>.md` (understrek-mappe – publiseres ikke av Jekyll; kort header med lenke tilbake til talk-siden), med kursiverte merknader rett under punkter som trengte korreksjon eller kildeangivelse, og fjern blokken fra talk-filen. NB: transkripsjonene i scratchpad dør med sesjonen – kjøres dette steget i en senere sesjon enn berikingen, må de re-skrapes først (steg 3).
 
 6. **Bekreft.** Meld: `Beriket X av Y foredrag. Y-X gjenstår (ingen video funnet).` List de som ble hoppet over. Ikke commit.
 
@@ -92,6 +94,6 @@ Bruk: `/berik-foredrag` eller `/berik-foredrag <konferanse>` (f.eks. `/berik-for
 
 ## Ikke gjør
 
-- Ikke overskriv `**Notater fra konferansen:**`-punktene. De er brukerens egne observasjoner.
+- Ikke endre ordlyden i brukerens notatpunkter – de arkiveres ordrett i `_notater/`; korreksjoner legges som kursiverte merknader under punktet, aldri inn i det. Og ikke flytt/flett notater uten verifisering (steg 5c).
 - Ikke reproduser transkripsjon ordrett fra videoene.
 - Ikke commit – la brukeren gjøre det etter en gjennomlesning.
