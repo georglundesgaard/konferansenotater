@@ -7,11 +7,11 @@ description: Use when the user wants to check whether missing talk recordings ha
 
 Finner talk-filer med utestående video-status og sjekker kildene for nypubliserte opptak. Brukerens språk: norsk.
 
-Bruk: `/video-sjekk` (alle konferanser) eller `/video-sjekk <konferanse>` (f.eks. `/video-sjekk kotlinconf`, `/video-sjekk JavaZone 2026`).
+Bruk: `/video-sjekk <konferanse>` (f.eks. `/video-sjekk kotlinconf`, `/video-sjekk JavaZone 2026`) eller `/video-sjekk` uten argument – da spør skillen hvilke konferanser som skal sjekkes.
 
 ## Steps
 
-0. **Tolk argumentet.** Argument til skillen tolkes som konferanse (fuzzy: match mot mappenavn under repo-roten, år valgfritt – uten år, ta nyeste årgang). Ukjent navn: vis tilgjengelige konferanser og spør. Uten argument: sjekk alle konferanser.
+0. **Tolk argumentet.** Argument til skillen tolkes som konferanse (fuzzy: match mot mappenavn under repo-roten, år valgfritt – uten år, ta nyeste årgang). Ukjent navn: vis tilgjengelige konferanser og spør. Uten argument: finn først konferansene som faktisk har utestående statuser (grep-en i steg 1), og spør via `AskUserQuestion` (multiSelect) hvilke som skal sjekkes – én opsjon per konferanse med antall utestående i beskrivelsen, nyeste konferanse først og forhåndsanbefalt («(Anbefalt)»). Eldre konferanser som er sjekket mange ganger uten nye funn, er dårlige kandidater – nevn det i beskrivelsen (f.eks. «kilden var komplett kartlagt ved forrige sjekk») så brukeren enkelt kan la dem ligge. Har bare én konferanse utestående statuser, hopp over spørsmålet og sjekk den.
 
 1. **Finn utestående.** Grep talk-filene i de valgte konferansene (`<Konferanse>/<År>/talks/*.md`) for `**📹**`-linjer med en status uten eget opptak. Godkjente statusvarianter (se «Format for et foredrag» i rot-`README.md`): «Video ikke publisert ennå – se [kilde]», «Individuell video ikke publisert ennå – se [kilde]» og «Inngår i [samlesending] – individuell video forventet senere». Merk: en lenke til en samlesending/livestream teller ikke som talkens eget opptak. Gruppér per konferanse.
 
@@ -26,6 +26,7 @@ Bruk: `/video-sjekk` (alle konferanser) eller `/video-sjekk <konferanse>` (f.eks
 ## Tips
 
 - Egner seg som planlagt rutine: `/schedule` med ukentlig kjøring til alt er publisert.
+- Er en kilde komplett kartlagt flere kjøringer på rad uten at talken dukker opp (jf. SmidigDigs «Velkommen»), si det tydelig i rapporten – da kan brukeren velge å holde konferansen utenfor fremtidige kjøringer.
 - Etter at nye videoer er lenket inn, er `/berik-foredrag` neste naturlige steg for talks som fortsatt har placeholder-sammendrag.
 
 ## Ikke gjør
