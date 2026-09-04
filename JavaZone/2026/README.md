@@ -10,9 +10,9 @@
 
 ## Oppsummering
 
-Flott konferanse – som alltid, holdt jeg på å si. Med etter hvert ganske mange JavaZone-konferanser bak meg er den fortsatt på mange måter årets høydepunkt: spennende og variert program, god mat gjennom hele dagen i matbodene, og hyggelig å treffe kjentfolk og kolleger fra JPro. AweZone på onsdagen leverte også, med Matoma som høydepunkt.
+Flott konferanse som alltid! Med etter hvert ganske mange JavaZone-konferanser bak meg er den fortsatt på mange måter årets høydepunkt: spennende og variert program, topp mat gjennom hele dagen fra matbodene, og hyggelig å treffe igjen kjentfolk og kolleger fra JPro. AweZone på onsdagen leverte med Matoma som et absolutt høydepunkt.
 
-Faglig gikk AI igjen i nesten alle foredrag – på godt og vondt. Jeg fulgte tråden fra event sourcing for agentiske systemer til retrospill bygget med Claude, men satte vel så stor pris på motvektene: Gormans forsvar for det negative rommet og Heggelund Hansens påminnelse om at vi gjør ting vanskeligere enn de trenger å være. Og innimellom: Horstmanns dataorienterte Java, politiets moderniseringshistorie, Norås om hypertekstens tapte fremtid og Veas røverhistorier fra 80- og 90-tallet.
+Faglig gikk AI igjen i mange av foredragene. Jeg fulgte tråden fra event sourcing for agentiske systemer til retrospill bygget med Claude og jeg satte vel så stor pris på motvektene: Gormans forsvar for det negative rommet og Heggelund Hansens påminnelse om at vi gjør ting vanskeligere enn de trenger å være. Og innimellom: Horstmanns dataorienterte Java, politiets moderniseringshistorie, Norås om hypertekstens tapte fremtid og Veas røverhistorier fra 80- og 90-tallet.
 
 ## <a id="foredrag-jeg-gikk-på"></a>Foredrag jeg gikk på
 
@@ -79,7 +79,13 @@ Faglig gikk AI igjen i nesten alle foredrag – på godt og vondt. Jeg fulgte tr
 
 ## Anbefalt: Topp 5
 
-*Fylles ut etter hvert som opptakene fra Vimeo-kanalen legges ut.*
+Hvis du bare skal se noen få opptak, er dette mine anbefalinger fra ønskelisten – valgt fordi de spinner videre på temaene jeg fulgte tett (AI-agenter og etterrettelighet, enkelhet og minimalisme, og gode fortellinger fra offentlig sektor):
+
+1. **[Let's create a tiny LLM library together](talks/day1-1140-tiny-llm-library.md)** — Johannes Bechberger. Live-bygging av LLM-klient, tool calling, MCP og en liten kodeagent uten 100 MB rammeverk – AI-tråden møter minimalisme-sporet fra Gorman og Heggelund Hansen.
+2. **[50 tips på 60 min – bli bedre med AI-agenter](talks/day1-0900-50-tips-ai-agenter.md)** — Kjetil Jørgensen-Dahl. Konsentrert, praktisk agent-kunnskap fra Telenors interne tipsserie – rett oppfølging av tråden fra event sourcing for agenter til Claude-bygde retrospill.
+3. **[Trust, But Verify: Skill-Driven Development for the Sceptical Java Developer](talks/day2-1020-skill-driven-development.md)** — Totto. «Bygg systemer rundt frykten din»: round-trip-tester, property-based testing og kunnskapsgrafer som gjør at agentene ikke kan jukse – godt følge til Ingebrigtsens etterrettelighets-tråd.
+4. **[My Year with Claude: Building Midimeria](talks/day1-1140-my-year-with-claude.md)** — Øyvind Løkling. Ett år med autonome agenter på hobbyprosjekt – skills-graf, nattkjøring og et ærlig regnskap over kognitiv gjeld.
+5. **[Hvordan logger kan felle en Nav-direktør](talks/day1-1540-logger-kan-felle-en-nav-direktor.md)** — Trond Arve Wasskog, Audun Fauchald Strand. Historien bak direktøravgangen og opprydningen i Nav – offentlig sektor-fortelling i samme gate som politiets modernisering, med Strand fra Heis.fm-innspillingen.
 
 ---
 
