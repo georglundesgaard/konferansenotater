@@ -1,6 +1,6 @@
 # KotlinConf 2026
 
-**München, 21.–22. mai 2026.** JetBrains' årlige Kotlin-konferanse. To dager, seks parallelle spor, 84 sesjoner (foredrag, lyntaler og keynotes). De fleste videoene ble publisert på [Kotlin sin offisielle YouTube-kanal](https://www.youtube.com/@Kotlin) i juli–august 2026 og er også lenket fra [kotlinconf.com/talks/](https://kotlinconf.com/talks/) – sju sesjoner mangler fortsatt individuelle opptak (markert med ⏳ i listene under); jeg lenker dem inn etter hvert.
+**München, 21.–22. mai 2026.** JetBrains' årlige Kotlin-konferanse. To dager, seks parallelle spor, 84 sesjoner (foredrag, lyntaler og keynotes). De fleste videoene ble publisert på [Kotlin sin offisielle YouTube-kanal](https://www.youtube.com/@Kotlin) i juli–august 2026 og er også lenket fra [kotlinconf.com/talks/](https://kotlinconf.com/talks/) – seks sesjoner mangler fortsatt individuelle opptak (markert med ⏳ i listene under); jeg lenker dem inn etter hvert.
 
 **[📋 Hele programmet](program.md)** (84 sesjoner, begge dager)
 
@@ -60,7 +60,7 @@ Foredrag jeg gikk glipp av (parallelle spor / kollisjoner), sortert etter tid.
 
 - **[1015 Advanced Kotlin Native Integration](talks/day2-1015-advanced-kotlin-native-integration.md)** — Tadeas Kriz (Touchlab)
 - **[1015 Automate upgrading to Kotlin 2 with OpenRewrite](talks/day2-1015-openrewrite-kotlin-2-upgrade.md)** — Rooz SF, Jonathan Schneider
-- **[1015 10 Gradle Best Practices Every Kotlin Developer Should Know](talks/day2-1015-gradle-best-practices.md)** — Stefan Wolf ⏳
+- **[1015 10 Gradle Best Practices Every Kotlin Developer Should Know](talks/day2-1015-gradle-best-practices.md)** — Stefan Wolf
 - **[1045 A First Look at the Kotlin Ecosystem Plugin for Declarative Gradle](talks/day2-1045-kotlin-ecosystem-plugin-declarative-gradle.md)** — Marcin Mycek
 - **[1115 How I Learned to Stop Worrying and Love Value Semantics](talks/day2-1115-value-semantics.md)** — Marat Akhin
 - **[1115 Redefining Machine Learning with Kotlin](talks/day2-1115-redefining-ml-skainet.md)** — Michal Harakal
