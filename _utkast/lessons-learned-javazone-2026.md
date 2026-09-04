@@ -4,7 +4,10 @@
 
 > **TL;DR:** Jeg dro på JavaZone 2026 uten laptop og lot en agentisk verktøykjede føre notatene, styrt fra telefonen. Instruksjonene ble testet som kode før konferansen – og de viktigste lærdommene kom fra testene som gikk galt med vilje: Oppdraget er ikke bekreftelse, og et sammendrag uten proveniens er en antagelse som ser ut som kunnskap. *Innlegget er laget med KI, skrevet fra mine egne notater og økter.*
 >
-> **Les også:** [JavaZone 2026: AI overalt – og motvektene som traff best](javazone-2026-oppsummering.md) – oppsummeringen av selve konferansen.
+> **Les også:** [JavaZone 2026: AI overalt – og motvektene som traff best](../blogg/javazone-2026-oppsummering.md) – oppsummeringen av selve konferansen.
+<!-- Ved flytting til blogg/: endre lenken over til javazone-2026-oppsummering.md (sibling), og fjern denne kommentaren. -->
+
+
 
 Konferansesekken inneholdt ingen PC. Alt – planlegging, registrering, commits – ble styrt fra telefonen, mot en agentisk verktøykjede på maskinen hjemme. Registrering av et foredrag tok omtrent ett minutt av en pause; resten av tiden var jeg på konferanse.
 
@@ -30,7 +33,7 @@ Ett eksempel på hva slike tester fanger – kjørt i en pause midt under konfer
 
 **På kvelden** fant `/video-sjekk` at elleve av dagens opptak allerede lå på Vimeo – publisert samme dag som foredragene ble holdt. Berikingen av sammendragene møtte derimot veggen, og det er en historie for seg.
 
-**Og resten av kvelden** hørte konferansen til, ikke verktøykjeden: en runde quiz og sosialt på messegulvet med gamle og nåværende kolleger, før Matoma entret scenen klokka 21 og leverte et times forrykende show. Notatene tar seg av seg selv – det er jo hele poenget.
+**Og resten av kvelden** hørte konferansen til, ikke verktøykjeden: en runde quiz og sosialt på messegulvet med gamle og nåværende kolleger, før Matoma entret scenen klokka 21 og leverte en times forrykende show. Notatene tar seg av seg selv – det er jo hele poenget.
 
 ## Det som knirket
 
