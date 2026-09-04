@@ -6,7 +6,7 @@ Horstmann, mangeårig forfatter av Core Java, ga en ren Java-prat om dataoriente
 
 Andre halvdel gikk gjennom praktiske detaljer og fallgruver: ikke legg inn default i pattern-switcher (det saboterer exhaustiveness-sjekken – la heller MatchException varsle om nye subtyper), null-håndtering med case null, nestede mønstre, guards med when, type-mønstre kontra instanceof og dominansregler for rekkefølgen på cases. Som casestudie sammenlignet han sin egen DOP-modellering av JSON med JEP 540, det kommende JSON-biblioteket i JDK-en, der Java-arkitektene bevisst valgte klassisk OOP med skjulte implementasjoner.
 
-Han avsluttet med switch-historikk (fra C-ens jump tables til dagens sekvensielle pattern matching) og noen «puzzlers» som viser sære kanttilfeller, inkludert primitiv pattern matching fra JEP 532 – der et `int`-mønster mot en `double`-komponent stille bare matcher verdier som får plass i en int. Konkrete råd: bruk alltid var i dekonstruksjonene, unngå fall-through, og la switch i moderne Java signalisere nettopp pattern matching over sealed-hierarkier. En helt grei talk – men noe smalere tema enn jeg hadde ventet på forhånd.
+Han avsluttet med switch-historikk (fra C-ens jump tables til dagens sekvensielle pattern matching) og noen «puzzlers» som viser sære kanttilfeller, inkludert primitiv pattern matching fra JEP 532 – der et `int`-mønster mot en `double`-komponent stille bare matcher verdier som får plass i en int. Konkrete råd: bruk alltid var i dekonstruksjonene, unngå fall-through, og la switch i moderne Java signalisere nettopp pattern matching over sealed-hierarkier. En interessant talk – men noe smalere tema enn først antatt.
 
 **Tags:** `Java` · `Pattern matching` · `Språkdesign` · `Backend` · `API-design` · `JVM`
 

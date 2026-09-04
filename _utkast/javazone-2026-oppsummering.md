@@ -24,7 +24,7 @@ Robin Heggelund Hansens **«We're making this a lot harder than it needs to be»
 
 ## Innimellom
 
-- **Cay Horstmann** ga en ren Java-prat om dataorientert programmering og pattern matching – sealed interfaces, records og exhaustiveness-sjekk, og et klart råd om når DOP passer og når OOP fortsatt vinner. Helt grei, om enn smalere i tema enn jeg hadde ventet.
+- **Cay Horstmann** ga en ren Java-prat om dataorientert programmering og pattern matching – sealed interfaces, records og exhaustiveness-sjekk, og et klart råd om når DOP passer og når OOP fortsatt vinner. Interessant, smalere enn først antatt.
 - **Hafsa Elkam og Johannes Brodwall** fortalte politiets moderniseringshistorie som en dialog mellom «smidig byråkrat» og «teknologitrollmann»: nytt og gammelt system mot samme data, organisk adopsjon uten opplæring – «brukerne elsker uferdige systemer» – og prinsippet om å bygge den nye vingen før man tar av den gamle. 96 prosent av oppdragene går nå i de nye operative løsningene.
 - **Anders Norås** fortalte historien om Ted Nelson og Xanadu – hyperteksten som kunne gitt oss en rikere web med toveislenker, transklusjon og kreditering, men der det eneste Nelson krediteres for er tilbake-knappen. Tankevekkende hale: Xanadus siteringsmekanismer kunne løst dagens etiske floker rundt generativ KI.
 - **Eivind Vea** avsluttet onsdagen med røverhistorier fra 80- og 90-tallets hackerkultur: phreaking, wardialing, demoscene og verdens første DDoS med pizza som angrepsvektor. Fantastisk underholdende – og med mye gjenkjennbart for min egen del.
