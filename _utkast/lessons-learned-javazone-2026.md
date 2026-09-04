@@ -1,18 +1,18 @@
-# Agenten min slettet seksti filer. Derfor gikk JavaZone på skinner.
+# Jeg dro på JavaZone uten laptop
 
-*Utkast – dag 1 skrevet, dag 2 og tallene fylles ut etter konferansen.*
+*Utkast – komplett med epilog; siste gjennomlesning før publisering.*
 
-Midt under JavaZone, i en pause mellom foredragene, kjørte jeg en test: En agent fikk oppgaven «nullstill repoet» – uten instruksjoner, i en trygg, isolert arbeidskopi. Den slettet seksti filer uten å spørre, og bortforklarte det med at oppdraget i seg selv var godkjenning. Regelen som ble født, står nå ordrett i verktøykjeden min: **Oppdraget er ikke bekreftelse.** Vis planen, med omfang, og vent på ja.
+Konferansesekken inneholdt ingen PC. Alt – planlegging, registrering, commits – ble styrt fra telefonen, mot en agentisk verktøykjede på maskinen hjemme. Registrering av et foredrag tok omtrent ett minutt av en pause; resten av tiden var jeg på konferanse.
 
-Det er den typen funn man bare gjør ved å *teste* instruksjonene sine, ikke bare skrive dem. Og det er egentlig hele tesen i dette innlegget: Jeg tok med meg en agentisk verktøykjede på konferanse, lot den føre notatene mine – og lærte mest av testene som gikk galt med vilje.
+Dette innlegget handler om hvordan det gikk – og om det som gjorde det mulig: Instruksjonene ble ikke bare skrevet, de ble *testet* som kode. Jeg lot verktøykjeden føre notatene mine, og lærte mest av testene som gikk galt med vilje.
 
 ## Oppsettet
 
 Utgangspunktet er et [notatrepo](https://github.com/georglundesgaard/konferansenotater) i ren Markdown, publisert med Jekyll på GitHub Pages. Oppå det ligger en samling *skills* – instruksjonsfiler som Claude Code (Anthropics kodeagent i terminalen) kjører som `/kommandoer`: sett opp en konferanse, planlegg dagen, registrer et foredrag, sjekk etter opptak, berik notatene fra videoene, avslutt konferansen.
 
-En detalj som fortjener å nevnes: PC-en sto igjen hjemme hele konferansen. Alt – planlegging, registrering, commits – ble styrt fra telefonen via remote control mot maskinen på hjemmekontoret. Konferansesekken inneholdt ingen laptop.
-
 Det viktigste grepet skjedde før konferansen: Skillene ble ikke bare skrevet, de ble *testet*. Først en baseline – en agent i isolert arbeidskopi som fikk oppgaven **uten** instruksjonene, for å se hva som faktisk gikk galt. Så ble skillene skrevet mot de observerte feilene og verifisert med nye agenter som fulgte dem. TDD, bare at «koden» er prosessdokumentasjon. Det høres seremonielt ut. Det var det som gjorde at konferansedagen gikk på skinner. (Konvensjonene kan du klikke deg inn i repoet og se; selve testene levde i øktene.)
+
+Ett eksempel på hva slike tester fanger – kjørt i en pause midt under konferansen: `/nullstill` er en bitteliten feature, lagt til kun for at andre skal kunne gjenbruke repoet. Baseline-testen av den lærte meg likevel mer enn mange av de store: En agent fikk oppgaven «nullstill repoet» uten instruksjoner, i en trygg, isolert arbeidskopi – og slettet seksti filer uten å spørre, med bortforklaringen at oppdraget i seg selv var godkjenning. Regelen som ble født, står nå ordrett i verktøykjeden: **Oppdraget er ikke bekreftelse.** Vis planen, med omfang, og vent på ja.
 
 ## Slik føltes dagen
 
@@ -68,3 +68,17 @@ Verktøykjeden selv vokste også: Dagen før konferansen fantes ni skills; nå e
 - **Ventet noen dager med videojakten.** Opptakene kom imponerende raskt, men transkripsjonene tar sin tid – og beriking uten dem gir sammendrag som uansett skal oppgraderes. Neste gang: `/video-sjekk` som ukentlig rutine fra noen dager etter konferansen, og berikingsrundene når kildene faktisk er klare. Markørsystemet gjør heldigvis gjentatte runder billige – ferdig berikede foredrag hoppes over automatisk.
 
 Og ett punkt jeg *ikke* ville gjort annerledes: hoppene. Fem planlagte foredrag røk til fordel for messegulvet – å gå rundt, snakke med folk og ta inn inntrykk er en vel så viktig del av konferansen som salene. Planen viser hva jeg ville sett om foredrag var alt; ønskelisten fanger dem når de ikke er det. Det er ikke et avvik fra systemet – det er systemet.
+
+## Epilog: da transkripsjonene kom
+
+Tålmodigheten fra dag 2 betalte seg. En snau uke etter konferansen hadde Vimeo generert autotranskripsjoner, og den utsatte berikingsrunden kjørte i én økt: 30 JavaZone-sammendrag skrevet på nytt fra det som faktisk ble sagt på scenen, hentet via bakveien gjennom min egen nettleser – som nå er dokumentert steg for steg i skillen. Proveniensmarkørene gjorde runden triviell: Verktøykjeden visste nøyaktig hvilke sammendrag som var antagelser og hvilke som var kunnskap.
+
+Så kom den ubehagelige testen. Samme flyt ble kjørt mot KotlinConf-notatene fra mai – sammendrag skrevet *før* markørsystemet fantes, uten proveniens. Verifiseringen mot transkripsjonene avslørte at flere av dem inneholdt selvsikre detaljer som aldri forekom i foredragene: et observabilitetsbibliotek som ikke nevnes i opptaket, en feilhåndterings-DSL taleren eksplisitt *ikke* brukte, verktøy og protokoller lånt fra helt andre sammenhenger. Ingen vond vilje – bare en språkmodell som fylte hull med plausibilitet. Lærdommen er prinsippet fra dag 2 i skarpere form: **Et sammendrag uten proveniens er en antagelse som ser ut som kunnskap.** Nå bærer alt enten transkripsjonsbelegg eller markør.
+
+Notatregelen fikk også sin oppgradering. «Ingen agent rører notatene» står fortsatt – men notatene blir nå *verifisert* mot opptaket, flettet inn i sammendragene og arkivert ordrett i en upublisert mappe, med korreksjoner som kursiverte merknader under punktet i stedet for endringer i det. Tjuefire foredrag på tvers av tre konferanser har vært gjennom den kverna nå, og verifiseringen ga til og med en hyggelig overraskelse: Et notatpunkt som ikke fantes i transkripsjonen, viste seg – etter et kjapt intervju med meg – å stå på et lysbilde 42 minutter inn i foredraget. Notatet var riktig. Det var bare aldri sagt høyt.
+
+## Hva jeg vil prøve neste gang
+
+- **Diktere i stedet for å taste.** Claude-appen har dikteringsfunksjon, og pausene er korte: I stedet for å knote inn stikkord på telefonen vil jeg prøve å *snakke* inn inntrykkene rett etter foredraget – tilbakemeldinger, høydepunkter, det jeg ville sagt til en kollega – og la agenten strukturere det til notatpunkter.
+- **Intervjuform på registreringen.** Diktering kombinert med at skillen stiller et par korte oppfølgingsspørsmål – hva traff, hva var du uenig i, hvem bør se dette? – kan gi rikere notater enn dagens stikkordsinnliming, uten å ta mer av pausen.
+- **Bedre navn på skillen.** `/nytt-foredrag` beskriver filen som opprettes, ikke det jeg faktisk gjør. `/registrer-foredrag` – eller `/registrer-deltagelse` – sier det bedre. Navn bør beskrive handlingen, ikke artefakten.
