@@ -33,6 +33,10 @@ Bruk: `/berik-foredrag` eller `/berik-foredrag <konferanse>` (f.eks. `/berik-for
      3. Panelet er virtualisert: slam til bunnen til `scrollHeight` er stabil (den vokser underveis), sveip så gjennom med JS (`scrollTop` i steg på ~0,7 × `clientHeight`, ~150 ms pause, samle «tekst + timestamp»-par i et Map; resume-tilstand i `window` hvis 45 s CDP-grensen truer). Sjekk at siste timestamp ligger nær videolengden.
      4. Ut uten å gå via konteksten: klikk i siden (clipboard krever fokus), `navigator.clipboard.writeText(transkript)`, deretter `pbpaste > scratchpad-fil` i Bash med talk/kilde-header. (DOM-dump + get_page_text trunkeres rundt 50 k tegn – ikke bruk den veien.)
      Transkripsjonen kan være autooversatt (norsk tale kan gi engelsk tekst) – noter språket i filhodet. Uten nettleser-tilgang: skriv fra programomtalen og sett markør-linjen (se steg 5).
+   - **YouTube:** transkripsjoner lar seg hente headless per talk, så sub-agentene kan gjøre det selv (verifisert på 11 KotlinConf-talks, sept. 2026). Fallgruver og rekkefølge:
+     1. Ren `curl` mot watch-siden kan servere FEIL videos captions (caching) – verifiser alltid tittelen (f.eks. oEmbed) mot talken før bruk. `timedtext`-URL-er fra siden krever ofte POT-token og gir tomt svar.
+     2. Det som fungerer: `yt-dlp` med alternativ klient (`--extractor-args "youtube:player_client=ios"` el. android/visionos, kan pip-installeres i scratchpad), `youtube_transcript_api`, eller Innertube player-API-et direkte med iOS/Android-klient.
+     3. Siste utvei: transkript-panelet i brukerens Chrome (samme flyt som Vimeo-oppskriften over).
 
 4. **Dispatch parallelle sub-agenter.** Én general-purpose Agent per talk med lenke. Prompt-mal (norsk):
 
