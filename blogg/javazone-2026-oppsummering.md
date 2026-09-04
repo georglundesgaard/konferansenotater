@@ -22,7 +22,7 @@ I den andre enden av dagen: Ricki Sickengers **«Retro Meets AI»**, underholden
 
 ## Motvektene
 
-Christin Gormans **«The positive value of negative space»** ble foredraget jeg tok med meg hjem. Kode er en forpliktelse, ikke en eiendel, og det vi bevisst *ikke* lager, har egenverdi – med eggdeleren som lakmustest (egget skiller selv) og «Christins lov»: uansett hvor godt du skriver koden, vil nestemann ville skrive den om. At hun landet kritikken midt i AI-bølgen – mer kode enn noensinne, «looks good to me» på digre PR-er – gjorde den bare mer treffsikker. Underholdende levert, som alltid.
+Christin Gormans **«The positive value of negative space»** ble foredraget jeg tok med meg hjem. Kode er en forpliktelse, ikke en eiendel, og det vi bevisst *ikke* lager, har egenverdi – med eggeskilleren som lakmustest (egget skiller selv) og «Christins lov»: uansett hvor godt du skriver koden, vil nestemann ville skrive den om. At hun landet kritikken midt i AI-bølgen – mer kode enn noensinne, «looks good to me» på digre PR-er – gjorde den bare mer treffsikker. Underholdende levert, som alltid.
 
 Robin Heggelund Hansens **«We're making this a lot harder than it needs to be»** spilte på samme streng: MTP – Minimal Technical Product – tapt enkelhet, HTMX for mindre JavaScript og et nøkternt pro/kontra om microservices. De to foredragene sammen var konferansens egentlige røde tråd for min del: kunsten å la være.
 

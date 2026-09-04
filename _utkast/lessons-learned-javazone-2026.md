@@ -51,7 +51,7 @@ Og så fant vi – agenten og jeg – bakveien: Min *faktiske* nettleser passere
 
 Her er dagens beste vits på egen bekostning: Foredragene om agentisk utvikling – «50 tips på 60 min – bli bedre med AI-agenter» og «My Year with Claude» – gikk jeg *ikke* på. Jeg hoppet over dem, fordi jeg satt i pausene og praktiserte nøyaktig det abstractene deres beskrev: instruksjonsfiler, delegering til subagenter, verifisering av resultater. Verktøykjeden registrerte dem pent på ønskelisten, med videolenker samme kveld, så jeg får fasiten når jeg ser opptakene. Og mens 50-tips-abstractet anbefalte `AGENTS.md` som instruksjonsfil, fikk repoet mitt sin – midt under konferansen, klokka 16:53, i pausen før Norås.
 
-Foredraget jeg faktisk så og tok med meg hjem, var Christin Gormans «The positive value of negative space»: Kode er en forpliktelse, ikke en eiendel, og det vi bevisst *ikke* lager, har egenverdi. Det er blitt testen for hver skill jeg legger til i verktøykjeden: Trengs den – eller er den en eggdeler?
+Foredraget jeg faktisk så og tok med meg hjem, var Christin Gormans «The positive value of negative space»: Kode er en forpliktelse, ikke en eiendel, og det vi bevisst *ikke* lager, har egenverdi. Det er blitt testen for hver skill jeg legger til i verktøykjeden: Trengs den – eller er den en eggeskiller?
 
 ## Dag 2
 
