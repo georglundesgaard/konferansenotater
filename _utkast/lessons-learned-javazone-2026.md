@@ -2,6 +2,10 @@
 
 *Utkast – komplett med epilog; siste gjennomlesning før publisering.*
 
+> **TL;DR:** Jeg dro på JavaZone 2026 uten laptop og lot en agentisk verktøykjede føre notatene, styrt fra telefonen. Instruksjonene ble testet som kode før konferansen – og de viktigste lærdommene kom fra testene som gikk galt med vilje: Oppdraget er ikke bekreftelse, og et sammendrag uten proveniens er en antagelse som ser ut som kunnskap. *Innlegget er laget med KI, skrevet fra mine egne notater og økter.*
+>
+> **Les også:** [JavaZone 2026: AI overalt – og motvektene som traff best](javazone-2026-oppsummering.md) – oppsummeringen av selve konferansen.
+
 Konferansesekken inneholdt ingen PC. Alt – planlegging, registrering, commits – ble styrt fra telefonen, mot en agentisk verktøykjede på maskinen hjemme. Registrering av et foredrag tok omtrent ett minutt av en pause; resten av tiden var jeg på konferanse.
 
 Dette innlegget handler om hvordan det gikk – og om det som gjorde det mulig: Instruksjonene ble ikke bare skrevet, de ble *testet* som kode. Jeg lot verktøykjeden føre notatene mine, og lærte mest av testene som gikk galt med vilje.

@@ -1,6 +1,10 @@
 # JavaZone 2026: AI overalt – og motvektene som traff best
 
-*Utkast – oppsummering av selve konferansen. Følgesvenn til [innlegget om verktøykjeden](lessons-learned-javazone-2026.md), som handler om hvordan notatene ble til.*
+*Utkast – siste gjennomlesning før publisering.*
+
+> **TL;DR:** To dager på Nova Spektrum: AI i annethvert foredrag, men motvektene traff best – Gormans forsvar for det negative rommet og Heggelund Hansens påminnelse om at vi gjør ting vanskeligere enn de trenger å være. Pluss topp 5 fra ønskelisten og fire ønsker til neste års program. *Innlegget er laget med KI, skrevet fra mine egne notater og vurderinger.*
+>
+> **Les også:** [Jeg dro på JavaZone uten laptop](lessons-learned-javazone-2026.md) – om verktøykjeden som førte notatene.
 
 Med etter hvert ganske mange JavaZone-konferanser bak meg er den fortsatt på mange måter årets høydepunkt: spennende og variert program på sju parallelle spor, topp mat gjennom hele dagen fra matbodene, og hyggelig å treffe igjen kjentfolk og kolleger fra JPro. AweZone på onsdagen leverte også – Matoma entret scenen klokka 21 og ga oss et times forrykende show.
 
