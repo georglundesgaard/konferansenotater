@@ -27,8 +27,8 @@ Faglig gikk AI igjen i mange av foredragene. Jeg fulgte tråden fra event sourci
 ### Torsdag 3. september 2026
 
 - **[0900 Event Sourcing: The Only Sane Way to Run Agentic Systems](talks/day2-0900-event-sourcing-agentic-systems.md)** — Einar Ingebrigtsen
-- **[1140 Heis.fm LIVE](talks/day2-1140-heis-fm-live.md)** — Audun Fauchald Strand, Truls Jørgensen ⏳
-- **[1300 We're making this a lot harder than it needs to be](talks/day2-1300-harder-than-it-needs-to-be.md)** — Robin Heggelund Hansen ⏳
+- **[1140 Heis.fm LIVE](talks/day2-1140-heis-fm-live.md)** — Audun Fauchald Strand, Truls Jørgensen
+- **[1300 We're making this a lot harder than it needs to be](talks/day2-1300-harder-than-it-needs-to-be.md)** — Robin Heggelund Hansen
 - **[1540 Retro Meets AI: Shipping Games Across 40 Years of Tech](talks/day2-1540-retro-meets-ai.md)** — Ricki Sickenger ⏳
 
 ---
@@ -65,15 +65,15 @@ Faglig gikk AI igjen i mange av foredragene. Jeg fulgte tråden fra event sourci
 - **[1020 The Decision Layer: Context Graphs for Spring AI](talks/day2-1020-context-graphs-spring-ai.md)** — James Ward, Ryan Knight
 - **[1020 Flyt i AI-ens tid: når det blir lettere å lage, men vanskeligere å bevege seg](talks/day2-1020-flyt-i-ai-ens-tid.md)** — Christian Neverdal
 - **[1020 Trust, But Verify: Skill-Driven Development for the Sceptical Java Developer](talks/day2-1020-skill-driven-development.md)** — Totto – Thor Henning Hetland
-- **[1140 The Right 300 Tokens Beat 100k Noisy Ones: Four Context Antipatterns That Kill Your AI Agent](talks/day2-1140-context-antipatterns-ai-agent.md)** — Baruch Sadogursky ⏳
-- **[1140 Erstatningssystemfella](talks/day2-1140-erstatningssystemfella.md)** — Fredrik de Vibe ⏳
-- **[1300 A Brief History of Artificial Intelligence](talks/day2-1300-brief-history-of-ai.md)** — Tim Berglund ⏳
-- **[1300 Fra 123 entusiastiske brukere daglig, til 3.7 millioner, Norgespris som arkitektur katalysator i Elhub](talks/day2-1300-elhub-norgespris-skalering.md)** — Trond Strømme, Michael Akinde ⏳
-- **[1420 The AI puppet dance](talks/day2-1420-ai-puppet-dance.md)** — Einar Waaler Høst ⏳
-- **[1420 You're absolutely right, it was your home directory!](talks/day2-1420-your-home-directory.md)** — Oleg Šelajev ⏳
-- **[1540 Kodearkeologer på legacy eventyr](talks/day2-1540-kodearkeologer-legacy-eventyr.md)** — Elisabeth Irgens, Robin Kåveland ⏳
-- **[1700 The Sound of Privacy – What Your Spotify Data Reveals About You](talks/day2-1700-sound-of-privacy-spotify.md)** — Dennis Schulz, Thomas Hugle ⏳
-- **[1700 How I built my own intelligent Robot Arm from Scratch](talks/day2-1700-robot-arm-from-scratch.md)** — Iulia Feroli ⏳
+- **[1140 The Right 300 Tokens Beat 100k Noisy Ones: Four Context Antipatterns That Kill Your AI Agent](talks/day2-1140-context-antipatterns-ai-agent.md)** — Baruch Sadogursky
+- **[1140 Erstatningssystemfella](talks/day2-1140-erstatningssystemfella.md)** — Fredrik de Vibe
+- **[1300 A Brief History of Artificial Intelligence](talks/day2-1300-brief-history-of-ai.md)** — Tim Berglund
+- **[1300 Fra 123 entusiastiske brukere daglig, til 3.7 millioner, Norgespris som arkitektur katalysator i Elhub](talks/day2-1300-elhub-norgespris-skalering.md)** — Trond Strømme, Michael Akinde
+- **[1420 The AI puppet dance](talks/day2-1420-ai-puppet-dance.md)** — Einar Waaler Høst
+- **[1420 You're absolutely right, it was your home directory!](talks/day2-1420-your-home-directory.md)** — Oleg Šelajev
+- **[1540 Kodearkeologer på legacy eventyr](talks/day2-1540-kodearkeologer-legacy-eventyr.md)** — Elisabeth Irgens, Robin Kåveland
+- **[1700 The Sound of Privacy – What Your Spotify Data Reveals About You](talks/day2-1700-sound-of-privacy-spotify.md)** — Dennis Schulz, Thomas Hugle
+- **[1700 How I built my own intelligent Robot Arm from Scratch](talks/day2-1700-robot-arm-from-scratch.md)** — Iulia Feroli
 
 ---
 
