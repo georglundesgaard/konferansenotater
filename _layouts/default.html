@@ -15,14 +15,21 @@
         <a href="{{ '/' | relative_url }}">Konferansenotater</a>
         {% assign conf = parts[1] %}
         {% assign year = parts[2] %}
-        {% assign confpath = '/' | append: conf | append: '/' | append: year | append: '/' %}
         <span class="sep" aria-hidden="true">›</span>
+        {% if conf == 'blogg' %}
+          {%- comment -%} Blogginnlegg ligger i blogg/<innlegg>, ikke <konferanse>/<år>/ {%- endcomment -%}
+          <a href="{{ '/#innlegg' | relative_url }}">Innlegg</a>
+          <span class="sep" aria-hidden="true">›</span>
+          <span class="here">{{ page.title | default: parts.last }}</span>
+        {% else %}
+        {% assign confpath = '/' | append: conf | append: '/' | append: year | append: '/' %}
         {% if page.url == confpath %}
           <span class="here">{{ conf }} {{ year }}</span>
         {% else %}
           <a href="{{ confpath | relative_url }}">{{ conf }} {{ year }}</a>
           <span class="sep" aria-hidden="true">›</span>
           <span class="here">{{ page.title | default: parts.last }}</span>
+        {% endif %}
         {% endif %}
       </nav>
       {% endif %}
