@@ -1,6 +1,6 @@
 # KotlinConf 2026
 
-**München, 21.–22. mai 2026.** JetBrains' årlige Kotlin-konferanse. To dager, seks parallelle spor, 84 sesjoner (foredrag, lyntaler og keynotes). De fleste videoene ble publisert på [Kotlin sin offisielle YouTube-kanal](https://www.youtube.com/@Kotlin) i juli–august 2026 og er også lenket fra [kotlinconf.com/talks/](https://kotlinconf.com/talks/) – seks sesjoner mangler fortsatt individuelle opptak (markert med ⏳ i listene under); jeg lenker dem inn etter hvert.
+**München, 21.–22. mai 2026.** JetBrains' årlige Kotlin-konferanse. To dager, seks parallelle spor, 84 sesjoner (foredrag, lyntaler og keynotes). De fleste videoene ble publisert på [Kotlin sin offisielle YouTube-kanal](https://www.youtube.com/@Kotlin) i juli og august 2026 og er også lenket fra [kotlinconf.com/talks/](https://kotlinconf.com/talks/). Seks sesjoner mangler fortsatt individuelle opptak (markert med ⏳ i listene under), og jeg lenker dem inn etter hvert.
 
 **[📋 Hele programmet](program.md)** (84 sesjoner, begge dager)
 
@@ -80,7 +80,7 @@ Foredrag jeg gikk glipp av (parallelle spor / kollisjoner), sortert etter tid.
 
 ## <a id="anbefalt-topp-5-fra-ønskelisten"></a>Anbefalt: Topp 5 fra ønskelisten
 
-Hvis du bare skal se noen få opptak, er dette mine anbefalinger fra foredragene jeg selv gikk glipp av – valgt fordi de spinner videre på temaer jeg fulgte tett (AI-agenter, Ktor/backend, språkdesign):
+Hvis du bare skal se noen få opptak, er dette mine anbefalinger fra foredragene jeg selv gikk glipp av, valgt fordi de spinner videre på temaer jeg fulgte tett (AI-agenter, Ktor/backend, språkdesign):
 
 1. **[Full-Stack Kotlin AI: Powering Compose Multiplatform apps with Koog & MCP](talks/day2-1400-full-stack-kotlin-ai-koog-mcp.md)** — John O'Reilly. Praktisk demo av Koog + Kotlin MCP SDK i en Compose Multiplatform-app, med hopp mellom sky-LLM og on-device. Direkte oppfølging til Briliantovs Koog-foredrag.
 2. **[How I Learned to Stop Worrying and Love Value Semantics (in Kotlin)](talks/day2-1115-value-semantics.md)** — Marat Akhin. Dybden bak multi-field value classes (eksperimentelt i 2.5) med benchmarks. Passer bra ved siden av *Local Lifetimes* og *Context parameters*.
@@ -93,7 +93,7 @@ Hvis du bare skal se noen få opptak, er dette mine anbefalinger fra foredragene
 ## Livestream / hovedsal
 
 - **Dag 1:** [Keynote + hovedsal](https://www.youtube.com/watch?v=MmwBJbzWbV0)
-- **Dag 2:** [Day 2 Livestream](https://www.youtube.com/watch?v=S3CjlmpsC0I) — inneholder Lena Reinhards keynote og Golden Kodee Awards
+- **Dag 2:** [Day 2 Livestream](https://www.youtube.com/watch?v=S3CjlmpsC0I) (inneholder Lena Reinhards keynote og Golden Kodee Awards)
 
 ---
 

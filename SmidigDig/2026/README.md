@@ -1,6 +1,6 @@
 # SmidigDig 2026
 
-**Oslo Kongressenter, 27. mai 2026.** Årets tema: *«AI i produktteam»*. Enkeltsporet program fra 09:00 til 16:00. Opptak legges ut fortløpende på [smidig.no](https://www.smidig.no/) – ⏳ i listene under betyr at opptaket ikke er publisert ennå.
+**Oslo Kongressenter, 27. mai 2026.** Årets tema: *«AI i produktteam»*. Enkeltsporet program fra 09:00 til 16:00. Opptak legges ut fortløpende på [smidig.no](https://www.smidig.no/). ⏳ i listene under betyr at opptaket ikke er publisert ennå.
 
 **[📋 Hele programmet](program.md)** (11 sesjoner)
 

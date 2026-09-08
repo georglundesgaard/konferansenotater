@@ -79,13 +79,13 @@ Faglig gikk AI igjen i mange av foredragene. Jeg fulgte tråden fra event sourci
 
 ## Anbefalt: Topp 5
 
-Hvis du bare skal se noen få opptak, er dette mine anbefalinger fra ønskelisten – valgt fordi de spinner videre på temaene jeg fulgte tett (AI-agenter og etterrettelighet, enkelhet og minimalisme, og gode fortellinger fra offentlig sektor):
+Hvis du bare skal se noen få opptak, er dette mine anbefalinger fra ønskelisten, valgt fordi de spinner videre på temaene jeg fulgte tett (AI-agenter og etterrettelighet, enkelhet og minimalisme, og gode fortellinger fra offentlig sektor):
 
-1. **[Let's create a tiny LLM library together](talks/day1-1140-tiny-llm-library.md)** — Johannes Bechberger. Live-bygging av LLM-klient, tool calling, MCP og en liten kodeagent uten 100 MB rammeverk – AI-tråden møter minimalisme-sporet fra Gorman og Heggelund Hansen.
-2. **[50 tips på 60 min – bli bedre med AI-agenter](talks/day1-0900-50-tips-ai-agenter.md)** — Kjetil Jørgensen-Dahl. Konsentrert, praktisk agent-kunnskap fra Telenors interne tipsserie – rett oppfølging av tråden fra event sourcing for agenter til Claude-bygde retrospill.
-3. **[Trust, But Verify: Skill-Driven Development for the Sceptical Java Developer](talks/day2-1020-skill-driven-development.md)** — Totto. «Bygg systemer rundt frykten din»: round-trip-tester, property-based testing og kunnskapsgrafer som gjør at agentene ikke kan jukse – godt følge til Ingebrigtsens etterrettelighets-tråd.
-4. **[My Year with Claude: Building Midimeria](talks/day1-1140-my-year-with-claude.md)** — Øyvind Løkling. Ett år med autonome agenter på hobbyprosjekt – skills-graf, nattkjøring og et ærlig regnskap over kognitiv gjeld.
-5. **[Hvordan logger kan felle en Nav-direktør](talks/day1-1540-logger-kan-felle-en-nav-direktor.md)** — Trond Arve Wasskog, Audun Fauchald Strand. Historien bak direktøravgangen og opprydningen i Nav – offentlig sektor-fortelling i samme gate som politiets modernisering, med Strand fra Heis.fm-innspillingen.
+1. **[Let's create a tiny LLM library together](talks/day1-1140-tiny-llm-library.md)** — Johannes Bechberger. Live-bygging av LLM-klient, tool calling, MCP og en liten kodeagent uten 100 MB rammeverk. AI-tråden møter minimalisme-sporet fra Gorman og Heggelund Hansen.
+2. **[50 tips på 60 min – bli bedre med AI-agenter](talks/day1-0900-50-tips-ai-agenter.md)** — Kjetil Jørgensen-Dahl. Konsentrert, praktisk agent-kunnskap fra Telenors interne tipsserie, rett oppfølging av tråden fra event sourcing for agenter til Claude-bygde retrospill.
+3. **[Trust, But Verify: Skill-Driven Development for the Sceptical Java Developer](talks/day2-1020-skill-driven-development.md)** — Totto. «Bygg systemer rundt frykten din»: round-trip-tester, property-based testing og kunnskapsgrafer som gjør at agentene ikke kan jukse. Godt følge til Ingebrigtsens etterrettelighets-tråd.
+4. **[My Year with Claude: Building Midimeria](talks/day1-1140-my-year-with-claude.md)** — Øyvind Løkling. Ett år med autonome agenter på hobbyprosjekt: skills-graf, nattkjøring og et ærlig regnskap over kognitiv gjeld.
+5. **[Hvordan logger kan felle en Nav-direktør](talks/day1-1540-logger-kan-felle-en-nav-direktor.md)** — Trond Arve Wasskog, Audun Fauchald Strand. Historien bak direktøravgangen og opprydningen i Nav. Offentlig sektor-fortelling i samme gate som politiets modernisering, med Strand fra Heis.fm-innspillingen.
 
 ---
 

@@ -52,7 +52,7 @@ def strukturell():
         if m and int(m.group(1)) != n: funn.append(f'README.md: badge {badge}-{m.group(1)}, faktisk {n}')
     for f in repo.md_files():
         if '/.claude/' in f or '/_mal/' in f: continue  # instruksjoner og maler: lenkene er formateksempler
-        text = repo.COMMENT_RE.sub('', repo.read(f))
+        text = re.sub(r'`[^`]*`', '', repo.COMMENT_RE.sub('', repo.read(f)))  # kodespenn er formateksempler
         for m in re.finditer(r'\]\(([^)\s]+)\)', text):
             t = m.group(1)
             if t.startswith(('http://', 'https://', 'mailto:', '#')) or '<' in t: continue
@@ -66,17 +66,25 @@ def strukturell():
 def prosa(lines):
     """Bare prosalinjene teller: overskrifter, metadata-/navigasjonslinjer, 📹-/Tags-linjer, brukerens
     notatpunkter, samt lenketekster og «siterte titler» holdes utenfor (linjenumre beholdes)."""
-    out = []; i_notes = False
+    out = []; i_notes = False; i_code = False
     for l in lines:
         s = l.strip()
+        if s.startswith('```'): i_code = not i_code; out.append(''); continue
+        if i_code: out.append(''); continue
         if i_notes and s.startswith('- '): out.append(''); continue
         i_notes = s.startswith('**Notater fra konferansen:**')
         if s.startswith(('#', '**📹**', '**Tags:**', '*[', '*(', '|', '<')) or re.match(r'^\*(Dag \d|\d{1,2}\. )', s) or i_notes:
             out.append(''); continue
+        l = re.sub(r'`[^`]*`', '``', l)  # kodespenn er formateksempler
         l = re.sub(r'&\w+;|&#\d+;', '', l)  # HTML-entiteter (&amp; o.l.) er ikke semikolon
         l = re.sub(r'«[^»]*»', '«»', l)
         l = re.sub(r'\[([^\]]*)\]\(([^)]*)\)', '[]()', l)
-        l = re.sub(r'\*\*\[[^\]]*\]\([^)]*\)\*\* — ', '', l)  # README-listenes «— Taler»-skille er struktur
+        # Strukturelle tankestreker er greie: listeskille etter fet term eller lenke («**Tittel** — Taler»,
+        # «- [Lenke]() – forklaring») og tallområder («2.–3. september», «10–15»).
+        if re.match(r'^\s*- \*\*\[\]\(\)\*\*', l): out.append(''); continue  # talk-listelinje (tittel, taler, ⏳) er struktur
+        l = re.sub(r'^(\s*(?:\d+\.|-)\s+(?:\*\*[^*]+\*\*|\[\]\(\)).*?)\s[–—]\s', r'\1 ', l)
+        l = re.sub(r'(\d\.?)[–—](\d)', r'\1-\2', l)
+        l = re.sub(r'^(\s*(?:\d+\.|-)\s+)\*\*[^*]+\*\*', r'\1', l)  # fet tittel først i et listepunkt er en tittel
         out.append(l)
     return out
 
@@ -90,7 +98,7 @@ def stil(alle):
         lines = prosa(text.split('\n'))
         dash = [i for i, l in enumerate(lines, 1) if '–' in l or '—' in l]
         semi = [i for i, l in enumerate(lines, 1) if ';' in l.replace('TL;DR', '').replace('&lt;', '').replace('&gt;', '')]
-        ord_ = {w: [i for i, l in enumerate(lines, 1) if re.search(w, l, re.I)] for w in FREMMEDORD}
+        ord_ = {w: [i for i, l in enumerate(lines, 1) if re.search(r'(?<!ikke )' + w, l, re.I)] for w in FREMMEDORD}
         ord_ = {w: v for w, v in ord_.items() if v}
         if dash or semi or ord_:
             parts = []
