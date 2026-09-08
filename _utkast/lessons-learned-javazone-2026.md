@@ -49,7 +49,7 @@ Og så fant vi, agenten og jeg, bakveien: Min *faktiske* nettleser passerer bot-
 
 ## Ironien fra salen
 
-Her er dagens beste vits på egen bekostning: Foredragene om agentisk utvikling, «50 tips på 60 min – bli bedre med AI-agenter» og «My Year with Claude», gikk jeg *ikke* på. Jeg hoppet over dem, fordi jeg satt i pausene og praktiserte nøyaktig det abstractene deres beskrev: instruksjonsfiler, delegering til subagenter, verifisering av resultater. Verktøykjeden registrerte dem pent på ønskelisten, med videolenker samme kveld, så jeg får fasiten når jeg ser opptakene. Og mens 50-tips-abstractet anbefalte `AGENTS.md` som instruksjonsfil, fikk repoet mitt sin, midt under konferansen, klokka 16:53, i pausen før Norås.
+Her er dagens beste vits på egen bekostning: Foredragene om agentisk utvikling, «50 tips på 60 min – bli bedre med AI-agenter» og «My Year with Claude», endte på ønskelisten. I pausene satt jeg og praktiserte nøyaktig det abstractene deres beskrev: instruksjonsfiler, delegering til subagenter, verifisering av resultater. Verktøykjeden registrerte dem pent, med videolenker samme kveld, så jeg får fasiten når jeg ser opptakene. Og mens 50-tips-abstractet anbefalte `AGENTS.md` som instruksjonsfil, fikk repoet mitt sin, midt under konferansen, klokka 16:53, i pausen før Norås.
 
 Foredraget jeg faktisk så og tok med meg hjem, var Christin Gormans «The positive value of negative space»: Kode er en forpliktelse, ikke en eiendel, og det vi bevisst *ikke* lager, har egenverdi. Det er blitt testen for hver skill jeg legger til i verktøykjeden: Trengs den, eller er den en eggeskiller?
 
@@ -57,7 +57,7 @@ Foredraget jeg faktisk så og tok med meg hjem, var Christin Gormans «The posit
 
 Dag 2 var testen på om dag 1 var flaks. Det var den ikke, men dag 2 føltes annerledes: kjedeligere, i ordets beste betydning. Planleggingen om morgenen tok minutter, registreringene i pausene var rutine, og hopp-flyten som ble improvisert i går, var nå dokumentert oppførsel. Verktøykjeden hadde sluttet å være eksperimentet og begynt å være notatboken.
 
-Ironien fikk også en oppfølger: Dagens program hadde et foredrag som bokstavelig talt handlet om metoden min, «Trust, But Verify: Skill-Driven Development for the Sceptical Java Developer». Jeg hoppet over det også. Det ligger på ønskelisten, pent registrert av skillene det handler om.
+Ironien fikk også en oppfølger: Dagens program hadde et foredrag som bokstavelig talt handlet om metoden min, «Trust, But Verify: Skill-Driven Development for the Sceptical Java Developer». Det ligger på ønskelisten, pent registrert av skillene det handler om.
 
 Infrastrukturen fikk også sin test. Fjernstyringen fra telefonen fungerte utmerket hele dag 1, men dag 2 bød på utfall flere ganger og merkbare forsinkelser. Mistanken var at hjemme-PC-en hadde gått i dvale, og strømloggen bekreftet det om kvelden med tall som ikke lot seg misforstå: 56 dvale-hendelser i arbeidstiden dag 2, mot null dag 1. Maskinen døset mellom hver økt, og hver kommando fra konferansegulvet måtte først vekke den. Lærdommen er banal og viktig: Den svakeste lenken i en agentisk verktøykjede er ikke agenten, men strømsparingsinnstillingene på maskinen den bor på.
 
