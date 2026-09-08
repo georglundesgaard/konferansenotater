@@ -3,10 +3,8 @@
 *4. september 2026*
 
 > **TL;DR:** To dager på Nova Spektrum: AI i annethvert foredrag, men motvektene traff best: Gormans forsvar for det negative rommet og Heggelund Hansens påminnelse om at vi gjør ting vanskeligere enn de trenger å være. Pluss topp 5 fra ønskelisten og fire ønsker til neste års program. *Innlegget er laget med KI, skrevet fra mine egne notater og vurderinger.*
-
-<!-- Når verktøykjede-innlegget publiseres i blogg/: legg denne linjen tilbake i TL;DR-blokken over (med «>»-prefiks og en tom «>»-linje mellom):
-**Les også:** [Jeg dro på JavaZone uten laptop](lessons-learned-javazone-2026.md), om verktøykjeden som førte notatene.
--->
+>
+> **Les også:** [Jeg dro på JavaZone uten laptop](lessons-learned-javazone-2026.md), om verktøykjeden som førte notatene.
 
 Med etter hvert ganske mange JavaZone-konferanser bak meg er den fortsatt på mange måter årets høydepunkt: spennende og variert program på sju parallelle spor, topp mat gjennom hele dagen fra matbodene, og hyggelig å treffe igjen kjentfolk og kolleger fra JPro. AweZone på onsdagen leverte også, med et forrykende, timelangt Matoma-show fra klokka 21.
 

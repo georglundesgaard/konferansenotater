@@ -1,11 +1,10 @@
 # Jeg dro på JavaZone uten laptop
 
-*Utkast, komplett med epilog. Siste gjennomlesning før publisering.*
+*8. september 2026*
 
 > **TL;DR:** Jeg dro på JavaZone 2026 uten laptop og lot en agentisk verktøykjede føre notatene, styrt fra telefonen. Instruksjonene ble testet som kode før konferansen, og de viktigste lærdommene kom fra testene som gikk galt med vilje: Oppdraget er ikke bekreftelse, og et sammendrag uten kjent kilde er en antagelse som ser ut som kunnskap. *Innlegget er laget med KI, skrevet fra mine egne notater og økter.*
 >
-> **Les også:** [JavaZone 2026: AI overalt, og motvektene som traff best](../blogg/javazone-2026-oppsummering.md), oppsummeringen av selve konferansen.
-<!-- Ved flytting til blogg/: endre lenken over til javazone-2026-oppsummering.md (sibling), bytt utkast-linjen under tittelen med en datolinje som i oppsummeringen, legg tilbake «Les også»-linjen i oppsummeringen, og fjern denne kommentaren. -->
+> **Les også:** [JavaZone 2026: AI overalt, og motvektene som traff best](javazone-2026-oppsummering.md), oppsummeringen av selve konferansen.
 
 Konferansesekken inneholdt ingen PC. Alt, fra planlegging og registrering til commits, ble styrt fra telefonen, mot en agentisk verktøykjede på maskinen hjemme. Registrering av et foredrag tok noen minutter av en pause. Resten av tiden var jeg på konferanse.
 
