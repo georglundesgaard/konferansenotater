@@ -29,7 +29,7 @@ Ett eksempel på hva slike tester fanger, kjørt i en pause midt under konferans
 
 **I pausene** tok registreringen noen minutter: `/nytt-foredrag brodwall el kam` fuzzy-matcher mot cachen, finner riktig foredrag, spør om to ting (deltatt/ønskeliste og tags) og skriver fil, indeks og programrad med toveis lenking. Notatene limte jeg inn som stikkord etterpå. De er fredet: Ingen agent får røre dem.
 
-**Underveis** oppsto mønstre ingen hadde planlagt. «Jeg hopper over neste foredrag» ble til en flyt: Planraden fjernes, foredraget registreres på ønskelisten. En foredragsholder viste en QR-kode til lysbildene. Jeg limte inn bildet, koden ble dekodet lokalt, og lenken la seg pent bakerst på videolinjen. En gjennomgang midt på dagen fant tre slike hull i skillene, blant annet at notater ikke passer inn i spørsmålsverktøyets format, som krever minst to reelle valg. Alle tre var kodifisert og tettet før klokka 16, før ettermiddagsforedragene begynte. Lærdommer som venter til «etterpå», blir aldri kodifisert.
+**Underveis** oppsto mønstre ingen hadde planlagt. Endringer i planen ble til en flyt: Planraden byttes ut, og foredraget som gikk ut, registreres på ønskelisten. En foredragsholder viste en QR-kode til lysbildene. Jeg limte inn bildet, koden ble dekodet lokalt, og lenken la seg pent bakerst på videolinjen. En gjennomgang midt på dagen fant tre slike hull i skillene, blant annet at notater ikke passer inn i spørsmålsverktøyets format, som krever minst to reelle valg. Alle tre var kodifisert og tettet før klokka 16, før ettermiddagsforedragene begynte. Lærdommer som venter til «etterpå», blir aldri kodifisert.
 
 **På kvelden** fant `/video-sjekk` at elleve av dagens opptak allerede lå på Vimeo, publisert samme dag som foredragene ble holdt. Berikingen av sammendragene møtte derimot veggen, og det er en historie for seg.
 
@@ -55,7 +55,7 @@ Foredraget jeg faktisk så og tok med meg hjem, var Christin Gormans «The posit
 
 ## Dag 2
 
-Dag 2 var testen på om dag 1 var flaks. Det var den ikke, men dag 2 føltes annerledes: kjedeligere, i ordets beste betydning. Planleggingen om morgenen tok minutter, registreringene i pausene var rutine, og hopp-flyten som ble improvisert i går, var nå dokumentert oppførsel. Verktøykjeden hadde sluttet å være eksperimentet og begynt å være notatboken.
+Dag 2 var testen på om dag 1 var flaks. Det var den ikke, men dag 2 føltes annerledes: kjedeligere, i ordets beste betydning. Planleggingen om morgenen tok minutter, registreringene i pausene var rutine, og flyten for planendringer som ble improvisert i går, var nå dokumentert oppførsel. Verktøykjeden hadde sluttet å være eksperimentet og begynt å være notatboken.
 
 Ironien fikk også en oppfølger: Dagens program hadde et foredrag som bokstavelig talt handlet om metoden min, «Trust, But Verify: Skill-Driven Development for the Sceptical Java Developer». Det ligger på ønskelisten, pent registrert av skillene det handler om.
 
@@ -65,7 +65,7 @@ Kvelden ga en lærdom om tålmodighet. JavaZone publiserte 20 nye opptak samme d
 
 ## Tallene
 
-To konferansedager ga **26 commits**, fra morgenplanen 2. september kl. 09:13 til avslutningscommiten 3. september kl. 20:20, alle styrt fra telefonen. Resultatet: **43 foredragsfiler** for JavaZone alene (9 jeg deltok på, 34 på ønskelisten), **45 egne notatlinjer** skrevet i pausene, **31 opptak lenket** (de fleste samme dag som foredraget ble holdt) og 31 sammendrag på plass i første versjon. Fem planlagte foredrag ble hoppet over underveis, og alle fem ble automatisk konvertert til ønskelisteoppføringer i stedet for å forsvinne.
+To konferansedager ga **26 commits**, fra morgenplanen 2. september kl. 09:13 til avslutningscommiten 3. september kl. 20:20, alle styrt fra telefonen. Resultatet: **43 foredragsfiler** for JavaZone alene (9 jeg deltok på, 34 på ønskelisten), **45 egne notatlinjer** skrevet i pausene, **31 opptak lenket** (de fleste samme dag som foredraget ble holdt) og 31 sammendrag på plass i første versjon. Planen endret seg underveis, og hvert foredrag som gikk ut av den, ble automatisk til en ønskelisteoppføring i stedet for å forsvinne.
 
 Verktøykjeden selv vokste også: Dagen før konferansen fantes det ni skills. Nå er det ti, pluss `AGENTS.md`, lisens og seks skill-forbedringer kodifisert *mens* konferansen pågikk. Foredragstelleren i repoet gikk fra 59 til 102 på tre dager. Og den kanskje viktigste målingen har ingen enhet: Registrering av et foredrag tok noen minutter av en pause. Resten av tiden var jeg på konferanse.
 
@@ -74,7 +74,7 @@ Verktøykjeden selv vokste også: Dagen før konferansen fantes det ni skills. N
 - **Skrudd av dvalemodus på hjemme-PC-en før avreise.** Fjernstyringen fra telefonen var sømløs dag 1 og hakkete dag 2. Strømloggen viste i etterkant 56 dvale-hendelser i arbeidstiden. Én `caffeinate`-kommando hadde spart meg for alle utfallene.
 - **Ventet noen dager med videojakten.** Opptakene kom imponerende raskt, men transkripsjonene tar sin tid, og beriking uten dem gir sammendrag som uansett skal oppgraderes. Neste gang: `/video-sjekk` som ukentlig rutine fra noen dager etter konferansen, og berikingsrundene når kildene faktisk er klare. Rutinen må dessuten kjøre hjemme: Et forsøk på å legge den i skyen strandet på at sandkassen der blokkerer alle eksterne kilder. Vimeo er uvennlig mot alt som ikke er en ekte nettleser, men har én bakdør: Det gamle Simple API-et lister fortsatt de 60 nyeste videoene som ren JSON. Markørsystemet gjør heldigvis gjentatte runder billige, siden ferdig berikede foredrag hoppes over automatisk.
 
-Og ett punkt jeg *ikke* ville gjort annerledes: hoppene. Fem planlagte foredrag røk til fordel for messegulvet. Å gå rundt, snakke med folk og ta inn inntrykk er en vel så viktig del av konferansen som salene. Planen viser hva jeg ville sett om foredrag var alt. Ønskelisten fanger dem når de ikke er det. Det er ikke et avvik fra systemet. Det er systemet.
+Og ett punkt jeg *ikke* ville gjort annerledes: tiden på messegulvet. Å gå rundt, snakke med folk og ta inn inntrykk er en vel så viktig del av konferansen som salene. Planen viser hva jeg ville sett om foredrag var alt. Ønskelisten fanger dem når de ikke er det. Det er ikke et avvik fra systemet. Det er systemet.
 
 ## Epilog: da transkripsjonene kom
 
