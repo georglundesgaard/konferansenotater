@@ -1,6 +1,6 @@
 # Jeg dro på JavaZone uten laptop
 
-*Utkast – komplett med epilog; siste gjennomlesning før publisering.*
+*Utkast – komplett med epilog. Siste gjennomlesning før publisering.*
 
 > **TL;DR:** Jeg dro på JavaZone 2026 uten laptop og lot en agentisk verktøykjede føre notatene, styrt fra telefonen. Instruksjonene ble testet som kode før konferansen – og de viktigste lærdommene kom fra testene som gikk galt med vilje: Oppdraget er ikke bekreftelse, og et sammendrag uten proveniens er en antagelse som ser ut som kunnskap. *Innlegget er laget med KI, skrevet fra mine egne notater og økter.*
 >
@@ -9,7 +9,7 @@
 
 
 
-Konferansesekken inneholdt ingen PC. Alt – planlegging, registrering, commits – ble styrt fra telefonen, mot en agentisk verktøykjede på maskinen hjemme. Registrering av et foredrag tok omtrent ett minutt av en pause; resten av tiden var jeg på konferanse.
+Konferansesekken inneholdt ingen PC. Alt – planlegging, registrering, commits – ble styrt fra telefonen, mot en agentisk verktøykjede på maskinen hjemme. Registrering av et foredrag tok noen minutter av en pause. Resten av tiden var jeg på konferanse.
 
 Dette innlegget handler om hvordan det gikk – og om det som gjorde det mulig: Instruksjonene ble ikke bare skrevet, de ble *testet* som kode. Jeg lot verktøykjeden føre notatene mine, og lærte mest av testene som gikk galt med vilje.
 
@@ -17,19 +17,19 @@ Dette innlegget handler om hvordan det gikk – og om det som gjorde det mulig: 
 
 Utgangspunktet er et [notatrepo](https://github.com/georglundesgaard/konferansenotater) i ren Markdown, publisert med Jekyll på GitHub Pages. Oppå det ligger en samling *skills* – instruksjonsfiler som Claude Code (Anthropics kodeagent i terminalen) kjører som `/kommandoer`: sett opp en konferanse, planlegg dagen, registrer et foredrag, sjekk etter opptak, berik notatene fra videoene, avslutt konferansen.
 
-Det viktigste grepet skjedde før konferansen: Skillene ble ikke bare skrevet, de ble *testet*. Først en baseline – en agent i isolert arbeidskopi som fikk oppgaven **uten** instruksjonene, for å se hva som faktisk gikk galt. Så ble skillene skrevet mot de observerte feilene og verifisert med nye agenter som fulgte dem. TDD, bare at «koden» er prosessdokumentasjon. Det høres seremonielt ut. Det var det som gjorde at konferansedagen gikk på skinner. (Konvensjonene ligger åpent i repoet; selve testene levde i øktene.)
+Det viktigste grepet skjedde før konferansen: Skillene ble ikke bare skrevet, de ble *testet*. Først en baseline – en agent i isolert arbeidskopi som fikk oppgaven **uten** instruksjonene, for å se hva som faktisk gikk galt. Så ble skillene skrevet mot de observerte feilene og verifisert med nye agenter som fulgte dem. TDD, bare at «koden» er prosessdokumentasjon. Det høres seremonielt ut. Det var det som gjorde at konferansedagen gikk på skinner. (Konvensjonene ligger åpent i repoet. Selve testene levde i øktene.)
 
 Ett eksempel på hva slike tester fanger – kjørt i en pause midt under konferansen: `/nullstill` er en bitteliten feature, lagt til kun for at andre skal kunne gjenbruke repoet. Baseline-testen av den lærte meg likevel mer enn mange av de store: En agent fikk oppgaven «nullstill repoet» uten instruksjoner, i en trygg, isolert arbeidskopi – og slettet seksti filer uten å spørre, med bortforklaringen at oppdraget i seg selv var godkjenning. Regelen som ble født, står nå ordrett i verktøykjeden: **Oppdraget er ikke bekreftelse.** Vis planen, med omfang, og vent på ja.
 
 ## Slik føltes dagen
 
-**Kvelden før** kjørte jeg `/planlegg-dagen`: Programmets tidsluker kom som spørsmålsrunder, jeg krysset av det som fristet, og valgte vinnere der det kolliderte. De elleve kollisjonstaperne ble ikke bare notert – de ble registrert som fullverdige ønskelistefiler med programlenker og videostatus, og et ekstra søk gjennom resten av programmet ga seks til. Sytten ønskeliste-foredrag før dagen hadde begynt. Planen ble committet, men bevisst ikke pushet før dagen var i gang – en publisert dagsplan forteller offentlig hvor du kommer til å være, så den regelen ligger også i verktøykjeden.
+**Kvelden før** kjørte jeg `/planlegg-dagen`: Programmets tidsluker kom som spørsmålsrunder, jeg krysset av det som fristet, og valgte vinnere der det kolliderte. De elleve kollisjonstaperne ble ikke bare notert – de ble registrert som fullverdige ønskelistefiler med programlenker og videostatus, og et ekstra søk gjennom resten av programmet ga seks til. Sytten ønskelisteforedrag før dagen hadde begynt. Planen ble committet, men bevisst ikke pushet før dagen var i gang – en publisert dagsplan forteller offentlig hvor du kommer til å være, så den regelen ligger også i verktøykjeden.
 
 **På morgenen** sjekket `/oppdater-program` den lokale programcachen mot arrangørens API – og fant tre reelle endringer siste døgn: ett foredrag flyttet, ett med ny tittel, én talerendring. Cachen er poenget: Resten av dagen fungerte alt offline, på konferanse-wifi.
 
-**I pausene** tok registreringen ett minutt: `/nytt-foredrag brodwall el kam` fuzzy-matcher mot cachen, finner riktig foredrag, spør om to ting (deltatt/ønskeliste og tags) og skriver fil, indeks og programrad med toveis lenking. Notatene limte jeg inn som stikkord etterpå; de er fredet – ingen agent får røre dem.
+**I pausene** tok registreringen noen minutter: `/nytt-foredrag brodwall el kam` fuzzy-matcher mot cachen, finner riktig foredrag, spør om to ting (deltatt/ønskeliste og tags) og skriver fil, indeks og programrad med toveis lenking. Notatene limte jeg inn som stikkord etterpå. De er fredet – ingen agent får røre dem.
 
-**Underveis** oppsto mønstre ingen hadde planlagt. «Jeg hopper over neste foredrag» ble til en flyt: Planraden fjernes, foredraget registreres på ønskelisten. En foredragsholder viste en QR-kode til lysbildene; jeg limte inn bildet, koden ble dekodet lokalt, og lenken la seg pent bakerst på videolinjen. En gjennomgang midt på dagen fant tre slike hull i skillene – blant annet at notater ikke passer inn i spørsmålsverktøyets format, som krever minst to reelle valg – og alle tre var kodifisert og tettet før klokka 16, før ettermiddagsforedragene begynte. Lærdommer som venter til «etterpå», blir aldri kodifisert.
+**Underveis** oppsto mønstre ingen hadde planlagt. «Jeg hopper over neste foredrag» ble til en flyt: Planraden fjernes, foredraget registreres på ønskelisten. En foredragsholder viste en QR-kode til lysbildene. Jeg limte inn bildet, koden ble dekodet lokalt, og lenken la seg pent bakerst på videolinjen. En gjennomgang midt på dagen fant tre slike hull i skillene – blant annet at notater ikke passer inn i spørsmålsverktøyets format, som krever minst to reelle valg – og alle tre var kodifisert og tettet før klokka 16, før ettermiddagsforedragene begynte. Lærdommer som venter til «etterpå», blir aldri kodifisert.
 
 **På kvelden** fant `/video-sjekk` at elleve av dagens opptak allerede lå på Vimeo – publisert samme dag som foredragene ble holdt. Berikingen av sammendragene møtte derimot veggen, og det er en historie for seg.
 
@@ -43,7 +43,7 @@ Og så fant vi – agenten og jeg – bakveien: Min *faktiske* nettleser passere
 
 ## Tre prinsipper
 
-- **Test instruksjonene som kode.** Baseline uten skill avslører de ekte feilmodiene; skillen skrives mot dem, ikke mot antagelser. Seksti slettede filer i en sandkasse er billig lærepenge – de samme filene i produksjon er det ikke.
+- **Test instruksjonene som kode.** Baseline uten skill avslører de ekte feilmodiene, og skillen skrives mot dem – ikke mot antagelser. Seksti slettede filer i en sandkasse er billig lærepenge – de samme filene i produksjon er det ikke.
 - **Konvensjoner må være maskinlesbare og eid ett sted.** Statusvokabularet for videolinjer er en fast, uttømmende liste i README-en, og alle skills gjenkjenner nøyaktig de variantene. Markører (⏳ for manglende opptak, proveniens for abstract-baserte sammendrag) gjør tilstanden synlig for både lesere og verktøy. Og når to skills trenger samme logikk, eier én den og den andre delegerer – duplisert prosa glir fra hverandre.
 - **Destruktivt krever fremvist plan.** Alltid. Uansett hvor tydelig oppdraget føles. Oppdraget er ikke bekreftelse.
 
@@ -61,20 +61,20 @@ Ironien fikk også en oppfølger: Dagens program hadde et foredrag som bokstavel
 
 Infrastrukturen fikk også sin test. Fjernstyringen fra telefonen fungerte utmerket hele dag 1 – men dag 2 bød på utfall flere ganger og merkbare forsinkelser. Mistanken var at hjemme-PC-en hadde gått i dvale, og strømloggen bekreftet det om kvelden med tall som ikke lot seg misforstå: 56 dvale-hendelser i arbeidstiden dag 2, mot null dag 1. Maskinen døset mellom hver økt, og hver kommando fra konferansegulvet måtte først vekke den. Lærdommen er banal og viktig: Den svakeste lenken i en agentisk verktøykjede er ikke agenten – det er strømsparingsinnstillingene på maskinen den bor på.
 
-Kvelden ga en lærdom om tålmodighet. JavaZone publiserte 20 nye opptak samme dag – fem av dem foredrag jeg selv satt i – men Vimeos autotranskripsjoner var ikke generert ennå; selv gårsdagens videoer manglet. Planen om en full transkripsjonsrunde ble justert på fakta: Alle 30 abstract-baserte sammendrag bærer proveniensmarkøren og oppgraderes i én samlet runde når transkripsjonene finnes. Verktøykjeden vet forskjellen på det den vet og det den antar – det er kanskje det viktigste enkelttrekket ved hele designet.
+Kvelden ga en lærdom om tålmodighet. JavaZone publiserte 20 nye opptak samme dag – fem av dem foredrag jeg selv satt i – men Vimeos autotranskripsjoner var ikke generert ennå. Selv gårsdagens videoer manglet. Planen om en full transkripsjonsrunde ble justert etter fakta: Alle 30 abstract-baserte sammendrag bærer proveniensmarkøren og oppgraderes i én samlet runde når transkripsjonene finnes. Verktøykjeden vet forskjellen på det den vet og det den antar – det er kanskje det viktigste enkelttrekket ved hele designet.
 
 ## Tallene
 
-To konferansedager ga **26 commits** – fra morgenplanen 2. september kl. 09:13 til avslutningscommiten 3. september kl. 20:20 – alle styrt fra telefonen. Resultatet: **43 foredragsfiler** for JavaZone alene (9 jeg deltok på, 34 på ønskelisten), **45 egne notatlinjer** skrevet i pausene, **31 opptak lenket** – de fleste samme dag som foredraget ble holdt – og 31 sammendrag på plass i første versjon. Fem planlagte foredrag ble hoppet over underveis; alle fem ble automatisk konvertert til ønskeliste-oppføringer i stedet for å forsvinne.
+To konferansedager ga **26 commits** – fra morgenplanen 2. september kl. 09:13 til avslutningscommiten 3. september kl. 20:20 – alle styrt fra telefonen. Resultatet: **43 foredragsfiler** for JavaZone alene (9 jeg deltok på, 34 på ønskelisten), **45 egne notatlinjer** skrevet i pausene, **31 opptak lenket** – de fleste samme dag som foredraget ble holdt – og 31 sammendrag på plass i første versjon. Fem planlagte foredrag ble hoppet over underveis, og alle fem ble automatisk konvertert til ønskelisteoppføringer i stedet for å forsvinne.
 
-Verktøykjeden selv vokste også: Dagen før konferansen fantes ni skills; nå er det ti, pluss `AGENTS.md`, lisens og seks skill-forbedringer kodifisert *mens* konferansen pågikk. Foredragstelleren i repoet gikk fra 59 til 102 på tre dager. Og den kanskje viktigste målingen har ingen enhet: Registrering av et foredrag tok omtrent ett minutt av en pause – resten av tiden var jeg på konferanse.
+Verktøykjeden selv vokste også: Dagen før konferansen fantes det ni skills. Nå er det ti, pluss `AGENTS.md`, lisens og seks skill-forbedringer kodifisert *mens* konferansen pågikk. Foredragstelleren i repoet gikk fra 59 til 102 på tre dager. Og den kanskje viktigste målingen har ingen enhet: Registrering av et foredrag tok noen minutter av en pause – resten av tiden var jeg på konferanse.
 
 ## Hva jeg ville gjort annerledes
 
 - **Skrudd av dvalemodus på hjemme-PC-en før avreise.** Fjernstyringen fra telefonen var sømløs dag 1 og hakkete dag 2 – strømloggen viste i etterkant 56 dvale-hendelser i arbeidstiden. Én `caffeinate`-kommando hadde spart meg for alle utfallene.
 - **Ventet noen dager med videojakten.** Opptakene kom imponerende raskt, men transkripsjonene tar sin tid – og beriking uten dem gir sammendrag som uansett skal oppgraderes. Neste gang: `/video-sjekk` som ukentlig rutine fra noen dager etter konferansen, og berikingsrundene når kildene faktisk er klare. Rutinen må dessuten kjøre hjemme: Et forsøk på å legge den i skyen strandet på at sandkassen der blokkerer alle eksterne kilder. Vimeo er uvennlig mot alt som ikke er en ekte nettleser, men har én bakdør – det gamle Simple API-et lister fortsatt de 60 nyeste videoene som ren JSON. Markørsystemet gjør heldigvis gjentatte runder billige – ferdig berikede foredrag hoppes over automatisk.
 
-Og ett punkt jeg *ikke* ville gjort annerledes: hoppene. Fem planlagte foredrag røk til fordel for messegulvet – å gå rundt, snakke med folk og ta inn inntrykk er en vel så viktig del av konferansen som salene. Planen viser hva jeg ville sett om foredrag var alt; ønskelisten fanger dem når de ikke er det. Det er ikke et avvik fra systemet – det er systemet.
+Og ett punkt jeg *ikke* ville gjort annerledes: hoppene. Fem planlagte foredrag røk til fordel for messegulvet – å gå rundt, snakke med folk og ta inn inntrykk er en vel så viktig del av konferansen som salene. Planen viser hva jeg ville sett om foredrag var alt. Ønskelisten fanger dem når de ikke er det. Det er ikke et avvik fra systemet – det er systemet.
 
 ## Epilog: da transkripsjonene kom
 
