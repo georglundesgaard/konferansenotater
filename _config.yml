@@ -8,7 +8,8 @@ theme: jekyll-theme-primer
 # jekyll-default-layout (default-layouten brukes uten front matter),
 # jekyll-readme-index, jekyll-relative-links og jekyll-titles-from-headings.
 # Lokal forhåndsvisning: `bundle install && bundle exec jekyll serve` (se Gemfile).
-# _mal/ (understrek-prefiks) og .claude/ ekskluderes automatisk fra siden.
+# Mapper med understrek-prefiks (_mal/, _utkast/, alle _notater/) og .claude/
+# ekskluderes automatisk fra siden.
 
 # Rot-README-en er GitHub-forsiden; index.md er Pages-forsiden. Uten denne
 # ekskluderingen publiseres README-en i tillegg som /README.html.

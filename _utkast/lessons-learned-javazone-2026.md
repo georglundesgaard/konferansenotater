@@ -5,9 +5,7 @@
 > **TL;DR:** Jeg dro på JavaZone 2026 uten laptop og lot en agentisk verktøykjede føre notatene, styrt fra telefonen. Instruksjonene ble testet som kode før konferansen, og de viktigste lærdommene kom fra testene som gikk galt med vilje: Oppdraget er ikke bekreftelse, og et sammendrag uten kjent kilde er en antagelse som ser ut som kunnskap. *Innlegget er laget med KI, skrevet fra mine egne notater og økter.*
 >
 > **Les også:** [JavaZone 2026: AI overalt, og motvektene som traff best](../blogg/javazone-2026-oppsummering.md), oppsummeringen av selve konferansen.
-<!-- Ved flytting til blogg/: endre lenken over til javazone-2026-oppsummering.md (sibling), og fjern denne kommentaren. -->
-
-
+<!-- Ved flytting til blogg/: endre lenken over til javazone-2026-oppsummering.md (sibling), bytt utkast-linjen under tittelen med en datolinje som i oppsummeringen, legg tilbake «Les også»-linjen i oppsummeringen, og fjern denne kommentaren. -->
 
 Konferansesekken inneholdt ingen PC. Alt, fra planlegging og registrering til commits, ble styrt fra telefonen, mot en agentisk verktøykjede på maskinen hjemme. Registrering av et foredrag tok noen minutter av en pause. Resten av tiden var jeg på konferanse.
 
@@ -79,7 +77,7 @@ Og ett punkt jeg *ikke* ville gjort annerledes: tiden på messegulvet. Å gå ru
 
 ## Epilog: da transkripsjonene kom
 
-Tålmodigheten fra dag 2 betalte seg. En snau uke etter konferansen hadde Vimeo generert autotranskripsjoner, og den utsatte berikingsrunden kjørte i to økter: 41 JavaZone-sammendrag skrevet på nytt fra det som faktisk ble sagt på scenen, hentet via bakveien gjennom min egen nettleser. Bakveien ble til og med bedre underveis: I stedet for å skrape transkripsjonspanelet leser skillen nå tekstlinjene rett ut av sidens React-tilstand, og utklippstavlen er den eneste utgangen nettleseren tillater. Alt er dokumentert steg for steg i skillen. Kildemarkørene gjorde runden triviell: Verktøykjeden visste nøyaktig hvilke sammendrag som var antagelser og hvilke som var kunnskap. Alle unntatt ett foredrag har nå både opptak og transkripsjonsbelegg.
+Tålmodigheten fra dag 2 betalte seg. En snau uke etter konferansen hadde Vimeo generert autotranskripsjoner, og den utsatte berikingsrunden kjørte i to økter: 41 JavaZone-sammendrag skrevet fra det som faktisk ble sagt på scenen, hentet via bakveien gjennom min egen nettleser. Bakveien ble til og med bedre underveis: I stedet for å skrape transkripsjonspanelet leser skillen nå tekstlinjene rett ut av sidens React-tilstand, og utklippstavlen er den eneste utgangen nettleseren tillater. Alt er dokumentert steg for steg i skillen. Kildemarkørene gjorde runden triviell: Verktøykjeden visste nøyaktig hvilke sammendrag som var antagelser og hvilke som var kunnskap. Alle unntatt ett foredrag har nå både opptak og transkripsjonsbelegg.
 
 Så kom den ubehagelige testen. Samme flyt ble kjørt mot KotlinConf-notatene fra mai, sammendrag skrevet *før* markørsystemet fantes, uten kildemarkør. Verifiseringen mot transkripsjonene avslørte at flere av dem inneholdt selvsikre detaljer som aldri forekom i foredragene: et overvåkingsbibliotek som ikke nevnes i opptaket, en feilhåndteringsmekanisme taleren uttrykkelig *ikke* brukte, verktøy og protokoller lånt fra helt andre sammenhenger. Ingen vond vilje, bare en språkmodell som fylte hull med plausibilitet. Lærdommen er prinsippet fra dag 2 i skarpere form: **Et sammendrag uten kjent kilde er en antagelse som ser ut som kunnskap.** Nå bærer alt enten transkripsjonsbelegg eller markør.
 

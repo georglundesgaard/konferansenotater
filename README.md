@@ -21,6 +21,7 @@ Hver konferanse har sin egen README med deltakelsesliste og ønskeliste – konf
 
 ```
 konferansenotater/
+├── .claude/skills/                # Prosjekt-skills (én mappe per /kommando, se «Skills» under)
 ├── _mal/                          # Maler for nye konferanser
 │   ├── README.md                  #   – konferanse-README
 │   └── talks/HHMM-slug.md         #   – én talk-fil
@@ -37,7 +38,9 @@ konferansenotater/
 │       └── talks/
 │           ├── day1-HHMM-slug.md  # Ett foredrag per fil (flerdags-konferanse)
 │           └── HHMM-slug.md       # Ett foredrag per fil (endags-konferanse)
-└── README.md                      # Denne filen
+├── AGENTS.md                      # Peker andre kodeagenter til skill-filene
+├── index.md                       # Forsiden på GitHub Pages
+└── README.md                      # Denne filen (GitHub-forsiden)
 ```
 
 ## Skills
