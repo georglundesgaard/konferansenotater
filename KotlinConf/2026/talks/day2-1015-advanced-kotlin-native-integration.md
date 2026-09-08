@@ -2,9 +2,9 @@
 
 *Dag 2, 22. mai 2026 · kl 10:15 · Tadeas Kriz (Touchlab) · 📋 [i programmet](../program.md#d2-1015) · 🌐 [offisiell beskrivelse](https://kotlinconf.com/talks/1087031/)*
 
-Tadeas Kriz fra Touchlab tar for seg en av de mest oversette begrensningene ved Kotlin Multiplatform: et prosjekt kan i praksis bare inneholde ett Kotlin/Native-binærprodukt om gangen. Foredraget viser hva som skjer hvis man likevel bunter inn flere KMP-binærprodukter i samme applikasjon – blant annet symbolkonflikter, oppblåst størrelse og duplisert runtime som er vanskelig å feilsøke.
+Tadeas Kriz fra Touchlab tar for seg en av de mest oversette begrensningene ved Kotlin Multiplatform: et prosjekt kan i praksis bare inneholde ett Kotlin/Native-binærprodukt om gangen. Foredraget viser hva som skjer hvis man likevel bunter inn flere KMP-binærprodukter i samme applikasjon, blant annet symbolkonflikter, oppblåst størrelse og duplisert runtime som er vanskelig å feilsøke.
 
-Kriz går gjennom teknikker for å dele opp kompileringen i mindre biter, slik at hvert team kan jobbe uavhengig uten å bryte enkeltbinær-regelen. Han diskuterer også løsninger tilpasset større organisasjoner med komplekse repostrukturer, der en felles «paraply»-modul samler den delte koden fra flere team og leverer det endelige binærproduktet ut mot iOS-siden.
+Kriz går gjennom teknikker for å dele opp kompileringen i mindre biter, slik at hvert team kan jobbe uavhengig uten å bryte enkeltbinærregelen. Han diskuterer også løsninger tilpasset større organisasjoner med komplekse repostrukturer, der en felles «paraply»-modul samler den delte koden fra flere team og leverer det endelige binærproduktet ut mot iOS-siden.
 
 Passer for team som allerede bruker KMP i produksjon og møter skaleringssmerter når kodebasen og antallet konsumenter vokser.
 

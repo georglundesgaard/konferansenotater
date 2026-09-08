@@ -63,14 +63,31 @@ def strukturell():
                 funn.append(f'{rel(f)}: anker #{anchor} finnes ikke i {base}')
     return funn, confs, total_talks
 
+def prosa(lines):
+    """Bare prosalinjene teller: overskrifter, metadata-/navigasjonslinjer, 📹-/Tags-linjer, brukerens
+    notatpunkter, samt lenketekster og «siterte titler» holdes utenfor (linjenumre beholdes)."""
+    out = []; i_notes = False
+    for l in lines:
+        s = l.strip()
+        if i_notes and s.startswith('- '): out.append(''); continue
+        i_notes = s.startswith('**Notater fra konferansen:**')
+        if s.startswith(('#', '**📹**', '**Tags:**', '*[', '*(', '|', '<')) or re.match(r'^\*(Dag \d|\d{1,2}\. )', s) or i_notes:
+            out.append(''); continue
+        l = re.sub(r'&\w+;|&#\d+;', '', l)  # HTML-entiteter (&amp; o.l.) er ikke semikolon
+        l = re.sub(r'«[^»]*»', '«»', l)
+        l = re.sub(r'\[([^\]]*)\]\(([^)]*)\)', '[]()', l)
+        l = re.sub(r'\*\*\[[^\]]*\]\([^)]*\)\*\* — ', '', l)  # README-listenes «— Taler»-skille er struktur
+        out.append(l)
+    return out
+
 def stil(alle):
     files = [f for f in repo.md_files() if os.path.basename(os.path.dirname(f)) == 'blogg']
     if alle:
-        files = [f for f in repo.md_files() if '/_mal/' not in f and '/.claude/' not in f and not f.endswith('program.md')]
+        files = [f for f in repo.md_files() if '/_mal/' not in f and '/.claude/' not in f and '/_notater/' not in f and not f.endswith('program.md')]  # _notater/ er brukerens ordrette notater
     rapport = []
     for f in files:
         text = repo.COMMENT_RE.sub('', repo.read(f))
-        lines = text.split('\n')
+        lines = prosa(text.split('\n'))
         dash = [i for i, l in enumerate(lines, 1) if '–' in l or '—' in l]
         semi = [i for i, l in enumerate(lines, 1) if ';' in l.replace('TL;DR', '').replace('&lt;', '').replace('&gt;', '')]
         ord_ = {w: [i for i, l in enumerate(lines, 1) if re.search(w, l, re.I)] for w in FREMMEDORD}

@@ -6,7 +6,7 @@ Suhyeon (Leah) Kim delte erfaringer fra en tomåneders sprint der teamet skulle 
 
 Første case handlet om native state observation: i stedet for å tvinge Kotlin StateFlow inn i SwiftUI direkte, brøt de flyten ned til Combine-vennlige signaler slik at iOS-siden føltes idiomatisk. Andre case var Firebase uten en offisiell KMP-SDK, der de brukte et delegate-mønster slik at Kotlin-koden definerte protokoller mens Swift stod for selve Firebase-kallene og injiserte implementasjonene tilbake. Tredje case var SPM Umbrella Export for binærisolasjon, som lot dem pakke flere Kotlin-frameworks bak én Swift Package uten symbolkollisjoner eller lekkasje av transitive avhengigheter.
 
-Til slutt oppsummerte hun et jukseark over vanlige interop-fallgruver – sealed classes som blir NSObject-hierarkier, suspend-funksjoner som krever completion handlers, default arguments som forsvinner, generics som kollapser til Any, og enum-navn som kolliderer med Swift-nøkkelord – med praktiske omgåelser for hver.
+Til slutt oppsummerte hun et jukseark over vanlige interop-fallgruver (sealed classes som blir NSObject-hierarkier, suspend-funksjoner som krever completion handlers, default arguments som forsvinner, generics som kollapser til Any, og enum-navn som kolliderer med Swift-nøkkelord) med praktiske omgåelser for hver.
 
 **Tags:** `KMP` · `iOS` · `Compose Multiplatform` · `Swift interop` · `Casestudie` · `Firebase`
 

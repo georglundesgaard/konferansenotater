@@ -6,7 +6,7 @@ Salomon Brys strukturerte lyntalen rundt to konkrete sideprosjekter som viser at
 
 For kortprosjektet erstattet han Material-temaet med et eget CardTheme, redefinerte enhetssystemet slik at 1 dp tilsvarer 1 PostScript-punkt (1/72 tomme) for å tenke direkte i millimeter og tommer, og la til `FormattedText` for tag-basert rik tekst tilpasset trykk. Selve rendringen skjer i en `cardComposerApplication()`-funksjon som gir forhåndsvisning og eksportdialog med PNG per kortgruppe og PDF klar for profesjonell trykking med bleed-marger, mens CuP demonstrerer hvordan den samme Compose-kjøretiden animerer kildekode og progressive fremhevinger i stedet for Keynote-slides.
 
-Den bærende innsikten er at Compose i praksis er en tegnemotor bundet til Skia – så snart utvikleren peker den mot en PDF- eller bildeflate i stedet for et vindu, blir hele det deklarative UI-verktøysettet plutselig et fullverdig verktøy for grafisk design og produksjon.
+Den bærende innsikten er at Compose i praksis er en tegnemotor bundet til Skia: så snart utvikleren peker den mot en PDF- eller bildeflate i stedet for et vindu, blir hele det deklarative UI-verktøysettet plutselig et fullverdig verktøy for grafisk design og produksjon.
 
 **Tags:** `Lyntale` · `Compose Multiplatform` · `Kreativt` · `PDF` · `Print`
 
