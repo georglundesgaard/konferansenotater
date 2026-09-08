@@ -12,8 +12,8 @@ Hver konferanse har liste over foredrag jeg gikk på og ønskeliste over opptak 
 
 ## Innlegg
 
-- **[JavaZone 2026: AI overalt, og motvektene som traff best](blogg/javazone-2026-oppsummering.md)** — oppsummering av konferansen, 4. september 2026
 - **[Jeg dro på JavaZone uten laptop](blogg/lessons-learned-javazone-2026.md)** — om verktøykjeden som førte notatene, 8. september 2026
+- **[JavaZone 2026: AI overalt, og motvektene som traff best](blogg/javazone-2026-oppsummering.md)** — oppsummering av konferansen, 4. september 2026
 
 ---
 
