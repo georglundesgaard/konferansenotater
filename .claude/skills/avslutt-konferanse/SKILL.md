@@ -17,19 +17,19 @@ Bruk: `/avslutt-konferanse` eller `/avslutt-konferanse <konferanse>` (f.eks. `/a
    - Ellers: `AskUserQuestion` med eksisterende år-mapper.
    Ligger konferansedatoene i ingressen frem i tid, si fra og spør om brukeren likevel vil avslutte.
 
-2. **Kvalitetssjekk.** Verifiser punktene under. Mekaniske avvik (feil badge-tall, manglende eller foreldreløs ⏳, manglende tilbakelenke) fikser du direkte; innholdsavvik (foredrag som mangler i en liste, hull i navigasjonskjeden, manglende programrad) melder du og fikser kun etter bekreftelse via `AskUserQuestion`.
+2. **Kvalitetssjekk.** Kjør `scripts/sjekk.py` fra repo-roten. Den sjekker punktene under mekanisk på hele repoet og lister avvikene, så du slipper å lese filene selv. Mekaniske avvik (feil badge-tall, manglende eller foreldreløs ⏳, manglende tilbakelenke) fikser du direkte; innholdsavvik (foredrag som mangler i en liste, hull i navigasjonskjeden, manglende programrad) melder du og fikser kun etter bekreftelse via `AskUserQuestion`.
    - README-listene vs `talks/`: hver fil på disk er listet, og hver listing peker på en eksisterende fil.
    - Forrige/neste-kjeden gjennom attended-foredragene er sammenhengende og kronologisk; hver ønskeliste-fil slutter med tilbakelenken `*[← <Konferanse> <År>](../README.md)*`.
    - ⏳-markørene i README-listene stemmer 1:1 med talk-filenes 📹-statuslinjer uten eget opptak (statusvariantene står i rot-README-ens «Format for et foredrag»).
    - Toveis programlenking: hver registrert talk har en rad i `program.md` med `attended`/`wishlist`-klasse, ✅/👀-badge og 📝-notatlenke, og talk-filens 📋-lenke peker på riktig anker.
    - Badge-tallene (`konferanser-<N>`, `foredrag-<N>`) i rot-`README.md` stemmer med det som ligger på disk.
    - Ingen mal-plassholdere (`<Tittel>`, `<HHMM>` o.l.) i noen fil.
-   - Tell filer som venter på beriking: placeholder-linje eller `*(Sammendrag basert på programomtalen`-markør.
+   - Tell filer som venter på beriking: placeholder-linje eller `*(Sammendrag basert på programomtalen`-markør (`scripts/konferanse-stats.py` gir tallet).
 
 3. **Retrospektiv («Oppsummering»).** Seksjonen er brukerens stemme – skriv den ALDRI inn uten at brukeren har sett og godkjent utkastet:
    - Spør først: `Noe du vil ha med i oppsummeringen? (høydepunkt, hovedinntrykk – tomt for å la notatene tale)`
    - Lag et utkast på 2–3 korte avsnitt fra brukerens svar, deres egne `**Notater fra konferansen:**`-linjer (evt. `<År>/_notater/` hvis de alt er arkivert) og sammendragene: hovedinntrykk, temaer på tvers av foredragene, høydepunkter. Ikke dikt opp vurderinger brukeren ikke selv har antydet.
-   - Vis utkastet og spør om det skal skrives inn. Ved ja: legg det inn som `## Oppsummering` rett etter hopp-lenkene (før første `---`), og legg «Oppsummering» først i hopp-lenkelinjen. ASCII-anker (`#oppsummering`) – trenger ingen `<a id>`.
+   - Følg «Stil» i rot-README-en (ingen semikolon, ingen tankestrek, vanlige norske ord). Vis utkastet og spør om det skal skrives inn. Ved ja: legg det inn som `## Oppsummering` rett etter hopp-lenkene (før første `---`), og legg «Oppsummering» først i hopp-lenkelinjen. ASCII-anker (`#oppsummering`) – trenger ingen `<a id>`.
 
 4. **Opprydding.** Slett `plan-dagN.md`-filene og fjern «Min plan»-linjen fra konferanse-README-en. Finnes ingen planer, hopp over uten å nevne det.
 

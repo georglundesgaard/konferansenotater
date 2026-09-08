@@ -22,6 +22,7 @@ Hver konferanse har sin egen README med deltakelsesliste og ønskeliste – konf
 ```
 konferansenotater/
 ├── .claude/skills/                # Prosjekt-skills (én mappe per /kommando, se «Skills» under)
+├── scripts/                       # Hjelpeskript for rutineoppgaver (se «Skript» under)
 ├── _mal/                          # Maler for nye konferanser
 │   ├── README.md                  #   – konferanse-README
 │   └── talks/HHMM-slug.md         #   – én talk-fil
@@ -60,6 +61,16 @@ Repoet har prosjekt-skills i `.claude/skills/` som automatiserer arbeidsflyten (
 
 Typisk livssyklus: `/ny-konferanse` → `/planlegg-dagen` → `/nytt-foredrag` (under konferansen) → `/avslutt-konferanse` → `/video-sjekk` (ukene etter) → `/berik-foredrag` → `/topp-5`.
 
+## Skript
+
+Rutineoppgaver som ellers koster mange tokens i en agent-økt, ligger som skript i `scripts/`. Skillene kaller dem i stedet for å beskrive prosedyren, og de kan kjøres for hånd fra repo-roten.
+
+- **`scripts/sjekk.py [--stil | --stil-alle]`**: konsistenssjekk av hele repoet (README-lister mot `talks/`, ⏳ mot 📹-status, filformat, lenker, programankere, badge-tall). `--stil` sjekker språkreglene under «Stil» på blogginnleggene, `--stil-alle` på all tekst. Brukes av `/avslutt-konferanse` og før commit etter større endringer.
+- **`scripts/konferanse-stats.py`**: tallgrunnlaget for `/konferanse-stats` som markdown-tabell.
+- **`scripts/vimeo-videos.sh <bruker>`**: de 60 nyeste videoene på en Vimeo-kanal, headless. Brukes av `/video-sjekk`.
+- **`scripts/youtube-transcript.py <url> -o <fil>`**: transkripsjon fra YouTube, headless via `yt-dlp` (`brew install yt-dlp`). Brukes av `/berik-foredrag`.
+- **`scripts/vimeo-transcript.js`**, **`chrome-activate-tab.sh`** og **`save-transcript.sh`**: Vimeo-transkripsjoner via brukerens Chrome, siden Vimeo ikke har noen headless vei. Flyten står øverst i JS-filen.
+
 ## Tips og triks
 
 **Før konferansen:**
@@ -86,6 +97,18 @@ Skjelettet for en talk-fil er definert i [`_mal/talks/HHMM-slug.md`](_mal/talks/
 Metadata-linjen bruker `Dag {N}, {dato}` for flerdagskonferanser og bare `{dato}` for endagskonferanser, og kan avsluttes med en ankerlenke inn i `program.md`. Filnavn: `HHMM-slug.md` (endags) eller `dayN-HHMM-slug.md` (flerdags).
 
 Foredrag i «gikk på»-listen avsluttes med en forrige/neste-navigasjonslinje (`*[← <forrige>](<fil>) · [<neste> →](<fil>)*`) i kronologisk rekkefølge; `/nytt-foredrag` vedlikeholder kjeden. `program.md` har for flersporede konferanser én tabell per tidsluke, der tidsluke-headingen bærer ankeret (`<h3 id="d<dag>-<hhmm>">`) som talk-sidene lenker til; enkeltsporede konferanser har én samlet tabell uten tidsluke-ankere.
+
+## Stil
+
+Gjelder all ny prosa: sammendrag, oppsummeringer, blogginnlegg og README-tekst. Skillene som skriver tekst, følger reglene, og `scripts/sjekk.py --stil` finner avvik.
+
+- **Ingen semikolon og ingen tankestrek.** Del i to setninger, eller bruk komma, kolon eller parentes. Bindestrek i sammensetninger (hjemme-PC-en, bot-sjekk) og tankestrek inne i offisielle titler beholdes.
+- **Vanlige norske ord.** Skriv kilde eller kildemarkør (ikke proveniens), skrevet ned (ikke kodifisert), referansekjøring (ikke baseline), programomtale (ikke abstract), funksjon (ikke feature), resultat (ikke artefakt). Fagord i daglig bruk er greie: subagent, cache, commit, verifisere, fuzzy-matche, plausibel, triviell.
+- **Nøkterne tall.** Tidsbruk og antall skal tåle etterprøving («noen minutter», ikke «ett minutt»). Tall som endrer seg over tid, får en dato eller skrives uten tall («alle unntatt ett»).
+- **Sammensatte ord skrives sammen** (ønskelisteforedrag). Bindestrek bare ved engelske lån (skill-forbedring).
+- **I blogginnlegg: ikke pek ut hva som ble valgt bort.** Skriv om planendringer og ønskelisten, ikke om foredrag som ble hoppet over.
+
+Eldre tekst (talk-sammendragene og README-ene) er skrevet før reglene og er ikke vasket. `scripts/sjekk.py --stil-alle` viser omfanget.
 
 ## Tag-vokabular
 
