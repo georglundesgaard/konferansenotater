@@ -64,7 +64,7 @@ Kvelden ga en lærdom om tålmodighet. JavaZone publiserte 20 nye opptak samme d
 
 To konferansedager ga **26 commits**, fra morgenplanen 2. september kl. 09:13 til avslutningscommiten 3. september kl. 20:20, alle styrt fra telefonen. Resultatet: **43 foredragsfiler** for JavaZone alene (9 jeg deltok på, 34 på ønskelisten), **45 egne notatlinjer** skrevet i pausene, **31 opptak lenket** (de fleste samme dag som foredraget ble holdt) og 31 sammendrag på plass i første versjon. Planen endret seg underveis, og hvert foredrag som gikk ut av den, ble automatisk til en ønskelisteoppføring i stedet for å forsvinne.
 
-Verktøykjeden selv vokste også: Dagen før konferansen fantes det ni skills. Nå er det ti, pluss `AGENTS.md`, lisens og seks skill-forbedringer gjort *mens* konferansen pågikk. Foredragstelleren i repoet gikk fra 59 til 102 på tre dager. Og den kanskje viktigste målingen har ingen enhet: Registrering av et foredrag tok noen minutter av en pause. Resten av tiden var jeg på konferanse.
+Verktøykjeden selv vokste også. Dagen før konferansen fantes det ni skills, nå er det ti, pluss `AGENTS.md`, lisens og seks skill-forbedringer gjort *mens* konferansen pågikk. Foredragstelleren i repoet gikk fra 59 til 102 på tre dager. Og den kanskje viktigste målingen har ingen enhet: Registrering av et foredrag tok noen minutter av en pause. Resten av tiden var jeg på konferanse.
 
 ## Hva jeg ville gjort annerledes
 
