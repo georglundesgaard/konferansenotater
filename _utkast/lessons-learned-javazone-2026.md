@@ -37,7 +37,7 @@ Ett eksempel på hva slike tester fanger, kjørt i en pause midt under konferans
 
 ## Det som knirket
 
-Underagentene som skulle skrive sammendrag fra opptakene, fikk lite å jobbe med: Videosidene ligger bak bot-sjekk, `yt-dlp` krever innlogging, og player-endepunktene svarer «Sorry». Løsningen ble ærlig merking: Sammendrag skrevet fra programomtalen får en kildemarkør, slik at en senere kjøring vet at de skal oppgraderes.
+Subagentene som skulle skrive sammendrag fra opptakene, fikk lite å jobbe med: Videosidene ligger bak bot-sjekk, `yt-dlp` krever innlogging, og player-endepunktene svarer «Sorry». Løsningen ble ærlig merking: Sammendrag skrevet fra programomtalen får en kildemarkør, slik at en senere kjøring vet at de skal oppgraderes.
 
 Og så fant vi, agenten og jeg, bakveien: Min *faktiske* nettleser passerer bot-sjekken, og Vimeos transkripsjonspanel lot seg høste komplett, 46 000 tegn ren tale fra det ene foredraget som rakk å bli autotranskribert. Det sammendraget er nå skrevet fra det som faktisk ble sagt på scenen, ikke fra programomtalen. Bakveien ble dokumentert i skillen samme kveld, så neste kjøring kan den fra før.
 
@@ -49,7 +49,7 @@ Og så fant vi, agenten og jeg, bakveien: Min *faktiske* nettleser passerer bot-
 
 ## Ironien fra salen
 
-Her er dagens beste vits på egen bekostning: Foredragene om agentisk utvikling, «50 tips på 60 min – bli bedre med AI-agenter» og «My Year with Claude», endte på ønskelisten. I pausene satt jeg og praktiserte nøyaktig det programomtalene deres beskrev: instruksjonsfiler, delegering til underagenter, verifisering av resultater. Verktøykjeden registrerte dem pent, med videolenker samme kveld, så jeg får fasiten når jeg ser opptakene. Og mens omtalen av 50-tips-foredraget anbefalte `AGENTS.md` som instruksjonsfil, fikk repoet mitt sin, midt under konferansen, klokka 16:53, i pausen før Norås.
+Her er dagens beste vits på egen bekostning: Foredragene om agentisk utvikling, «50 tips på 60 min – bli bedre med AI-agenter» og «My Year with Claude», endte på ønskelisten. I pausene satt jeg og praktiserte nøyaktig det programomtalene deres beskrev: instruksjonsfiler, delegering til subagenter, verifisering av resultater. Verktøykjeden registrerte dem pent, med videolenker samme kveld, så jeg får fasiten når jeg ser opptakene. Og mens omtalen av 50-tips-foredraget anbefalte `AGENTS.md` som instruksjonsfil, fikk repoet mitt sin, midt under konferansen, klokka 16:53, i pausen før Norås.
 
 Foredraget jeg faktisk så og tok med meg hjem, var Christin Gormans «The positive value of negative space»: Kode er en forpliktelse, ikke en eiendel, og det vi bevisst *ikke* lager, har egenverdi. Det er blitt testen for hver skill jeg legger til i verktøykjeden: Trengs den, eller er den en eggeskiller?
 
